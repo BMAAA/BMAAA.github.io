@@ -377,6 +377,73 @@ th.sorted-desc::after {
         padding: 15px;
         font-size: 12px;
     }
+
+    /* Скрываем названия предметов */
+    .item-cell span {
+        display: none;
+    }
+
+    /* Центрируем иконки */
+    .item-cell {
+        justify-content: center;
+    }
+
+    /* Увеличиваем иконки */
+    .item-image {
+        width: 44px;
+        height: 44px;
+    }
+
+    /* Уменьшаем отступы */
+    td {
+        padding: 8px 10px;
+    }
+
+    /* Оптимизируем заголовки */
+    #items-table th:nth-child(1) {
+        width: 60px;
+        text-indent: -9999px;
+        position: relative;
+    }
+
+    #items-table th:nth-child(1)::after {
+        content: "Иконка";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-indent: 0;
+        font-size: 14px;
+    }
+
+    /* Улучшаем отображение категорий */
+    .category {
+        font-size: 14px;
+        padding: 4px 8px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 120px;
+    }
+
+    /* Адаптивная таблица */
+    .table-container {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    table {
+        min-width: 300px;
+    }
+
+    /* Оптимизация карточек зон */
+    .subcategories-container {
+        width: 100%;
+    }
+
+    .subcategories {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 480px) {
@@ -401,6 +468,28 @@ th.sorted-desc::after {
     }
 
     header p {
+        font-size: 0.9rem;
+    }
+
+    .item-image {
+        width: 40px;
+        height: 40px;
+    }
+
+    .category {
+        max-width: 100px;
+        font-size: 13px;
+    }
+
+    .zone-card {
+        padding: 10px;
+    }
+
+    .subcategory-header {
+        font-size: 0.9rem;
+    }
+
+    .coordinate-value {
         font-size: 0.9rem;
     }
 }
