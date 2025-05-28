@@ -1,5 +1,4 @@
 :root {
-    /* Основные цвета */
     --gradient-start: #1a1f2d;
     --gradient-end: #18181b;
     --text-color: #ffffff;
@@ -244,20 +243,6 @@ footer {
     font-size: 14px;
 }
 
-@media (max-width: 768px) {
-    .controls {
-        flex-direction: column;
-    }
-
-    #search {
-        width: 100%;
-    }
-
-    .subcategories {
-        grid-template-columns: 1fr;
-    }
-}
-
 th[data-sort] {
     cursor: pointer;
     position: relative;
@@ -302,9 +287,91 @@ th.sorted-desc::after {
     padding: 6px;
 }
 
-/* Добавьте в конец файла */
-
+/* Оптимизированные мобильные стили */
 @media (max-width: 768px) {
+    .table-container {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        margin: 0 -10px;
+        width: calc(100% + 20px);
+        border-radius: 8px;
+        border: 1px solid var(--border-color);
+        margin-bottom: 15px;
+    }
+
+    table {
+        min-width: auto;
+        width: 100%;
+    }
+
+    /* Фиксированная ширина для столбца с иконкой */
+    #items-table th:first-child,
+    #items-table td:first-child {
+        width: 60px;
+        min-width: 60px;
+        max-width: 60px;
+        padding: 8px 5px;
+        text-align: center;
+    }
+
+    /* Адаптивная ширина для столбца категории */
+    #items-table th:nth-child(2),
+    #items-table td:nth-child(2) {
+        min-width: calc(100% - 60px);
+        max-width: calc(100% - 70px);
+        padding-left: 8px;
+        padding-right: 8px;
+        white-space: normal;
+        word-break: break-word;
+    }
+
+    /* Увеличиваем иконки */
+    .item-image {
+        width: 44px;
+        height: 44px;
+        min-width: 44px;
+        min-height: 44px;
+    }
+
+    /* Улучшаем отображение категорий */
+    .category {
+        font-size: 14px;
+        padding: 4px 8px;
+        display: inline-block;
+        max-width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    /* Скрываем названия предметов */
+    .item-cell span {
+        display: none;
+    }
+
+    /* Центрируем иконки */
+    .item-cell {
+        justify-content: center;
+        padding: 0;
+    }
+
+    /* Оптимизация заголовков */
+    #items-table th:nth-child(1) {
+        text-indent: -9999px;
+        position: relative;
+    }
+
+    #items-table th:nth-child(1)::after {
+        content: "Предмет";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-indent: 0;
+        font-size: 14px;
+    }
+
+    /* Стили для зон */
     .zones {
         flex-direction: column;
         gap: 10px;
@@ -347,106 +414,44 @@ th.sorted-desc::after {
         font-size: 16px;
     }
 
-    .table-container {
-        overflow-x: auto;
-        margin-bottom: 15px;
-        border-radius: 8px;
-        border: 1px solid var(--border-color);
-    }
-
-    table {
-        min-width: 600px;
-    }
-
-    .item-image {
-        width: 32px;
-        height: 32px;
-    }
-
-    th, td {
-        padding: 10px 12px;
-        font-size: 14px;
-    }
-
-    .category {
-        padding: 4px 10px;
-        font-size: 14px;
-    }
-
     footer {
         padding: 15px;
         font-size: 12px;
     }
-
-    /* Скрываем названия предметов */
-    .item-cell span {
-        display: none;
-    }
-
-    /* Центрируем иконки */
-    .item-cell {
-        justify-content: center;
-    }
-
-    /* Увеличиваем иконки */
-    .item-image {
-        width: 44px;
-        height: 44px;
-    }
-
-    /* Уменьшаем отступы */
-    td {
-        padding: 8px 10px;
-    }
-
-    /* Оптимизируем заголовки */
-    #items-table th:nth-child(1) {
-        width: 60px;
-        text-indent: -9999px;
-        position: relative;
-    }
-
-    #items-table th:nth-child(1)::after {
-        content: "Иконка";
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-indent: 0;
-        font-size: 14px;
-    }
-
-    /* Улучшаем отображение категорий */
-    .category {
-        font-size: 14px;
-        padding: 4px 8px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        max-width: 120px;
-    }
-
-    /* Адаптивная таблица */
-    .table-container {
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-    }
-
-    table {
-        min-width: 300px;
-    }
-
-    /* Оптимизация карточек зон */
-    .subcategories-container {
-        width: 100%;
-    }
-
-    .subcategories {
-        flex-direction: column;
-    }
 }
 
 @media (max-width: 480px) {
+    /* Дополнительные оптимизации для маленьких экранов */
+    #items-table th:nth-child(1),
+    #items-table td:nth-child(1) {
+        width: 50px;
+        min-width: 50px;
+        max-width: 50px;
+    }
+
+    .item-image {
+        width: 40px;
+        height: 40px;
+    }
+
+    .category {
+        font-size: 13px;
+        padding: 3px 6px;
+    }
+
+    #items-table th:nth-child(2),
+    #items-table td:nth-child(2) {
+        min-width: 80px;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    #items-table th:nth-child(1)::after {
+        content: "🖼️";
+        font-size: 16px;
+    }
+
+    /* Стили для зон */
     .zone-card h3 {
         font-size: 1.2rem;
     }
@@ -471,25 +476,7 @@ th.sorted-desc::after {
         font-size: 0.9rem;
     }
 
-    .item-image {
-        width: 40px;
-        height: 40px;
-    }
-
-    .category {
-        max-width: 100px;
-        font-size: 13px;
-    }
-
     .zone-card {
         padding: 10px;
-    }
-
-    .subcategory-header {
-        font-size: 0.9rem;
-    }
-
-    .coordinate-value {
-        font-size: 0.9rem;
     }
 }
