@@ -301,3 +301,106 @@ th.sorted-desc::after {
     width: 30%;
     padding: 6px;
 }
+
+/* Добавьте в конец файла */
+
+@media (max-width: 768px) {
+    .zones {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .zone-card {
+        width: 100%;
+        margin-bottom: 15px;
+        padding: 12px;
+    }
+
+    .subcategories-table {
+        flex-direction: column;
+    }
+
+    .subcategories-container {
+        width: 100%;
+        padding: 4px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .controls {
+        margin-bottom: 15px;
+    }
+
+    #search {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .table-container {
+        overflow-x: auto;
+        margin-bottom: 15px;
+        border-radius: 8px;
+        border: 1px solid var(--border-color);
+    }
+
+    table {
+        min-width: 600px;
+    }
+
+    .item-image {
+        width: 32px;
+        height: 32px;
+    }
+
+    th, td {
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+
+    .category {
+        padding: 4px 10px;
+        font-size: 14px;
+    }
+
+    footer {
+        padding: 15px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .zone-card h3 {
+        font-size: 1.2rem;
+    }
+
+    .subcategory-header {
+        font-size: 0.9rem;
+    }
+
+    .coordinate-value {
+        font-size: 0.9rem;
+    }
+
+    .coordinates-container {
+        padding: 5px;
+    }
+
+    .container {
+        padding: 5px;
+    }
+
+    header p {
+        font-size: 0.9rem;
+    }
+}
