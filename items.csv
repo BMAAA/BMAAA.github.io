@@ -1,20 +1,8 @@
 name,image,category
-Акациевая лодка,acacia_boat.png,?
-Acacia Boat with Chest,acacia_boat_with_chest.png,?
-Акациевая кнопка,acacia_button.png,?
-Акациевая дверь,acacia_door.png,?
-Акациевый забор,acacia_fence.png,?
-Акациевая калитка,acacia_fence_gate.png,?
-Акациевая подвесная табличка,acacia_hanging_sign.png,?
 Листья акации,acacia_leaves.png,?
 Акациевое бревно,acacia_log.png,?
 Акациевые доски,acacia_planks.png,?
-Акациевая нажимная плита,acacia_pressure_plate.png,?
 Саженец акации,acacia_sapling.png,?
-Акациевая табличка,acacia_sign.png,?
-Акациевая плита,acacia_slab.png,?
-Акациевые ступеньки,acacia_stairs.png,?
-Акациевый люк,acacia_trapdoor.png,?
 Акация,acacia_wood.png,?
 Активирующие рельсы,activator_rail.png,?
 Лук-батун,allium.png,?
@@ -22,88 +10,20 @@ Acacia Boat with Chest,acacia_boat_with_chest.png,?
 Осколок аметиста,amethyst_shard.png,?
 Древние обломки,ancient_debris.png,?
 Андезит,andesite.png,?
-Андезитовая плита,andesite_slab.png,?
-Андезитовые ступеньки,andesite_stairs.png,?
-Андезитовая ограда,andesite_wall.png,?
 Наковальня,anvil.png,?
 Яблоко,apple.png,?
 Щиток броненосца,armadillo_scute.png,?
 Стойка для брони,armor_stand.png,?
 Стрела,arrow.png,?
-Arrow of Decay‌ [BE],arrow_of_decay‌_[be].png,?
-Arrow of Fire Resistance,arrow_of_fire_resistance.png,?
-Arrow of Fire Resistance +,arrow_of_fire_resistance_+.png,?
-Arrow of Harming,arrow_of_harming.png,?
-Arrow of Harming II,arrow_of_harming_ii.png,?
-Arrow of Healing,arrow_of_healing.png,?
-Arrow of Healing II,arrow_of_healing_ii.png,?
-Arrow of Infestation,arrow_of_infestation.png,?
-Arrow of Invisibility,arrow_of_invisibility.png,?
-Arrow of Invisibility +,arrow_of_invisibility_+.png,?
-Arrow of Leaping,arrow_of_leaping.png,?
-Arrow of Leaping +,arrow_of_leaping_+.png,?
-Arrow of Leaping II,arrow_of_leaping_ii.png,?
-Arrow of Night Vision,arrow_of_night_vision.png,?
-Arrow of Night Vision +,arrow_of_night_vision_+.png,?
-Arrow of Oozing,arrow_of_oozing.png,?
-Arrow of Poison,arrow_of_poison.png,?
-Arrow of Poison +,arrow_of_poison_+.png,?
-Arrow of Poison II,arrow_of_poison_ii.png,?
-Arrow of Regeneration,arrow_of_regeneration.png,?
-Arrow of Regeneration +,arrow_of_regeneration_+.png,?
-Arrow of Regenration II,arrow_of_regenration_ii.png,?
-Arrow of Slow Falling,arrow_of_slow_falling.png,?
-Arrow of Slow Falling +,arrow_of_slow_falling_+.png,?
-Arrow of Slowness,arrow_of_slowness.png,?
-Arrow of Slowness +,arrow_of_slowness_+.png,?
-Arrow of Slowness IV,arrow_of_slowness_iv.png,?
-Arrow of Splashing [JE],arrow_of_splashing_[je].png,?
-Arrow of Strength,arrow_of_strength.png,?
-Arrow of Strength +,arrow_of_strength_+.png,?
-Arrow of Strength II,arrow_of_strength_ii.png,?
-Arrow of Swiftness,arrow_of_swiftness.png,?
-Arrow of Swiftness +,arrow_of_swiftness_+.png,?
-Arrow of Swiftness II,arrow_of_swiftness_ii.png,?
-Arrow of the Turtle Master,arrow_of_the_turtle_master.png,?
-Arrow of the Turtle Master +,arrow_of_the_turtle_master_+.png,?
-Arrow of the Turtle Master II,arrow_of_the_turtle_master_ii.png,?
-Arrow of Water Breathing,arrow_of_water_breathing.png,?
-Arrow of Water Breathing +,arrow_of_water_breathing_+.png,?
-Arrow of Weakness,arrow_of_weakness.png,?
-Arrow of Weakness +,arrow_of_weakness_+.png,?
-Arrow of Weaving,arrow_of_weaving.png,?
-Arrow of Wind Charging,arrow_of_wind_charging.png,?
+Стрела с зельем,tipped_arrow.png.png,?
 Азалия,azalea.png,?
 Листья азалии,azalea_leaves.png,?
 Хаустония серая,azure_bluet.png,?
 Печёный картофель,baked_potato.png,?
 Бамбук,bamboo.png,?
-Бамбуковая кнопка,bamboo_button.png,?
-Бамбуковая дверь,bamboo_door.png,?
-Бамбуковый забор,bamboo_fence.png,?
-Бамбуковая калитка,bamboo_fence_gate.png,?
-Бамбуковая подвесная табличка,bamboo_hanging_sign.png,?
 Бамбуковая мозаика,bamboo_mosaic.png,?
-Плита из бамбуковой мозаики,bamboo_mosaic_slab.png,?
-Ступеньки из бамбуковой мозаики,bamboo_mosaic_stairs.png,?
 Бамбуковые доски,bamboo_planks.png,?
-Бамбуковая нажимная плита,bamboo_pressure_plate.png,?
-Бамбуковый плот,bamboo_raft.png,?
-Bamboo Raft with Chest,bamboo_raft_with_chest.png,?
-Бамбуковая табличка,bamboo_sign.png,?
-Бамбуковая плита,bamboo_slab.png,?
-Бамбуковые ступеньки,bamboo_stairs.png,?
-Бамбуковый люк,bamboo_trapdoor.png,?
-Banner Pattern (Bordure Indented),banner_pattern_(bordure_indented).png,?
-Banner Pattern (Creeper Charge),banner_pattern_(creeper_charge).png,?
-Banner Pattern (Field Masoned),banner_pattern_(field_masoned).png,?
-Banner Pattern (Flow),banner_pattern_(flow).png,?
-Banner Pattern (Flower Charge),banner_pattern_(flower_charge).png,?
-Banner Pattern (Globe),banner_pattern_(globe).png,?
-Banner Pattern (Gust),banner_pattern_(gust).png,?
-Banner Pattern (Skull Charge),banner_pattern_(skull_charge).png,?
-Banner Pattern (Snout),banner_pattern_(snout).png,?
-Banner Pattern (Thing),banner_pattern_(thing).png,?
+Узор флага,creeper_banner_pattern.png.png,?
 Бочка,barrel.png,?
 Базальт,basalt.png,?
 Маяк,beacon.png,?
@@ -114,22 +34,10 @@ Banner Pattern (Thing),banner_pattern_(thing).png,?
 Свекольный суп,beetroot_soup.png,?
 Колокол,bell.png,?
 Большая бросянка,big_dripleaf.png,?
-Берёзовая лодка,birch_boat.png,?
-Birch Boat with Chest,birch_boat_with_chest.png,?
-Берёзовая кнопка,birch_button.png,?
-Берёзовая дверь,birch_door.png,?
-Берёзовый забор,birch_fence.png,?
-Берёзовая калитка,birch_fence_gate.png,?
-Берёзовая подвесная табличка,birch_hanging_sign.png,?
 Берёзовые листья,birch_leaves.png,?
 Берёзовое бревно,birch_log.png,?
 Берёзовые доски,birch_planks.png,?
-Берёзовая нажимная плита,birch_pressure_plate.png,?
 Саженец берёзы,birch_sapling.png,?
-Берёзовая табличка,birch_sign.png,?
-Берёзовая плита,birch_slab.png,?
-Берёзовые ступеньки,birch_stairs.png,?
-Берёзовый люк,birch_trapdoor.png,?
 Берёза,birch_wood.png,?
 Чёрный флаг,black_banner.png,?
 Чёрная кровать,black_bed.png,?
@@ -146,29 +54,26 @@ Birch Boat with Chest,birch_boat_with_chest.png,?
 Чёрная керамика,black_terracotta.png,?
 Чёрная шерсть,black_wool.png,?
 Чернит,blackstone.png,?
-Чернитная плита,blackstone_slab.png,?
-Чернитные ступеньки,blackstone_stairs.png,?
-Чернитная ограда,blackstone_wall.png,?
 Плавильная печь,blast_furnace.png,?
 Огненный порошок,blaze_powder.png,?
 Огненный стержень,blaze_rod.png,?
-Block of Amethyst,block_of_amethyst.png,?
-Block of Bamboo,block_of_bamboo.png,?
-Block of Coal,block_of_coal.png,?
-Block of Copper,block_of_copper.png,?
-Block of Diamond,block_of_diamond.png,?
-Block of Emerald,block_of_emerald.png,?
-Block of Gold,block_of_gold.png,?
-Block of Iron,block_of_iron.png,?
-Block of Lapis Lazuli,block_of_lapis_lazuli.png,?
-Block of Netherite,block_of_netherite.png,?
-Block of Quartz,block_of_quartz.png,?
-Block of Raw Copper,block_of_raw_copper.png,?
-Block of Raw Gold,block_of_raw_gold.png,?
-Block of Raw Iron,block_of_raw_iron.png,?
-Block of Redstone,block_of_redstone.png,?
-Block of Resin,block_of_resin.png,?
-Block of Stripped Bamboo,block_of_stripped_bamboo.png,?
+Аметистовый блок,amethyst_block.png,?
+Бамбуковый блок,bamboo_block.png,?
+Угольный блок,coal_block.png,?
+Медный блок,copper_block.png,?
+Алмазный блок,diamond_block.png,?
+Изумрудный блок,emerald_block.png,?
+Золотой блок,gold_block.png,?
+Железный блок,iron_block.png,?
+Лазуритовый блок,lapis_block.png,?
+Незеритовый блок,netherite_block.png,?
+Кварцевый блок,quartz_block_block.png,?
+Блок необработанной меди,raw_copper_block.png,?
+Блок необработанного золота,raw_gold_block.png,?
+Блок необработанного железа,raw_iron_block.png,?
+Редстоуновый блок,redstone_block.png,?
+Смоляные кирпичи,resin_block.png,?
+Блок обтёсанного бамбука,stripped_bamboo_block.png,?
 Синий флаг,blue_banner.png,?
 Синяя кровать,blue_bed.png,?
 Синий мешок,blue_bundle.png,?
@@ -177,7 +82,7 @@ Block of Stripped Bamboo,block_of_stripped_bamboo.png,?
 Синий бетон,blue_concrete.png,?
 Синий сухой бетон,blue_concrete_powder.png,?
 Синий краситель,blue_dye.png,?
-Blue Egg,blue_egg.png,?
+Голубое яйцо,blue_egg.png,?
 Синяя глазурованная керамика,blue_glazed_terracotta.png,?
 Синий лёд,blue_ice.png,?
 Синяя орхидея,blue_orchid.png,?
@@ -190,9 +95,9 @@ Blue Egg,blue_egg.png,?
 Костный блок,bone_block.png,?
 Костная мука,bone_meal.png,?
 Книга,book.png,?
-Book and Quill,book_and_quill.png,?
+Книга с пером,book_and_quill.png,?
 Книжная полка,bookshelf.png,?
-Bottle o' Enchanting,bottle_o'_enchanting.png,?
+Пузырёк опыта,bottle_o'_enchanting.png,?
 Лук,bow.png,?
 Миска,bowl.png,?
 Коралл-мозговик,brain_coral.png,?
@@ -202,9 +107,6 @@ Bottle o' Enchanting,bottle_o'_enchanting.png,?
 Вихревой стержень,breeze_rod.png,?
 Зельеварка,brewing_stand.png,?
 Кирпич,brick.png,?
-Кирпичная плита,brick_slab.png,?
-Кирпичные ступеньки,brick_stairs.png,?
-Кирпичная ограда,brick_wall.png,?
 Кирпичи,bricks.png,?
 Коричневый флаг,brown_banner.png,?
 Коричневая кровать,brown_bed.png,?
@@ -214,7 +116,7 @@ Bottle o' Enchanting,bottle_o'_enchanting.png,?
 Коричневый бетон,brown_concrete.png,?
 Коричневый сухой бетон,brown_concrete_powder.png,?
 Коричневый краситель,brown_dye.png,?
-Brown Egg,brown_egg.png,?
+Коричневое яйцо,brown_egg.png,?
 Коричневая глазурованная керамика,brown_glazed_terracotta.png,?
 Коричневый гриб,brown_mushroom.png,?
 Блок коричневого гриба,brown_mushroom_block.png,?
@@ -228,24 +130,20 @@ Brown Egg,brown_egg.png,?
 Блок пузырчатого коралла,bubble_coral_block.png,?
 Веерный пузырчатый коралл,bubble_coral_fan.png,?
 Ведро,bucket.png,?
-Bucket of Axolotl,bucket_of_axolotl.png,?
-Bucket of Cod,bucket_of_cod.png,?
-Bucket of Pufferfish,bucket_of_pufferfish.png,?
-Bucket of Salmon,bucket_of_salmon.png,?
-Bucket of Tadpole,bucket_of_tadpole.png,?
-Bucket of Tropical Fish,bucket_of_tropical_fish.png,?
+Аксолотль,bucket_of_axolotl.png,?
+Треска,bucket_of_cod.png,?
+Иглобрюх,bucket_of_pufferfish.png,?
+Лосось,bucket_of_salmon.png,?
+Головастик,bucket_of_tadpole.png,?
+Тропическая рыба,bucket_of_tropical_fish.png,?
 Мешок,bundle.png,?
-Buried Treasure Map ,buried_treasure_map_.png,?
-Bush,bush.png,?
 Кактус,cactus.png,?
-Cactus Flower,cactus_flower.png,?
 Торт,cake.png,?
 Кальцит,calcite.png,?
 Откалиброванный скалк-сенсор,calibrated_sculk_sensor.png,?
 Костёр,campfire.png,?
 Свеча,candle.png,?
 Морковь,carrot.png,?
-Carrot on a Stick,carrot_on_a_stick.png,?
 Стол картографа,cartography_table.png,?
 Вырезанная тыква,carved_pumpkin.png,?
 Котёл,cauldron.png,?
@@ -254,26 +152,13 @@ Carrot on a Stick,carrot_on_a_stick.png,?
 Кольчуга,chainmail_chestplate.png,?
 Койф,chainmail_helmet.png,?
 Кольчужные поножи,chainmail_leggings.png,?
-Древесный уголь,charcoal.png,?
-Вишнёвая лодка,cherry_boat.png,?
-Cherry Boat with Chest,cherry_boat_with_chest.png,?
-Вишнёвая кнопка,cherry_button.png,?
-Вишнёвая дверь,cherry_door.png,?
-Вишнёвый забор,cherry_fence.png,?
-Вишнёвая калитка,cherry_fence_gate.png,?
-Вишнёвая подвесная табличка,cherry_hanging_sign.png,?
+Древесный уголь,charcoal.png,??
 Вишнёвые листья,cherry_leaves.png,?
 Вишнёвое бревно,cherry_log.png,?
 Вишнёвые доски,cherry_planks.png,?
-Вишнёвая нажимная плита,cherry_pressure_plate.png,?
 Саженец вишни,cherry_sapling.png,?
-Вишнёвая табличка,cherry_sign.png,?
-Вишнёвая плита,cherry_slab.png,?
-Вишнёвые ступеньки,cherry_stairs.png,?
-Вишнёвый люк,cherry_trapdoor.png,?
 Вишня,cherry_wood.png,?
 Сундук,chest.png,?
-Повреждённая наковальня,chipped_anvil.png,?
 Резная книжная полка,chiseled_bookshelf.png,?
 Точёный медный блок,chiseled_copper.png,?
 Резной глубинный сланец,chiseled_deepslate.png,?
@@ -291,18 +176,13 @@ Chiseled Resin Bricks,chiseled_resin_bricks.png,?
 Глина,clay.png,?
 Комок глины,clay_ball.png,?
 Часы,clock.png,?
-Closed Eyeblossom,closed_eyeblossom.png,?
 Уголь,coal.png,?
 Угольная руда,coal_ore.png,?
 Каменистая земля,coarse_dirt.png,?
 Колотый глубинный сланец,cobbled_deepslate.png,?
-Плита из колотого глубинного сланца,cobbled_deepslate_slab.png,?
 Ступеньки из колотого глубинного сланца,cobbled_deepslate_stairs.png,?
 Ограда из колотого глубинного сланца,cobbled_deepslate_wall.png,?
 Булыжник,cobblestone.png,?
-Булыжная плита,cobblestone_slab.png,?
-Булыжные ступеньки,cobblestone_stairs.png,?
-Булыжная ограда,cobblestone_wall.png,?
 Паутина,cobweb.png,?
 Какао-бобы,cocoa_beans.png,?
 Компас,compass.png,?
@@ -331,31 +211,14 @@ Closed Eyeblossom,closed_eyeblossom.png,?
 Верстак,crafting_table.png,?
 Скрипцевина,creaking_heart.png,?
 Голова крипера,creeper_head.png,?
-Багровая кнопка,crimson_button.png,?
-Багровая дверь,crimson_door.png,?
-Багровый забор,crimson_fence.png,?
-Багровая калитка,crimson_fence_gate.png,?
 Багровый гриб,crimson_fungus.png,?
-Багровая подвесная табличка,crimson_hanging_sign.png,?
 Багровые гифы,crimson_hyphae.png,?
 Багровый нилий,crimson_nylium.png,?
 Багровые доски,crimson_planks.png,?
-Багровая нажимная плита,crimson_pressure_plate.png,?
-Багровые корни,crimson_roots.png,?
-Багровая табличка,crimson_sign.png,?
-Багровая плита,crimson_slab.png,?
-Багровые ступеньки,crimson_stairs.png,?
-Багровый стебель,crimson_stem.png,?
-Багровый люк,crimson_trapdoor.png,?
 Арбалет,crossbow.png,?
 Плачущий обсидиан,crying_obsidian.png,?
-Резной медный блок,cut_copper.png,?
-Резная медная плита,cut_copper_slab.png,?
-Резные медные ступеньки,cut_copper_stairs.png,?
 Пиленый красный песчаник,cut_red_sandstone.png,?
-Плита из пиленого красного песчаника,cut_red_sandstone_slab.png,?
 Пиленый песчаник,cut_sandstone.png,?
-Плита из пиленого песчаника,cut_sandstone_slab.png,?
 Бирюзовый флаг,cyan_banner.png,?
 Бирюзовая кровать,cyan_bed.png,?
 Бирюзовый мешок,cyan_bundle.png,?
@@ -370,49 +233,20 @@ Closed Eyeblossom,closed_eyeblossom.png,?
 Бирюзовая стеклянная панель,cyan_stained_glass_pane.png,?
 Бирюзовая керамика,cyan_terracotta.png,?
 Бирюзовая шерсть,cyan_wool.png,?
-Разбитая наковальня,damaged_anvil.png,?
 Одуванчик,dandelion.png,?
-Лодка из тёмного дуба,dark_oak_boat.png,?
-Dark Oak Boat with Chest,dark_oak_boat_with_chest.png,?
-Кнопка из тёмного дуба,dark_oak_button.png,?
-Дверь из тёмного дуба,dark_oak_door.png,?
-Забор из тёмного дуба,dark_oak_fence.png,?
-Калитка из тёмного дуба,dark_oak_fence_gate.png,?
-Подвесная табличка из тёмного дуба,dark_oak_hanging_sign.png,?
 Листья тёмного дуба,dark_oak_leaves.png,?
 Бревно тёмного дуба,dark_oak_log.png,?
 Доски из тёмного дуба,dark_oak_planks.png,?
-Нажимная плита из тёмного дуба,dark_oak_pressure_plate.png,?
 Саженец тёмного дуба,dark_oak_sapling.png,?
-Табличка из тёмного дуба,dark_oak_sign.png,?
-Плита из тёмного дуба,dark_oak_slab.png,?
-Ступеньки из тёмного дуба,dark_oak_stairs.png,?
-Люк из тёмного дуба,dark_oak_trapdoor.png,?
 Тёмный дуб,dark_oak_wood.png,?
 Тёмный призмарин,dark_prismarine.png,?
-Плита из тёмного призмарина,dark_prismarine_slab.png,?
-Ступеньки из тёмного призмарина,dark_prismarine_stairs.png,?
 Датчик дневного света,daylight_detector.png,?
-Мёртвый коралл-мозговик,dead_brain_coral.png,?
 Блок мёртвого коралла-мозговика,dead_brain_coral_block.png,?
-Мёртвый веерный коралл-мозговик,dead_brain_coral_fan.png,?
-Мёртвый пузырчатый коралл,dead_bubble_coral.png,?
 Блок мёртвого пузырчатого коралла,dead_bubble_coral_block.png,?
-Мёртвый веерный пузырчатый коралл,dead_bubble_coral_fan.png,?
-Мёртвый куст,dead_bush.png,?
-Мёртвый огненный коралл,dead_fire_coral.png,?
 Блок мёртвого огненного коралла,dead_fire_coral_block.png,?
-Мёртвый веерный огненный коралл,dead_fire_coral_fan.png,?
-Мёртвый роговый коралл,dead_horn_coral.png,?
 Блок мёртвого рогового коралла,dead_horn_coral_block.png,?
-Мёртвый веерный роговый коралл,dead_horn_coral_fan.png,?
-Мёртвый трубчатый коралл,dead_tube_coral.png,?
 Блок мёртвого трубчатого коралла,dead_tube_coral_block.png,?
-Мёртвый веерный трубчатый коралл,dead_tube_coral_fan.png,?
 Глубинный сланец,deepslate.png,?
-Плита из глубинносланцевого кирпича,deepslate_brick_slab.png,?
-Ступеньки из глубинносланцевого кирпича,deepslate_brick_stairs.png,?
-Ограда из глубинносланцевого кирпича,deepslate_brick_wall.png,?
 Глубинносланцевые кирпичи,deepslate_bricks.png,?
 Угленосный глубинный сланец,deepslate_coal_ore.png,?
 Меденосный глубинный сланец,deepslate_copper_ore.png,?
@@ -422,11 +256,7 @@ Dark Oak Boat with Chest,dark_oak_boat_with_chest.png,?
 Железоносный глубинный сланец,deepslate_iron_ore.png,?
 Лазуритоносный глубинный сланец,deepslate_lapis_lazuli_ore.png,?
 Редстоуноносный глубинный сланец,deepslate_redstone_ore.png,?
-Плита из глубинносланцевого плитняка,deepslate_tile_slab.png,?
-Ступеньки из глубинносланцевого плитняка,deepslate_tile_stairs.png,?
-Ограда из глубинносланцевого плитняка,deepslate_tile_wall.png,?
 Глубинносланцевый плитняк,deepslate_tiles.png,?
-Карта пустынной деревни,desert_village_map.png,?
 Рельсы с датчиком,detector_rail.png,?
 Алмаз,diamond.png,?
 Алмазный топор,diamond_axe.png,?
@@ -441,16 +271,12 @@ Dark Oak Boat with Chest,dark_oak_boat_with_chest.png,?
 Алмазная лопата,diamond_shovel.png,?
 Алмазный меч,diamond_sword.png,?
 Диорит,diorite.png,?
-Диоритовая плита,diorite_slab.png,?
-Диоритовые ступеньки,diorite_stairs.png,?
-Диоритовая ограда,diorite_wall.png,?
 Земля,dirt.png,?
-Dirt Path[BE],dirt_path[be].png,?
 Осколок пластинки,disc_fragment.png,?
 Раздатчик,dispenser.png,?
 Яйцо дракона,dragon_egg.png,?
 Голова дракона,dragon_head.png,?
-Dragon's Breath,dragon's_breath.png,?
+Драконье дыхание,dragon's_breath.png,?
 Сушёная ламинария,dried_kelp.png,?
 Блок сушёной ламинарии,dried_kelp_block.png,?
 Натёчный камень,dripstone_block.png,?
@@ -460,69 +286,20 @@ Dragon's Breath,dragon's_breath.png,?
 Элитры,elytra.png,?
 Изумруд,emerald.png,?
 Изумрудная руда,emerald_ore.png,?
-Чистая карта,empty_map.png,?
 Зачарованное золотое яблоко,enchanted_golden_apple.png,?
 Чародейский стол,enchanting_table.png,?
 Кристалл Энда,end_crystal.png,?
 Стержень Энда,end_rod.png,?
 Эндерняк,end_stone.png,?
-Плита из эндернякового кирпича,end_stone_brick_slab.png,?
-Ступеньки из эндернякового кирпича,end_stone_brick_stairs.png,?
-Ограда из эндернякового кирпича,end_stone_brick_wall.png,?
 Эндерняковые кирпичи,end_stone_bricks.png,?
 Эндер-сундук,ender_chest.png,?
 Эндер-жемчуг,ender_pearl.png,?
-Потемневший точёный медный блок,exposed_chiseled_copper.png,?
-Потемневший медный блок,exposed_copper.png,?
-Потемневшая медная лампа,exposed_copper_bulb.png,?
-Потемневшая медная дверь,exposed_copper_door.png,?
-Потемневшая медная решётка,exposed_copper_grate.png,?
-Потемневший медный люк,exposed_copper_trapdoor.png,?
-Потемневший резной медный блок,exposed_cut_copper.png,?
-Потемневшая резная медная плита,exposed_cut_copper_slab.png,?
-Потемневшие резные медные ступеньки,exposed_cut_copper_stairs.png,?
-Eye of Ender,eye_of_ender.png,?
+Око эндера,eye_of_ender.png,?
 Перо,feather.png,?
 Маринованный паучий глаз,fermented_spider_eye.png,?
 Папоротник,fern.png,?
 Огненный заряд,fire_charge.png,?
-Огненный коралл,fire_coral.png,?
-Блок огненного коралла,fire_coral_block.png,?
-Веерный огненный коралл,fire_coral_fan.png,?
-Firefly Bush,firefly_bush.png,?
 Фейерверк,firework_rocket.png,?
-Firework Rocket Black,firework_rocket_black.png,?
-Firework Rocket Blue,firework_rocket_blue.png,?
-Firework Rocket Brown,firework_rocket_brown.png,?
-Firework Rocket Cyan,firework_rocket_cyan.png,?
-Firework Rocket Gray,firework_rocket_gray.png,?
-Firework Rocket Green,firework_rocket_green.png,?
-Firework Rocket Light Blue,firework_rocket_light_blue.png,?
-Firework Rocket Light Gray,firework_rocket_light_gray.png,?
-Firework Rocket Lime,firework_rocket_lime.png,?
-Firework Rocket Magenta,firework_rocket_magenta.png,?
-Firework Rocket Orange,firework_rocket_orange.png,?
-Firework Rocket Pink,firework_rocket_pink.png,?
-Firework Rocket Purple,firework_rocket_purple.png,?
-Firework Rocket Red,firework_rocket_red.png,?
-Firework Rocket White,firework_rocket_white.png,?
-Firework Rocket Yellow,firework_rocket_yellow.png,?
-Firework Star Black,firework_star_black.png,?
-Firework Star Blue,firework_star_blue.png,?
-Firework Star Brown,firework_star_brown.png,?
-Firework Star Cyan,firework_star_cyan.png,?
-Firework Star Gray,firework_star_gray.png,?
-Firework Star Green,firework_star_green.png,?
-Firework Star Light Blue,firework_star_light_blue.png,?
-Firework Star Light Gray,firework_star_light_gray.png,?
-Firework Star Lime,firework_star_lime.png,?
-Firework Star Magenta,firework_star_magenta.png,?
-Firework Star Orange,firework_star_orange.png,?
-Firework Star Pink,firework_star_pink.png,?
-Firework Star Purple,firework_star_purple.png,?
-Firework Star Red,firework_star_red.png,?
-Firework Star White,firework_star_white.png,?
-Firework Star Yellow,firework_star_yellow.png,?
 Удочка,fishing_rod.png,?
 Стол лучника,fletching_table.png,?
 Кремень,flint.png,?
@@ -543,14 +320,7 @@ Flint and Steel,flint_and_steel.png,?
 Светящийся лишайник,glow_lichen.png,?
 Светокамень,glowstone.png,?
 Светокаменная пыль,glowstone_dust.png,?
-Goat Horn (Admire),goat_horn_(admire).png,?
-Goat Horn (Call),goat_horn_(call).png,?
-Goat Horn (Dream),goat_horn_(dream).png,?
-Goat Horn (Feel),goat_horn_(feel).png,?
-Goat Horn (Ponder),goat_horn_(ponder).png,?
-Goat Horn (Seek),goat_horn_(seek).png,?
-Goat Horn (Sing),goat_horn_(sing).png,?
-Goat Horn (Yearn),goat_horn_(yearn).png,?
+Рог,goat_horn.png,?
 Золотой слиток,gold_ingot.png,?
 Кусочек золота,gold_nugget.png,?
 Золотая руда,gold_ore.png,?
@@ -567,9 +337,6 @@ Goat Horn (Yearn),goat_horn_(yearn).png,?
 Золотая лопата,golden_shovel.png,?
 Золотой меч,golden_sword.png,?
 Гранит,granite.png,?
-Гранитная плита,granite_slab.png,?
-Гранитные ступеньки,granite_stairs.png,?
-Гранитная ограда,granite_wall.png,?
 Дёрн,grass_block.png,?
 Гравий,gravel.png,?
 Серый флаг,gray_banner.png,?
@@ -604,7 +371,7 @@ Goat Horn (Yearn),goat_horn_(yearn).png,?
 Порох,gunpowder.png,?
 Свисающие корни,hanging_roots.png,?
 Сноп сена,hay_bale.png,?
-Heart of the Sea,heart_of_the_sea.png,?
+Сердце мор,heart_of_the_sea.png,?
 Навершие булавы,heavy_core.png,?
 Большегрузная весовая пластина,heavy_weighted_pressure_plate.png,?
 Блок мёда,honey_block.png,?
@@ -612,9 +379,6 @@ Heart of the Sea,heart_of_the_sea.png,?
 Пчелиные соты,honeycomb.png,?
 Блок пчелиных сот,honeycomb_block.png,?
 Воронка,hopper.png,?
-Роговой коралл,horn_coral.png,?
-Блок рогового коралла,horn_coral_block.png,?
-Веерный роговый коралл,horn_coral_fan.png,?
 Лёд,ice.png,?
 Чернильный мешок,ink_sac.png,?
 Железный топор,iron_axe.png,?
@@ -634,25 +398,12 @@ Heart of the Sea,heart_of_the_sea.png,?
 Железный меч,iron_sword.png,?
 Железный люк,iron_trapdoor.png,?
 Рамка,item_frame.png,?
-Jack o'Lantern,jack_o'lantern.png,?
+Светильник джек,jack_o'lantern.png,?
 Проигрыватель,jukebox.png,?
-Лодка из тропического дерева,jungle_boat.png,?
-Jungle Boat with Chest,jungle_boat_with_chest.png,?
-Кнопка из тропического дерева,jungle_button.png,?
-Дверь из тропического дерева,jungle_door.png,?
-Карта исследователя джунглей,jungle_explorer_map.png,?
-Забор из тропического дерева,jungle_fence.png,?
-Калитка из тропического дерева,jungle_fence_gate.png,?
-Подвесная табличка из тропического дерева,jungle_hanging_sign.png,?
 Листья тропического дерева,jungle_leaves.png,?
 Бревно тропического дерева,jungle_log.png,?
 Доски из тропического дерева,jungle_planks.png,?
-Нажимная плита из тропического дерева,jungle_pressure_plate.png,?
 Саженец тропического дерева,jungle_sapling.png,?
-Табличка из тропического дерева,jungle_sign.png,?
-Плита из тропического дерева,jungle_slab.png,?
-Ступеньки из тропического дерева,jungle_stairs.png,?
-Люк из тропического дерева,jungle_trapdoor.png,?
 Тропическое дерево,jungle_wood.png,?
 Ламинария,kelp.png,?
 Лестница,ladder.png,?
@@ -703,7 +454,6 @@ Leaf Litter,leaf_litter.png,?
 Весовая пластина,light_weighted_pressure_plate.png,?
 Громоотвод,lightning_rod.png,?
 Сирень,lilac.png,?
-Lily of the Valley,lily_of_the_valley.png,?
 Кувшинка,lily_pad.png,?
 Лаймовый флаг,lime_banner.png,?
 Лаймовая кровать,lime_bed.png,?
@@ -739,23 +489,11 @@ Lily of the Valley,lily_of_the_valley.png,?
 Пурпурная шерсть,magenta_wool.png,?
 Магма,magma_block.png,?
 Сгусток магмы,magma_cream.png,?
-Мангровая лодка,mangrove_boat.png,?
-Mangrove Boat with Chest,mangrove_boat_with_chest.png,?
-Мангровая кнопка,mangrove_button.png,?
-Мангровая дверь,mangrove_door.png,?
-Мангровый забор,mangrove_fence.png,?
-Мангровая калитка,mangrove_fence_gate.png,?
-Мангровая подвесная табличка,mangrove_hanging_sign.png,?
 Мангровые листья,mangrove_leaves.png,?
 Мангровое бревно,mangrove_log.png,?
 Мангровые доски,mangrove_planks.png,?
-Мангровая нажимная плита,mangrove_pressure_plate.png,?
 Мангровый отросток,mangrove_propagule.png,?
 Мангровые корни,mangrove_roots.png,?
-Мангровая табличка,mangrove_sign.png,?
-Мангровая плита,mangrove_slab.png,?
-Мангровые ступеньки,mangrove_stairs.png,?
-Мангровый люк,mangrove_trapdoor.png,?
 Мангровое дерево,mangrove_wood.png,?
 Карта,map.png,?
 Средний аметистовый бутон,medium_amethyst_bud.png,?
@@ -764,55 +502,24 @@ Mangrove Boat with Chest,mangrove_boat_with_chest.png,?
 Ломтик арбуза,melon_slice.png,?
 Ведро молока,milk_bucket.png,?
 Вагонетка,minecart.png,?
-Minecart with Chest,minecart_with_chest.png,?
-Minecart with Furnace‌[JE],minecart_with_furnace‌[je].png,?
-Minecart with Hopper,minecart_with_hopper.png,?
-Minecart with TNT,minecart_with_tnt.png,?
+Вагонетка с сундуком,minecart_with_chest.png,?
+Вагонетка с печкой,minecart_with_furnace.png,?
+Вагонетка с воронкой,minecart_with_hopper.png,?
+Вагонетка с динамитом,minecart_with_tnt.png,?
 Блок мха,moss_block.png,?
 Моховой ковёр,moss_carpet.png,?
 Замшелый булыжник,mossy_cobblestone.png,?
-Замшелая булыжная плита,mossy_cobblestone_slab.png,?
-Замшелые булыжные ступеньки,mossy_cobblestone_stairs.png,?
-Замшелая булыжная ограда,mossy_cobblestone_wall.png,?
-Плита из замшелого каменного кирпича,mossy_stone_brick_slab.png,?
-Ступеньки из замшелого каменного кирпича,mossy_stone_brick_stairs.png,?
-Ограда из замшелого каменного кирпича,mossy_stone_brick_wall.png,?
 Замшелые каменные кирпичи,mossy_stone_bricks.png,?
 Грязь,mud.png,?
-Саманная плита,mud_brick_slab.png,?
-Саманные ступеньки,mud_brick_stairs.png,?
-Саманная ограда,mud_brick_wall.png,?
 Саманные кирпичи,mud_bricks.png,?
 Грязные мангровые корни,muddy_mangrove_roots.png,?
 Ножка гриба,mushroom_stem.png,?
 Тушёные грибы,mushroom_stew.png,?
-Music Disc (11),music_disc_(11).png,?
-Music Disc (13),music_disc_(13).png,?
-Music Disc (5),music_disc_(5).png,?
-Music Disc (Blocks),music_disc_(blocks).png,?
-Music Disc (Cat),music_disc_(cat).png,?
-Music Disc (Chirp),music_disc_(chirp).png,?
-Music Disc (Creator Music Box),music_disc_(creator_music_box).png,?
-Music Disc (Creator),music_disc_(creator).png,?
-Music Disc (Far),music_disc_(far).png,?
-Music Disc (Mall),music_disc_(mall).png,?
-Music Disc (Mellohi),music_disc_(mellohi).png,?
-Music Disc (Otherside),music_disc_(otherside).png,?
-Music Disc (Pigstep),music_disc_(pigstep).png,?
-Music Disc (Precipe),music_disc_(precipe).png,?
-Music Disc (Relic),music_disc_(relic).png,?
-Music Disc (Stal),music_disc_(stal).png,?
-Music Disc (Strad),music_disc_(strad).png,?
-Music Disc (Wait),music_disc_(wait).png,?
-Music Disc (Ward),music_disc_(ward).png,?
+Пластинка,music_disc_otherside.png,?
 Мицелий,mycelium.png,?
 Бирка,name_tag.png,?
 Раковина наутилуса,nautilus_shell.png,?
 Незерский кирпич,nether_brick.png,?
-Забор из незерского кирпича,nether_brick_fence.png,?
-Плита из незерского кирпича,nether_brick_slab.png,?
-Ступеньки из незерского кирпича,nether_brick_stairs.png,?
-Ограда из незерского кирпича,nether_brick_wall.png,?
 Незерские кирпичи,nether_bricks.png,?
 Незерская золотая руда,nether_gold_ore.png,?
 Незер-кварц,nether_quartz.png,?
@@ -834,30 +541,16 @@ Music Disc (Ward),music_disc_(ward).png,?
 Незеритовый меч,netherite_sword.png,?
 Незерак,netherrack.png,?
 Нотный блок,note_block.png,?
-Дубовая лодка,oak_boat.png,?
-Oak Boat with Chest,oak_boat_with_chest.png,?
-Дубовая кнопка,oak_button.png,?
-Дубовая дверь,oak_door.png,?
-Дубовый забор,oak_fence.png,?
-Дубовая калитка,oak_fence_gate.png,?
-Дубовая подвесная табличка,oak_hanging_sign.png,?
 Дубовые листья,oak_leaves.png,?
 Дубовое бревно,oak_log.png,?
 Дубовые доски,oak_planks.png,?
-Дубовая нажимная плита,oak_pressure_plate.png,?
 Саженец дуба,oak_sapling.png,?
-Дубовая табличка,oak_sign.png,?
-Дубовая плита,oak_slab.png,?
-Дубовые ступеньки,oak_stairs.png,?
-Дубовый люк,oak_trapdoor.png,?
 Дуб,oak_wood.png,?
 Наблюдатель,observer.png,?
 Обсидиан,obsidian.png,?
-Карта исследователя океана,ocean_explorer_map.png,?
 Охристая квампа,ochre_froglight.png,?
 Зловещий флаг,ominous_banner.png,?
 Зловещий ключ испытаний,ominous_trial_key.png,?
-Open Eyeblossom,open_eyeblossom.png,?
 Оранжевый флаг,orange_banner.png,?
 Оранжевая кровать,orange_bed.png,?
 Оранжевый мешок,orange_bundle.png,?
@@ -874,42 +567,20 @@ Open Eyeblossom,open_eyeblossom.png,?
 Оранжевый тюльпан,orange_tulip.png,?
 Оранжевая шерсть,orange_wool.png,?
 Ромашка,oxeye_daisy.png,?
-Окисленный точёный медный блок,oxidized_chiseled_copper.png,?
-Окисленный медный блок,oxidized_copper.png,?
-Окисленная медная лампа,oxidized_copper_bulb.png,?
-Окисленная медная дверь,oxidized_copper_door.png,?
-Окисленная медная решётка,oxidized_copper_grate.png,?
-Окисленный медный люк,oxidized_copper_trapdoor.png,?
-Окисленный резной медный блок,oxidized_cut_copper.png,?
-Окисленная резная медная плита,oxidized_cut_copper_slab.png,?
-Окисленные резные медные ступеньки,oxidized_cut_copper_stairs.png,?
 Плотный лёд,packed_ice.png,?
 Плотная грязь,packed_mud.png,?
 Картина,painting.png,?
 Свисающий бледный мох,pale_hanging_moss.png,?
 Блок бледного мха,pale_moss_block.png,?
 Бледный моховой ковёр,pale_moss_carpet.png,?
-Лодка из бледного дуба,pale_oak_boat.png,?
-Pale Oak Boat with Chest,pale_oak_boat_with_chest.png,?
-Кнопка из бледного дуба,pale_oak_button.png,?
-Дверь из бледного дуба,pale_oak_door.png,?
-Забор из бледного дуба,pale_oak_fence.png,?
-Калитка из бледного дуба,pale_oak_fence_gate.png,?
-Подвесная табличка из бледного дуба,pale_oak_hanging_sign.png,?
 Листья бледного дуба,pale_oak_leaves.png,?
 Бревно бледного дуба,pale_oak_log.png,?
 Доски из бледного дуба,pale_oak_planks.png,?
-Нажимная плита из бледного дуба,pale_oak_pressure_plate.png,?
 Саженец бледного дуба,pale_oak_sapling.png,?
-Табличка из бледного дуба,pale_oak_sign.png,?
-Плита из бледного дуба,pale_oak_slab.png,?
-Ступеньки из бледного дуба,pale_oak_stairs.png,?
-Люк из бледного дуба,pale_oak_trapdoor.png,?
 Бледный дуб,pale_oak_wood.png,?
 Бумага,paper.png,?
 Перламутровая квампа,pearlescent_froglight.png,?
 Пион,peony.png,?
-Окаменевшая дубовая плита,petrified_oak_slab.png,?
 Мембрана фантома,phantom_membrane.png,?
 Голова пиглина,piglin_head.png,?
 Розовый флаг,pink_banner.png,?
@@ -931,52 +602,26 @@ Pale Oak Boat with Chest,pale_oak_boat_with_chest.png,?
 Поршень,piston.png,?
 Кувшинница,pitcher_plant.png,?
 Стручок кувшинницы,pitcher_pod.png,?
-Карта равнинной деревни,plains_village_map.png,?
 Подзол,podzol.png,?
 Капельник,pointed_dripstone.png,?
 Ядовитый картофель,poisonous_potato.png,?
 Полированный андезит,polished_andesite.png,?
-Плита из полированного андезита,polished_andesite_slab.png,?
-Ступеньки из полированного андезита,polished_andesite_stairs.png,?
 Полированный базальт,polished_basalt.png,?
 Полированный чернит,polished_blackstone.png,?
-Плита из полированно-чернитного кирпича,polished_blackstone_brick_slab.png,?
-Ступеньки из полированно-чернитного кирпича,polished_blackstone_brick_stairs.png,?
-Ограда из полированно-чернитного кирпича,polished_blackstone_brick_wall.png,?
 Полированно-чернитные кирпичи,polished_blackstone_bricks.png,?
-Кнопка из полированного чернита,polished_blackstone_button.png,?
-Нажимная плита из полированного чернита,polished_blackstone_pressure_plate.png,?
-Плита из полированного чернита,polished_blackstone_slab.png,?
-Ступеньки из полированного чернита,polished_blackstone_stairs.png,?
-Ограда из полированного чернита,polished_blackstone_wall.png,?
 Полированный глубинный сланец,polished_deepslate.png,?
-Плита из полированного глубинного сланца,polished_deepslate_slab.png,?
-Ступеньки из полированного глубинного сланца,polished_deepslate_stairs.png,?
-Ограда из полированного глубинного сланца,polished_deepslate_wall.png,?
 Полированный диорит,polished_diorite.png,?
-Плита из полированного диорита,polished_diorite_slab.png,?
-Ступеньки из полированного диорита,polished_diorite_stairs.png,?
 Полированный гранит,polished_granite.png,?
-Плита из полированного гранита,polished_granite_slab.png,?
-Ступеньки из полированного гранита,polished_granite_stairs.png,?
 Полированный туф,polished_tuff.png,?
-Плита из полированного туфа,polished_tuff_slab.png,?
-Ступеньки из полированного туфа,polished_tuff_stairs.png,?
-Ограда из полированного туфа,polished_tuff_wall.png,?
 Прожаренный плод хоруса,popped_chorus_fruit.png,?
 Мак,poppy.png,?
 Картофель,potato.png,?
 Ведро с рыхлым снегом,powder_snow_bucket.png,?
 Энергорельсы,powered_rail.png,?
 Призмарин,prismarine.png,?
-Плита из призмаринового кирпича,prismarine_brick_slab.png,?
-Ступеньки из призмаринового кирпича,prismarine_brick_stairs.png,?
 Призмариновые кирпичи,prismarine_bricks.png,?
 Кристалл призмарина,prismarine_crystals.png,?
 Осколок призмарина,prismarine_shard.png,?
-Призмариновая плита,prismarine_slab.png,?
-Призмариновые ступеньки,prismarine_stairs.png,?
-Призмариновая ограда,prismarine_wall.png,?
 Иглобрюх,pufferfish.png,?
 Тыква,pumpkin.png,?
 Тыквенный пирог,pumpkin_pie.png,?
@@ -997,15 +642,10 @@ Pale Oak Boat with Chest,pale_oak_boat_with_chest.png,?
 Фиолетовая шерсть,purple_wool.png,?
 Пурпур,purpur_block.png,?
 Пурпуровый пилон,purpur_pillar.png,?
-Пурпуровая плита,purpur_slab.png,?
-Пурпуровые ступеньки,purpur_stairs.png,?
 Кварцевые кирпичи,quartz_bricks.png,?
-Кварцевая колонна,quartz_pillar.png,?
-Кварцевая плита,quartz_slab.png,?
-Кварцевые ступеньки,quartz_stairs.png,?
 Кроличья шкурка,rabbit_hide.png,?
 Тушёный кролик,rabbit_stew.png,?
-Rabbit's Foot,rabbit's_foot.png,?
+Кроличья лапка,rabbit's_foot.png,?
 Рельсы,rail.png,?
 Сырая говядина,raw_beef.png,?
 Курятина,raw_chicken.png,?
@@ -1029,15 +669,9 @@ Rabbit's Foot,rabbit's_foot.png,?
 Красная глазурованная керамика,red_glazed_terracotta.png,?
 Красный гриб,red_mushroom.png,?
 Блок красного гриба,red_mushroom_block.png,?
-Плита из красного незерского кирпича,red_nether_brick_slab.png,?
-Ступеньки из красного незерского кирпича,red_nether_brick_stairs.png,?
-Ограда из красного незерского кирпича,red_nether_brick_wall.png,?
 Красные незерские кирпичи,red_nether_bricks.png,?
 Красный песок,red_sand.png,?
 Красный песчаник,red_sandstone.png,?
-Плита из красного песчаника,red_sandstone_slab.png,?
-Ступеньки из красного песчаника,red_sandstone_stairs.png,?
-Ограда из красного песчаника,red_sandstone_wall.png,?
 Красный шалкеровый ящик,red_shulker_box.png,?
 Красное стекло,red_stained_glass.png,?
 Красная стеклянная панель,red_stained_glass_pane.png,?
@@ -1050,12 +684,6 @@ Rabbit's Foot,rabbit's_foot.png,?
 Редстоуновая руда,redstone_ore.png,?
 Редстоуновый повторитель,redstone_repeater.png,?
 Редстоуновый факел,redstone_torch.png,?
-Resin Brick,resin_brick.png,?
-Resin Brick Slabs,resin_brick_slabs.png,?
-Resin Brick Stairs,resin_brick_stairs.png,?
-Resin Brick Wall,resin_brick_wall.png,?
-Resin Bricks,resin_bricks.png,?
-Resin Clump,resin_clump.png,?
 Якорь возрождения,respawn_anchor.png,?
 Корнистая земля,rooted_dirt.png,?
 Розовый куст,rose_bush.png,?
@@ -1063,10 +691,6 @@ Resin Clump,resin_clump.png,?
 Седло,saddle.png,?
 Песок,sand.png,?
 Песчаник,sandstone.png,?
-Песчаниковая плита,sandstone_slab.png,?
-Песчаниковые ступеньки,sandstone_stairs.png,?
-Песчаниковая ограда,sandstone_wall.png,?
-Карта саванной деревни,savanna_village_map.png,?
 Подмостки,scaffolding.png,?
 Скалк,sculk.png,?
 Скалковый катализатор,sculk_catalyst.png,?
@@ -1078,8 +702,6 @@ Resin Clump,resin_clump.png,?
 Морская трава,seagrass.png,?
 Ножницы,shears.png,?
 Щит,shield.png,?
-Short Dry Grass,short_dry_grass.png,?
-Short Grass (Grass),short_grass_(grass).png,?
 Грибосвет,shroomlight.png,?
 Шалкеровый ящик,shulker_box.png,?
 Панцирь шалкера,shulker_shell.png,?
@@ -1092,46 +714,26 @@ Short Grass (Grass),short_grass_(grass).png,?
 Коптильня,smoker.png,?
 Гладкий базальт,smooth_basalt.png,?
 Гладкий кварц,smooth_quartz_block.png,?
-Плита из гладкого кварца,smooth_quartz_slab.png,?
-Ступеньки из гладкого кварца,smooth_quartz_stairs.png,?
 Гладкий красный песчаник,smooth_red_sandstone.png,?
-Плита из гладкого красного песчаника,smooth_red_sandstone_slab.png,?
-Ступеньки из гладкого красного песчаника,smooth_red_sandstone_stairs.png,?
 Гладкий песчаник,smooth_sandstone.png,?
-Плита из гладкого песчаника,smooth_sandstone_slab.png,?
-Ступеньки из гладкого песчаника,smooth_sandstone_stairs.png,?
 Гладкий камень,smooth_stone.png,?
-Плита из гладкого камня,smooth_stone_slab.png,?
 Яйцо нюхача,sniffer_egg.png,?
 Снег,snow.png,?
 Блок снега,snow_block.png,?
 Снежок,snowball.png,?
-Карта заснеженной деревни,snowy_village_map.png,?
 Костёр душ,soul_campfire.png,?
 Фонарь душ,soul_lantern.png,?
 Песок душ,soul_sand.png,?
 Почва душ,soul_soil.png,?
 Факел душ,soul_torch.png,?
-Spectral Arrow‌ [JE],spectral_arrow‌_[je].png,?
+Спектральная стрела,spectral_arrow‌_[je].png,?
 Паучий глаз,spider_eye.png,?
 Губка,sponge.png,?
 Спороцвет,spore_blossom.png,?
-Еловая лодка,spruce_boat.png,?
-Spruce Boat with Chest,spruce_boat_with_chest.png,?
-Еловая кнопка,spruce_button.png,?
-Еловая дверь,spruce_door.png,?
-Еловый забор,spruce_fence.png,?
-Еловая калитка,spruce_fence_gate.png,?
-Еловая подвесная табличка,spruce_hanging_sign.png,?
 Хвоя,spruce_leaves.png,?
 Еловое бревно,spruce_log.png,?
 Еловые доски,spruce_planks.png,?
-Еловая нажимная плита,spruce_pressure_plate.png,?
 Саженец ели,spruce_sapling.png,?
-Еловая табличка,spruce_sign.png,?
-Еловая плита,spruce_slab.png,?
-Еловые ступеньки,spruce_stairs.png,?
-Еловый люк,spruce_trapdoor.png,?
 Ель,spruce_wood.png,?
 Подзорная труба,spyglass.png,?
 Стейк,steak.png,?
@@ -1139,16 +741,12 @@ Spruce Boat with Chest,spruce_boat_with_chest.png,?
 Липкий поршень,sticky_piston.png,?
 Камень,stone.png,?
 Каменный топор,stone_axe.png,?
-Плита из каменного кирпича,stone_brick_slab.png,?
 Ступеньки из каменного кирпича,stone_brick_stairs.png,?
 Ограда из каменного кирпича,stone_brick_wall.png,?
 Каменные кирпичи,stone_bricks.png,?
-Каменная кнопка,stone_button.png,?
 Каменная мотыга,stone_hoe.png,?
 Каменная кирка,stone_pickaxe.png,?
-Каменная нажимная плита,stone_pressure_plate.png,?
 Каменная лопата,stone_shovel.png,?
-Каменная плита,stone_slab.png,?
 Каменные ступеньки,stone_stairs.png,?
 Каменный меч,stone_sword.png,?
 Камнерез,stonecutter.png,?
@@ -1179,24 +777,17 @@ Spruce Boat with Chest,spruce_boat_with_chest.png,?
 Сахарный тростник,sugar_cane.png,?
 Подсолнух,sunflower.png,?
 Загадочное рагу,suspicious_stew.png,?
-Карта исследователя болот,swamp_explorer_map.png,?
 Сладкие ягоды,sweet_berries.png,?
-Карта таёжной деревни,taiga_village_map.png,?
-Tall Dry Grass,tall_dry_grass.png,?
 Высокая трава,tall_grass.png,?
 Мишень,target.png,?
 Терракота,terracotta.png,?
 Тонированное стекло,tinted_glass.png,?
-Tipped Arrow (Awkward),tipped_arrow_(awkward).png,?
-Tipped Arrow (Mundane),tipped_arrow_(mundane).png,?
-Tipped Arrow (Thick),tipped_arrow_(thick).png,?
 TNT,tnt.png,?
 Факел,torch.png,?
 Факельник,torchflower.png,?
 Семена факельника,torchflower_seeds.png,?
-Totem of Undying,totem_of_undying.png,?
+Тотем бессмертия,totem_of_undying.png,?
 Сундук-ловушка,trapped_chest.png,?
-Карта искателя испытаний,trial_explorer_map.png,?
 Ключ испытаний,trial_key.png,?
 Трезубец,trident.png,?
 Крюк,tripwire_hook.png,?
@@ -1205,83 +796,20 @@ Totem of Undying,totem_of_undying.png,?
 Блок трубчатого коралла,tube_coral_block.png,?
 Веерный трубчатый коралл,tube_coral_fan.png,?
 Туф,tuff.png,?
-Плита из туфового кирпича,tuff_brick_slab.png,?
-Ступеньки из туфового кирпича,tuff_brick_stairs.png,?
-Ограда из туфового кирпича,tuff_brick_wall.png,?
 Туфовые кирпичи,tuff_bricks.png,?
-Туфовая плита,tuff_slab.png,?
-Туфовые ступеньки,tuff_stairs.png,?
-Туфовая ограда,tuff_wall.png,?
 Черепашье яйцо,turtle_egg.png,?
 Черепаший щиток,turtle_scute.png,?
 Черепаший панцирь,turtle_shell.png,?
 Вьющаяся лоза,twisting_vines.png,?
 Малахитовая квампа,verdant_froglight.png,?
 Лианы,vines.png,?
-Искажённая кнопка,warped_button.png,?
-Искажённая дверь,warped_door.png,?
-Искажённый забор,warped_fence.png,?
-Искажённая калитка,warped_fence_gate.png,?
 Искажённый гриб,warped_fungus.png,?
-Warped Fungus on a Stick,warped_fungus_on_a_stick.png,?
-Искажённая подвесная табличка,warped_hanging_sign.png,?
 Искажённые гифы,warped_hyphae.png,?
 Искажённый нилий,warped_nylium.png,?
 Искажённые доски,warped_planks.png,?
-Искажённая нажимная плита,warped_pressure_plate.png,?
 Искажённые корни,warped_roots.png,?
-Искажённая табличка,warped_sign.png,?
-Искажённая плита,warped_slab.png,?
-Искажённые ступеньки,warped_stairs.png,?
-Искажённый стебель,warped_stem.png,?
-Искажённый люк,warped_trapdoor.png,?
 Блок искажённого нароста,warped_wart_block.png,?
 Ведро воды,water_bucket.png,?
-Waxed Block of Copper,waxed_block_of_copper.png,?
-Вощёный точёный медный блок,waxed_chiseled_copper.png,?
-Вощёная медная лампа,waxed_copper_bulb.png,?
-Вощёная медная дверь,waxed_copper_door.png,?
-Вощёная медная решётка,waxed_copper_grate.png,?
-Вощёный медный люк,waxed_copper_trapdoor.png,?
-Вощёный резной медный блок,waxed_cut_copper.png,?
-Вощёная резная медная плита,waxed_cut_copper_slab.png,?
-Вощёные резные медные ступеньки,waxed_cut_copper_stairs.png,?
-Вощёный потемневший точёный медный блок,waxed_exposed_chiseled_copper.png,?
-Вощёный потемневший медный блок,waxed_exposed_copper.png,?
-Вощёная потемневшая медная лампа,waxed_exposed_copper_bulb.png,?
-Вощёная потемневшая медная дверь,waxed_exposed_copper_door.png,?
-Вощёная потемневшая медная решётка,waxed_exposed_copper_grate.png,?
-Вощёный потемневший медный люк,waxed_exposed_copper_trapdoor.png,?
-Вощёный потемневший резной медный блок,waxed_exposed_cut_copper.png,?
-Вощёная потемневшая резная медная плита,waxed_exposed_cut_copper_slab.png,?
-Вощёные потемневшие резные медные ступеньки,waxed_exposed_cut_copper_stairs.png,?
-Вощёный окисленный точёный медный блок,waxed_oxidized_chiseled_copper.png,?
-Вощёный окисленный медный блок,waxed_oxidized_copper.png,?
-Вощёная окисленная медная лампа,waxed_oxidized_copper_bulb.png,?
-Вощёная окисленная медная дверь,waxed_oxidized_copper_door.png,?
-Вощёная окисленная медная решётка,waxed_oxidized_copper_grate.png,?
-Вощёный окисленный медный люк,waxed_oxidized_copper_trapdoor.png,?
-Вощёный окисленный резной медный блок,waxed_oxidized_cut_copper.png,?
-Вощёная окисленная резная медная плита,waxed_oxidized_cut_copper_slab.png,?
-Вощёные окисленные резные медные ступеньки,waxed_oxidized_cut_copper_stairs.png,?
-Вощёный состаренный точёный медный блок,waxed_weathered_chiseled_copper.png,?
-Вощёный состаренный медный блок,waxed_weathered_copper.png,?
-Вощёная состаренная медная лампа,waxed_weathered_copper_bulb.png,?
-Вощёная состаренная медная дверь,waxed_weathered_copper_door.png,?
-Вощёная состаренная медная решётка,waxed_weathered_copper_grate.png,?
-Вощёный состаренный медный люк,waxed_weathered_copper_trapdoor.png,?
-Вощёный состаренный резной медный блок,waxed_weathered_cut_copper.png,?
-Вощёная состаренная резная медная плита,waxed_weathered_cut_copper_slab.png,?
-Вощёные состаренные резные медные ступеньки,waxed_weathered_cut_copper_stairs.png,?
-Состаренный точёный медный блок,weathered_chiseled_copper.png,?
-Состаренный медный блок,weathered_copper.png,?
-Состаренная медная лампа,weathered_copper_bulb.png,?
-Состаренная медная дверь,weathered_copper_door.png,?
-Состаренная медная решётка,weathered_copper_grate.png,?
-Состаренный медный люк,weathered_copper_trapdoor.png,?
-Состаренный резной медный блок,weathered_cut_copper.png,?
-Состаренная резная медная плита,weathered_cut_copper_slab.png,?
-Состаренные резные медные ступеньки,weathered_cut_copper_stairs.png,?
 Плакучая лоза,weeping_vines.png,?
 Мокрая губка,wet_sponge.png,?
 Пшеница,wheat.png,?
