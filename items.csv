@@ -1,5 +1,4 @@
 name,image,category
-Листья акации,acacia_leaves.png,?
 Акациевое бревно,acacia_log.png,?
 Саженец акации,acacia_sapling.png,?
 Акация,acacia_wood.png,?
@@ -16,7 +15,6 @@ name,image,category
 Стрела,arrow.png,?
 Стрела с зельем,tipped_arrow.png,?
 Азалия,azalea.png,?
-Листья азалии,azalea_leaves.png,?
 Хаустония серая,azure_bluet.png,?
 Печёный картофель,baked_potato.png,?
 Бамбук,bamboo.png,?
@@ -33,7 +31,6 @@ name,image,category
 Свекольный суп,beetroot_soup.png,?
 Колокол,bell.png,?
 Большая бросянка,big_dripleaf.png,?
-Берёзовые листья,birch_leaves.png,?
 Саженец берёзы,birch_sapling.png,?
 Берёза,birch_wood.png,?
 Чернит,blackstone.png,?
@@ -101,7 +98,6 @@ name,image,category
 Койф,chainmail_helmet.png,?
 Кольчужные поножи,chainmail_leggings.png,?
 Древесный уголь,charcoal.png,??
-Вишнёвые листья,cherry_leaves.png,?
 Саженец вишни,cherry_sapling.png,?
 Вишня,cherry_wood.png,?
 Сундук,chest.png,?
@@ -148,7 +144,6 @@ name,image,category
 Пиленый красный песчаник,cut_red_sandstone.png,?
 Пиленый песчаник,cut_sandstone.png,?
 Одуванчик,dandelion.png,?
-Листья тёмного дуба,dark_oak_leaves.png,?
 Бревно тёмного дуба,dark_oak_log.png,?
 Доски из тёмного дуба,dark_oak_planks.png,?
 Саженец тёмного дуба,dark_oak_sapling.png,?
@@ -213,7 +208,7 @@ name,image,category
 Удочка,fishing_rod.png,?
 Стол лучника,fletching_table.png,?
 Кремень,flint.png,?
-Flint and Steel,flint_and_steel.png,?
+Огниво,flint_and_steel.png,?
 Цветочный горшок,flower_pot.png,?
 Цветущая азалия,flowering_azalea.png,?
 Листья цветущей азалии,flowering_azalea_leaves.png,?
@@ -287,7 +282,7 @@ Flint and Steel,flint_and_steel.png,?
 Лестница,ladder.png,?
 Фонарь,lantern.png,?
 Лазурит,lapis_lazuli.png,?
-Лазуритовая руда,lapis_lazuli_ore.png,?
+Лазуритовая руда,lapis_ore.png,?
 Большой аметистовый бутон,large_amethyst_bud.png,?
 Раскидистый папоротник,large_fern.png,?
 Ведро лавы,lava_bucket.png,?
@@ -307,7 +302,6 @@ Flint and Steel,flint_and_steel.png,?
 Сирень,lilac.png,?
 Кувшинка,lily_pad.png,?
 Магнетит,lodestone.png,?
-Намагниченный компас,lodestone_compass.png,?
 Ткацкий станок,loom.png,?
 Булава,mace.png,?
 Магма,magma_block.png,?
@@ -413,7 +407,7 @@ Flint and Steel,flint_and_steel.png,?
 Кварцевые кирпичи,quartz_bricks.png,?
 Кроличья шкурка,rabbit_hide.png,?
 Тушёный кролик,rabbit_stew.png,?
-Кроличья лапка,rabbit's_foot.png,?
+Кроличья лапка,rabbit_foot.png,?
 Рельсы,rail.png,?
 Рудная медь,raw_copper.png,?
 Рудное золото,raw_gold.png,?
@@ -461,7 +455,7 @@ Flint and Steel,flint_and_steel.png,?
 Стол кузнеца,smithing_table.png,?
 Коптильня,smoker.png,?
 Гладкий базальт,smooth_basalt.png,?
-Гладкий кварц,smooth_quartz_block.png,?
+Гладкий кварц,smooth_quartz.png,?
 Гладкий красный песчаник,smooth_red_sandstone.png,?
 Гладкий песчаник,smooth_sandstone.png,?
 Гладкий камень,smooth_stone.png,?
@@ -474,7 +468,7 @@ Flint and Steel,flint_and_steel.png,?
 Песок душ,soul_sand.png,?
 Почва душ,soul_soil.png,?
 Факел душ,soul_torch.png,?
-Спектральная стрела,spectral_arrow‌.png,?
+Спектральная стрела,spectral_arrow.png,?
 Паучий глаз,spider_eye.png,?
 Губка,sponge.png,?
 Спороцвет,spore_blossom.png,?
@@ -522,10 +516,10 @@ TNT,tnt.png,?
 Туфовые кирпичи,tuff_bricks.png,?
 Черепашье яйцо,turtle_egg.png,?
 Черепаший щиток,turtle_scute.png,?
-Черепаший панцирь,turtle_shell.png,?
+Черепаший панцирь,turtle_scute.png,?
 Вьющаяся лоза,twisting_vines.png,?
 Малахитовая квампа,verdant_froglight.png,?
-Лианы,vines.png,?
+Лианы,vine.png,?
 Искажённый гриб,warped_fungus.png,?
 Искажённые гифы,warped_hyphae.png,?
 Искажённый нилий,warped_nylium.png,?
@@ -539,7 +533,6 @@ TNT,tnt.png,?
 Флаг,purple_banner.png,?
 Белый тюльпан,white_tulip.png,?
 Шерсть,white_wool.png,?
-Wildflowers,wildflowers.png,?
 Заряд ветра,wind_charge.png,?
 Роза визера,wither_rose.png,?
 Череп визер-скелета,wither_skeleton_skull.png,?
