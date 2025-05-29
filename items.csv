@@ -64,7 +64,7 @@ name,image,category
 Железный блок,iron_block.png,?
 Лазуритовый блок,lapis_block.png,?
 Незеритовый блок,netherite_block.png,?
-Кварцевый блок,quartz_block_block.png,?
+Кварцевый блок,quartz_block.png,?
 Блок необработанной меди,raw_copper_block.png,?
 Блок необработанного золота,raw_gold_block.png,?
 Блок необработанного железа,raw_iron_block.png,?
@@ -87,9 +87,9 @@ name,image,category
 Костный блок,bone_block.png,?
 Костная мука,bone_meal.png,?
 Книга,book.png,?
-Книга с пером,book_and_quill.png,?
+Книга с пером,writable_book.png,?
 Книжная полка,bookshelf.png,?
-Пузырёк опыта,bottle_o'_enchanting.png,?
+Пузырёк опыта,experience_bottle.png,?
 Лук,bow.png,?
 Миска,bowl.png,?
 Коралл,brain_coral.png,?
@@ -750,7 +750,6 @@ Wildflowers,wildflowers.png,?
 Деревянная кирка,wooden_pickaxe.png,?
 Деревянная лопата,wooden_shovel.png,?
 Деревянный меч,wooden_sword.png,?
-Карта исследователя лесов,woodland_explorer_map.png,?
 Завершённая книга,written_book.png,?
 Жёлтый флаг,yellow_banner.png,?
 Жёлтая кровать,yellow_bed.png,?
