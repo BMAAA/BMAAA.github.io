@@ -1,7 +1,6 @@
 name,image,category
 Листья акации,acacia_leaves.png,?
 Акациевое бревно,acacia_log.png,?
-Акациевые доски,acacia_planks.png,?
 Саженец акации,acacia_sapling.png,?
 Акация,acacia_wood.png,?
 Активирующие рельсы,activator_rail.png,?
@@ -35,21 +34,8 @@ name,image,category
 Колокол,bell.png,?
 Большая бросянка,big_dripleaf.png,?
 Берёзовые листья,birch_leaves.png,?
-Берёзовое бревно,birch_log.png,?
-Берёзовые доски,birch_planks.png,?
 Саженец берёзы,birch_sapling.png,?
 Берёза,birch_wood.png,?
-Чёрный флаг,black_banner.png,?
-Чёрная кровать,black_bed.png,?
-Чёрный мешок,black_bundle.png,?
-Чёрная свеча,black_candle.png,?
-Чёрный бетон,black_concrete.png,?
-Чёрный сухой бетон,black_concrete_powder.png,?
-Чёрный краситель,black_dye.png,?
-Чёрный шалкеровый ящик,black_shulker_box.png,?
-Чёрное стекло,black_stained_glass.png,?
-Чёрная керамика,black_terracotta.png,?
-Чёрная шерсть,black_wool.png,?
 Чернит,blackstone.png,?
 Плавильная печь,blast_furnace.png,?
 Огненный порошок,blaze_powder.png,?
@@ -70,19 +56,8 @@ name,image,category
 Блок необработанного железа,raw_iron_block.png,?
 Редстоуновый блок,redstone_block.png,?
 Блок обтёсанного бамбука,stripped_bamboo_block.png,?
-Синий флаг,blue_banner.png,?
-Синяя кровать,blue_bed.png,?
-Синий мешок,blue_bundle.png,?
-Синяя свеча,blue_candle.png,?
-Синий бетон,blue_concrete.png,?
-Синий сухой бетон,blue_concrete_powder.png,?
-Синий краситель,blue_dye.png,?
 Синий лёд,blue_ice.png,?
 Синяя орхидея,blue_orchid.png,?
-Синий шалкеровый ящик,blue_shulker_box.png,?
-Синее стекло,blue_stained_glass.png,?
-Синяя керамика,blue_terracotta.png,?
-Синяя шерсть,blue_wool.png,?
 Кость,bone.png,?
 Костный блок,bone_block.png,?
 Костная мука,bone_meal.png,?
@@ -99,19 +74,8 @@ name,image,category
 Зельеварка,brewing_stand.png,?
 Кирпич,brick.png,?
 Кирпичи,bricks.png,?
-Коричневый флаг,brown_banner.png,?
-Коричневая кровать,brown_bed.png,?
-Коричневый мешок,brown_bundle.png,?
-Коричневая свеча,brown_candle.png,?
-Коричневый бетон,brown_concrete.png,?
-Коричневый сухой бетон,brown_concrete_powder.png,?
-Коричневый краситель,brown_dye.png,?
 Коричневый гриб,brown_mushroom.png,?
 Блок коричневого гриба,brown_mushroom_block.png,?
-Коричневый шалкеровый ящик,brown_shulker_box.png,?
-Коричневое стекло,brown_stained_glass.png,?
-Коричневая керамика,brown_terracotta.png,?
-Коричневая шерсть,brown_wool.png,?
 Кисть,brush.png,?
 Ведро,bucket.png,?
 Аксолотль,axolotl_bucket.png,?
@@ -138,8 +102,6 @@ name,image,category
 Кольчужные поножи,chainmail_leggings.png,?
 Древесный уголь,charcoal.png,??
 Вишнёвые листья,cherry_leaves.png,?
-Вишнёвое бревно,cherry_log.png,?
-Вишнёвые доски,cherry_planks.png,?
 Саженец вишни,cherry_sapling.png,?
 Вишня,cherry_wood.png,?
 Сундук,chest.png,?
@@ -181,22 +143,10 @@ name,image,category
 Багровый гриб,crimson_fungus.png,?
 Багровые гифы,crimson_hyphae.png,?
 Багровый нилий,crimson_nylium.png,?
-Багровые доски,crimson_planks.png,?
 Арбалет,crossbow.png,?
 Плачущий обсидиан,crying_obsidian.png,?
 Пиленый красный песчаник,cut_red_sandstone.png,?
 Пиленый песчаник,cut_sandstone.png,?
-Бирюзовый флаг,cyan_banner.png,?
-Бирюзовая кровать,cyan_bed.png,?
-Бирюзовый мешок,cyan_bundle.png,?
-Бирюзовая свеча,cyan_candle.png,?
-Бирюзовый бетон,cyan_concrete.png,?
-Бирюзовый сухой бетон,cyan_concrete_powder.png,?
-Бирюзовый краситель,cyan_dye.png,?
-Бирюзовый шалкеровый ящик,cyan_shulker_box.png,?
-Бирюзовое стекло,cyan_stained_glass.png,?
-Бирюзовая керамика,cyan_terracotta.png,?
-Бирюзовая шерсть,cyan_wool.png,?
 Одуванчик,dandelion.png,?
 Листья тёмного дуба,dark_oak_leaves.png,?
 Бревно тёмного дуба,dark_oak_log.png,?
@@ -298,28 +248,6 @@ Flint and Steel,flint_and_steel.png,?
 Гранит,granite.png,?
 Дёрн,grass_block.png,?
 Гравий,gravel.png,?
-Серый флаг,gray_banner.png,?
-Серая кровать,gray_bed.png,?
-Серый мешок,gray_bundle.png,?
-Серая свеча,gray_candle.png,?
-Серый бетон,gray_concrete.png,?
-Серый сухой бетон,gray_concrete_powder.png,?
-Серый краситель,gray_dye.png,?
-Серый шалкеровый ящик,gray_shulker_box.png,?
-Серое стекло,gray_stained_glass.png,?
-Серая керамика,gray_terracotta.png,?
-Серая шерсть,gray_wool.png,?
-Зелёный флаг,green_banner.png,?
-Зелёная кровать,green_bed.png,?
-Зелёный мешок,green_bundle.png,?
-Зелёная свеча,green_candle.png,?
-Зелёный бетон,green_concrete.png,?
-Зелёный сухой бетон,green_concrete_powder.png,?
-Зелёный краситель,green_dye.png,?
-Зелёный шалкеровый ящик,green_shulker_box.png,?
-Зелёное стекло,green_stained_glass.png,?
-Зелёная керамика,green_terracotta.png,?
-Зелёная шерсть,green_wool.png,?
 Точило,grindstone.png,?
 Порох,gunpowder.png,?
 Свисающие корни,hanging_roots.png,?
@@ -333,7 +261,6 @@ Flint and Steel,flint_and_steel.png,?
 Блок пчелиных сот,honeycomb_block.png,?
 Воронка,hopper.png,?
 Лёд,ice.png,?
-Чернильный мешок,ink_sac.png,?
 Железный топор,iron_axe.png,?
 Железные прутья,iron_bars.png,?
 Железные ботинки,iron_boots.png,?
@@ -353,9 +280,7 @@ Flint and Steel,flint_and_steel.png,?
 Рамка,item_frame.png,?
 Светильник джек,jack_o_lantern.png,?
 Проигрыватель,jukebox.png,?
-Листья тропического дерева,jungle_leaves.png,?
-Бревно тропического дерева,jungle_log.png,?
-Доски из тропического дерева,jungle_planks.png,?
+Листва,jungle_leaves.png,?
 Саженец тропического дерева,jungle_sapling.png,?
 Тропическое дерево,jungle_wood.png,?
 Ламинария,kelp.png,?
@@ -375,63 +300,18 @@ Flint and Steel,flint_and_steel.png,?
 Кожаная куртка,leather_chestplate.png,?
 Кафедра,lectern.png,?
 Рычаг,lever.png,?
-Голубой флаг,light_blue_banner.png,?
-Голубая кровать,light_blue_bed.png,?
-Голубой мешок,light_blue_bundle.png,?
-Голубая свеча,light_blue_candle.png,?
-Голубой бетон,light_blue_concrete.png,?
-Голубой сухой бетон,light_blue_concrete_powder.png,?
-Голубой краситель,light_blue_dye.png,?
-Голубой шалкеровый ящик,light_blue_shulker_box.png,?
-Голубое стекло,light_blue_stained_glass.png,?
-Голубая керамика,light_blue_terracotta.png,?
-Голубая шерсть,light_blue_wool.png,?
-Светло-серый флаг,light_gray_banner.png,?
-Светло-серая кровать,light_gray_bed.png,?
-Светло-серый мешок,light_gray_bundle.png,?
-Светло-серая свеча,light_gray_candle.png,?
-Светло-серый бетон,light_gray_concrete.png,?
-Светло-серый сухой бетон,light_gray_concrete_powder.png,?
-Светло-серый краситель,light_gray_dye.png,?
-Светло-серый шалкеровый ящик,light_gray_shulker_box.png,?
-Светло-серое стекло,light_gray_stained_glass.png,?
-Светло-серая керамика,light_gray_terracotta.png,?
-Светло-серая шерсть,light_gray_wool.png,?
+Бетон,light_gray_concrete.png,?
+Сухой бетон,light_gray_concrete_powder.png,?
 Весовая пластина,light_weighted_pressure_plate.png,?
 Громоотвод,lightning_rod.png,?
 Сирень,lilac.png,?
 Кувшинка,lily_pad.png,?
-Лаймовый флаг,lime_banner.png,?
-Лаймовая кровать,lime_bed.png,?
-Лаймовый мешок,lime_bundle.png,?
-Лаймовая свеча,lime_candle.png,?
-Лаймовый бетон,lime_concrete.png,?
-Лаймовый сухой бетон,lime_concrete_powder.png,?
-Лаймовый краситель,lime_dye.png,?
-Лаймовый шалкеровый ящик,lime_shulker_box.png,?
-Лаймовое стекло,lime_stained_glass.png,?
-Лаймовая керамика,lime_terracotta.png,?
-Лаймовая шерсть,lime_wool.png,?
 Магнетит,lodestone.png,?
 Намагниченный компас,lodestone_compass.png,?
 Ткацкий станок,loom.png,?
 Булава,mace.png,?
-Пурпурный флаг,magenta_banner.png,?
-Пурпурная кровать,magenta_bed.png,?
-Пурпурный мешок,magenta_bundle.png,?
-Пурпурная свеча,magenta_candle.png,?
-Пурпурный бетон,magenta_concrete.png,?
-Пурпурный сухой бетон,magenta_concrete_powder.png,?
-Пурпурный краситель,magenta_dye.png,?
-Пурпурный шалкеровый ящик,magenta_shulker_box.png,?
-Пурпурное стекло,magenta_stained_glass.png,?
-Пурпурная керамика,magenta_terracotta.png,?
-Пурпурная шерсть,magenta_wool.png,?
 Магма,magma_block.png,?
 Сгусток магмы,magma_cream.png,?
-Мангровые листья,mangrove_leaves.png,?
-Мангровое бревно,mangrove_log.png,?
-Мангровые доски,mangrove_planks.png,?
 Мангровый отросток,mangrove_propagule.png,?
 Мангровые корни,mangrove_roots.png,?
 Мангровое дерево,mangrove_wood.png,?
@@ -481,54 +361,26 @@ Flint and Steel,flint_and_steel.png,?
 Незеритовый меч,netherite_sword.png,?
 Незерак,netherrack.png,?
 Нотный блок,note_block.png,?
-Дубовые листья,oak_leaves.png,?
-Дубовое бревно,oak_log.png,?
-Дубовые доски,oak_planks.png,?
+Доски,oak_planks.png,?
 Саженец дуба,oak_sapling.png,?
 Дуб,oak_wood.png,?
 Наблюдатель,observer.png,?
 Обсидиан,obsidian.png,?
 Охристая квампа,ochre_froglight.png,?
 Зловещий ключ испытаний,ominous_trial_key.png,?
-Оранжевый флаг,orange_banner.png,?
-Оранжевая кровать,orange_bed.png,?
-Оранжевый мешок,orange_bundle.png,?
-Оранжевая свеча,orange_candle.png,?
-Оранжевый бетон,orange_concrete.png,?
-Оранжевый сухой бетон,orange_concrete_powder.png,?
-Оранжевый краситель,orange_dye.png,?
-Оранжевый шалкеровый ящик,orange_shulker_box.png,?
-Оранжевое стекло,orange_stained_glass.png,?
-Оранжевая керамика,orange_terracotta.png,?
+Керамика,orange_terracotta.png,?
 Оранжевый тюльпан,orange_tulip.png,?
-Оранжевая шерсть,orange_wool.png,?
 Ромашка,oxeye_daisy.png,?
 Плотный лёд,packed_ice.png,?
 Плотная грязь,packed_mud.png,?
 Картина,painting.png,?
-Листья бледного дуба,pale_oak_leaves.png,?
-Бревно бледного дуба,pale_oak_log.png,?
-Доски из бледного дуба,pale_oak_planks.png,?
-Саженец бледного дуба,pale_oak_sapling.png,?
-Бледный дуб,pale_oak_wood.png,?
 Бумага,paper.png,?
 Перламутровая квампа,pearlescent_froglight.png,?
 Пион,peony.png,?
 Мембрана фантома,phantom_membrane.png,?
 Голова пиглина,piglin_head.png,?
-Розовый флаг,pink_banner.png,?
-Розовая кровать,pink_bed.png,?
-Розовый мешок,pink_bundle.png,?
-Розовая свеча,pink_candle.png,?
-Розовый бетон,pink_concrete.png,?
-Розовый сухой бетон,pink_concrete_powder.png,?
-Розовый краситель,pink_dye.png,?
 Розовые лепестки,pink_petals.png,?
-Розовый шалкеровый ящик,pink_shulker_box.png,?
-Розовое стекло,pink_stained_glass.png,?
-Розовая керамика,pink_terracotta.png,?
 Розовый тюльпан,pink_tulip.png,?
-Розовая шерсть,pink_wool.png,?
 Поршень,piston.png,?
 Кувшинница,pitcher_plant.png,?
 Стручок кувшинницы,pitcher_pod.png,?
@@ -556,17 +408,6 @@ Flint and Steel,flint_and_steel.png,?
 Тыква,pumpkin.png,?
 Тыквенный пирог,pumpkin_pie.png,?
 Семена тыквы,pumpkin_seeds.png,?
-Фиолетовый флаг,purple_banner.png,?
-Фиолетовая кровать,purple_bed.png,?
-Фиолетовый мешок,purple_bundle.png,?
-Фиолетовая свеча,purple_candle.png,?
-Фиолетовый бетон,purple_concrete.png,?
-Фиолетовый сухой бетон,purple_concrete_powder.png,?
-Фиолетовый краситель,purple_dye.png,?
-Фиолетовый шалкеровый ящик,purple_shulker_box.png,?
-Фиолетовое стекло,purple_stained_glass.png,?
-Фиолетовая керамика,purple_terracotta.png,?
-Фиолетовая шерсть,purple_wool.png,?
 Пурпур,purpur_block.png,?
 Пурпуровый пилон,purpur_pillar.png,?
 Кварцевые кирпичи,quartz_bricks.png,?
@@ -578,23 +419,13 @@ Flint and Steel,flint_and_steel.png,?
 Рудное золото,raw_gold.png,?
 Рудное железо,raw_iron.png,?
 Возвратный компас,recovery_compass.png,?
-Красный флаг,red_banner.png,?
-Красная кровать,red_bed.png,?
-Красный мешок,red_bundle.png,?
-Красная свеча,red_candle.png,?
-Красный бетон,red_concrete.png,?
-Красный сухой бетон,red_concrete_powder.png,?
-Красный краситель,red_dye.png,?
+Краситель,red_dye.png,?
 Красный гриб,red_mushroom.png,?
 Блок красного гриба,red_mushroom_block.png,?
 Красные незерские кирпичи,red_nether_bricks.png,?
 Красный песок,red_sand.png,?
 Красный песчаник,red_sandstone.png,?
-Красный шалкеровый ящик,red_shulker_box.png,?
-Красное стекло,red_stained_glass.png,?
-Красная керамика,red_terracotta.png,?
 Красный тюльпан,red_tulip.png,?
-Красная шерсть,red_wool.png,?
 Редстоуновый компаратор,comparator.png,?
 Редстоуновая пыль,redstone.png,?
 Редстоуновый фонарь,redstone_lamp.png,?
@@ -620,7 +451,7 @@ Flint and Steel,flint_and_steel.png,?
 Ножницы,shears.png,?
 Щит,shield.png,?
 Грибосвет,shroomlight.png,?
-Шалкеровый ящик,shulker_box.png,?
+Шалкеровый ящик,shulker_box.png,Продажа запрещена
 Панцирь шалкера,shulker_shell.png,?
 Череп,skeleton_skull.png,?
 Блок слизи,slime_block.png,?
@@ -648,10 +479,8 @@ Flint and Steel,flint_and_steel.png,?
 Губка,sponge.png,?
 Спороцвет,spore_blossom.png,?
 Хвоя,spruce_leaves.png,?
-Еловое бревно,spruce_log.png,?
-Еловые доски,spruce_planks.png,?
 Саженец ели,spruce_sapling.png,?
-Ель,spruce_wood.png,?
+Ель,spruce_wood.png,Древесина
 Подзорная труба,spyglass.png,?
 Стейк,cooked_beef.png,?
 Палка,stick.png,?
@@ -668,28 +497,8 @@ Flint and Steel,flint_and_steel.png,?
 Каменный меч,stone_sword.png,?
 Камнерез,stonecutter.png,?
 Нить,string.png,?
-Обтёсанное акациевое бревно,stripped_acacia_log.png,?
-Обтёсанная акациевая древесина,stripped_acacia_wood.png,?
-Обтёсанное берёзовое бревно,stripped_birch_log.png,?
-Обтёсанная берёзовая древесина,stripped_birch_wood.png,?
-Обтёсанное вишнёвое бревно,stripped_cherry_log.png,?
-Обтёсанная вишнёвая древесина,stripped_cherry_wood.png,?
-Очищенные багровые гифы,stripped_crimson_hyphae.png,?
-Очищенный багровый стебель,stripped_crimson_stem.png,?
-Обтёсанное бревно тёмного дуба,stripped_dark_oak_log.png,?
-Обтёсанная древесина тёмного дуба,stripped_dark_oak_wood.png,?
-Обтёсанное бревно тропического дерева,stripped_jungle_log.png,?
-Обтёсанная тропическая древесина,stripped_jungle_wood.png,?
-Обтёсанное мангровое бревно,stripped_mangrove_log.png,?
-Обтёсанная мангровая древесина,stripped_mangrove_wood.png,?
-Обтёсанное дубовое бревно,stripped_oak_log.png,?
-Обтёсанная дубовая древесина,stripped_oak_wood.png,?
-Обтёсанное бревно бледного дуба,stripped_pale_oak_log.png,?
-Обтёсанная древесина бледного дуба,stripped_pale_oak_wood.png,?
-Обтёсанное еловое бревно,stripped_spruce_log.png,?
-Обтёсанная еловая древесина,stripped_spruce_wood.png,?
-Очищенные искажённые гифы,stripped_warped_hyphae.png,?
-Очищенный искажённый стебель,stripped_warped_stem.png,?
+Обтёсанное бревно,stripped_mangrove_log.png,?
+Обтёсанная древесина,stripped_spruce_wood.png,?
 Сахар,sugar.png,?
 Сахарный тростник,sugar_cane.png,?
 Подсолнух,sunflower.png,?
@@ -720,7 +529,6 @@ TNT,tnt.png,?
 Искажённый гриб,warped_fungus.png,?
 Искажённые гифы,warped_hyphae.png,?
 Искажённый нилий,warped_nylium.png,?
-Искажённые доски,warped_planks.png,?
 Искажённые корни,warped_roots.png,?
 Блок искажённого нароста,warped_wart_block.png,?
 Ведро воды,water_bucket.png,?
@@ -728,18 +536,9 @@ TNT,tnt.png,?
 Мокрая губка,wet_sponge.png,?
 Пшеница,wheat.png,?
 Семена пшеницы,wheat_seeds.png,?
-Белый флаг,white_banner.png,?
-Белая кровать,white_bed.png,?
-Белый мешок,white_bundle.png,?
-Белая свеча,white_candle.png,?
-Белый бетон,white_concrete.png,?
-Белый сухой бетон,white_concrete_powder.png,?
-Белый краситель,white_dye.png,?
-Белый шалкеровый ящик,white_shulker_box.png,?
-Белое стекло,white_stained_glass.png,?
-Белая керамика,white_terracotta.png,?
+Флаг,purple_banner.png,?
 Белый тюльпан,white_tulip.png,?
-Белая шерсть,white_wool.png,?
+Шерсть,white_wool.png,?
 Wildflowers,wildflowers.png,?
 Заряд ветра,wind_charge.png,?
 Роза визера,wither_rose.png,?
@@ -751,15 +550,5 @@ Wildflowers,wildflowers.png,?
 Деревянная лопата,wooden_shovel.png,?
 Деревянный меч,wooden_sword.png,?
 Завершённая книга,written_book.png,?
-Жёлтый флаг,yellow_banner.png,?
-Жёлтая кровать,yellow_bed.png,?
-Жёлтый мешок,yellow_bundle.png,?
-Жёлтая свеча,yellow_candle.png,?
-Жёлтый бетон,yellow_concrete.png,?
-Жёлтый сухой бетон,yellow_concrete_powder.png,?
-Жёлтый краситель,yellow_dye.png,?
-Жёлтый шалкеровый ящик,yellow_shulker_box.png,?
-Жёлтое стекло,yellow_stained_glass.png,?
-Жёлтая керамика,yellow_terracotta.png,?
-Жёлтая шерсть,yellow_wool.png,?
+Кровать,yellow_bed.png,?
 Голова зомби,zombie_head.png,?
