@@ -30,7 +30,7 @@ Acacia Boat with Chest,acacia_boat_with_chest.png,Разное
 Щиток броненосца,armadillo_scute.png,Лут с мобов
 Стойка для брони,armor_stand.png,Разное
 Стрела,arrow.png,Инструменты
-Стрела с зельем,arrow_of_decay‌_[be].png,Инструменты
+Стрела с зельем,tipped_arrow.png,Инструменты
 Азалия,azalea.png,Растение
 Листья азалии,azalea_leaves.png,Растение
 Хаустония серая,azure_bluet.png,Растение
@@ -52,7 +52,7 @@ Acacia Boat with Chest,acacia_boat_with_chest.png,Разное
 Бамбуковая плита,bamboo_slab.png,Дерево
 Бамбуковые ступеньки,bamboo_stairs.png,Дерево
 Бамбуковый люк,bamboo_trapdoor.png,Дерево
-Узор флага,banner_pattern_(creeper_charge).png,Разное
+Узор флага,creeper_banner_pattern.png,Разное
 Бочка,barrel.png,Разное
 Базальт,basalt.png,Разные блоки
 Маяк,beacon.png,Ценности
@@ -64,7 +64,7 @@ Acacia Boat with Chest,acacia_boat_with_chest.png,Разное
 Колокол,bell.png,Разное
 Большая бросянка,big_dripleaf.png,Растение
 Берёзовая лодка,birch_boat.png,Разное
-Birch Boat with Chest,birch_boat_with_chest.png,Разное
+Birch Boat with Chest,birch_chest_boat.png,Разное
 Берёзовая кнопка,birch_button.png,Разное
 Берёзовая дверь,birch_door.png,Дерево
 Берёзовый забор,birch_fence.png,Дерево
@@ -101,22 +101,22 @@ Birch Boat with Chest,birch_boat_with_chest.png,Разное
 Плавильная печь,blast_furnace.png,Разное
 Огненный порошок,blaze_powder.png,Лут с мобов
 Огненный стержень,blaze_rod.png,Лут с мобов
-Аметистовый блок,block_of_amethyst.png,Разные блоки
-Бамбуковый блок,block_of_bamboo.png,Дерево
-Угольный блок,block_of_coal.png,Ценности
-Медный блок,block_of_copper.png,Блоки
-Алмазные блок,block_of_diamond.png,ВАЛЮТА СЕРВЕРА
-Изумрудный блок,block_of_emerald.png,Ценности
-Золотой блок,block_of_gold.png,Ценности
-Железный блок,block_of_iron.png,Ценности
-Лазуритовый блок,block_of_lapis_lazuli.png,Ценности
-Незеритовый блок,block_of_netherite.png,Ценности
-Кварцевый блок,block_of_quartz.png,Ценности
-Блок сырой меди,block_of_raw_copper.png,Ценности
-Блок сырого золота,block_of_raw_gold.png,Ценности
-Блок сырого железа,block_of_raw_iron.png,Ценности
-Редстоуновый блок,block_of_redstone.png,Ценности
-Очищенный бамбуковый блок,block_of_stripped_bamboo.png,Дерево
+Аметистовый блок,amethyst_block.png,Разные блоки
+Бамбуковый блок,bamboo_block.png,Дерево
+Угольный блок,coal_block.png,Ценности
+Медный блок,copper_block.png,Блоки
+Алмазные блок,diamond_block.png,ВАЛЮТА СЕРВЕРА
+Изумрудный блок,emerald_block.png,Ценности
+Золотой блок,gold_block.png,Ценности
+Железный блок,iron_block.png,Ценности
+Лазуритовый блок,lapis_block.png,Ценности
+Незеритовый блок,netherite_block.png,Ценности
+Кварцевый блок,chiseled_quartz_block.png,Ценности
+Блок сырой меди,raw_copper_block.png,Ценности
+Блок сырого золота,raw_gold_block.png,Ценности
+Блок сырого железа,raw_iron_block.png,Ценности
+Редстоуновый блок,redstone_block.png,Разное
+Очищенный бамбуковый блок,stripped_bamboo_block.png,Дерево
 Синий флаг,blue_banner.png,Разноцветные блоки
 Синяя кровать,blue_bed.png,Разноцветные блоки
 Синий мешок,blue_bundle.png,Инструменты
@@ -137,9 +137,9 @@ Birch Boat with Chest,birch_boat_with_chest.png,Разное
 Костный блок,bone_block.png,Разные блоки
 Костная мука,bone_meal.png,Разное
 Книга,book.png,Книги
-Книга с пером,book_and_quill.png,Книги
+Книга с пером,writable_book.png,Книги
 Книжная полка,bookshelf.png,Разные блоки
-Бутылочка с опытом,bottle_o'_enchanting.png,Еда и зелья
+Бутылочка с опытом,experience_bottle.png,Еда и зелья
 Лук,bow.png,Инструменты
 Миска,bowl.png,Разное
 Коралл-мозговик,brain_coral.png,Растение
@@ -174,12 +174,12 @@ Birch Boat with Chest,birch_boat_with_chest.png,Разное
 Блок пузырчатого коралла,bubble_coral_block.png,Растение
 Веерный пузырчатый коралл,bubble_coral_fan.png,Растение
 Ведро,bucket.png,Инструменты
-Bucket of Axolotl,bucket_of_axolotl.png,Лут с мобов
-Bucket of Cod,bucket_of_cod.png,Лут с мобов
-Bucket of Pufferfish,bucket_of_pufferfish.png,Лут с мобов
-Bucket of Salmon,bucket_of_salmon.png,Лут с мобов
-Bucket of Tadpole,bucket_of_tadpole.png,Лут с мобов
-Bucket of Tropical Fish,bucket_of_tropical_fish.png,Лут с мобов
+Bucket of Axolotl,axolotl_bucket.png,Лут с мобов
+Bucket of Cod,cod_bucket.png,Лут с мобов
+Bucket of Pufferfish,pufferfish_bucket.png,Лут с мобов
+Bucket of Salmon,salmon_bucket.png,Лут с мобов
+Bucket of Tadpole,tadpole_bucket.png,Лут с мобов
+Bucket of Tropical Fish,tropical_fish_bucket.png,Лут с мобов
 Мешок,bundle.png,Инструменты
 Кактус,cactus.png,Растение
 Торт,cake.png,Еда и зелья
@@ -360,7 +360,7 @@ Dark Oak Boat with Chest,dark_oak_boat_with_chest.png,Разное
 Изумрудоносный глубинный сланец,deepslate_emerald_ore.png,Ценности
 Золотоносный глубинный сланец,deepslate_gold_ore.png,Ценности
 Железоносный глубинный сланец,deepslate_iron_ore.png,Ценности
-Лазуритоносный глубинный сланец,deepslate_lapis_lazuli_ore.png,Ценности
+Лазуритоносный глубинный сланец,deepslate_lapis_ore.png,Ценности
 Редстоуноносный глубинный сланец,deepslate_redstone_ore.png,Ценности
 Плита из глубинносланцевого плитняка,deepslate_tile_slab.png,Разные блоки
 Ступеньки из глубинносланцевого плитняка,deepslate_tile_stairs.png,Разные блоки
@@ -384,11 +384,11 @@ Dark Oak Boat with Chest,dark_oak_boat_with_chest.png,Разное
 Диоритовые ступеньки,diorite_stairs.png,Разные блоки
 Диоритовая ограда,diorite_wall.png,Разные блоки
 Земля,dirt.png,Разные блоки
-Осколок пластинки,disc_fragment.png,Ценности
+Осколок пластинки,disc_fragment_5.png,Ценности
 Раздатчик,dispenser.png,Разное
 Яйцо дракона,dragon_egg.png,НЕЛЬЗЯ ПРОДАВАТЬ
 Голова дракона,dragon_head.png,Ценности
-Дыхание дракона,dragon's_breath.png,Еда и зелья
+Дыхание дракона,dragon_breath.png,Еда и зелья
 Сушёная ламинария,dried_kelp.png,Еда и зелья
 Блок сушёной ламинарии,dried_kelp_block.png,Растение
 Натёчный камень,dripstone_block.png,Разные блоки
@@ -532,7 +532,7 @@ Dark Oak Boat with Chest,dark_oak_boat_with_chest.png,Разное
 Железный меч,iron_sword.png,Инструменты
 Железный люк,iron_trapdoor.png,Инструменты
 Рамка,item_frame.png,Разное
-Jack o'Lantern,jack_o'lantern.png,Растение
+Jack o'Lantern,jack_o_lantern.png,Растение
 Проигрыватель,jukebox.png,Разное
 Лодка из тропического дерева,jungle_boat.png,Разное
 Jungle Boat with Chest,jungle_boat_with_chest.png,Разное
@@ -555,7 +555,7 @@ Jungle Boat with Chest,jungle_boat_with_chest.png,Разное
 Лестница,ladder.png,Разные блоки
 Фонарь,lantern.png,Разное
 Лазурит,lapis_lazuli.png,Ценности
-Лазуритовая руда,lapis_lazuli_ore.png,Ценности
+Лазуритовая руда,lapis_ore.png,Ценности
 Большой аметистовый бутон,large_amethyst_bud.png,Ценности
 Раскидистый папоротник,large_fern.png,Растение
 Ведро лавы,lava_bucket.png,Инструменты
@@ -564,8 +564,8 @@ Jungle Boat with Chest,jungle_boat_with_chest.png,Разное
 Кожаные ботинки,leather_boots.png,Броня
 Кожаный шлем,leather_cap.png,Броня
 Кожаная конская броня,leather_horse_armor.png,Броня
-Кожаные штаны,leather_pants.png,Броня
-Кожаная куртка,leather_tunic.png,Броня
+Кожаные штаны,leather_leggings.png,Броня
+Кожаная куртка,leather_chestplate.png,Броня
 Кафедра,lectern.png,Разное
 Рычаг,lever.png,Разное
 Голубой флаг,light_blue_banner.png,Разноцветные блоки
@@ -615,7 +615,6 @@ Jungle Boat with Chest,jungle_boat_with_chest.png,Разное
 Лаймовая керамика,lime_terracotta.png,Разноцветные блоки
 Лаймовая шерсть,lime_wool.png,Разноцветные блоки
 Магнетит,lodestone.png,Разное
-Намагниченный компас,lodestone_compass.png,Инструменты
 Ткацкий станок,loom.png,Разное
 Булава,mace.png,Инструменты
 Пурпурный флаг,magenta_banner.png,Разноцветные блоки
@@ -659,10 +658,10 @@ Mangrove Boat with Chest,mangrove_boat_with_chest.png,Разное
 Ломтик арбуза,melon_slice.png,Еда и зелья
 Ведро молока,milk_bucket.png,Еда и зелья
 Вагонетка,minecart.png,Разное
-Вагонетка с сундуком,minecart_with_chest.png,Разное
-Вагонетка с печкой,minecart_with_furnace‌[je].png,Разное
-Вагонетка с воронкой,minecart_with_hopper.png,Разное
-Вагонетка с динамитом,minecart_with_tnt.png,Разное
+Вагонетка с сундуком,chest_minecart.png,Разное
+Вагонетка с печкой,furnace_minecart.png,Разное
+Вагонетка с воронкой,hopper_minecart,Разное
+Вагонетка с динамитом,tnt_minecart,Разное
 Блок мха,moss_block.png,Разные блоки
 Моховой ковёр,moss_carpet.png,Разные блоки
 Замшелый булыжник,mossy_cobblestone.png,Разные блоки
@@ -681,25 +680,25 @@ Mangrove Boat with Chest,mangrove_boat_with_chest.png,Разное
 Грязные мангровые корни,muddy_mangrove_roots.png,Разные блоки
 Ножка гриба,mushroom_stem.png,Разные блоки
 Тушёные грибы,mushroom_stew.png,Еда и зелья
-Music Disc (11),music_disc_(11).png,Ценности
-Music Disc (13),music_disc_(13).png,Ценности
-Music Disc (5),music_disc_(5).png,Ценности
-Music Disc (Blocks),music_disc_(blocks).png,Ценности
-Music Disc (Cat),music_disc_(cat).png,Ценности
-Music Disc (Chirp),music_disc_(chirp).png,Ценности
-Music Disc (Creator Music Box),music_disc_(creator_music_box).png,Ценности
-Music Disc (Creator),music_disc_(creator).png,Ценности
-Music Disc (Far),music_disc_(far).png,Ценности
-Music Disc (Mall),music_disc_(mall).png,Ценности
-Music Disc (Mellohi),music_disc_(mellohi).png,Ценности
-Music Disc (Otherside),music_disc_(otherside).png,Ценности
-Music Disc (Pigstep),music_disc_(pigstep).png,Ценности
-Music Disc (Precipe),music_disc_(precipe).png,Ценности
-Music Disc (Relic),music_disc_(relic).png,Ценности
-Music Disc (Stal),music_disc_(stal).png,Ценности
-Music Disc (Strad),music_disc_(strad).png,Ценности
-Music Disc (Wait),music_disc_(wait).png,Ценности
-Music Disc (Ward),music_disc_(ward).png,Ценности
+Music Disc (11),music_disc_11.png,Ценности
+Music Disc (13),music_disc_13.png,Ценности
+Music Disc (5),music_disc_5.png,Ценности
+Music Disc (Blocks),music_disc_blocks.png,Ценности
+Music Disc (Cat),music_disc_cat.png,Ценности
+Music Disc (Chirp),music_disc_chirp.png,Ценности
+Music Disc (Creator Music Box),music_disc_creator_music_box.png,Ценности
+Music Disc (Creator),music_disc_creator.png,Ценности
+Music Disc (Far),music_disc_far.png,Ценности
+Music Disc (Mall),music_disc_mall.png,Ценности
+Music Disc (Mellohi),music_disc_mellohi.png,Ценности
+Music Disc (Otherside),music_disc_otherside.png,Ценности
+Music Disc (Pigstep),music_disc_pigstep.png,Ценности
+Music Disc (Precipe),music_disc_precipe.png,Ценности
+Music Disc (Relic),music_disc_relic.png,Ценности
+Music Disc (Stal),music_disc_stal.png,Ценности
+Music Disc (Strad),music_disc_strad.png,Ценности
+Music Disc (Wait),music_disc_wait.png,Ценности
+Music Disc (Ward),music_disc_ward.png,Ценности
 Мицелий,mycelium.png,Разные блоки
 Бирка,name_tag.png,Инструменты
 Раковина наутилуса,nautilus_shell.png,Ценности
@@ -710,7 +709,7 @@ Music Disc (Ward),music_disc_(ward).png,Ценности
 Ограда из незерского кирпича,nether_brick_wall.png,Разные блоки
 Незерские кирпичи,nether_bricks.png,Разные блоки
 Незерская золотая руда,nether_gold_ore.png,Разные блоки
-Незер-кварц,nether_quartz.png,Ценности
+Незер-кварц,quartz.png,Ценности
 Незер-кварцевая руда,nether_quartz_ore.png,Ценности
 Незерские ростки,nether_sprouts.png,Растение
 Звезда Незера,nether_star.png,Ценности
@@ -749,7 +748,6 @@ Oak Boat with Chest,oak_boat_with_chest.png,Разное
 Наблюдатель,observer.png,Разное
 Обсидиан,obsidian.png,Разные блоки
 Охристая квампа,ochre_froglight.png,Разные блоки
-Зловещий флаг,ominous_banner.png,Разное
 Зловещий ключ испытаний,ominous_trial_key.png,Инструменты
 Оранжевый флаг,orange_banner.png,Разноцветные блоки
 Оранжевая кровать,orange_bed.png,Разноцветные блоки
@@ -876,18 +874,18 @@ Oak Boat with Chest,oak_boat_with_chest.png,Разное
 Кварцевые ступеньки,quartz_stairs.png,Разные блоки
 Кроличья шкурка,rabbit_hide.png,Лут с мобов
 Тушёный кролик,rabbit_stew.png,Лут с мобов
-Rabbit's Foot,rabbit's_foot.png,Лут с мобов
+Rabbit's Foot,rabbit_foot.png,Лут с мобов
 Рельсы,rail.png,Разное
-Сырая говядина,raw_beef.png,Еда и зелья
-Курятина,raw_chicken.png,Еда и зелья
-Сырая треска,raw_cod.png,Еда и зелья
+Сырая говядина,beef.png,Еда и зелья
+Курятина,chicken.png,Еда и зелья
+Сырая треска,cod.png,Еда и зелья
 Рудная медь,raw_copper.png,Ценности
 Рудное золото,raw_gold.png,Ценности
 Рудное железо,raw_iron.png,Ценности
-Сырая баранина,raw_mutton.png,Еда и зелья
-Сырая свинина,raw_porkchop.png,Еда и зелья
-Сырая крольчатина,raw_rabbit.png,Еда и зелья
-Сырой лосось,raw_salmon.png,Еда и зелья
+Сырая баранина,mutton.png,Еда и зелья
+Сырая свинина,porkchop.png,Еда и зелья
+Сырая крольчатина,rabbit.png,Еда и зелья
+Сырой лосось,salmon.png,Еда и зелья
 Возвратный компас,recovery_compass.png,Инструменты
 Красный флаг,red_banner.png,Разноцветные блоки
 Красная кровать,red_bed.png,Разноцветные блоки
@@ -915,11 +913,11 @@ Rabbit's Foot,rabbit's_foot.png,Лут с мобов
 Красная керамика,red_terracotta.png,Разноцветные блоки
 Красный тюльпан,red_tulip.png,Растение
 Красная шерсть,red_wool.png,Разноцветные блоки
-Редстоуновый компаратор,redstone_comparator.png,Разное
-Редстоуновая пыль,redstone_dust.png,Разное
+Редстоуновый компаратор,comparator.png,Разное
+Редстоуновая пыль,redstone.png,Разное
 Редстоуновый фонарь,redstone_lamp.png,Разное
 Редстоуновая руда,redstone_ore.png,Разное
-Редстоуновый повторитель,redstone_repeater.png,Разное
+Редстоуновый повторитель,repeater.png,Разное
 Редстоуновый факел,redstone_torch.png,Разное
 Якорь возрождения,respawn_anchor.png,Разное
 Корнистая земля,rooted_dirt.png,Разные блоки
@@ -947,13 +945,13 @@ Rabbit's Foot,rabbit's_foot.png,Лут с мобов
 Панцирь шалкера,shulker_shell.png,ПРОДАЖА ЗАПРЕЩЕНА
 Череп,skeleton_skull.png,Ценности
 Блок слизи,slime_block.png,Разное
-Сгусток слизи,slimeball.png,Лут с мобов
+Сгусток слизи,slime.png,Лут с мобов
 Малый аметистовый бутон,small_amethyst_bud.png,Ценности
 Маленькая бросянка,small_dripleaf.png,Растение
 Стол кузнеца,smithing_table.png,Разное
 Коптильня,smoker.png,Разное
 Гладкий базальт,smooth_basalt.png,Разные блоки
-Гладкий кварц,smooth_quartz_block.png,Разные блоки
+Гладкий кварц,smooth_quartz.png,Разные блоки
 Плита из гладкого кварца,smooth_quartz_slab.png,Разные блоки
 Ступеньки из гладкого кварца,smooth_quartz_stairs.png,Разные блоки
 Гладкий красный песчаник,smooth_red_sandstone.png,Разные блоки
@@ -973,7 +971,7 @@ Rabbit's Foot,rabbit's_foot.png,Лут с мобов
 Песок душ,soul_sand.png,Разные блоки
 Почва душ,soul_soil.png,Разные блоки
 Факел душ,soul_torch.png,Разное
-Спектральная стрела,spectral_arrow‌_[je].png,Инструменты
+Спектральная стрела,spectral_arrow.png,Инструменты
 Паучий глаз,spider_eye.png,Лут с мобов
 Губка,sponge.png,Ценности
 Спороцвет,spore_blossom.png,Растение
@@ -995,7 +993,7 @@ Spruce Boat with Chest,spruce_boat_with_chest.png,Разное
 Еловый люк,spruce_trapdoor.png,Дерево
 Ель,spruce_wood.png,Дерево
 Подзорная труба,spyglass.png,Инструменты
-Стейк,steak.png,Еда и зелья
+Стейк,cooked_beef.png,Еда и зелья
 Палка,stick.png,Разное
 Липкий поршень,sticky_piston.png,Разное
 Камень,stone.png,Разные блоки
@@ -1068,10 +1066,10 @@ TNT,tnt.png,Разное
 Туфовая ограда,tuff_wall.png,Растение
 Черепашье яйцо,turtle_egg.png,Лут с мобов
 Черепаший щиток,turtle_scute.png,Лут с мобов
-Черепаший панцирь,turtle_shell.png,Броня
+Черепаший панцирь,turtle_helmet.png,Броня
 Вьющаяся лоза,twisting_vines.png,Растение
 Малахитовая квампа,verdant_froglight.png,Разные блоки
-Лианы,vines.png,Растение
+Лианы,vine.png,Растение
 Искажённая кнопка,warped_button.png,Разное
 Искажённая дверь,warped_door.png,Дерево
 Искажённый забор,warped_fence.png,Дерево
@@ -1091,7 +1089,7 @@ Warped Fungus on a Stick,warped_fungus_on_a_stick.png,Инструменты
 Искажённый люк,warped_trapdoor.png,Дерево
 Блок искажённого нароста,warped_wart_block.png,Разные блоки
 Ведро воды,water_bucket.png,Инструменты
-Вощеный медный блок,waxed_block_of_copper.png,Разные блоки
+Вощеный медный блок,waxed_copper_block.png,Разные блоки
 Вощёный точёный медный блок,waxed_chiseled_copper.png,Разные блоки
 Вощёная медная лампа,waxed_copper_bulb.png,Разные блоки
 Вощёная медная дверь,waxed_copper_door.png,Разные блоки
@@ -1180,5 +1178,6 @@ Warped Fungus on a Stick,warped_fungus_on_a_stick.png,Инструменты
 Жёлтая керамика,yellow_terracotta.png,Разноцветные блоки
 Жёлтая шерсть,yellow_wool.png,Разноцветные блоки
 Голова зомби,zombie_head.png,Ценности
-Блок света,light_block.png,Ценное
-Блок пустоты,void_block.png,Ценное
+Блок света,light.png,Ценное
+Блок пустоты,structure_void.png,Ценное
+Зачарованная книга,enchanted_book.png,Книги
