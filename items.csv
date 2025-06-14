@@ -1,23 +1,23 @@
 name,image,category
 Акациевая лодка,acacia_boat.png,Разное
-Acacia Boat with Chest,acacia_boat_with_chest.png,Разное
+Акациевая лодка с сундуком,acacia_chest_boat.png,Разное
 Акациевая кнопка,acacia_button.png,Разное
 Акациевая дверь,acacia_door.png,Дерево
 Акациевый забор,acacia_fence.png,Дерево
 Акациевая калитка,acacia_fence_gate.png,Дерево
 Акациевая подвесная табличка,acacia_hanging_sign.png,Дерево
-Листья акации,acacia_leaves.png,Растение
+Листья акации,acacia_leaves.png,Растения
 Акациевое бревно,acacia_log.png,Дерево
 Акациевые доски,acacia_planks.png,Дерево
 Акациевая нажимная плита,acacia_pressure_plate.png,Разное
-Саженец акации,acacia_sapling.png,Растение
+Саженец акации,acacia_sapling.png,Растения
 Акациевая табличка,acacia_sign.png,Дерево
 Акациевая плита,acacia_slab.png,Дерево
 Акациевые ступеньки,acacia_stairs.png,Дерево
 Акациевый люк,acacia_trapdoor.png,Дерево
 Акация,acacia_wood.png,Дерево
 Активирующие рельсы,activator_rail.png,Разное
-Лук-батун,allium.png,Растение
+Лук-батун,allium.png,Растения
 Аметистовая друза,amethyst_cluster.png,Ценности
 Осколок аметиста,amethyst_shard.png,Ценности
 Древние обломки,ancient_debris.png,Ценности
@@ -31,11 +31,11 @@ Acacia Boat with Chest,acacia_boat_with_chest.png,Разное
 Стойка для брони,armor_stand.png,Разное
 Стрела,arrow.png,Инструменты
 Стрела с зельем,tipped_arrow.png,Инструменты
-Азалия,azalea.png,Растение
-Листья азалии,azalea_leaves.png,Растение
-Хаустония серая,azure_bluet.png,Растение
+Азалия,azalea.png,Растения
+Листья азалии,azalea_leaves.png,Растения
+Хаустония серая,azure_bluet.png,Растения
 Печёный картофель,baked_potato.png,Еда и зелья
-Бамбук,bamboo.png,Растение
+Бамбук,bamboo.png,Растения
 Бамбуковая кнопка,bamboo_button.png,Разное
 Бамбуковая дверь,bamboo_door.png,Дерево
 Бамбуковый забор,bamboo_fence.png,Дерево
@@ -59,22 +59,22 @@ Acacia Boat with Chest,acacia_boat_with_chest.png,Разное
 Пчелиное гнездо,bee_nest.png,Разное
 Улей,beehive.png,Разное
 Свёкла,beetroot.png,Еда и зелья
-Семена свёклы,beetroot_seeds.png,Растение
+Семена свёклы,beetroot_seeds.png,Растения
 Свекольный суп,beetroot_soup.png,Еда и зелья
 Колокол,bell.png,Разное
-Большая бросянка,big_dripleaf.png,Растение
+Большая бросянка,big_dripleaf.png,Растения
 Берёзовая лодка,birch_boat.png,Разное
-Birch Boat with Chest,birch_chest_boat.png,Разное
+Березовая лодка с сундуком,birch_chest_boat.png,Разное
 Берёзовая кнопка,birch_button.png,Разное
 Берёзовая дверь,birch_door.png,Дерево
 Берёзовый забор,birch_fence.png,Дерево
 Берёзовая калитка,birch_fence_gate.png,Дерево
 Берёзовая подвесная табличка,birch_hanging_sign.png,Дерево
-Берёзовые листья,birch_leaves.png,Растение
+Берёзовые листья,birch_leaves.png,Растения
 Берёзовое бревно,birch_log.png,Дерево
 Берёзовые доски,birch_planks.png,Дерево
 Берёзовая нажимная плита,birch_pressure_plate.png,Разное
-Саженец берёзы,birch_sapling.png,Растение
+Саженец берёзы,birch_sapling.png,Растения
 Берёзовая табличка,birch_sign.png,Дерево
 Берёзовая плита,birch_slab.png,Дерево
 Берёзовые ступеньки,birch_stairs.png,Дерево
@@ -89,7 +89,7 @@ Birch Boat with Chest,birch_chest_boat.png,Разное
 Чёрный сухой бетон,black_concrete_powder.png,Разноцветные блоки
 Чёрный краситель,black_dye.png,Краски
 Чёрная глазурованная керамика,black_glazed_terracotta.png,Разноцветные блоки
-Чёрный шалкеровый ящик,black_shulker_box.png,ПРОДАЖА ЗАПРЕЩЕНА
+Чёрный шалкеровый ящик,black_shulker_box.png,!!!ПРОДАЖА ЗАПРЕЩЕНА!!!
 Чёрное стекло,black_stained_glass.png,Разноцветные блоки
 Чёрная стеклянная панель,black_stained_glass_pane.png,Разноцветные блоки
 Чёрная керамика,black_terracotta.png,Разноцветные блоки
@@ -104,8 +104,8 @@ Birch Boat with Chest,birch_chest_boat.png,Разное
 Аметистовый блок,amethyst_block.png,Разные блоки
 Бамбуковый блок,bamboo_block.png,Дерево
 Угольный блок,coal_block.png,Ценности
-Медный блок,copper_block.png,Блоки
-Алмазные блок,diamond_block.png,ВАЛЮТА СЕРВЕРА
+Медный блок,copper_block.png,Разные блоки
+Алмазные блок,diamond_block.png,!!!ВАЛЮТА СЕРВЕРА!!!
 Изумрудный блок,emerald_block.png,Ценности
 Золотой блок,gold_block.png,Ценности
 Железный блок,iron_block.png,Ценности
@@ -126,9 +126,9 @@ Birch Boat with Chest,birch_chest_boat.png,Разное
 Синий сухой бетон,blue_concrete_powder.png,Разноцветные блоки
 Синий краситель,blue_dye.png,Краски
 Синяя глазурованная керамика,blue_glazed_terracotta.png,Разноцветные блоки
-Синий лёд,blue_ice.png,Блоки
-Синяя орхидея,blue_orchid.png,Растение
-Синий шалкеровый ящик,blue_shulker_box.png,ПРОДАЖА ЗАПРЕЩЕНА
+Синий лёд,blue_ice.png,Разные блоки
+Синяя орхидея,blue_orchid.png,Растения
+Синий шалкеровый ящик,blue_shulker_box.png,!!!ПРОДАЖА ЗАПРЕЩЕНА!!!
 Синее стекло,blue_stained_glass.png,Разноцветные блоки
 Синяя стеклянная панель,blue_stained_glass_pane.png,Разноцветные блоки
 Синяя керамика,blue_terracotta.png,Разноцветные блоки
@@ -142,9 +142,9 @@ Birch Boat with Chest,birch_chest_boat.png,Разное
 Бутылочка с опытом,experience_bottle.png,Еда и зелья
 Лук,bow.png,Инструменты
 Миска,bowl.png,Разное
-Коралл-мозговик,brain_coral.png,Растение
-Блок коралла-мозговика,brain_coral_block.png,Растение
-Веерный коралл-мозговик,brain_coral_fan.png,Растение
+Коралл-мозговик,brain_coral.png,Растения
+Блок коралла-мозговика,brain_coral_block.png,Растения
+Веерный коралл-мозговик,brain_coral_fan.png,Растения
 Хлеб,bread.png,Еда и зелья
 Вихревой стержень,breeze_rod.png,Лут с мобов
 Зельеварка,brewing_stand.png,Разное
@@ -162,26 +162,26 @@ Birch Boat with Chest,birch_chest_boat.png,Разное
 Коричневый сухой бетон,brown_concrete_powder.png,Разноцветные блоки
 Коричневый краситель,brown_dye.png,Краски
 Коричневая глазурованная керамика,brown_glazed_terracotta.png,Разноцветные блоки
-Коричневый гриб,brown_mushroom.png,Растение
+Коричневый гриб,brown_mushroom.png,Растения
 Блок коричневого гриба,brown_mushroom_block.png,Разные блоки
-Коричневый шалкеровый ящик,brown_shulker_box.png,ПРОДАЖА ЗАПРЕЩЕНА
+Коричневый шалкеровый ящик,brown_shulker_box.png,!!!ПРОДАЖА ЗАПРЕЩЕНА!!!
 Коричневое стекло,brown_stained_glass.png,Разноцветные блоки
 Коричневая стеклянная панель,brown_stained_glass_pane.png,Разноцветные блоки
 Коричневая керамика,brown_terracotta.png,Разноцветные блоки
 Коричневая шерсть,brown_wool.png,Разноцветные блоки
 Кисть,brush.png,Инструменты
-Пузырчатый коралл,bubble_coral.png,Растение
-Блок пузырчатого коралла,bubble_coral_block.png,Растение
-Веерный пузырчатый коралл,bubble_coral_fan.png,Растение
+Пузырчатый коралл,bubble_coral.png,Растения
+Блок пузырчатого коралла,bubble_coral_block.png,Растения
+Веерный пузырчатый коралл,bubble_coral_fan.png,Растения
 Ведро,bucket.png,Инструменты
-Bucket of Axolotl,axolotl_bucket.png,Лут с мобов
-Bucket of Cod,cod_bucket.png,Лут с мобов
-Bucket of Pufferfish,pufferfish_bucket.png,Лут с мобов
-Bucket of Salmon,salmon_bucket.png,Лут с мобов
-Bucket of Tadpole,tadpole_bucket.png,Лут с мобов
-Bucket of Tropical Fish,tropical_fish_bucket.png,Лут с мобов
+Ведро с аксолотлем,axolotl_bucket.png,Лут с мобов
+Ведро с треской,cod_bucket.png,Лут с мобов
+Ведро с иглобрюхом,pufferfish_bucket.png,Лут с мобов
+Ведро с лососем,salmon_bucket.png,Лут с мобов
+Ведро с головастиком,tadpole_bucket.png,Лут с мобов
+Ведро с тропической рыбой,tropical_fish_bucket.png,Лут с мобов
 Мешок,bundle.png,Инструменты
-Кактус,cactus.png,Растение
+Кактус,cactus.png,Растения
 Торт,cake.png,Еда и зелья
 Кальцит,calcite.png,Разные блоки
 Откалиброванный скалк-сенсор,calibrated_sculk_sensor.png,Разное
@@ -190,7 +190,7 @@ Bucket of Tropical Fish,tropical_fish_bucket.png,Лут с мобов
 Морковь,carrot.png,Еда и зелья
 Удочка с морковью,carrot_on_a_stick.png,Инструменты
 Стол картографа,cartography_table.png,Разное
-Вырезанная тыква,carved_pumpkin.png,Растение
+Вырезанная тыква,carved_pumpkin.png,Растения
 Котёл,cauldron.png,Разное
 Цепь,chain.png,Разное
 Кольчужные ботинки,chainmail_boots.png,Броня
@@ -199,17 +199,17 @@ Bucket of Tropical Fish,tropical_fish_bucket.png,Лут с мобов
 Кольчужные поножи,chainmail_leggings.png,Броня
 Древесный уголь,charcoal.png,Ценности
 Вишнёвая лодка,cherry_boat.png,Разное
-Cherry Boat with Chest,cherry_boat_with_chest.png,Разное
+Вишнёвая лодка с сундуком,cherry_chest_boat.png,Разное
 Вишнёвая кнопка,cherry_button.png,Разное
 Вишнёвая дверь,cherry_door.png,Дерево
 Вишнёвый забор,cherry_fence.png,Дерево
 Вишнёвая калитка,cherry_fence_gate.png,Дерево
 Вишнёвая подвесная табличка,cherry_hanging_sign.png,Дерево
-Вишнёвые листья,cherry_leaves.png,Растение
+Вишнёвые листья,cherry_leaves.png,Растения
 Вишнёвое бревно,cherry_log.png,Дерево
 Вишнёвые доски,cherry_planks.png,Дерево
 Вишнёвая нажимная плита,cherry_pressure_plate.png,Разное
-Саженец вишни,cherry_sapling.png,Растение
+Саженец вишни,cherry_sapling.png,Растения
 Вишнёвая табличка,cherry_sign.png,Дерево
 Вишнёвая плита,cherry_slab.png,Дерево
 Вишнёвые ступеньки,cherry_stairs.png,Дерево
@@ -228,7 +228,7 @@ Cherry Boat with Chest,cherry_boat_with_chest.png,Разное
 Резные каменные кирпичи,chiseled_stone_bricks.png,Разные блоки
 Резной туф,chiseled_tuff.png,Разные блоки
 Резные туфовые кирпичи,chiseled_tuff_bricks.png,Разные блоки
-Цветок хоруса,chorus_flower.png,Растение
+Цветок хоруса,chorus_flower.png,Растения
 Плод хоруса,chorus_fruit.png,Еда и зелья
 Глина,clay.png,Разные блоки
 Комок глины,clay_ball.png,Разное
@@ -245,7 +245,7 @@ Cherry Boat with Chest,cherry_boat_with_chest.png,Разное
 Булыжные ступеньки,cobblestone_stairs.png,Разные блоки
 Булыжная ограда,cobblestone_wall.png,Разные блоки
 Паутина,cobweb.png,Лут с мобов
-Какао-бобы,cocoa_beans.png,Растение
+Какао-бобы,cocoa_beans.png,Растения
 Компас,compass.png,Инструменты
 Компостница,composter.png,Разное
 Морской источник,conduit.png,Ценности
@@ -262,7 +262,7 @@ Cherry Boat with Chest,cherry_boat_with_chest.png,Разное
 Медный слиток,copper_ingot.png,Разные блоки
 Медная руда,copper_ore.png,Ценности
 Медный люк,copper_trapdoor.png,Разные блоки
-Синий василёк,cornflower.png,Растение
+Синий василёк,cornflower.png,Растения
 Потрескавшиеся глубинносланцевые кирпичи,cracked_deepslate_bricks.png,Разные блоки
 Потрескавшийся глубинносланцевый плитняк,cracked_deepslate_tiles.png,Разные блоки
 Потрескавшиеся незерские кирпичи,cracked_nether_bricks.png,Разные блоки
@@ -275,17 +275,17 @@ Cherry Boat with Chest,cherry_boat_with_chest.png,Разное
 Багровая дверь,crimson_door.png,Дерево
 Багровый забор,crimson_fence.png,Дерево
 Багровая калитка,crimson_fence_gate.png,Дерево
-Багровый гриб,crimson_fungus.png,Растение
+Багровый гриб,crimson_fungus.png,Растения
 Багровая подвесная табличка,crimson_hanging_sign.png,Дерево
 Багровые гифы,crimson_hyphae.png,Дерево
 Багровый нилий,crimson_nylium.png,Разные блоки
 Багровые доски,crimson_planks.png,Дерево
 Багровая нажимная плита,crimson_pressure_plate.png,Разное
-Багровые корни,crimson_roots.png,Растение
+Багровые корни,crimson_roots.png,Растения
 Багровая табличка,crimson_sign.png,Дерево
 Багровая плита,crimson_slab.png,Дерево
 Багровые ступеньки,crimson_stairs.png,Дерево
-Багровый стебель,crimson_stem.png,Растение
+Багровый стебель,crimson_stem.png,Растения
 Багровый люк,crimson_trapdoor.png,Дерево
 Арбалет,crossbow.png,Инструменты
 Плачущий обсидиан,crying_obsidian.png,Разные блоки
@@ -305,25 +305,25 @@ Cherry Boat with Chest,cherry_boat_with_chest.png,Разное
 Бирюзовый сухой бетон,cyan_concrete_powder.png,Разноцветные блоки
 Бирюзовый краситель,cyan_dye.png,Краски
 Бирюзовая глазурованная керамика,cyan_glazed_terracotta.png,Разноцветные блоки
-Бирюзовый шалкеровый ящик,cyan_shulker_box.png,ПРОДАЖА ЗАПРЕЩЕНА
+Бирюзовый шалкеровый ящик,cyan_shulker_box.png,!!!ПРОДАЖА ЗАПРЕЩЕНА!!!
 Бирюзовое стекло,cyan_stained_glass.png,Разноцветные блоки
 Бирюзовая стеклянная панель,cyan_stained_glass_pane.png,Разноцветные блоки
 Бирюзовая керамика,cyan_terracotta.png,Разноцветные блоки
 Бирюзовая шерсть,cyan_wool.png,Разноцветные блоки
 Разбитая наковальня,damaged_anvil.png,Разное
-Одуванчик,dandelion.png,Растение
+Одуванчик,dandelion.png,Растения
 Лодка из тёмного дуба,dark_oak_boat.png,Разное
-Dark Oak Boat with Chest,dark_oak_boat_with_chest.png,Разное
+Лодка из тёмного дуба с сундуком,dark_oak_chest_boat.png,Разное
 Кнопка из тёмного дуба,dark_oak_button.png,Разное
 Дверь из тёмного дуба,dark_oak_door.png,Дерево
 Забор из тёмного дуба,dark_oak_fence.png,Дерево
 Калитка из тёмного дуба,dark_oak_fence_gate.png,Дерево
 Подвесная табличка из тёмного дуба,dark_oak_hanging_sign.png,Дерево
-Листья тёмного дуба,dark_oak_leaves.png,Растение
+Листья тёмного дуба,dark_oak_leaves.png,Растения
 Бревно тёмного дуба,dark_oak_log.png,Дерево
 Доски из тёмного дуба,dark_oak_planks.png,Дерево
 Нажимная плита из тёмного дуба,dark_oak_pressure_plate.png,Разное
-Саженец тёмного дуба,dark_oak_sapling.png,Растение
+Саженец тёмного дуба,dark_oak_sapling.png,Растения
 Табличка из тёмного дуба,dark_oak_sign.png,Дерево
 Плита из тёмного дуба,dark_oak_slab.png,Дерево
 Ступеньки из тёмного дуба,dark_oak_stairs.png,Дерево
@@ -333,22 +333,22 @@ Dark Oak Boat with Chest,dark_oak_boat_with_chest.png,Разное
 Плита из тёмного призмарина,dark_prismarine_slab.png,Дерево
 Ступеньки из тёмного призмарина,dark_prismarine_stairs.png,Дерево
 Датчик дневного света,daylight_detector.png,Разное
-Мёртвый коралл-мозговик,dead_brain_coral.png,Растение
-Блок мёртвого коралла-мозговика,dead_brain_coral_block.png,Растение
-Мёртвый веерный коралл-мозговик,dead_brain_coral_fan.png,Растение
-Мёртвый пузырчатый коралл,dead_bubble_coral.png,Растение
-Блок мёртвого пузырчатого коралла,dead_bubble_coral_block.png,Растение
-Мёртвый веерный пузырчатый коралл,dead_bubble_coral_fan.png,Растение
-Мёртвый куст,dead_bush.png,Растение
-Мёртвый огненный коралл,dead_fire_coral.png,Растение
-Блок мёртвого огненного коралла,dead_fire_coral_block.png,Растение
-Мёртвый веерный огненный коралл,dead_fire_coral_fan.png,Растение
-Мёртвый роговый коралл,dead_horn_coral.png,Растение
-Блок мёртвого рогового коралла,dead_horn_coral_block.png,Растение
-Мёртвый веерный роговый коралл,dead_horn_coral_fan.png,Растение
-Мёртвый трубчатый коралл,dead_tube_coral.png,Растение
-Блок мёртвого трубчатого коралла,dead_tube_coral_block.png,Растение
-Мёртвый веерный трубчатый коралл,dead_tube_coral_fan.png,Растение
+Мёртвый коралл-мозговик,dead_brain_coral.png,Растения
+Блок мёртвого коралла-мозговика,dead_brain_coral_block.png,Растения
+Мёртвый веерный коралл-мозговик,dead_brain_coral_fan.png,Растения
+Мёртвый пузырчатый коралл,dead_bubble_coral.png,Растения
+Блок мёртвого пузырчатого коралла,dead_bubble_coral_block.png,Растения
+Мёртвый веерный пузырчатый коралл,dead_bubble_coral_fan.png,Растения
+Мёртвый куст,dead_bush.png,Растения
+Мёртвый огненный коралл,dead_fire_coral.png,Растения
+Блок мёртвого огненного коралла,dead_fire_coral_block.png,Растения
+Мёртвый веерный огненный коралл,dead_fire_coral_fan.png,Растения
+Мёртвый роговый коралл,dead_horn_coral.png,Растения
+Блок мёртвого рогового коралла,dead_horn_coral_block.png,Растения
+Мёртвый веерный роговый коралл,dead_horn_coral_fan.png,Растения
+Мёртвый трубчатый коралл,dead_tube_coral.png,Растения
+Блок мёртвого трубчатого коралла,dead_tube_coral_block.png,Растения
+Мёртвый веерный трубчатый коралл,dead_tube_coral_fan.png,Растения
 Глубинный сланец,deepslate.png,Разные блоки
 Плита из глубинносланцевого кирпича,deepslate_brick_slab.png,Разные блоки
 Ступеньки из глубинносланцевого кирпича,deepslate_brick_stairs.png,Разные блоки
@@ -367,7 +367,7 @@ Dark Oak Boat with Chest,dark_oak_boat_with_chest.png,Разное
 Ограда из глубинносланцевого плитняка,deepslate_tile_wall.png,Разные блоки
 Глубинносланцевый плитняк,deepslate_tiles.png,Разные блоки
 Рельсы с датчиком,detector_rail.png,Разное
-Алмаз,diamond.png,ВАЛЮТА СЕРВЕРА
+Алмаз,diamond.png,!!!ВАЛЮТА СЕРВЕРА!!!
 Алмазный топор,diamond_axe.png,Инструменты
 Алмазные ботинки,diamond_boots.png,Броня
 Алмазный нагрудник,diamond_chestplate.png,Броня
@@ -390,7 +390,7 @@ Dark Oak Boat with Chest,dark_oak_boat_with_chest.png,Разное
 Голова дракона,dragon_head.png,Ценности
 Дыхание дракона,dragon_breath.png,Еда и зелья
 Сушёная ламинария,dried_kelp.png,Еда и зелья
-Блок сушёной ламинарии,dried_kelp_block.png,Растение
+Блок сушёной ламинарии,dried_kelp_block.png,Растения
 Натёчный камень,dripstone_block.png,Разные блоки
 Выбрасыватель,dropper.png,Разное
 Осколок эха,echo_shard.png,Ценности
@@ -398,7 +398,7 @@ Dark Oak Boat with Chest,dark_oak_boat_with_chest.png,Разное
 Элитры,elytra.png,Броня
 Изумруд,emerald.png,Ценности
 Изумрудная руда,emerald_ore.png,Ценности
-Чистая карта,empty_map.png,Инструменты
+Чистая карта,map.png,Инструменты
 Зачарованное золотое яблоко,enchanted_golden_apple.png,Ценности
 Чародейский стол,enchanting_table.png,Разное
 Кристалл Энда,end_crystal.png,Разное
@@ -419,22 +419,22 @@ Dark Oak Boat with Chest,dark_oak_boat_with_chest.png,Разное
 Потемневший резной медный блок,exposed_cut_copper.png,Разные блоки
 Потемневшая резная медная плита,exposed_cut_copper_slab.png,Разные блоки
 Потемневшие резные медные ступеньки,exposed_cut_copper_stairs.png,Разные блоки
-Око эндера,eye_of_ender.png,Лут с мобов
+Око эндера,ender_eye.png,Лут с мобов
 Перо,feather.png,Лут с мобов
 Маринованный паучий глаз,fermented_spider_eye.png,Еда и зелья
-Папоротник,fern.png,Растение
+Папоротник,fern.png,Растения
 Огненный заряд,fire_charge.png,Разное
-Огненный коралл,fire_coral.png,Растение
-Блок огненного коралла,fire_coral_block.png,Растение
-Веерный огненный коралл,fire_coral_fan.png,Растение
+Огненный коралл,fire_coral.png,Растения
+Блок огненного коралла,fire_coral_block.png,Растения
+Веерный огненный коралл,fire_coral_fan.png,Растения
 Фейерверк,firework_rocket.png,Разное
 Удочка,fishing_rod.png,Инструменты
 Стол лучника,fletching_table.png,Разное
 Кремень,flint.png,Разное
 Огниво,flint_and_steel.png,Инструменты
 Цветочный горшок,flower_pot.png,Разное
-Цветущая азалия,flowering_azalea.png,Растение
-Листья цветущей азалии,flowering_azalea_leaves.png,Растение
+Цветущая азалия,flowering_azalea.png,Растения
+Листья цветущей азалии,flowering_azalea_leaves.png,Растения
 Печь,furnace.png,Разное
 Слеза гаста,ghast_tear.png,Лут с мобов
 Золочёный чернит,gilded_blackstone.png,Ценности
@@ -445,12 +445,12 @@ Dark Oak Boat with Chest,dark_oak_boat_with_chest.png,Разное
 Светящиеся ягоды,glow_berries.png,Еда и зелья
 Светящийся чернильный мешок,glow_ink_sac.png,Краски
 Светящаяся рамка,glow_item_frame.png,Разное
-Светящийся лишайник,glow_lichen.png,Растение
+Светящийся лишайник,glow_lichen.png,Растения
 Светокамень,glowstone.png,Разные блоки
 Светокаменная пыль,glowstone_dust.png,Разное
 Рог,goat_horn.png,Ценности
 Золотой слиток,gold_ingot.png,Ценности
-Кусочек золота,gold_nugget.png,ПРОДАЖА ЗАПРЕЩЕНА
+Кусочек золота,gold_nugget.png,!!!ПРОДАЖА ЗАПРЕЩЕНА!!!
 Золотая руда,gold_ore.png,Ценности
 Золотое яблоко,golden_apple.png,Еда и зелья
 Золотой топор,golden_axe.png,Инструменты
@@ -479,7 +479,7 @@ Dark Oak Boat with Chest,dark_oak_boat_with_chest.png,Разное
 Серый сухой бетон,gray_concrete_powder.png,Разноцветные блоки
 Серый краситель,gray_dye.png,Краски
 Серая глазурованная керамика,gray_glazed_terracotta.png,Разноцветные блоки
-Серый шалкеровый ящик,gray_shulker_box.png,ПРОДАЖА ЗАПРЕЩЕНА
+Серый шалкеровый ящик,gray_shulker_box.png,!!!ПРОДАЖА ЗАПРЕЩЕНА!!!
 Серое стекло,gray_stained_glass.png,Разноцветные блоки
 Серая стеклянная панель,gray_stained_glass_pane.png,Разноцветные блоки
 Серая керамика,gray_terracotta.png,Разноцветные блоки
@@ -493,15 +493,15 @@ Dark Oak Boat with Chest,dark_oak_boat_with_chest.png,Разное
 Зелёный сухой бетон,green_concrete_powder.png,Разноцветные блоки
 Зелёный краситель,green_dye.png,Краски
 Зелёная глазурованная керамика,green_glazed_terracotta.png,Разноцветные блоки
-Зелёный шалкеровый ящик,green_shulker_box.png,ПРОДАЖА ЗАПРЕЩЕНА
+Зелёный шалкеровый ящик,green_shulker_box.png,!!!ПРОДАЖА ЗАПРЕЩЕНА!!!
 Зелёное стекло,green_stained_glass.png,Разноцветные блоки
 Зелёная стеклянная панель,green_stained_glass_pane.png,Разноцветные блоки
 Зелёная керамика,green_terracotta.png,Разноцветные блоки
 Зелёная шерсть,green_wool.png,Разноцветные блоки
 Точило,grindstone.png,Разное
 Порох,gunpowder.png,Лут с мобов
-Свисающие корни,hanging_roots.png,Растение
-Сноп сена,hay_bale.png,Разные блоки
+Свисающие корни,hanging_roots.png,Растения
+Сноп сена,hay_block.png,Разные блоки
 Сердце моря,heart_of_the_sea.png,Ценности
 Навершие булавы,heavy_core.png,Ценности
 Большегрузная весовая пластина,heavy_weighted_pressure_plate.png,Разное
@@ -510,9 +510,9 @@ Dark Oak Boat with Chest,dark_oak_boat_with_chest.png,Разное
 Пчелиные соты,honeycomb.png,Разное
 Блок пчелиных сот,honeycomb_block.png,Разное
 Воронка,hopper.png,Разное
-Роговой коралл,horn_coral.png,Растение
-Блок рогового коралла,horn_coral_block.png,Растение
-Веерный роговый коралл,horn_coral_fan.png,Растение
+Роговой коралл,horn_coral.png,Растения
+Блок рогового коралла,horn_coral_block.png,Растения
+Веерный роговый коралл,horn_coral_fan.png,Растения
 Лёд,ice.png,Разные блоки
 Чернильный мешок,ink_sac.png,Краски
 Железный топор,iron_axe.png,Инструменты
@@ -525,27 +525,27 @@ Dark Oak Boat with Chest,dark_oak_boat_with_chest.png,Разное
 Железная конская броня,iron_horse_armor.png,Броня
 Железный слиток,iron_ingot.png,Ценности
 Железные поножи,iron_leggings.png,Броня
-Кусочек железа,iron_nugget.png,ПРОДАЖА ЗАПРЕЩЕНА
+Кусочек железа,iron_nugget.png,!!!ПРОДАЖА ЗАПРЕЩЕНА!!!
 Железная руда,iron_ore.png,Ценности
 Железная кирка,iron_pickaxe.png,Инструменты
 Железная лопата,iron_shovel.png,Инструменты
 Железный меч,iron_sword.png,Инструменты
 Железный люк,iron_trapdoor.png,Инструменты
 Рамка,item_frame.png,Разное
-Jack o'Lantern,jack_o_lantern.png,Растение
+Светильник Джек,jack_o_lantern.png,Растения
 Проигрыватель,jukebox.png,Разное
 Лодка из тропического дерева,jungle_boat.png,Разное
-Jungle Boat with Chest,jungle_boat_with_chest.png,Разное
+Лодка из тропического дерева с сундуком,jungle_chest_boat.png,Разное
 Кнопка из тропического дерева,jungle_button.png,Разное
 Дверь из тропического дерева,jungle_door.png,Дерево
 Забор из тропического дерева,jungle_fence.png,Дерево
 Калитка из тропического дерева,jungle_fence_gate.png,Дерево
 Подвесная табличка из тропического дерева,jungle_hanging_sign.png,Дерево
-Листья тропического дерева,jungle_leaves.png,Растение
+Листья тропического дерева,jungle_leaves.png,Растения
 Бревно тропического дерева,jungle_log.png,Дерево
 Доски из тропического дерева,jungle_planks.png,Дерево
 Нажимная плита из тропического дерева,jungle_pressure_plate.png,Разное
-Саженец тропического дерева,jungle_sapling.png,Растение
+Саженец тропического дерева,jungle_sapling.png,Растения
 Табличка из тропического дерева,jungle_sign.png,Дерево
 Плита из тропического дерева,jungle_slab.png,Дерево
 Ступеньки из тропического дерева,jungle_stairs.png,Дерево
@@ -557,12 +557,12 @@ Jungle Boat with Chest,jungle_boat_with_chest.png,Разное
 Лазурит,lapis_lazuli.png,Ценности
 Лазуритовая руда,lapis_ore.png,Ценности
 Большой аметистовый бутон,large_amethyst_bud.png,Ценности
-Раскидистый папоротник,large_fern.png,Растение
+Раскидистый папоротник,large_fern.png,Растения
 Ведро лавы,lava_bucket.png,Инструменты
 Поводок,lead.png,Инструменты
 Кожа,leather.png,Лут с мобов
 Кожаные ботинки,leather_boots.png,Броня
-Кожаный шлем,leather_cap.png,Броня
+Кожаный шлем,leather_helmet.png,Броня
 Кожаная конская броня,leather_horse_armor.png,Броня
 Кожаные штаны,leather_leggings.png,Броня
 Кожаная куртка,leather_chestplate.png,Броня
@@ -577,7 +577,7 @@ Jungle Boat with Chest,jungle_boat_with_chest.png,Разное
 Голубой сухой бетон,light_blue_concrete_powder.png,Разноцветные блоки
 Голубой краситель,light_blue_dye.png,Краски
 Голубая глазурованная керамика,light_blue_glazed_terracotta.png,Разноцветные блоки
-Голубой шалкеровый ящик,light_blue_shulker_box.png,ПРОДАЖА ЗАПРЕЩЕНА
+Голубой шалкеровый ящик,light_blue_shulker_box.png,!!!ПРОДАЖА ЗАПРЕЩЕНА!!!
 Голубое стекло,light_blue_stained_glass.png,Разноцветные блоки
 Голубая стеклянная панель,light_blue_stained_glass_pane.png,Разноцветные блоки
 Голубая керамика,light_blue_terracotta.png,Разноцветные блоки
@@ -591,15 +591,15 @@ Jungle Boat with Chest,jungle_boat_with_chest.png,Разное
 Светло-серый сухой бетон,light_gray_concrete_powder.png,Разноцветные блоки
 Светло-серый краситель,light_gray_dye.png,Краски
 Светло-серая глазурованная керамика,light_gray_glazed_terracotta.png,Разноцветные блоки
-Светло-серый шалкеровый ящик,light_gray_shulker_box.png,ПРОДАЖА ЗАПРЕЩЕНА
+Светло-серый шалкеровый ящик,light_gray_shulker_box.png,!!!ПРОДАЖА ЗАПРЕЩЕНА!!!
 Светло-серое стекло,light_gray_stained_glass.png,Разноцветные блоки
 Светло-серая стеклянная панель,light_gray_stained_glass_pane.png,Разноцветные блоки
 Светло-серая керамика,light_gray_terracotta.png,Разноцветные блоки
 Светло-серая шерсть,light_gray_wool.png,Разноцветные блоки
 Весовая пластина,light_weighted_pressure_plate.png,Разное
 Громоотвод,lightning_rod.png,Разное
-Сирень,lilac.png,Растение
-Кувшинка,lily_pad.png,Растение
+Сирень,lilac.png,Растения
+Кувшинка,lily_pad.png,Растения
 Лаймовый флаг,lime_banner.png,Разноцветные блоки
 Лаймовая кровать,lime_bed.png,Разноцветные блоки
 Лаймовый мешок,lime_bundle.png,Инструменты
@@ -609,7 +609,7 @@ Jungle Boat with Chest,jungle_boat_with_chest.png,Разное
 Лаймовый сухой бетон,lime_concrete_powder.png,Разноцветные блоки
 Лаймовый краситель,lime_dye.png,Краски
 Лаймовая глазурованная керамика,lime_glazed_terracotta.png,Разноцветные блоки
-Лаймовый шалкеровый ящик,lime_shulker_box.png,ПРОДАЖА ЗАПРЕЩЕНА
+Лаймовый шалкеровый ящик,lime_shulker_box.png,!!!ПРОДАЖА ЗАПРЕЩЕНА!!!
 Лаймовое стекло,lime_stained_glass.png,Разноцветные блоки
 Лаймовая стеклянная панель,lime_stained_glass_pane.png,Разноцветные блоки
 Лаймовая керамика,lime_terracotta.png,Разноцветные блоки
@@ -626,7 +626,7 @@ Jungle Boat with Chest,jungle_boat_with_chest.png,Разное
 Пурпурный сухой бетон,magenta_concrete_powder.png,Разноцветные блоки
 Пурпурный краситель,magenta_dye.png,Краски
 Пурпурная глазурованная керамика,magenta_glazed_terracotta.png,Разноцветные блоки
-Пурпурный шалкеровый ящик,magenta_shulker_box.png,ПРОДАЖА ЗАПРЕЩЕНА
+Пурпурный шалкеровый ящик,magenta_shulker_box.png,!!!ПРОДАЖА ЗАПРЕЩЕНА!!!
 Пурпурное стекло,magenta_stained_glass.png,Разноцветные блоки
 Пурпурная стеклянная панель,magenta_stained_glass_pane.png,Разноцветные блоки
 Пурпурная керамика,magenta_terracotta.png,Разноцветные блоки
@@ -634,34 +634,34 @@ Jungle Boat with Chest,jungle_boat_with_chest.png,Разное
 Магма,magma_block.png,Разные блоки
 Сгусток магмы,magma_cream.png,Лут с мобов
 Мангровая лодка,mangrove_boat.png,Разное
-Mangrove Boat with Chest,mangrove_boat_with_chest.png,Разное
+Мангровая лодка с сундуком,mangrove_chest_boat.png,Разное
 Мангровая кнопка,mangrove_button.png,Разное
 Мангровая дверь,mangrove_door.png,Дерево
 Мангровый забор,mangrove_fence.png,Дерево
 Мангровая калитка,mangrove_fence_gate.png,Дерево
 Мангровая подвесная табличка,mangrove_hanging_sign.png,Дерево
-Мангровые листья,mangrove_leaves.png,Растение
+Мангровые листья,mangrove_leaves.png,Растения
 Мангровое бревно,mangrove_log.png,Дерево
 Мангровые доски,mangrove_planks.png,Дерево
 Мангровая нажимная плита,mangrove_pressure_plate.png,Разное
-Мангровый отросток,mangrove_propagule.png,Растение
+Мангровый отросток,mangrove_propagule.png,Растения
 Мангровые корни,mangrove_roots.png,Дерево
 Мангровая табличка,mangrove_sign.png,Дерево
 Мангровая плита,mangrove_slab.png,Дерево
 Мангровые ступеньки,mangrove_stairs.png,Дерево
 Мангровый люк,mangrove_trapdoor.png,Дерево
 Мангровое дерево,mangrove_wood.png,Дерево
-Карта,map.png,Галлерея
+Карта,filled_map.png,Галлерея
 Средний аметистовый бутон,medium_amethyst_bud.png,Ценности
-Арбуз,melon.png,Растение
-Семена арбуза,melon_seeds.png,Растение
+Арбуз,melon.png,Растения
+Семена арбуза,melon_seeds.png,Растения
 Ломтик арбуза,melon_slice.png,Еда и зелья
 Ведро молока,milk_bucket.png,Еда и зелья
 Вагонетка,minecart.png,Разное
 Вагонетка с сундуком,chest_minecart.png,Разное
 Вагонетка с печкой,furnace_minecart.png,Разное
-Вагонетка с воронкой,hopper_minecart,Разное
-Вагонетка с динамитом,tnt_minecart,Разное
+Вагонетка с воронкой,hopper_minecart.png,Разное
+Вагонетка с динамитом,tnt_minecart.png,Разное
 Блок мха,moss_block.png,Разные блоки
 Моховой ковёр,moss_carpet.png,Разные блоки
 Замшелый булыжник,mossy_cobblestone.png,Разные блоки
@@ -680,25 +680,25 @@ Mangrove Boat with Chest,mangrove_boat_with_chest.png,Разное
 Грязные мангровые корни,muddy_mangrove_roots.png,Разные блоки
 Ножка гриба,mushroom_stem.png,Разные блоки
 Тушёные грибы,mushroom_stew.png,Еда и зелья
-Music Disc (11),music_disc_11.png,Ценности
-Music Disc (13),music_disc_13.png,Ценности
-Music Disc (5),music_disc_5.png,Ценности
-Music Disc (Blocks),music_disc_blocks.png,Ценности
-Music Disc (Cat),music_disc_cat.png,Ценности
-Music Disc (Chirp),music_disc_chirp.png,Ценности
-Music Disc (Creator Music Box),music_disc_creator_music_box.png,Ценности
-Music Disc (Creator),music_disc_creator.png,Ценности
-Music Disc (Far),music_disc_far.png,Ценности
-Music Disc (Mall),music_disc_mall.png,Ценности
-Music Disc (Mellohi),music_disc_mellohi.png,Ценности
-Music Disc (Otherside),music_disc_otherside.png,Ценности
-Music Disc (Pigstep),music_disc_pigstep.png,Ценности
-Music Disc (Precipe),music_disc_precipe.png,Ценности
-Music Disc (Relic),music_disc_relic.png,Ценности
-Music Disc (Stal),music_disc_stal.png,Ценности
-Music Disc (Strad),music_disc_strad.png,Ценности
-Music Disc (Wait),music_disc_wait.png,Ценности
-Music Disc (Ward),music_disc_ward.png,Ценности
+Музыкальная пластинка (11),music_disc_11.png,Ценности
+Музыкальная пластинка (13),music_disc_13.png,Ценности
+Музыкальная пластинка (5),music_disc_5.png,Ценности
+Музыкальная пластинка (Blocks),music_disc_blocks.png,Ценности
+Музыкальная пластинка (Cat),music_disc_cat.png,Ценности
+Музыкальная пластинка (Chirp),music_disc_chirp.png,Ценности
+Музыкальная пластинка (Creator Music Box),music_disc_creator_music_box.png,Ценности
+Музыкальная пластинка (Creator),music_disc_creator.png,Ценности
+Музыкальная пластинка (Far),music_disc_far.png,Ценности
+Музыкальная пластинка (Mall),music_disc_mall.png,Ценности
+Музыкальная пластинка (Mellohi),music_disc_mellohi.png,Ценности
+Музыкальная пластинка (Otherside),music_disc_otherside.png,Ценности
+Музыкальная пластинка (Pigstep),music_disc_pigstep.png,Ценности
+Музыкальная пластинка (Precipe),music_disc_precipice.png,Ценности
+Музыкальная пластинка (Relic),music_disc_relic.png,Ценности
+Музыкальная пластинка (Stal),music_disc_stal.png,Ценности
+Музыкальная пластинка (Strad),music_disc_strad.png,Ценности
+Музыкальная пластинка (Wait),music_disc_wait.png,Ценности
+Музыкальная пластинка (Ward),music_disc_ward.png,Ценности
 Мицелий,mycelium.png,Разные блоки
 Бирка,name_tag.png,Инструменты
 Раковина наутилуса,nautilus_shell.png,Ценности
@@ -711,7 +711,7 @@ Music Disc (Ward),music_disc_ward.png,Ценности
 Незерская золотая руда,nether_gold_ore.png,Разные блоки
 Незер-кварц,quartz.png,Ценности
 Незер-кварцевая руда,nether_quartz_ore.png,Ценности
-Незерские ростки,nether_sprouts.png,Растение
+Незерские ростки,nether_sprouts.png,Растения
 Звезда Незера,nether_star.png,Ценности
 Незерский нарост,nether_wart.png,Еда и зелья
 Блок незерского нароста,nether_wart_block.png,Разные блоки
@@ -729,17 +729,17 @@ Music Disc (Ward),music_disc_ward.png,Ценности
 Незерак,netherrack.png,Разные блоки
 Нотный блок,note_block.png,Разное
 Дубовая лодка,oak_boat.png,Разное
-Oak Boat with Chest,oak_boat_with_chest.png,Разное
+Дубовая лодка с сундуком,oak_chest_boat.png,Разное
 Дубовая кнопка,oak_button.png,Разное
 Дубовая дверь,oak_door.png,Дерево
 Дубовый забор,oak_fence.png,Дерево
 Дубовая калитка,oak_fence_gate.png,Дерево
 Дубовая подвесная табличка,oak_hanging_sign.png,Дерево
-Дубовые листья,oak_leaves.png,Растение
+Дубовые листья,oak_leaves.png,Растения
 Дубовое бревно,oak_log.png,Дерево
 Дубовые доски,oak_planks.png,Дерево
 Дубовая нажимная плита,oak_pressure_plate.png,Разное
-Саженец дуба,oak_sapling.png,Растение
+Саженец дуба,oak_sapling.png,Растения
 Дубовая табличка,oak_sign.png,Дерево
 Дубовая плита,oak_slab.png,Дерево
 Дубовые ступеньки,oak_stairs.png,Дерево
@@ -758,13 +758,13 @@ Oak Boat with Chest,oak_boat_with_chest.png,Разное
 Оранжевый сухой бетон,orange_concrete_powder.png,Разноцветные блоки
 Оранжевый краситель,orange_dye.png,Разноцветные блоки
 Оранжевая глазурованная керамика,orange_glazed_terracotta.png,Разноцветные блоки
-Оранжевый шалкеровый ящик,orange_shulker_box.png,ПРОДАЖА ЗАПРЕЩЕНА
+Оранжевый шалкеровый ящик,orange_shulker_box.png,!!!ПРОДАЖА ЗАПРЕЩЕНА!!!
 Оранжевое стекло,orange_stained_glass.png,Разноцветные блоки
 Оранжевая стеклянная панель,orange_stained_glass_pane.png,Разноцветные блоки
 Оранжевая керамика,orange_terracotta.png,Разноцветные блоки
-Оранжевый тюльпан,orange_tulip.png,Растение
+Оранжевый тюльпан,orange_tulip.png,Растения
 Оранжевая шерсть,orange_wool.png,Разноцветные блоки
-Ромашка,oxeye_daisy.png,Растение
+Ромашка,oxeye_daisy.png,Растения
 Окисленный точёный медный блок,oxidized_chiseled_copper.png,Разные блоки
 Окисленный медный блок,oxidized_copper.png,Разные блоки
 Окисленная медная лампа,oxidized_copper_bulb.png,Разные блоки
@@ -779,7 +779,7 @@ Oak Boat with Chest,oak_boat_with_chest.png,Разное
 Картина,painting.png,Разное
 Бумага,paper.png,Разное
 Перламутровая квампа,pearlescent_froglight.png,Разные блоки
-Пион,peony.png,Растение
+Пион,peony.png,Растения
 Мембрана фантома,phantom_membrane.png,Лут с мобов
 Голова пиглина,piglin_head.png,Ценности
 Розовый флаг,pink_banner.png,Разноцветные блоки
@@ -791,16 +791,16 @@ Oak Boat with Chest,oak_boat_with_chest.png,Разное
 Розовый сухой бетон,pink_concrete_powder.png,Разноцветные блоки
 Розовый краситель,pink_dye.png,Краски
 Розовая глазурованная керамика,pink_glazed_terracotta.png,Разноцветные блоки
-Розовые лепестки,pink_petals.png,Растение
-Розовый шалкеровый ящик,pink_shulker_box.png,ПРОДАЖА ЗАПРЕЩЕНА
+Розовые лепестки,pink_petals.png,Растения
+Розовый шалкеровый ящик,pink_shulker_box.png,!!!ПРОДАЖА ЗАПРЕЩЕНА!!!
 Розовое стекло,pink_stained_glass.png,Разноцветные блоки
 Розовая стеклянная панель,pink_stained_glass_pane.png,Разноцветные блоки
 Розовая керамика,pink_terracotta.png,Разноцветные блоки
-Розовый тюльпан,pink_tulip.png,Растение
+Розовый тюльпан,pink_tulip.png,Растения
 Розовая шерсть,pink_wool.png,Разноцветные блоки
 Поршень,piston.png,Разное
-Кувшинница,pitcher_plant.png,Растение
-Стручок кувшинницы,pitcher_pod.png,Растение
+Кувшинница,pitcher_plant.png,Растения
+Стручок кувшинницы,pitcher_pod.png,Растения
 Подзол,podzol.png,Разные блоки
 Капельник,pointed_dripstone.png,Разное
 Ядовитый картофель,poisonous_potato.png,Еда и зелья
@@ -833,8 +833,8 @@ Oak Boat with Chest,oak_boat_with_chest.png,Разное
 Ступеньки из полированного туфа,polished_tuff_stairs.png,Разные блоки
 Ограда из полированного туфа,polished_tuff_wall.png,Разные блоки
 Прожаренный плод хоруса,popped_chorus_fruit.png,Разное
-Мак,poppy.png,Растение
-Картофель,potato.png,Растение
+Мак,poppy.png,Растения
+Картофель,potato.png,Растения
 Ведро с рыхлым снегом,powder_snow_bucket.png,Разное
 Энергорельсы,powered_rail.png,Разное
 Призмарин,prismarine.png,Разные блоки
@@ -847,9 +847,9 @@ Oak Boat with Chest,oak_boat_with_chest.png,Разное
 Призмариновые ступеньки,prismarine_stairs.png,Разные блоки
 Призмариновая ограда,prismarine_wall.png,Разные блоки
 Иглобрюх,pufferfish.png,Еда и зелья
-Тыква,pumpkin.png,Растение
+Тыква,pumpkin.png,Растения
 Тыквенный пирог,pumpkin_pie.png,Еда и зелья
-Семена тыквы,pumpkin_seeds.png,Растение
+Семена тыквы,pumpkin_seeds.png,Растения
 Фиолетовый флаг,purple_banner.png,Разноцветные блоки
 Фиолетовая кровать,purple_bed.png,Разноцветные блоки
 Фиолетовый мешок,purple_bundle.png,Инструменты
@@ -859,7 +859,7 @@ Oak Boat with Chest,oak_boat_with_chest.png,Разное
 Фиолетовый сухой бетон,purple_concrete_powder.png,Разноцветные блоки
 Фиолетовый краситель,purple_dye.png,Краски
 Фиолетовая глазурованная керамика,purple_glazed_terracotta.png,Разноцветные блоки
-Фиолетовый шалкеровый ящик,purple_shulker_box.png,ПРОДАЖА ЗАПРЕЩЕНА
+Фиолетовый шалкеровый ящик,purple_shulker_box.png,!!!ПРОДАЖА ЗАПРЕЩЕНА!!!
 Фиолетовое стекло,purple_stained_glass.png,Разноцветные блоки
 Фиолетовая стеклянная панель,purple_stained_glass_pane.png,Разноцветные блоки
 Фиолетовая керамика,purple_terracotta.png,Разноцветные блоки
@@ -907,11 +907,11 @@ Rabbit's Foot,rabbit_foot.png,Лут с мобов
 Плита из красного песчаника,red_sandstone_slab.png,Разные блоки
 Ступеньки из красного песчаника,red_sandstone_stairs.png,Разные блоки
 Ограда из красного песчаника,red_sandstone_wall.png,Разные блоки
-Красный шалкеровый ящик,red_shulker_box.png,ПРОДАЖА ЗАПРЕЩЕНА
+Красный шалкеровый ящик,red_shulker_box.png,!!!ПРОДАЖА ЗАПРЕЩЕНА!!!
 Красное стекло,red_stained_glass.png,Разноцветные блоки
 Красная стеклянная панель,red_stained_glass_pane.png,Разноцветные блоки
 Красная керамика,red_terracotta.png,Разноцветные блоки
-Красный тюльпан,red_tulip.png,Растение
+Красный тюльпан,red_tulip.png,Растения
 Красная шерсть,red_wool.png,Разноцветные блоки
 Редстоуновый компаратор,comparator.png,Разное
 Редстоуновая пыль,redstone.png,Разное
@@ -921,7 +921,7 @@ Rabbit's Foot,rabbit_foot.png,Лут с мобов
 Редстоуновый факел,redstone_torch.png,Разное
 Якорь возрождения,respawn_anchor.png,Разное
 Корнистая земля,rooted_dirt.png,Разные блоки
-Розовый куст,rose_bush.png,Растение
+Розовый куст,rose_bush.png,Растения
 Гнилая плоть,rotten_flesh.png,Лут с мобов
 Седло,saddle.png,Инструменты
 Песок,sand.png,Разные блоки
@@ -930,24 +930,24 @@ Rabbit's Foot,rabbit_foot.png,Лут с мобов
 Песчаниковые ступеньки,sandstone_stairs.png,Разные блоки
 Песчаниковая ограда,sandstone_wall.png,Разные блоки
 Подмостки,scaffolding.png,Разные блоки
-Скалк,sculk.png,Растение
-Скалковый катализатор,sculk_catalyst.png,Растение
+Скалк,sculk.png,Растения
+Скалковый катализатор,sculk_catalyst.png,Растения
 Скалк-сенсор,sculk_sensor.png,Разное
-Скалковый крикун,sculk_shrieker.png,Растение
-Скалковая жила,sculk_vein.png,Растение
+Скалковый крикун,sculk_shrieker.png,Растения
+Скалковая жила,sculk_vein.png,Растения
 Морской фонарь,sea_lantern.png,Разные блоки
-Морской огурец,sea_pickle.png,Растение
-Морская трава,seagrass.png,Растение
+Морской огурец,sea_pickle.png,Растения
+Морская трава,seagrass.png,Растения
 Ножницы,shears.png,Инструменты
 Щит,shield.png,Инструменты
 Грибосвет,shroomlight.png,Разные блоки
-Шалкеровый ящик,shulker_box.png,ПРОДАЖА ЗАПРЕЩЕНА
-Панцирь шалкера,shulker_shell.png,ПРОДАЖА ЗАПРЕЩЕНА
+Шалкеровый ящик,shulker_box.png,!!!ПРОДАЖА ЗАПРЕЩЕНА!!!
+Панцирь шалкера,shulker_shell.png,!!!ПРОДАЖА ЗАПРЕЩЕНА!!!
 Череп,skeleton_skull.png,Ценности
 Блок слизи,slime_block.png,Разное
-Сгусток слизи,slime.png,Лут с мобов
+Сгусток слизи,slime_ball.png,Лут с мобов
 Малый аметистовый бутон,small_amethyst_bud.png,Ценности
-Маленькая бросянка,small_dripleaf.png,Растение
+Маленькая бросянка,small_dripleaf.png,Растения
 Стол кузнеца,smithing_table.png,Разное
 Коптильня,smoker.png,Разное
 Гладкий базальт,smooth_basalt.png,Разные блоки
@@ -974,19 +974,19 @@ Rabbit's Foot,rabbit_foot.png,Лут с мобов
 Спектральная стрела,spectral_arrow.png,Инструменты
 Паучий глаз,spider_eye.png,Лут с мобов
 Губка,sponge.png,Ценности
-Спороцвет,spore_blossom.png,Растение
+Спороцвет,spore_blossom.png,Растения
 Еловая лодка,spruce_boat.png,Разное
-Spruce Boat with Chest,spruce_boat_with_chest.png,Разное
+Еловая лодка с сундуком,spruce_chest_boat.png,Разное
 Еловая кнопка,spruce_button.png,Разное
 Еловая дверь,spruce_door.png,Дерево
 Еловый забор,spruce_fence.png,Дерево
 Еловая калитка,spruce_fence_gate.png,Дерево
 Еловая подвесная табличка,spruce_hanging_sign.png,Дерево
-Хвоя,spruce_leaves.png,Растение
+Хвоя,spruce_leaves.png,Растения
 Еловое бревно,spruce_log.png,Дерево
 Еловые доски,spruce_planks.png,Дерево
 Еловая нажимная плита,spruce_pressure_plate.png,Разное
-Саженец ели,spruce_sapling.png,Растение
+Саженец ели,spruce_sapling.png,Растения
 Еловая табличка,spruce_sign.png,Дерево
 Еловая плита,spruce_slab.png,Дерево
 Еловые ступеньки,spruce_stairs.png,Дерево
@@ -1035,57 +1035,57 @@ Spruce Boat with Chest,spruce_boat_with_chest.png,Разное
 Очищенные искажённые гифы,stripped_warped_hyphae.png,Разные блоки
 Очищенный искажённый стебель,stripped_warped_stem.png,Разные блоки
 Сахар,sugar.png,Еда и зелья
-Сахарный тростник,sugar_cane.png,Растение
-Подсолнух,sunflower.png,Растение
+Сахарный тростник,sugar_cane.png,Растения
+Подсолнух,sunflower.png,Растения
 Загадочное рагу,suspicious_stew.png,Еда и зелья
 Сладкие ягоды,sweet_berries.png,Еда и зелья
-Высокая трава,tall_grass.png,Растение
+Высокая трава,tall_grass.png,Растения
 Мишень,target.png,Разное
 Терракота,terracotta.png,Разные блоки
 Тонированное стекло,tinted_glass.png,Разные блоки
 TNT,tnt.png,Разное
 Факел,torch.png,Разное
-Факельник,torchflower.png,Растение
-Семена факельника,torchflower_seeds.png,Растение
+Факельник,torchflower.png,Растения
+Семена факельника,torchflower_seeds.png,Растения
 Тотем бессмертия,totem_of_undying.png,Инструменты
 Сундук-ловушка,trapped_chest.png,Разное
 Ключ испытаний,trial_key.png,Инструменты
 Трезубец,trident.png,Инструменты
 Крюк,tripwire_hook.png,Разное
 Тропическая рыба,tropical_fish.png,Еда и зелья
-Трубчатый коралл,tube_coral.png,Растение
-Блок трубчатого коралла,tube_coral_block.png,Растение
-Веерный трубчатый коралл,tube_coral_fan.png,Растение
-Туф,tuff.png,Растение
-Плита из туфового кирпича,tuff_brick_slab.png,Растение
-Ступеньки из туфового кирпича,tuff_brick_stairs.png,Растение
-Ограда из туфового кирпича,tuff_brick_wall.png,Растение
-Туфовые кирпичи,tuff_bricks.png,Растение
-Туфовая плита,tuff_slab.png,Растение
-Туфовые ступеньки,tuff_stairs.png,Растение
-Туфовая ограда,tuff_wall.png,Растение
+Трубчатый коралл,tube_coral.png,Растения
+Блок трубчатого коралла,tube_coral_block.png,Растения
+Веерный трубчатый коралл,tube_coral_fan.png,Растения
+Туф,tuff.png,Растения
+Плита из туфового кирпича,tuff_brick_slab.png,Растения
+Ступеньки из туфового кирпича,tuff_brick_stairs.png,Растения
+Ограда из туфового кирпича,tuff_brick_wall.png,Растения
+Туфовые кирпичи,tuff_bricks.png,Растения
+Туфовая плита,tuff_slab.png,Растения
+Туфовые ступеньки,tuff_stairs.png,Растения
+Туфовая ограда,tuff_wall.png,Растения
 Черепашье яйцо,turtle_egg.png,Лут с мобов
 Черепаший щиток,turtle_scute.png,Лут с мобов
 Черепаший панцирь,turtle_helmet.png,Броня
-Вьющаяся лоза,twisting_vines.png,Растение
+Вьющаяся лоза,twisting_vines.png,Растения
 Малахитовая квампа,verdant_froglight.png,Разные блоки
-Лианы,vine.png,Растение
+Лианы,vine.png,Растения
 Искажённая кнопка,warped_button.png,Разное
 Искажённая дверь,warped_door.png,Дерево
 Искажённый забор,warped_fence.png,Дерево
 Искажённая калитка,warped_fence_gate.png,Дерево
-Искажённый гриб,warped_fungus.png,Растение
-Warped Fungus on a Stick,warped_fungus_on_a_stick.png,Инструменты
+Искажённый гриб,warped_fungus.png,Растения
+Удочка с искажённым грибком,warped_fungus_on_a_stick.png,Инструменты
 Искажённая подвесная табличка,warped_hanging_sign.png,Дерево
 Искажённые гифы,warped_hyphae.png,Дерево
 Искажённый нилий,warped_nylium.png,Разные блоки
 Искажённые доски,warped_planks.png,Дерево
 Искажённая нажимная плита,warped_pressure_plate.png,Разное
-Искажённые корни,warped_roots.png,Растение
+Искажённые корни,warped_roots.png,Растения
 Искажённая табличка,warped_sign.png,Дерево
 Искажённая плита,warped_slab.png,Дерево
 Искажённые ступеньки,warped_stairs.png,Дерево
-Искажённый стебель,warped_stem.png,Растение
+Искажённый стебель,warped_stem.png,Растения
 Искажённый люк,warped_trapdoor.png,Дерево
 Блок искажённого нароста,warped_wart_block.png,Разные блоки
 Ведро воды,water_bucket.png,Инструменты
@@ -1134,10 +1134,10 @@ Warped Fungus on a Stick,warped_fungus_on_a_stick.png,Инструменты
 Состаренный резной медный блок,weathered_cut_copper.png,Разные блоки
 Состаренная резная медная плита,weathered_cut_copper_slab.png,Разные блоки
 Состаренные резные медные ступеньки,weathered_cut_copper_stairs.png,Разные блоки
-Плакучая лоза,weeping_vines.png,Растение
+Плакучая лоза,weeping_vines.png,Растения
 Мокрая губка,wet_sponge.png,Ценности
-Пшеница,wheat.png,Растение
-Семена пшеницы,wheat_seeds.png,Растение
+Пшеница,wheat.png,Растения
+Семена пшеницы,wheat_seeds.png,Растения
 Белый флаг,white_banner.png,Разноцветные блоки
 Белая кровать,white_bed.png,Разноцветные блоки
 Белый мешок,white_bundle.png,Инструменты
@@ -1147,14 +1147,14 @@ Warped Fungus on a Stick,warped_fungus_on_a_stick.png,Инструменты
 Белый сухой бетон,white_concrete_powder.png,Разноцветные блоки
 Белый краситель,white_dye.png,Краски
 Белая глазурованная керамика,white_glazed_terracotta.png,Разноцветные блоки
-Белый шалкеровый ящик,white_shulker_box.png,ПРОДАЖА ЗАПРЕЩЕНА
+Белый шалкеровый ящик,white_shulker_box.png,!!!ПРОДАЖА ЗАПРЕЩЕНА!!!
 Белое стекло,white_stained_glass.png,Разноцветные блоки
 Белая стеклянная панель,white_stained_glass_pane.png,Разноцветные блоки
 Белая керамика,white_terracotta.png,Разноцветные блоки
-Белый тюльпан,white_tulip.png,Растение
+Белый тюльпан,white_tulip.png,Растения
 Белая шерсть,white_wool.png,Разноцветные блоки
 Заряд ветра,wind_charge.png,Лут с мобов
-Роза визера,wither_rose.png,Растение
+Роза визера,wither_rose.png,Растения
 Череп визер-скелета,wither_skeleton_skull.png,Ценности
 Волчья броня,wolf_armor.png,Инструменты
 Деревянный топор,wooden_axe.png,Инструменты
@@ -1163,7 +1163,7 @@ Warped Fungus on a Stick,warped_fungus_on_a_stick.png,Инструменты
 Деревянная лопата,wooden_shovel.png,Инструменты
 Деревянный меч,wooden_sword.png,Инструменты
 Завершённая книга,written_book.png,Книжки
-Жёлтый флаг,yellow_banner.png,Блоки
+Жёлтый флаг,yellow_banner.png,Разные блоки
 Жёлтая кровать,yellow_bed.png,Разноцветные блоки
 Жёлтый мешок,yellow_bundle.png,Инструменты
 Жёлтая свеча,yellow_candle.png,Разное
@@ -1172,7 +1172,7 @@ Warped Fungus on a Stick,warped_fungus_on_a_stick.png,Инструменты
 Жёлтый сухой бетон,yellow_concrete_powder.png,Разноцветные блоки
 Жёлтый краситель,yellow_dye.png,Краски
 Жёлтая глазурованная керамика,yellow_glazed_terracotta.png,Разноцветные блоки
-Жёлтый шалкеровый ящик,yellow_shulker_box.png,ПРОДАЖА ЗАПРЕЩЕНА
+Жёлтый шалкеровый ящик,yellow_shulker_box.png,!!!ПРОДАЖА ЗАПРЕЩЕНА!!!
 Жёлтое стекло,yellow_stained_glass.png,Разноцветные блоки
 Жёлтая стеклянная панель,yellow_stained_glass_pane.png,Разноцветные блоки
 Жёлтая керамика,yellow_terracotta.png,Разноцветные блоки
