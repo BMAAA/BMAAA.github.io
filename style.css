@@ -102,6 +102,21 @@ h1 {
     color: var(--category-border);
 }
 
+.zone-card h4 {
+    color: var(--accent-color);
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-left: 4px;
+}
+
+.zone-card h4::before {
+    content: "*";
+    margin-right: 10px;
+    font-size: 0.8em;
+    color: var(--category-border);
+}
+
 .subcategories {
     list-style: none;
     padding: 0;
