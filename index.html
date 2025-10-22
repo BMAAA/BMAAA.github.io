@@ -13,9 +13,21 @@
     <div class="container">
         <header>
             <div class="header-top">
-                <button id="language-switcher" class="language-btn">
-                    <img src="flags/us-flag.png" alt="Switch to English" class="flag-icon">
-                </button>
+                <div class="language-selector">
+                    <button id="language-toggle" class="language-toggle" aria-label="Select language">
+                        <span class="earth-icon">🌐</span>
+                    </button>
+                    <div id="language-dropdown" class="language-dropdown">
+                        <div class="language-option" data-lang="ru">
+                            <span class="flag">🇷🇺</span>
+                            <span class="language-name">Русский</span>
+                        </div>
+                        <div class="language-option" data-lang="en">
+                            <span class="flag">🇺🇸</span>
+                            <span class="language-name">English</span>
+                        </div>
+                    </div>
+                </div>
                 <h1>Реестр торговой зоны Pepeland 10</h1>
             </div>
             <p>Таблица большинства предметов и соответствующей им категории в ТЗ</p>

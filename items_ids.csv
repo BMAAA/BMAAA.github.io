@@ -29,8 +29,8 @@ block.minecraft.anvil,anvil.png,Разное
 item.minecraft.apple,apple.png,Еда и зелья
 item.minecraft.armadillo_scute,armadillo_scute.png,Лут с мобов
 entity.minecraft.armor_stand,armor_stand.png,Разное
-entity.minecraft.arrow,arrow.png,Инструменты
-item.minecraft.tipped_arrow,tipped_arrow.png,Инструменты
+entity.minecraft.arrow,arrow.png,Броня и инструменты
+item.minecraft.tipped_arrow,tipped_arrow.png,Броня и инструменты
 block.minecraft.azalea,azalea.png,Растения
 block.minecraft.azalea_leaves,azalea_leaves.png,Растения
 block.minecraft.azure_bluet,azure_bluet.png,Растения
@@ -82,7 +82,7 @@ block.minecraft.birch_trapdoor,birch_trapdoor.png,Блоки
 block.minecraft.birch_wood,birch_wood.png,Блоки
 block.minecraft.black_banner,black_banner.png,Блоки
 block.minecraft.black_bed,black_bed.png,Блоки
-item.minecraft.black_bundle,black_bundle.png,Инструменты
+item.minecraft.black_bundle,black_bundle.png,Броня и инструменты
 block.minecraft.black_candle,black_candle.png,Разное
 block.minecraft.black_carpet,black_carpet.png,Блоки
 block.minecraft.black_concrete,black_concrete.png,Блоки
@@ -119,7 +119,7 @@ block.minecraft.redstone_block,redstone_block.png,Разное
 block.minecraft.stripped_bamboo_block,stripped_bamboo_block.png,Блоки
 block.minecraft.blue_banner,blue_banner.png,Блоки
 block.minecraft.blue_bed,blue_bed.png,Блоки
-item.minecraft.blue_bundle,blue_bundle.png,Инструменты
+item.minecraft.blue_bundle,blue_bundle.png,Броня и инструменты
 block.minecraft.blue_candle,blue_candle.png,Разное
 block.minecraft.blue_carpet,blue_carpet.png,Блоки
 block.minecraft.blue_concrete,blue_concrete.png,Блоки
@@ -140,7 +140,7 @@ item.minecraft.book,book.png,Книги
 item.minecraft.writable_book,writable_book.png,Книги
 block.minecraft.bookshelf,bookshelf.png,Блоки
 item.minecraft.experience_bottle,experience_bottle.png,Еда и зелья
-item.minecraft.bow,bow.png,Инструменты
+item.minecraft.bow,bow.png,Броня и инструменты
 item.minecraft.bowl,bowl.png,Разное
 block.minecraft.brain_coral,brain_coral.png,Растения
 block.minecraft.brain_coral_block,brain_coral_block.png,Растения
@@ -155,7 +155,7 @@ block.minecraft.brick_wall,brick_wall.png,Блоки
 block.minecraft.bricks,bricks.png,Блоки
 block.minecraft.brown_banner,brown_banner.png,Блоки
 block.minecraft.brown_bed,brown_bed.png,Блоки
-item.minecraft.brown_bundle,brown_bundle.png,Инструменты
+item.minecraft.brown_bundle,brown_bundle.png,Броня и инструменты
 block.minecraft.brown_candle,brown_candle.png,Разное
 block.minecraft.brown_carpet,brown_carpet.png,Блоки
 block.minecraft.brown_concrete,brown_concrete.png,Блоки
@@ -169,18 +169,18 @@ block.minecraft.brown_stained_glass,brown_stained_glass.png,Блоки
 block.minecraft.brown_stained_glass_pane,brown_stained_glass_pane.png,Блоки
 block.minecraft.brown_terracotta,brown_terracotta.png,Блоки
 block.minecraft.brown_wool,brown_wool.png,Блоки
-item.minecraft.brush,brush.png,Инструменты
+item.minecraft.brush,brush.png,Броня и инструменты
 block.minecraft.bubble_coral,bubble_coral.png,Растения
 block.minecraft.bubble_coral_block,bubble_coral_block.png,Растения
 block.minecraft.bubble_coral_fan,bubble_coral_fan.png,Растения
-item.minecraft.bucket,bucket.png,Инструменты
+item.minecraft.bucket,bucket.png,Броня и инструменты
 item.minecraft.axolotl_bucket,axolotl_bucket.png,Лут с мобов
 item.minecraft.cod_bucket,cod_bucket.png,Лут с мобов
 item.minecraft.pufferfish_bucket,pufferfish_bucket.png,Лут с мобов
 item.minecraft.salmon_bucket,salmon_bucket.png,Лут с мобов
 item.minecraft.tadpole_bucket,tadpole_bucket.png,Лут с мобов
 item.minecraft.tropical_fish_bucket,tropical_fish_bucket.png,Лут с мобов
-item.minecraft.bundle,bundle.png,Инструменты
+item.minecraft.bundle,bundle.png,Броня и инструменты
 block.minecraft.cactus,cactus.png,Растения
 block.minecraft.cake,cake.png,Еда и зелья
 block.minecraft.calcite,calcite.png,Блоки
@@ -188,15 +188,15 @@ block.minecraft.calibrated_sculk_sensor,calibrated_sculk_sensor.png,Разное
 block.minecraft.campfire,campfire.png,Разное
 block.minecraft.candle,candle.png,Разное
 block.minecraft.carrots,carrot.png,Еда и зелья
-item.minecraft.carrot_on_a_stick,carrot_on_a_stick.png,Инструменты
+item.minecraft.carrot_on_a_stick,carrot_on_a_stick.png,Броня и инструменты
 block.minecraft.cartography_table,cartography_table.png,Разное
 block.minecraft.carved_pumpkin,carved_pumpkin.png,Растения
 block.minecraft.cauldron,cauldron.png,Разное
 block.minecraft.chain,chain.png,Разное
-item.minecraft.chainmail_boots,chainmail_boots.png,Броня
-item.minecraft.chainmail_chestplate,chainmail_chestplate.png,Броня
-item.minecraft.chainmail_helmet,chainmail_helmet.png,Броня
-item.minecraft.chainmail_leggings,chainmail_leggings.png,Броня
+item.minecraft.chainmail_boots,chainmail_boots.png,Броня и инструменты
+item.minecraft.chainmail_chestplate,chainmail_chestplate.png,Броня и инструменты
+item.minecraft.chainmail_helmet,chainmail_helmet.png,Броня и инструменты
+item.minecraft.chainmail_leggings,chainmail_leggings.png,Броня и инструменты
 item.minecraft.charcoal,charcoal.png,Ценности
 entity.minecraft.cherry_boat,cherry_boat.png,Разное
 item.minecraft.cherry_chest_boat,cherry_chest_boat.png,Разное
@@ -232,7 +232,7 @@ block.minecraft.chorus_flower,chorus_flower.png,Растения
 item.minecraft.chorus_fruit,chorus_fruit.png,Еда и зелья
 block.minecraft.clay,clay.png,Блоки
 item.minecraft.clay_ball,clay_ball.png,Разное
-item.minecraft.clock,clock.png,Инструменты
+item.minecraft.clock,clock.png,Броня и инструменты
 item.minecraft.coal,coal.png,Ценности
 block.minecraft.coal_ore,coal_ore.png,Ценности
 block.minecraft.coarse_dirt,coarse_dirt.png,Блоки
@@ -246,7 +246,7 @@ block.minecraft.cobblestone_stairs,cobblestone_stairs.png,Блоки
 block.minecraft.cobblestone_wall,cobblestone_wall.png,Блоки
 block.minecraft.cobweb,cobweb.png,Лут с мобов
 item.minecraft.cocoa_beans,cocoa_beans.png,Растения
-item.minecraft.compass,compass.png,Инструменты
+item.minecraft.compass,compass.png,Броня и инструменты
 block.minecraft.composter,composter.png,Разное
 block.minecraft.conduit,conduit.png,Ценности
 item.minecraft.cooked_chicken,cooked_chicken.png,Еда и зелья
@@ -287,7 +287,7 @@ block.minecraft.crimson_slab,crimson_slab.png,Блоки
 block.minecraft.crimson_stairs,crimson_stairs.png,Блоки
 block.minecraft.crimson_stem,crimson_stem.png,Растения
 block.minecraft.crimson_trapdoor,crimson_trapdoor.png,Блоки
-item.minecraft.crossbow,crossbow.png,Инструменты
+item.minecraft.crossbow,crossbow.png,Броня и инструменты
 block.minecraft.crying_obsidian,crying_obsidian.png,Блоки
 block.minecraft.cut_copper,cut_copper.png,Блоки
 block.minecraft.cut_copper_slab,cut_copper_slab.png,Блоки
@@ -298,7 +298,7 @@ block.minecraft.cut_sandstone,cut_sandstone.png,Блоки
 block.minecraft.cut_sandstone_slab,cut_sandstone_slab.png,Блоки
 block.minecraft.cyan_banner,cyan_banner.png,Блоки
 block.minecraft.cyan_bed,cyan_bed.png,Блоки
-item.minecraft.cyan_bundle,cyan_bundle.png,Инструменты
+item.minecraft.cyan_bundle,cyan_bundle.png,Броня и инструменты
 block.minecraft.cyan_candle,cyan_candle.png,Разное
 block.minecraft.cyan_carpet,cyan_carpet.png,Блоки
 block.minecraft.cyan_concrete,cyan_concrete.png,Блоки
@@ -368,17 +368,17 @@ block.minecraft.deepslate_tile_wall,deepslate_tile_wall.png,Блоки
 block.minecraft.deepslate_tiles,deepslate_tiles.png,Блоки
 block.minecraft.detector_rail,detector_rail.png,Разное
 item.minecraft.diamond,diamond.png,!!!ВАЛЮТА СЕРВЕРА!!!
-item.minecraft.diamond_axe,diamond_axe.png,Инструменты
-item.minecraft.diamond_boots,diamond_boots.png,Броня
-item.minecraft.diamond_chestplate,diamond_chestplate.png,Броня
-item.minecraft.diamond_helmet,diamond_helmet.png,Броня
-item.minecraft.diamond_hoe,diamond_hoe.png,Инструменты
-item.minecraft.diamond_horse_armor,diamond_horse_armor.png,Броня
-item.minecraft.diamond_leggings,diamond_leggings.png,Броня
+item.minecraft.diamond_axe,diamond_axe.png,Броня и инструменты
+item.minecraft.diamond_boots,diamond_boots.png,Броня и инструменты
+item.minecraft.diamond_chestplate,diamond_chestplate.png,Броня и инструменты
+item.minecraft.diamond_helmet,diamond_helmet.png,Броня и инструменты
+item.minecraft.diamond_hoe,diamond_hoe.png,Броня и инструменты
+item.minecraft.diamond_horse_armor,diamond_horse_armor.png,Броня и инструменты
+item.minecraft.diamond_leggings,diamond_leggings.png,Броня и инструменты
 block.minecraft.diamond_ore,diamond_ore.png,Ценности
-item.minecraft.diamond_pickaxe,diamond_pickaxe.png,Инструменты
-item.minecraft.diamond_shovel,diamond_shovel.png,Инструменты
-item.minecraft.diamond_sword,diamond_sword.png,Инструменты
+item.minecraft.diamond_pickaxe,diamond_pickaxe.png,Броня и инструменты
+item.minecraft.diamond_shovel,diamond_shovel.png,Броня и инструменты
+item.minecraft.diamond_sword,diamond_sword.png,Броня и инструменты
 block.minecraft.diorite,diorite.png,Блоки
 block.minecraft.diorite_slab,diorite_slab.png,Блоки
 block.minecraft.diorite_stairs,diorite_stairs.png,Блоки
@@ -386,7 +386,7 @@ block.minecraft.diorite_wall,diorite_wall.png,Блоки
 block.minecraft.dirt,dirt.png,Блоки
 item.minecraft.disc_fragment_5,disc_fragment_5.png,Ценности
 block.minecraft.dispenser,dispenser.png,Разное
-block.minecraft.dragon_egg,dragon_egg.png,НЕЛЬЗЯ ПРОДАВАТЬ
+block.minecraft.dragon_egg,dragon_egg.png,!!!ПРОДАЖА ЗАПРЕЩЕНА!!!
 block.minecraft.dragon_head,dragon_head.png,Ценности
 item.minecraft.dragon_breath,dragon_breath.png,Еда и зелья
 item.minecraft.dried_kelp,dried_kelp.png,Еда и зелья
@@ -395,10 +395,10 @@ block.minecraft.dripstone_block,dripstone_block.png,Блоки
 block.minecraft.dropper,dropper.png,Разное
 item.minecraft.echo_shard,echo_shard.png,Ценности
 item.minecraft.egg,egg.png,Лут с мобов
-item.minecraft.elytra,elytra.png,Броня
+item.minecraft.elytra,elytra.png,Броня и инструменты
 item.minecraft.emerald,emerald.png,Ценности
 block.minecraft.emerald_ore,emerald_ore.png,Ценности
-item.minecraft.map,map.png,Инструменты
+item.minecraft.map,map.png,Броня и инструменты
 item.minecraft.enchanted_golden_apple,enchanted_golden_apple.png,Ценности
 block.minecraft.enchanting_table,enchanting_table.png,Разное
 entity.minecraft.end_crystal,end_crystal.png,Разное
@@ -428,10 +428,10 @@ block.minecraft.fire_coral,fire_coral.png,Растения
 block.minecraft.fire_coral_block,fire_coral_block.png,Растения
 block.minecraft.fire_coral_fan,fire_coral_fan.png,Растения
 entity.minecraft.firework_rocket,firework_rocket.png,Разное
-item.minecraft.fishing_rod,fishing_rod.png,Инструменты
+item.minecraft.fishing_rod,fishing_rod.png,Броня и инструменты
 block.minecraft.fletching_table,fletching_table.png,Разное
 item.minecraft.flint,flint.png,Разное
-item.minecraft.flint_and_steel,flint_and_steel.png,Инструменты
+item.minecraft.flint_and_steel,flint_and_steel.png,Броня и инструменты
 block.minecraft.flower_pot,flower_pot.png,Разное
 block.minecraft.flowering_azalea,flowering_azalea.png,Растения
 block.minecraft.flowering_azalea_leaves,flowering_azalea_leaves.png,Растения
@@ -453,17 +453,17 @@ item.minecraft.gold_ingot,gold_ingot.png,Ценности
 item.minecraft.gold_nugget,gold_nugget.png,!!!ПРОДАЖА ЗАПРЕЩЕНА!!!
 block.minecraft.gold_ore,gold_ore.png,Ценности
 item.minecraft.golden_apple,golden_apple.png,Еда и зелья
-item.minecraft.golden_axe,golden_axe.png,Инструменты
-item.minecraft.golden_boots,golden_boots.png,Броня
+item.minecraft.golden_axe,golden_axe.png,Броня и инструменты
+item.minecraft.golden_boots,golden_boots.png,Броня и инструменты
 item.minecraft.golden_carrot,golden_carrot.png,Еда и зелья
-item.minecraft.golden_chestplate,golden_chestplate.png,Броня
-item.minecraft.golden_helmet,golden_helmet.png,Броня
-item.minecraft.golden_hoe,golden_hoe.png,Ценности
-item.minecraft.golden_horse_armor,golden_horse_armor.png,Броня
-item.minecraft.golden_leggings,golden_leggings.png,Ценности
-item.minecraft.golden_pickaxe,golden_pickaxe.png,Инструменты
-item.minecraft.golden_shovel,golden_shovel.png,Инструменты
-item.minecraft.golden_sword,golden_sword.png,Инструменты
+item.minecraft.golden_chestplate,golden_chestplate.png,Броня и инструменты
+item.minecraft.golden_helmet,golden_helmet.png,Броня и инструменты
+item.minecraft.golden_hoe,golden_hoe.png,Броня и инструменты
+item.minecraft.golden_horse_armor,golden_horse_armor.png,Броня и инструменты
+item.minecraft.golden_leggings,golden_leggings.png,Броня и инструменты
+item.minecraft.golden_pickaxe,golden_pickaxe.png,Броня и инструменты
+item.minecraft.golden_shovel,golden_shovel.png,Броня и инструменты
+item.minecraft.golden_sword,golden_sword.png,Броня и инструменты
 block.minecraft.granite,granite.png,Блоки
 block.minecraft.granite_slab,granite_slab.png,Блоки
 block.minecraft.granite_stairs,granite_stairs.png,Блоки
@@ -472,7 +472,7 @@ block.minecraft.grass_block,grass_block.png,Блоки
 block.minecraft.gravel,gravel.png,Блоки
 block.minecraft.gray_banner,gray_banner.png,Блоки
 block.minecraft.gray_bed,gray_bed.png,Блоки
-item.minecraft.gray_bundle,gray_bundle.png,Инструменты
+item.minecraft.gray_bundle,gray_bundle.png,Броня и инструменты
 block.minecraft.gray_candle,gray_candle.png,Разное
 block.minecraft.gray_carpet,gray_carpet.png,Блоки
 block.minecraft.gray_concrete,gray_concrete.png,Блоки
@@ -486,7 +486,7 @@ block.minecraft.gray_terracotta,gray_terracotta.png,Блоки
 block.minecraft.gray_wool,gray_wool.png,Блоки
 block.minecraft.green_banner,green_banner.png,Блоки
 block.minecraft.green_bed,green_bed.png,Блоки
-item.minecraft.green_bundle,green_bundle.png,Инструменты
+item.minecraft.green_bundle,green_bundle.png,Броня и инструменты
 block.minecraft.green_candle,green_candle.png,Разное
 block.minecraft.green_carpet,green_carpet.png,Блоки
 block.minecraft.green_concrete,green_concrete.png,Блоки
@@ -515,22 +515,22 @@ block.minecraft.horn_coral_block,horn_coral_block.png,Растения
 block.minecraft.horn_coral_fan,horn_coral_fan.png,Растения
 block.minecraft.ice,ice.png,Блоки
 item.minecraft.ink_sac,ink_sac.png,Краски
-item.minecraft.iron_axe,iron_axe.png,Инструменты
+item.minecraft.iron_axe,iron_axe.png,Броня и инструменты
 block.minecraft.iron_bars,iron_bars.png,Блоки
-item.minecraft.iron_boots,iron_boots.png,Броня
-item.minecraft.iron_chestplate,iron_chestplate.png,Броня
+item.minecraft.iron_boots,iron_boots.png,Броня и инструменты
+item.minecraft.iron_chestplate,iron_chestplate.png,Броня и инструменты
 block.minecraft.iron_door,iron_door.png,Блоки
-item.minecraft.iron_helmet,iron_helmet.png,Броня
-item.minecraft.iron_hoe,iron_hoe.png,Инструменты
-item.minecraft.iron_horse_armor,iron_horse_armor.png,Броня
+item.minecraft.iron_helmet,iron_helmet.png,Броня и инструменты
+item.minecraft.iron_hoe,iron_hoe.png,Броня и инструменты
+item.minecraft.iron_horse_armor,iron_horse_armor.png,Броня и инструменты
 item.minecraft.iron_ingot,iron_ingot.png,Ценности
-item.minecraft.iron_leggings,iron_leggings.png,Броня
+item.minecraft.iron_leggings,iron_leggings.png,Броня и инструменты
 item.minecraft.iron_nugget,iron_nugget.png,!!!ПРОДАЖА ЗАПРЕЩЕНА!!!
 block.minecraft.iron_ore,iron_ore.png,Ценности
-item.minecraft.iron_pickaxe,iron_pickaxe.png,Инструменты
-item.minecraft.iron_shovel,iron_shovel.png,Инструменты
-item.minecraft.iron_sword,iron_sword.png,Инструменты
-block.minecraft.iron_trapdoor,iron_trapdoor.png,Инструменты
+item.minecraft.iron_pickaxe,iron_pickaxe.png,Броня и инструменты
+item.minecraft.iron_shovel,iron_shovel.png,Броня и инструменты
+item.minecraft.iron_sword,iron_sword.png,Броня и инструменты
+block.minecraft.iron_trapdoor,iron_trapdoor.png,Броня и инструменты
 entity.minecraft.item_frame,item_frame.png,Разное
 block.minecraft.jack_o_lantern,jack_o_lantern.png,Растения
 block.minecraft.jukebox,jukebox.png,Разное
@@ -558,19 +558,19 @@ item.minecraft.lapis_lazuli,lapis_lazuli.png,Ценности
 block.minecraft.lapis_ore,lapis_ore.png,Ценности
 block.minecraft.large_amethyst_bud,large_amethyst_bud.png,Ценности
 block.minecraft.large_fern,large_fern.png,Растения
-item.minecraft.lava_bucket,lava_bucket.png,Инструменты
-item.minecraft.lead,lead.png,Инструменты
+item.minecraft.lava_bucket,lava_bucket.png,Броня и инструменты
+item.minecraft.lead,lead.png,Броня и инструменты
 item.minecraft.leather,leather.png,Лут с мобов
-item.minecraft.leather_boots,leather_boots.png,Броня
-item.minecraft.leather_helmet,leather_helmet.png,Броня
-item.minecraft.leather_horse_armor,leather_horse_armor.png,Броня
-item.minecraft.leather_leggings,leather_leggings.png,Броня
-item.minecraft.leather_chestplate,leather_chestplate.png,Броня
+item.minecraft.leather_boots,leather_boots.png,Броня и инструменты
+item.minecraft.leather_helmet,leather_helmet.png,Броня и инструменты
+item.minecraft.leather_horse_armor,leather_horse_armor.png,Броня и инструменты
+item.minecraft.leather_leggings,leather_leggings.png,Броня и инструменты
+item.minecraft.leather_chestplate,leather_chestplate.png,Броня и инструменты
 block.minecraft.lectern,lectern.png,Разное
 block.minecraft.lever,lever.png,Разное
 block.minecraft.light_blue_banner,light_blue_banner.png,Блоки
 block.minecraft.light_blue_bed,light_blue_bed.png,Блоки
-item.minecraft.light_blue_bundle,light_blue_bundle.png,Инструменты
+item.minecraft.light_blue_bundle,light_blue_bundle.png,Броня и инструменты
 block.minecraft.light_blue_candle,light_blue_candle.png,Разное
 block.minecraft.light_blue_carpet,light_blue_carpet.png,Блоки
 block.minecraft.light_blue_concrete,light_blue_concrete.png,Блоки
@@ -584,7 +584,7 @@ block.minecraft.light_blue_terracotta,light_blue_terracotta.png,Блоки
 block.minecraft.light_blue_wool,light_blue_wool.png,Блоки
 block.minecraft.light_gray_banner,light_gray_banner.png,Блоки
 block.minecraft.light_gray_bed,light_gray_bed.png,Блоки
-item.minecraft.light_gray_bundle,light_gray_bundle.png,Инструменты
+item.minecraft.light_gray_bundle,light_gray_bundle.png,Броня и инструменты
 block.minecraft.light_gray_candle,light_gray_candle.png,Разное
 block.minecraft.light_gray_carpet,light_gray_carpet.png,Блоки
 block.minecraft.light_gray_concrete,light_gray_concrete.png,Блоки
@@ -602,7 +602,7 @@ block.minecraft.lilac,lilac.png,Растения
 block.minecraft.lily_pad,lily_pad.png,Растения
 block.minecraft.lime_banner,lime_banner.png,Блоки
 block.minecraft.lime_bed,lime_bed.png,Блоки
-item.minecraft.lime_bundle,lime_bundle.png,Инструменты
+item.minecraft.lime_bundle,lime_bundle.png,Броня и инструменты
 block.minecraft.lime_candle,lime_candle.png,Разное
 block.minecraft.lime_carpet,lime_carpet.png,Блоки
 block.minecraft.lime_concrete,lime_concrete.png,Блоки
@@ -616,10 +616,10 @@ block.minecraft.lime_terracotta,lime_terracotta.png,Блоки
 block.minecraft.lime_wool,lime_wool.png,Блоки
 block.minecraft.lodestone,lodestone.png,Разное
 block.minecraft.loom,loom.png,Разное
-item.minecraft.mace,mace.png,Инструменты
+item.minecraft.mace,mace.png,Броня и инструменты
 block.minecraft.magenta_banner,magenta_banner.png,Блоки
 block.minecraft.magenta_bed,magenta_bed.png,Блоки
-item.minecraft.magenta_bundle,magenta_bundle.png,Инструменты
+item.minecraft.magenta_bundle,magenta_bundle.png,Броня и инструменты
 block.minecraft.magenta_candle,magenta_candle.png,Разное
 block.minecraft.magenta_carpet,magenta_carpet.png,Блоки
 block.minecraft.magenta_concrete,magenta_concrete.png,Блоки
@@ -682,7 +682,7 @@ block.minecraft.mushroom_stem,mushroom_stem.png,Блоки
 item.minecraft.mushroom_stew,mushroom_stew.png,Еда и зелья
 item.minecraft.music_disc_pigstep,music_disc_pigstep.png,Ценности
 block.minecraft.mycelium,mycelium.png,Блоки
-item.minecraft.name_tag,name_tag.png,Инструменты
+item.minecraft.name_tag,name_tag.png,Броня и инструменты
 item.minecraft.nautilus_shell,nautilus_shell.png,Ценности
 item.minecraft.nether_brick,nether_brick.png,Блоки
 block.minecraft.nether_brick_fence,nether_brick_fence.png,Блоки
@@ -697,17 +697,17 @@ block.minecraft.nether_sprouts,nether_sprouts.png,Растения
 item.minecraft.nether_star,nether_star.png,Ценности
 block.minecraft.nether_wart,nether_wart.png,Еда и зелья
 block.minecraft.nether_wart_block,nether_wart_block.png,Блоки
-item.minecraft.netherite_axe,netherite_axe.png,Инструменты
-item.minecraft.netherite_boots,netherite_boots.png,Броня
-item.minecraft.netherite_chestplate,netherite_chestplate.png,Броня
-item.minecraft.netherite_helmet,netherite_helmet.png,Броня
-item.minecraft.netherite_hoe,netherite_hoe.png,Инструменты
+item.minecraft.netherite_axe,netherite_axe.png,Броня и инструменты
+item.minecraft.netherite_boots,netherite_boots.png,Броня и инструменты
+item.minecraft.netherite_chestplate,netherite_chestplate.png,Броня и инструменты
+item.minecraft.netherite_helmet,netherite_helmet.png,Броня и инструменты
+item.minecraft.netherite_hoe,netherite_hoe.png,Броня и инструменты
 item.minecraft.netherite_ingot,netherite_ingot.png,Ценности
-item.minecraft.netherite_leggings,netherite_leggings.png,Броня
-item.minecraft.netherite_pickaxe,netherite_pickaxe.png,Инструменты
+item.minecraft.netherite_leggings,netherite_leggings.png,Броня и инструменты
+item.minecraft.netherite_pickaxe,netherite_pickaxe.png,Броня и инструменты
 item.minecraft.netherite_scrap,netherite_scrap.png,Ценности
-item.minecraft.netherite_shovel,netherite_shovel.png,Инструменты
-item.minecraft.netherite_sword,netherite_sword.png,Инструменты
+item.minecraft.netherite_shovel,netherite_shovel.png,Броня и инструменты
+item.minecraft.netherite_sword,netherite_sword.png,Броня и инструменты
 block.minecraft.netherrack,netherrack.png,Блоки
 block.minecraft.note_block,note_block.png,Разное
 entity.minecraft.oak_boat,oak_boat.png,Разное
@@ -730,10 +730,10 @@ block.minecraft.oak_wood,oak_wood.png,Блоки
 block.minecraft.observer,observer.png,Разное
 block.minecraft.obsidian,obsidian.png,Блоки
 block.minecraft.ochre_froglight,ochre_froglight.png,Блоки
-item.minecraft.ominous_trial_key,ominous_trial_key.png,Инструменты
+item.minecraft.ominous_trial_key,ominous_trial_key.png,Броня и инструменты
 block.minecraft.orange_banner,orange_banner.png,Блоки
 block.minecraft.orange_bed,orange_bed.png,Блоки
-item.minecraft.orange_bundle,orange_bundle.png,Инструменты
+item.minecraft.orange_bundle,orange_bundle.png,Броня и инструменты
 block.minecraft.orange_candle,orange_candle.png,Разное
 block.minecraft.orange_carpet,orange_carpet.png,Блоки
 block.minecraft.orange_concrete,orange_concrete.png,Блоки
@@ -766,7 +766,7 @@ item.minecraft.phantom_membrane,phantom_membrane.png,Лут с мобов
 block.minecraft.piglin_head,piglin_head.png,Ценности
 block.minecraft.pink_banner,pink_banner.png,Блоки
 block.minecraft.pink_bed,pink_bed.png,Блоки
-item.minecraft.pink_bundle,pink_bundle.png,Инструменты
+item.minecraft.pink_bundle,pink_bundle.png,Броня и инструменты
 block.minecraft.pink_candle,pink_candle.png,Разное
 block.minecraft.pink_carpet,pink_carpet.png,Блоки
 block.minecraft.pink_concrete,pink_concrete.png,Блоки
@@ -834,7 +834,7 @@ item.minecraft.pumpkin_pie,pumpkin_pie.png,Еда и зелья
 item.minecraft.pumpkin_seeds,pumpkin_seeds.png,Растения
 block.minecraft.purple_banner,purple_banner.png,Блоки
 block.minecraft.purple_bed,purple_bed.png,Блоки
-item.minecraft.purple_bundle,purple_bundle.png,Инструменты
+item.minecraft.purple_bundle,purple_bundle.png,Броня и инструменты
 block.minecraft.purple_candle,purple_candle.png,Разное
 block.minecraft.purple_carpet,purple_carpet.png,Блоки
 block.minecraft.purple_concrete,purple_concrete.png,Блоки
@@ -855,7 +855,7 @@ block.minecraft.quartz_pillar,quartz_pillar.png,Блоки
 block.minecraft.quartz_slab,quartz_slab.png,Блоки
 block.minecraft.quartz_stairs,quartz_stairs.png,Блоки
 item.minecraft.rabbit_hide,rabbit_hide.png,Лут с мобов
-item.minecraft.rabbit_stew,rabbit_stew.png,Лут с мобов
+item.minecraft.rabbit_stew,rabbit_stew.png,Еда и зелья
 item.minecraft.rabbit_foot,rabbit_foot.png,Лут с мобов
 block.minecraft.rail,rail.png,Разное
 item.minecraft.beef,beef.png,Еда и зелья
@@ -868,10 +868,10 @@ item.minecraft.mutton,mutton.png,Еда и зелья
 item.minecraft.porkchop,porkchop.png,Еда и зелья
 item.minecraft.rabbit,rabbit.png,Еда и зелья
 item.minecraft.salmon,salmon.png,Еда и зелья
-item.minecraft.recovery_compass,recovery_compass.png,Инструменты
+item.minecraft.recovery_compass,recovery_compass.png,Броня и инструменты
 block.minecraft.red_banner,red_banner.png,Блоки
 block.minecraft.red_bed,red_bed.png,Блоки
-item.minecraft.red_bundle,red_bundle.png,Инструменты
+item.minecraft.red_bundle,red_bundle.png,Броня и инструменты
 block.minecraft.red_candle,red_candle.png,Разное
 block.minecraft.red_carpet,red_carpet.png,Блоки
 block.minecraft.red_concrete,red_concrete.png,Блоки
@@ -905,7 +905,7 @@ block.minecraft.respawn_anchor,respawn_anchor.png,Разное
 block.minecraft.rooted_dirt,rooted_dirt.png,Блоки
 block.minecraft.rose_bush,rose_bush.png,Растения
 item.minecraft.rotten_flesh,rotten_flesh.png,Лут с мобов
-item.minecraft.saddle,saddle.png,Инструменты
+item.minecraft.saddle,saddle.png,Броня и инструменты
 block.minecraft.sand,sand.png,Блоки
 block.minecraft.sandstone,sandstone.png,Блоки
 block.minecraft.sandstone_slab,sandstone_slab.png,Блоки
@@ -920,8 +920,8 @@ block.minecraft.sculk_vein,sculk_vein.png,Растения
 block.minecraft.sea_lantern,sea_lantern.png,Блоки
 block.minecraft.sea_pickle,sea_pickle.png,Растения
 block.minecraft.seagrass,seagrass.png,Растения
-item.minecraft.shears,shears.png,Инструменты
-item.minecraft.shield,shield.png,Инструменты
+item.minecraft.shears,shears.png,Броня и инструменты
+item.minecraft.shield,shield.png,Броня и инструменты
 block.minecraft.shroomlight,shroomlight.png,Блоки
 block.minecraft.shulker_box,shulker_box.png,!!!ПРОДАЖА ЗАПРЕЩЕНА!!!
 item.minecraft.shulker_shell,shulker_shell.png,!!!ПРОДАЖА ЗАПРЕЩЕНА!!!
@@ -953,7 +953,7 @@ block.minecraft.soul_lantern,soul_lantern.png,Разное
 block.minecraft.soul_sand,soul_sand.png,Блоки
 block.minecraft.soul_soil,soul_soil.png,Блоки
 block.minecraft.soul_torch,soul_torch.png,Разное
-entity.minecraft.spectral_arrow,spectral_arrow.png,Инструменты
+entity.minecraft.spectral_arrow,spectral_arrow.png,Броня и инструменты
 item.minecraft.spider_eye,spider_eye.png,Лут с мобов
 block.minecraft.sponge,sponge.png,Ценности
 block.minecraft.spore_blossom,spore_blossom.png,Растения
@@ -974,24 +974,24 @@ block.minecraft.spruce_slab,spruce_slab.png,Блоки
 block.minecraft.spruce_stairs,spruce_stairs.png,Блоки
 block.minecraft.spruce_trapdoor,spruce_trapdoor.png,Блоки
 block.minecraft.spruce_wood,spruce_wood.png,Блоки
-item.minecraft.spyglass,spyglass.png,Инструменты
+item.minecraft.spyglass,spyglass.png,Броня и инструменты
 item.minecraft.cooked_beef,cooked_beef.png,Еда и зелья
 item.minecraft.stick,stick.png,Разное
 block.minecraft.sticky_piston,sticky_piston.png,Разное
 block.minecraft.stone,stone.png,Блоки
-item.minecraft.stone_axe,stone_axe.png,Инструменты
+item.minecraft.stone_axe,stone_axe.png,Броня и инструменты
 block.minecraft.stone_brick_slab,stone_brick_slab.png,Блоки
 block.minecraft.stone_brick_stairs,stone_brick_stairs.png,Блоки
 block.minecraft.stone_brick_wall,stone_brick_wall.png,Блоки
 block.minecraft.stone_bricks,stone_bricks.png,Блоки
 block.minecraft.stone_button,stone_button.png,Разное
-item.minecraft.stone_hoe,stone_hoe.png,Инструменты
-item.minecraft.stone_pickaxe,stone_pickaxe.png,Инструменты
+item.minecraft.stone_hoe,stone_hoe.png,Броня и инструменты
+item.minecraft.stone_pickaxe,stone_pickaxe.png,Броня и инструменты
 block.minecraft.stone_pressure_plate,stone_pressure_plate.png,Разное
-item.minecraft.stone_shovel,stone_shovel.png,Инструменты
+item.minecraft.stone_shovel,stone_shovel.png,Броня и инструменты
 block.minecraft.stone_slab,stone_slab.png,Блоки
 block.minecraft.stone_stairs,stone_stairs.png,Блоки
-item.minecraft.stone_sword,stone_sword.png,Инструменты
+item.minecraft.stone_sword,stone_sword.png,Броня и инструменты
 block.minecraft.stonecutter,stonecutter.png,Разное
 item.minecraft.string,string.png,Лут с мобов
 block.minecraft.stripped_acacia_log,stripped_acacia_log.png,Блоки
@@ -1029,26 +1029,26 @@ block.minecraft.tnt,tnt.png,Разное
 block.minecraft.torch,torch.png,Разное
 block.minecraft.torchflower,torchflower.png,Растения
 item.minecraft.torchflower_seeds,torchflower_seeds.png,Растения
-item.minecraft.totem_of_undying,totem_of_undying.png,Инструменты
+item.minecraft.totem_of_undying,totem_of_undying.png,Броня и инструменты
 block.minecraft.trapped_chest,trapped_chest.png,Разное
-item.minecraft.trial_key,trial_key.png,Инструменты
-entity.minecraft.trident,trident.png,Инструменты
+item.minecraft.trial_key,trial_key.png,Броня и инструменты
+entity.minecraft.trident,trident.png,Броня и инструменты
 block.minecraft.tripwire_hook,tripwire_hook.png,Разное
 entity.minecraft.tropical_fish,tropical_fish.png,Еда и зелья
 block.minecraft.tube_coral,tube_coral.png,Растения
 block.minecraft.tube_coral_block,tube_coral_block.png,Растения
 block.minecraft.tube_coral_fan,tube_coral_fan.png,Растения
-block.minecraft.tuff,tuff.png,Растения
-block.minecraft.tuff_brick_slab,tuff_brick_slab.png,Растения
-block.minecraft.tuff_brick_stairs,tuff_brick_stairs.png,Растения
-block.minecraft.tuff_brick_wall,tuff_brick_wall.png,Растения
-block.minecraft.tuff_bricks,tuff_bricks.png,Растения
-block.minecraft.tuff_slab,tuff_slab.png,Растения
-block.minecraft.tuff_stairs,tuff_stairs.png,Растения
-block.minecraft.tuff_wall,tuff_wall.png,Растения
+block.minecraft.tuff,tuff.png,Блоки
+block.minecraft.tuff_brick_slab,tuff_brick_slab.png,Блоки
+block.minecraft.tuff_brick_stairs,tuff_brick_stairs.png,Блоки
+block.minecraft.tuff_brick_wall,tuff_brick_wall.png,Блоки
+block.minecraft.tuff_bricks,tuff_bricks.png,Блоки
+block.minecraft.tuff_slab,tuff_slab.png,Блоки
+block.minecraft.tuff_stairs,tuff_stairs.png,Блоки
+block.minecraft.tuff_wall,tuff_wall.png,Блоки
 block.minecraft.turtle_egg,turtle_egg.png,Лут с мобов
 item.minecraft.turtle_scute,turtle_scute.png,Лут с мобов
-item.minecraft.turtle_helmet,turtle_helmet.png,Броня
+item.minecraft.turtle_helmet,turtle_helmet.png,Броня и инструменты
 block.minecraft.twisting_vines,twisting_vines.png,Растения
 block.minecraft.verdant_froglight,verdant_froglight.png,Блоки
 block.minecraft.vine,vine.png,Растения
@@ -1057,7 +1057,7 @@ block.minecraft.warped_door,warped_door.png,Блоки
 block.minecraft.warped_fence,warped_fence.png,Блоки
 block.minecraft.warped_fence_gate,warped_fence_gate.png,Блоки
 block.minecraft.warped_fungus,warped_fungus.png,Растения
-item.minecraft.warped_fungus_on_a_stick,warped_fungus_on_a_stick.png,Инструменты
+item.minecraft.warped_fungus_on_a_stick,warped_fungus_on_a_stick.png,Броня и инструменты
 block.minecraft.warped_hanging_sign,warped_hanging_sign.png,Блоки
 block.minecraft.warped_hyphae,warped_hyphae.png,Блоки
 block.minecraft.warped_nylium,warped_nylium.png,Блоки
@@ -1070,7 +1070,7 @@ block.minecraft.warped_stairs,warped_stairs.png,Блоки
 block.minecraft.warped_stem,warped_stem.png,Растения
 block.minecraft.warped_trapdoor,warped_trapdoor.png,Блоки
 block.minecraft.warped_wart_block,warped_wart_block.png,Блоки
-item.minecraft.water_bucket,water_bucket.png,Инструменты
+item.minecraft.water_bucket,water_bucket.png,Броня и инструменты
 block.minecraft.waxed_copper_block,waxed_copper_block.png,Блоки
 block.minecraft.waxed_chiseled_copper,waxed_chiseled_copper.png,Блоки
 block.minecraft.waxed_copper_bulb,waxed_copper_bulb.png,Блоки
@@ -1122,7 +1122,7 @@ item.minecraft.wheat,wheat.png,Растения
 item.minecraft.wheat_seeds,wheat_seeds.png,Растения
 block.minecraft.white_banner,white_banner.png,Блоки
 block.minecraft.white_bed,white_bed.png,Блоки
-item.minecraft.white_bundle,white_bundle.png,Инструменты
+item.minecraft.white_bundle,white_bundle.png,Броня и инструменты
 block.minecraft.white_candle,white_candle.png,Разное
 block.minecraft.white_carpet,white_carpet.png,Блоки
 block.minecraft.white_concrete,white_concrete.png,Блоки
@@ -1138,16 +1138,16 @@ block.minecraft.white_wool,white_wool.png,Блоки
 entity.minecraft.breeze_wind_charge,wind_charge.png,Лут с мобов
 block.minecraft.wither_rose,wither_rose.png,Растения
 block.minecraft.wither_skeleton_skull,wither_skeleton_skull.png,Ценности
-item.minecraft.wolf_armor,wolf_armor.png,Инструменты
-item.minecraft.wooden_axe,wooden_axe.png,Инструменты
-item.minecraft.wooden_hoe,wooden_hoe.png,Инструменты
-item.minecraft.wooden_pickaxe,wooden_pickaxe.png,Инструменты
-item.minecraft.wooden_shovel,wooden_shovel.png,Инструменты
-item.minecraft.wooden_sword,wooden_sword.png,Инструменты
-item.minecraft.written_book,written_book.png,Книжки
+item.minecraft.wolf_armor,wolf_armor.png,Броня и инструменты
+item.minecraft.wooden_axe,wooden_axe.png,Броня и инструменты
+item.minecraft.wooden_hoe,wooden_hoe.png,Броня и инструменты
+item.minecraft.wooden_pickaxe,wooden_pickaxe.png,Броня и инструменты
+item.minecraft.wooden_shovel,wooden_shovel.png,Броня и инструменты
+item.minecraft.wooden_sword,wooden_sword.png,Броня и инструменты
+item.minecraft.written_book,written_book.png,Книги
 block.minecraft.yellow_banner,yellow_banner.png,Блоки
 block.minecraft.yellow_bed,yellow_bed.png,Блоки
-item.minecraft.yellow_bundle,yellow_bundle.png,Инструменты
+item.minecraft.yellow_bundle,yellow_bundle.png,Броня и инструменты
 block.minecraft.yellow_candle,yellow_candle.png,Разное
 block.minecraft.yellow_carpet,yellow_carpet.png,Блоки
 block.minecraft.yellow_concrete,yellow_concrete.png,Блоки
@@ -1160,8 +1160,8 @@ block.minecraft.yellow_stained_glass_pane,yellow_stained_glass_pane.png,Блок
 block.minecraft.yellow_terracotta,yellow_terracotta.png,Блоки
 block.minecraft.yellow_wool,yellow_wool.png,Блоки
 block.minecraft.zombie_head,zombie_head.png,Ценности
-block.minecraft.light,light.png,Ценное
-block.minecraft.structure_void,structure_void.png,Ценное
+block.minecraft.light,light.png,Ценности
+block.minecraft.structure_void,structure_void.png,Ценности
 item.minecraft.enchanted_book,enchanted_book.png,Книги
 block.minecraft.creaking_heart,creaking_heart.png,Блоки
 block.minecraft.pale_oak_wood,pale_oak_wood.png,Блоки
@@ -1181,13 +1181,13 @@ block.minecraft.pale_oak_fence_gate,pale_oak_fence_gate.png,Блоки
 block.minecraft.pale_oak_trapdoor,pale_oak_trapdoor.png,Блоки
 entity.minecraft.pale_oak_boat,pale_oak_boat.png,Разное
 entity.minecraft.pale_oak_chest_boat,pale_oak_chest_boat.png,Разное
-block.minecraft.pale_hanging_moss,pale_hanging_moss.png,Растение
-block.minecraft.pale_moss_block,pale_moss_block.png,Растение
-block.minecraft.pale_moss_carpet,pale_moss_carpet.png,Растение
-block.minecraft.pale_oak_leaves,pale_oak_leaves.png,Растение
-block.minecraft.pale_oak_sapling,pale_oak_sapling.png,Растение
-block.minecraft.closed_eyeblossom,closed_eyeblossom.png,Растение
-block.minecraft.open_eyeblossom,open_eyeblossom.png,Растение
+block.minecraft.pale_hanging_moss,pale_hanging_moss.png,Растения
+block.minecraft.pale_moss_block,pale_moss_block.png,Растения
+block.minecraft.pale_moss_carpet,pale_moss_carpet.png,Растения
+block.minecraft.pale_oak_leaves,pale_oak_leaves.png,Растения
+block.minecraft.pale_oak_sapling,pale_oak_sapling.png,Растения
+block.minecraft.closed_eyeblossom,closed_eyeblossom.png,Растения
+block.minecraft.open_eyeblossom,open_eyeblossom.png,Растения
 block.minecraft.resin_block,resin_block.png,Блоки
 block.minecraft.resin_bricks,resin_bricks.png,Блоки
 block.minecraft.chiseled_resin_bricks,chiseled_resin_bricks.png,Блоки
@@ -1196,28 +1196,28 @@ block.minecraft.resin_brick_stairs,resin_brick_stairs.png,Блоки
 block.minecraft.resin_brick_wall,resin_brick_wall.png,Блоки
 block.minecraft.resin_clump,resin_chump.png,Лут с мобов
 item.minecraft.resin_brick,resin_brick.png,Разное
-block.minecraft.leaf_litter,leaf_litter.png,Растение
-block.minecraft.wildflowers,wildflowers.png,Растение
-block.minecraft.bush,bush.png,Растение
-block.minecraft.firefly_bush,firefly_bush.png,Растение
-block.minecraft.cactus_flower,cactus_flower.png,Растение
-block.minecraft.short_dry_grass,short_dry_grass.png,Растение
-block.minecraft.tall_dry_grass,tall_dry_grass.png,Растение
+block.minecraft.leaf_litter,leaf_litter.png,Растения
+block.minecraft.wildflowers,wildflowers.png,Растения
+block.minecraft.bush,bush.png,Растения
+block.minecraft.firefly_bush,firefly_bush.png,Растения
+block.minecraft.cactus_flower,cactus_flower.png,Растения
+block.minecraft.short_dry_grass,short_dry_grass.png,Растения
+block.minecraft.tall_dry_grass,tall_dry_grass.png,Растения
 block.minecraft.dried_ghast,dried_ghast.png,Разное
-item.minecraft.white_harness,white_harness.png,Инструменты
-item.minecraft.light_gray_harness,light_gray_harness.png,Инструменты
-item.minecraft.gray_harness,gray_harness.png,Инструменты
-item.minecraft.black_harness,black_harness.png,Инструменты
-item.minecraft.orange_harness,orange_harness.png,Инструменты
-item.minecraft.brown_harness,brown_harness.png,Инструменты
-item.minecraft.green_harness,green_harness.png,Инструменты
-item.minecraft.lime_harness,lime_harness.png,Инструменты
-item.minecraft.cyan_harness,cyan_harness.png,Инструменты
-item.minecraft.light_blue_harness,light_blue_harness.png,Инструменты
-item.minecraft.blue_harness,blue_harness.png,Инструменты
-item.minecraft.magenta_harness,magenta_harness.png,Инструменты
-item.minecraft.purple_harness,purple_harness.png,Инструменты
-item.minecraft.pink_harness,pink_harness.png,Инструменты
+item.minecraft.white_harness,white_harness.png,Броня и инструменты
+item.minecraft.light_gray_harness,light_gray_harness.png,Броня и инструменты
+item.minecraft.gray_harness,gray_harness.png,Броня и инструменты
+item.minecraft.black_harness,black_harness.png,Броня и инструменты
+item.minecraft.orange_harness,orange_harness.png,Броня и инструменты
+item.minecraft.brown_harness,brown_harness.png,Броня и инструменты
+item.minecraft.green_harness,green_harness.png,Броня и инструменты
+item.minecraft.lime_harness,lime_harness.png,Броня и инструменты
+item.minecraft.cyan_harness,cyan_harness.png,Броня и инструменты
+item.minecraft.light_blue_harness,light_blue_harness.png,Броня и инструменты
+item.minecraft.blue_harness,blue_harness.png,Броня и инструменты
+item.minecraft.magenta_harness,magenta_harness.png,Броня и инструменты
+item.minecraft.purple_harness,purple_harness.png,Броня и инструменты
+item.minecraft.pink_harness,pink_harness.png,Броня и инструменты
 item.minecraft.blue_egg,blue_egg.png,Лут с мобов
 item.minecraft.brown_egg,brown_egg.png,Лут с мобов
 item.minecraft.silence_armor_trim_smithing_template,netherite_upgrade_smithing_template.png,Ценности

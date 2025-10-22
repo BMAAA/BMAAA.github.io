@@ -37,26 +37,7 @@ const uiTranslations = {
         footer_line3: "Не является официальным продуктом сети серверов PepeLand",
         switch_to_english: "Переключить на английский",
         switch_to_russian: "Switch to Russian",
-        // Переводы категорий
-        categories: {
-            "Разное": "Разное",
-            "Блоки": "Блоки",
-            "Растения": "Растения",
-            "Ценности": "Ценности",
-            "Еда и зелья": "Еда и зелья",
-            "Лут с мобов": "Лут с мобов",
-            "Инструменты": "Инструменты",
-            "Краски": "Краски",
-            "Книги": "Книги",
-            "Броня": "Броня",
-            "!!!ПРОДАЖА ЗАПРЕЩЕНА!!!": "!!!ПРОДАЖА ЗАПРЕЩЕНА!!!",
-            "!!!ВАЛЮТА СЕРВЕРА!!!": "!!!ВАЛЮТА СЕРВЕРА!!!",
-            "НЕЛЬЗЯ ПРОДАВАТЬ": "НЕЛЬЗЯ ПРОДАВАТЬ",
-            "Галерея": "Галерея",
-            "Ценное": "Ценное",
-            "Книжки": "Книжки",
-            "Растение": "Растение"
-        }
+        pplhelper: "Совет: Установив мод <b><a href='https://pplh.ru/'>PPLHelper</a></b>, вы можете узнать категорию предмета, введя в чат команду <b>/pplh registry minecraft:id</b>",
     },
     en: {
         title: "Pepeland 10 Trade Zone Registry",
@@ -70,7 +51,7 @@ const uiTranslations = {
         south_segment: "South Segment",
         west_segment: "West Segment",
         gallery: "Map Gallery",
-        misc: "Various[",
+        misc: "Various",
         blocks: "Blocks",
         valuables: "Valuables",
         dyes: "Dyes & Plants",
@@ -86,49 +67,77 @@ const uiTranslations = {
         footer_line3: "Not an official product of the PepeLand server network",
         switch_to_english: "Switch to English",
         switch_to_russian: "Переключить на русский",
-        // Переводы категорий
-        categories: {
-            "Разное": "Varopis",
-            "Блоки": "Blocks",
-            "Растения": "Plants",
-            "Ценности": "Valuables",
-            "Еда и зелья": "Food & Potions",
-            "Лут с мобов": "Mob Loot",
-            "Инструменты": "Tools",
-            "Краски": "Dyes",
-            "Книги": "Books",
-            "Броня": "Armor",
-            "!!!ПРОДАЖА ЗАПРЕЩЕНА!!!": "!!!SALE FORBIDDEN!!!",
-            "!!!ВАЛЮТА СЕРВЕРА!!!": "!!!SERVER CURRENCY!!!",
-            "НЕЛЬЗЯ ПРОДАВАТЬ": "CANNOT BE SOLD",
-            "Галерея": "Gallery",
-            "Ценное": "Valuable",
-            "Книжки": "Books",
-            "Растение": "Plant"
-        }
+        pplhelper: "Tip: By installing the <b><a href='https://pplh.ru/'>PPLHelper</a></b> mod, you can find out the item's category by entering the command <b>/pplh registry minecraft:id</b> in the chat",
+    }
+};
+
+const categoryTranslations = {
+    ru: {
+        "Разное": "Разное",
+        "Блоки": "Блоки",
+        "Растения": "Растения",
+        "Ценности": "Ценности",
+        "Еда и зелья": "Еда и зелья",
+        "Лут с мобов": "Лут с мобов",
+        "Броня и инструменты": "Броня и инструменты",
+        "Краски": "Краски",
+        "Книги": "Книги",
+        "!!!ПРОДАЖА ЗАПРЕЩЕНА!!!": "!!!ПРОДАЖА ЗАПРЕЩЕНА!!!",
+        "!!!ВАЛЮТА СЕРВЕРА!!!": "!!!ВАЛЮТА СЕРВЕРА!!!",
+        "Галерея": "Галерея"
+    },
+    en: {
+        "Разное": "Various",
+        "Блоки": "Blocks",
+        "Растения": "Plants",
+        "Ценности": "Valuables",
+        "Еда и зелья": "Food & Potions",
+        "Лут с мобов": "Mob Loot",
+        "Броня и инструменты": "Armor & Tools",
+        "Краски": "Dyes",
+        "Книги": "Books",
+        "!!!ПРОДАЖА ЗАПРЕЩЕНА!!!": "!!!SALE FORBIDDEN!!!",
+        "!!!ВАЛЮТА СЕРВЕРА!!!": "!!!SERVER CURRENCY!!!",
+        "Галерея": "Gallery"
     }
 };
 
 async function init() {
     try {
+        // Загружаем сохраненный язык из localStorage
         const savedLang = localStorage.getItem('language');
         if (savedLang) {
             currentLanguage = savedLang;
         }
 
-        await preloadFlags();
-
         await loadTranslation(currentLanguage);
         await loadCSVData();
         renderTable(items);
         setupEventListeners();
+        setupLanguageSelector(); // Заменяем setupLanguageButton на setupLanguageSelector
         updateUITexts();
-        updateLanguageButton();
+        updateLanguageSelector(); // Заменяем updateLanguageButton на updateLanguageSelector
     } catch (error) {
         console.error('Ошибка инициализации:', error);
         alert('Не удалось загрузить данные. Проверьте консоль для деталей.');
     }
 }
+
+function updateLanguageSelector() {
+    const languageOptions = document.querySelectorAll('.language-option');
+    const currentOption = document.querySelector(`.language-option[data-lang="${currentLanguage}"]`);
+
+    // Убираем активный класс со всех选项
+    languageOptions.forEach(option => {
+        option.classList.remove('active');
+    });
+
+    // Добавляем активный класс к текущему языку
+    if (currentOption) {
+        currentOption.classList.add('active');
+    }
+}
+
 
 function preloadFlags() {
     return new Promise((resolve) => {
@@ -178,12 +187,19 @@ async function loadCSVData() {
         const csv = await response.text();
         items = parseCSV(csv);
 
-        // Применяем перевод к названиям предметов
-        items = items.map(item => ({
-            ...item,
-            displayName: translationMap[item.name] || item.name,
-            originalName: item.name
-        }));
+        // Применяем перевод к названиям предметов и категорий
+        items = items.map(item => {
+            const displayName = translationMap[item.name] || item.name;
+            const translatedCategory = categoryTranslations[currentLanguage][item.category] || item.category;
+
+            return {
+                ...item,
+                displayName: displayName,
+                originalName: item.name,
+                translatedCategory: translatedCategory
+            };
+        });
+
     } catch (error) {
         console.error('Ошибка загрузки CSV:', error);
         throw error;
@@ -213,6 +229,17 @@ function renderTable(data) {
     const tableBody = document.getElementById('table-body');
     tableBody.innerHTML = '';
 
+    if (data.length === 0) {
+        const row = document.createElement('tr');
+        const cell = document.createElement('td');
+        cell.colSpan = 2;
+        cell.textContent = currentLanguage === 'ru' ? 'Предметы не найдены' : 'No items found';
+        cell.style.textAlign = 'center';
+        cell.style.padding = '20px';
+        row.appendChild(cell);
+        tableBody.appendChild(row);
+        return;
+    }
     data.forEach(item => {
         const row = document.createElement('tr');
 
@@ -235,7 +262,7 @@ function renderTable(data) {
 
         const categoryCell = document.createElement('td');
         const categorySpan = document.createElement('span');
-        categorySpan.textContent = item.category;
+        categorySpan.textContent = item.translatedCategory;
         categorySpan.className = 'category';
         categoryCell.appendChild(categorySpan);
 
@@ -291,7 +318,7 @@ function updateSortIndicator(sortBy) {
 function searchItems(query) {
     const lowerQuery = query.toLowerCase();
     const filtered = items.filter(item => {
-        const translatedCategory = uiTranslations[currentLanguage].categories[item.category] || item.category;
+        const translatedCategory = categoryTranslations[currentLanguage][item.category] || item.category;
         return (
             item.displayName.toLowerCase().includes(lowerQuery) ||
             item.originalName.toLowerCase().includes(lowerQuery) ||
@@ -308,6 +335,7 @@ function updateUITexts() {
     document.querySelector('h1').textContent = texts.title;
     document.querySelector('header p').textContent = texts.subtitle;
     document.querySelectorAll('header p')[1].textContent = texts.note;
+    document.querySelectorAll('header p')[2].innerHTML = texts.pplhelper;
 
     document.getElementById('search').placeholder = texts.search_placeholder;
 
@@ -364,20 +392,112 @@ function updateLanguageButton() {
     }
 }
 
-async function switchLanguage() {
-    currentLanguage = currentLanguage === 'ru' ? 'en' : 'ru';
+async function switchLanguage(lang = null) {
+    if (lang) {
+        currentLanguage = lang;
+    } else {
+        currentLanguage = currentLanguage === 'ru' ? 'en' : 'ru';
+    }
+
     localStorage.setItem('language', currentLanguage);
 
     await loadTranslation(currentLanguage);
 
+    // Обновляем переводы предметов и категорий
     items = items.map(item => ({
         ...item,
-        displayName: translationMap[item.name] || item.name
+        displayName: translationMap[item.name] || item.name,
+        translatedCategory: categoryTranslations[currentLanguage][item.category] || item.category
     }));
 
     updateUITexts();
-    updateLanguageButton();
-    renderTable(items);
+    updateLanguageSelector(); // Обновляем отображение выбранного языка
+
+    // Перерисовываем таблицу с текущими данными
+    const currentSearch = document.getElementById('search').value;
+    if (currentSearch) {
+        searchItems(currentSearch);
+    } else {
+        renderTable(items);
+    }
+}
+
+
+function setupLanguageSelector() {
+    const languageToggle = document.getElementById('language-toggle');
+    const languageDropdown = document.getElementById('language-dropdown');
+    const languageOptions = document.querySelectorAll('.language-option');
+
+    // Создаем оверлей
+    const overlay = document.createElement('div');
+    overlay.className = 'language-overlay';
+    document.body.appendChild(overlay);
+
+    // Функция для показа/скрытия выпадающего списка
+    function toggleDropdown() {
+        const isShowing = languageDropdown.classList.contains('show');
+
+        if (isShowing) {
+            hideDropdown();
+        } else {
+            showDropdown();
+        }
+    }
+
+    function showDropdown() {
+        languageDropdown.classList.add('show');
+        languageToggle.classList.add('active');
+        overlay.classList.add('active');
+
+        // Добавляем обработчик клика вне области после небольшой задержки
+        setTimeout(() => {
+            document.addEventListener('click', handleClickOutside);
+        }, 10);
+    }
+
+    function hideDropdown() {
+        languageDropdown.classList.remove('show');
+        languageToggle.classList.remove('active');
+        overlay.classList.remove('active');
+        document.removeEventListener('click', handleClickOutside);
+    }
+
+    function handleClickOutside(event) {
+        if (!languageToggle.contains(event.target) && !languageDropdown.contains(event.target)) {
+            hideDropdown();
+        }
+    }
+
+    // Обработчик для кнопки переключения
+    languageToggle.addEventListener('click', function(event) {
+        event.stopPropagation();
+        toggleDropdown();
+    });
+
+    // Обработчики для вариантов языка
+    languageOptions.forEach(option => {
+        option.addEventListener('click', function(event) {
+            event.stopPropagation();
+            const selectedLang = this.getAttribute('data-lang');
+            if (selectedLang !== currentLanguage) {
+                switchLanguage(selectedLang);
+            }
+            hideDropdown();
+        });
+    });
+
+    // Обработчик для оверлея
+    overlay.addEventListener('click', hideDropdown);
+
+    // Закрытие по ESC
+    document.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape') {
+            hideDropdown();
+        }
+    });
+
+    // Убедимся, что dropdown изначально скрыт
+    hideDropdown();
 }
 
 function setupEventListeners() {
@@ -390,8 +510,6 @@ function setupEventListeners() {
             sortItems(th.dataset.sort);
         });
     });
-
-    document.getElementById('language-switcher').addEventListener('click', switchLanguage);
 }
 
 document.addEventListener('DOMContentLoaded', init);
