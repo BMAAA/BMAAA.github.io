@@ -75,12 +75,11 @@ const categoryTranslations = {
     ru: {
         "Разное": "Разное",
         "Блоки": "Блоки",
-        "Растения": "Растения",
+        "Краски и растения": "Краски и растения",
         "Ценности": "Ценности",
         "Еда и зелья": "Еда и зелья",
         "Лут с мобов": "Лут с мобов",
         "Броня и инструменты": "Броня и инструменты",
-        "Краски": "Краски",
         "Книги": "Книги",
         "!!!ПРОДАЖА ЗАПРЕЩЕНА!!!": "!!!ПРОДАЖА ЗАПРЕЩЕНА!!!",
         "!!!ВАЛЮТА СЕРВЕРА!!!": "!!!ВАЛЮТА СЕРВЕРА!!!",
@@ -89,7 +88,7 @@ const categoryTranslations = {
     en: {
         "Разное": "Various",
         "Блоки": "Blocks",
-        "Растения": "Plants",
+        "Краски и растения": "Dyes & Plants",
         "Ценности": "Valuables",
         "Еда и зелья": "Food & Potions",
         "Лут с мобов": "Mob Loot",
@@ -285,11 +284,13 @@ function sortItems(sortBy) {
         let valA, valB;
 
         if (sortBy === 'name') {
+            // Сортируем по displayName (уже переведенному названию)
             valA = a.displayName.toLowerCase();
             valB = b.displayName.toLowerCase();
         } else {
-            valA = a[sortBy].toLowerCase();
-            valB = b[sortBy].toLowerCase();
+            // Сортируем по переведенной категории
+            valA = a.translatedCategory.toLowerCase();
+            valB = b.translatedCategory.toLowerCase();
         }
 
         if (valA < valB) return -1 * sortDirection;
@@ -318,12 +319,10 @@ function updateSortIndicator(sortBy) {
 function searchItems(query) {
     const lowerQuery = query.toLowerCase();
     const filtered = items.filter(item => {
-        const translatedCategory = categoryTranslations[currentLanguage][item.category] || item.category;
         return (
             item.displayName.toLowerCase().includes(lowerQuery) ||
             item.originalName.toLowerCase().includes(lowerQuery) ||
-            item.category.toLowerCase().includes(lowerQuery) ||
-            translatedCategory.toLowerCase().includes(lowerQuery)
+            item.translatedCategory.toLowerCase().includes(lowerQuery)
         );
     });
     renderTable(filtered);
@@ -411,7 +410,19 @@ async function switchLanguage(lang = null) {
     }));
 
     updateUITexts();
-    updateLanguageSelector(); // Обновляем отображение выбранного языка
+    updateLanguageSelector();
+
+    // Пересортируем таблицу с учетом нового языка
+    if (currentSort) {
+        // Сохраняем текущее направление сортировки и заново применяем сортировку
+        const savedSortDirection = sortDirection;
+        sortItems(currentSort);
+        // Восстанавливаем направление, если оно изменилось
+        if (sortDirection !== savedSortDirection) {
+            sortDirection = savedSortDirection;
+            sortItems(currentSort); // Снова сортируем чтобы получить правильное направление
+        }
+    }
 
     // Перерисовываем таблицу с текущими данными
     const currentSearch = document.getElementById('search').value;
