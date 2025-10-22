@@ -45,10 +45,65 @@ header {
     border-radius: 35px;
 }
 
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 15px;
+}
+
 h1 {
     color: var(--accent-color);
     text-shadow: 0 0 10px var(--accent-shadow);
     margin-bottom: 10px;
+    margin: 0;
+}
+
+/* Кнопка переключения языка */
+.language-btn {
+    position: absolute;
+    left: 0;
+    background: var(--card-bg);
+    border: 2px solid var(--border-color);
+    border-radius: 12px;
+    width: 60px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    padding: 0;
+    overflow: hidden;
+}
+
+.language-btn:hover {
+    background: var(--table-row-hover);
+    transform: scale(1.05);
+}
+
+.language-btn::before {
+    content: "🌐";
+    position: absolute;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.language-btn.fallback::before {
+    opacity: 1;
+}
+
+.language-btn.fallback .flag-icon {
+    opacity: 0;
+}
+
+.flag-icon {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 .zones {
@@ -58,7 +113,6 @@ h1 {
     gap: 15px;
     margin-top: 20px;
     justify-content: center;
-    align-items: flex-start;
     align-items: stretch;
 }
 
@@ -75,15 +129,6 @@ h1 {
 .zone-card:hover {
     transform: translateY(-3px);
     box-shadow: 0 5px 15px #0f1515;
-}
-
-.zone-card h3 {
-    margin-top: 0;
-    color: var(--accent-color);
-    display: flex;
-    align-items: center;
-    margin-bottom: 0px;
-    margin-left: 4px;
 }
 
 .zone-card h3 {
@@ -153,7 +198,6 @@ h1 {
     margin-right: 6px;
     color: var(--accent-color);
 }
-
 
 .coordinates-container {
     background: var(--coordinate-bg);
@@ -338,6 +382,7 @@ th.sorted-desc::after {
     table {
         min-width: auto;
         width: 100%;
+        table-layout: auto; /* Автоматическая ширина на мобильных */
     }
 
     /* Фиксированная ширина для столбца с иконкой */
@@ -407,52 +452,17 @@ th.sorted-desc::after {
         font-size: 14px;
     }
 
-    /* Стили для зон */
-    .zones {
+    .header-top {
         flex-direction: column;
         gap: 10px;
+        text-align: center;
     }
 
-    .zone-card {
-        width: 100%;
-        margin-bottom: 15px;
-        padding: 12px;
-    }
-
-    .subcategories-table {
-        flex-direction: column;
-    }
-
-    .subcategories-container {
-        width: 100%;
-        padding: 4px;
-    }
-
-    .container {
-        padding: 10px;
-    }
-
-    header {
-        padding: 15px;
-    }
-
-    h1 {
-        font-size: 1.5rem;
-    }
-
-    .controls {
-        margin-bottom: 15px;
-    }
-
-    #search {
-        width: 100%;
-        padding: 10px;
-        font-size: 16px;
-    }
-
-    footer {
-        padding: 15px;
-        font-size: 12px;
+    .language-btn {
+        position: static;
+        margin-bottom: 10px;
+        width: 55px; /* Чуть меньше для мобильных */
+        height: 37px;
     }
 }
 
@@ -468,6 +478,11 @@ th.sorted-desc::after {
     .item-image {
         width: 40px;
         height: 40px;
+    }
+
+    .language-btn {
+        width: 50px;
+        height: 34px;
     }
 
     .category {
@@ -486,33 +501,35 @@ th.sorted-desc::after {
         content: "🖼️";
         font-size: 16px;
     }
+}
 
-    /* Стили для зон */
-    .zone-card h3 {
-        font-size: 1.2rem;
+@media (min-width: 769px) {
+    #items-table {
+        table-layout: fixed;
     }
 
-    .subcategory-header {
-        font-size: 0.9rem;
+    #items-table th:first-child,
+    #items-table td:first-child {
+        width: 70%; /* Фиксированная ширина для столбца с предметами */
     }
 
-    .coordinate-value {
-        font-size: 0.9rem;
+    #items-table th:nth-child(2),
+    #items-table td:nth-child(2) {
+        width: 30%; /* Фиксированная ширина для столбца с категориями */
     }
 
-    .coordinates-container {
-        padding: 5px;
+    .item-cell {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        min-width: 0; /* Важно для правильного работы flex с фиксированной шириной */
     }
 
-    .container {
-        padding: 5px;
-    }
-
-    header p {
-        font-size: 0.9rem;
-    }
-
-    .zone-card {
-        padding: 10px;
+    .item-cell span {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        flex: 1;
+        min-width: 0;
     }
 }
