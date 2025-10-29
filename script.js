@@ -5,7 +5,7 @@ let translationCache = {};
 
 let items = [];
 let currentSort = 'name';
-let sortDirection = 1;
+let sortDirection = -1;
 let currentLanguage = 'ru';
 let translationMap = {};
 
@@ -263,14 +263,14 @@ function renderTable(data) {
         };
 
         const nameSpan = document.createElement('span');
-        nameSpan.textContent = item.displayName; // textContent безопасен
+        nameSpan.textContent = item.displayName;
 
         itemCell.appendChild(img);
         itemCell.appendChild(nameSpan);
 
         const categoryCell = document.createElement('td');
         const categorySpan = document.createElement('span');
-        categorySpan.textContent = item.translatedCategory; // textContent безопасен
+        categorySpan.textContent = item.translatedCategory;
         categorySpan.className = 'category';
         categoryCell.appendChild(categorySpan);
 
