@@ -117,6 +117,7 @@ async function init() {
         setupLanguageSelector();
         updateUITexts();
         updateLanguageSelector();
+        sortItems('name');
     } catch (error) {
         console.error('Ошибка инициализации:', error);
         alert('Не удалось загрузить данные. Проверьте консоль для деталей.');
