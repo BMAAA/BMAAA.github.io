@@ -136,8 +136,8 @@ block.minecraft.blue_wool,blue_wool.png,Блоки
 item.minecraft.bone,bone.png,Лут с мобов
 block.minecraft.bone_block,bone_block.png,Блоки
 item.minecraft.bone_meal,bone_meal.png,Разное
-item.minecraft.book,book.png,Книги
-item.minecraft.writable_book,writable_book.png,Книги
+item.minecraft.book,book.png,Книжки
+item.minecraft.writable_book,writable_book.png,Книжки
 block.minecraft.bookshelf,bookshelf.png,Блоки
 item.minecraft.experience_bottle,experience_bottle.png,Еда и зелья
 item.minecraft.bow,bow.png,Броня и инструменты
@@ -1144,7 +1144,7 @@ item.minecraft.wooden_hoe,wooden_hoe.png,Броня и инструменты
 item.minecraft.wooden_pickaxe,wooden_pickaxe.png,Броня и инструменты
 item.minecraft.wooden_shovel,wooden_shovel.png,Броня и инструменты
 item.minecraft.wooden_sword,wooden_sword.png,Броня и инструменты
-item.minecraft.written_book,written_book.png,Книги
+item.minecraft.written_book,written_book.png,Книжки
 block.minecraft.yellow_banner,yellow_banner.png,Блоки
 block.minecraft.yellow_bed,yellow_bed.png,Блоки
 item.minecraft.yellow_bundle,yellow_bundle.png,Броня и инструменты
@@ -1162,7 +1162,7 @@ block.minecraft.yellow_wool,yellow_wool.png,Блоки
 block.minecraft.zombie_head,zombie_head.png,Ценности
 block.minecraft.light,light.png,Ценности
 block.minecraft.structure_void,structure_void.png,Ценности
-item.minecraft.enchanted_book,enchanted_book.png,Книги
+item.minecraft.enchanted_book,enchanted_book.png,Книжки
 block.minecraft.creaking_heart,creaking_heart.png,Блоки
 block.minecraft.pale_oak_wood,pale_oak_wood.png,Блоки
 block.minecraft.stripped_pale_oak_wood,stripped_pale_oak_wood.png,Блоки
@@ -1182,8 +1182,8 @@ block.minecraft.pale_oak_trapdoor,pale_oak_trapdoor.png,Блоки
 entity.minecraft.pale_oak_boat,pale_oak_boat.png,Разное
 entity.minecraft.pale_oak_chest_boat,pale_oak_chest_boat.png,Разное
 block.minecraft.pale_hanging_moss,pale_hanging_moss.png,Краски и растения
-block.minecraft.pale_moss_block,pale_moss_block.png,Краски и растения
-block.minecraft.pale_moss_carpet,pale_moss_carpet.png,Краски и растения
+block.minecraft.pale_moss_block,pale_moss_block.png,Блоки
+block.minecraft.pale_moss_carpet,pale_moss_carpet.png,Блоки
 block.minecraft.pale_oak_leaves,pale_oak_leaves.png,Краски и растения
 block.minecraft.pale_oak_sapling,pale_oak_sapling.png,Краски и растения
 block.minecraft.closed_eyeblossom,closed_eyeblossom.png,Краски и растения
@@ -1221,3 +1221,4 @@ item.minecraft.pink_harness,pink_harness.png,Броня и инструмент�
 item.minecraft.blue_egg,blue_egg.png,Лут с мобов
 item.minecraft.brown_egg,brown_egg.png,Лут с мобов
 item.minecraft.silence_armor_trim_smithing_template,netherite_upgrade_smithing_template.png,Ценности
+item.minecraft.ominous_bottle,ominous_bottle.png,Лут с мобов

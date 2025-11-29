@@ -1,9 +1,11 @@
 const CSV_FILE = 'items_ids.csv';
 const IMAGE_PATH = 'images/';
 const FLAG_PATH = 'flags/'
+let translationCache = {};
+
 let items = [];
 let currentSort = 'name';
-let sortDirection = 1;
+let sortDirection = -1;
 let currentLanguage = 'ru';
 let translationMap = {};
 
@@ -31,7 +33,6 @@ const uiTranslations = {
         books: "Книжки",
         west_gallery: "Западная галерея",
         east_gallery: "Восточная галерея",
-        gallery_note: "В данный момент, галереи еще не построены",
         footer_line1: "bmaaa was here |",
         footer_line2: "Not an official Minecraft product. We are in no way affiliated with or endorsed by Mojang Synergies AB, Microsoft Corporation or other rightsholders.",
         footer_line3: "Не является официальным продуктом сети серверов PepeLand",
@@ -61,7 +62,6 @@ const uiTranslations = {
         books: "Books",
         west_gallery: "West Gallery",
         east_gallery: "East Gallery",
-        gallery_note: "Currently, the galleries are not yet built",
         footer_line1: "bmaaa was here |",
         footer_line2: "Not an official Minecraft product. We are in no way affiliated with or endorsed by Mojang Synergies AB, Microsoft Corporation or other rightsholders.",
         footer_line3: "Not an official product of the PepeLand server network",
@@ -71,6 +71,7 @@ const uiTranslations = {
     }
 };
 
+// Названия категорий на различных языках
 const categoryTranslations = {
     ru: {
         "Разное": "Разное",
@@ -80,7 +81,7 @@ const categoryTranslations = {
         "Еда и зелья": "Еда и зелья",
         "Лут с мобов": "Лут с мобов",
         "Броня и инструменты": "Броня и инструменты",
-        "Книги": "Книги",
+        "Книжки": "Книжки",
         "!!!ПРОДАЖА ЗАПРЕЩЕНА!!!": "!!!ПРОДАЖА ЗАПРЕЩЕНА!!!",
         "!!!ВАЛЮТА СЕРВЕРА!!!": "!!!ВАЛЮТА СЕРВЕРА!!!",
         "Галерея": "Галерея"
@@ -88,22 +89,20 @@ const categoryTranslations = {
     en: {
         "Разное": "Various",
         "Блоки": "Blocks",
-        "Краски и растения": "Dyes & Plants",
+        "Краски и растения": "Plants & Dyes",
         "Ценности": "Valuables",
         "Еда и зелья": "Food & Potions",
         "Лут с мобов": "Mob Loot",
         "Броня и инструменты": "Armor & Tools",
-        "Краски": "Dyes",
-        "Книги": "Books",
+        "Книжки": "Books",
         "!!!ПРОДАЖА ЗАПРЕЩЕНА!!!": "!!!SALE FORBIDDEN!!!",
         "!!!ВАЛЮТА СЕРВЕРА!!!": "!!!SERVER CURRENCY!!!",
         "Галерея": "Gallery"
     }
 };
-
+// Грузим данные (Таблицы категорий, локализационные файлы и тп)
 async function init() {
     try {
-        // Загружаем сохраненный язык из localStorage
         const savedLang = localStorage.getItem('language');
         if (savedLang) {
             currentLanguage = savedLang;
@@ -113,31 +112,32 @@ async function init() {
         await loadCSVData();
         renderTable(items);
         setupEventListeners();
-        setupLanguageSelector(); // Заменяем setupLanguageButton на setupLanguageSelector
+        setupLanguageSelector();
         updateUITexts();
-        updateLanguageSelector(); // Заменяем updateLanguageButton на updateLanguageSelector
+        updateLanguageSelector();
+        sortItems('name');
     } catch (error) {
         console.error('Ошибка инициализации:', error);
         alert('Не удалось загрузить данные. Проверьте консоль для деталей.');
     }
 }
 
+// Функция выбора языка
 function updateLanguageSelector() {
     const languageOptions = document.querySelectorAll('.language-option');
     const currentOption = document.querySelector(`.language-option[data-lang="${currentLanguage}"]`);
 
-    // Убираем активный класс со всех选项
     languageOptions.forEach(option => {
         option.classList.remove('active');
     });
 
-    // Добавляем активный класс к текущему языку
     if (currentOption) {
         currentOption.classList.add('active');
     }
 }
 
 
+// Загружаем флаги
 function preloadFlags() {
     return new Promise((resolve) => {
         const flags = ['ru-flag.png', 'us-flag.png'];
@@ -161,23 +161,30 @@ function preloadFlags() {
             };
         });
 
-        // На всякий случай таймаут
         setTimeout(resolve, 1000);
     });
 }
 
+// Загружаем языковые файлы
 async function loadTranslation(lang) {
-    const translationFile = lang === 'ru' ? 'ru_ru.json' : 'en_us.json';
+    if (translationCache[lang]) {
+        translationMap = translationCache[lang];
+        return;
+    }
+
+    const translationFile = lang === 'ru' ? 'loc/ru_ru.json' : 'loc/en_us.json';
     try {
         const response = await fetch(translationFile);
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         translationMap = await response.json();
+        translationCache[lang] = translationMap;
     } catch (error) {
         console.error('Ошибка загрузки перевода:', error);
         throw error;
     }
 }
 
+// Обрабатываем items.csv
 async function loadCSVData() {
     try {
         const response = await fetch(CSV_FILE);
@@ -224,21 +231,20 @@ function parseCSV(csv) {
     return result;
 }
 
+
+// Выводим табличку
 function renderTable(data) {
     const tableBody = document.getElementById('table-body');
-    tableBody.innerHTML = '';
 
     if (data.length === 0) {
-        const row = document.createElement('tr');
-        const cell = document.createElement('td');
-        cell.colSpan = 2;
-        cell.textContent = currentLanguage === 'ru' ? 'Предметы не найдены' : 'No items found';
-        cell.style.textAlign = 'center';
-        cell.style.padding = '20px';
-        row.appendChild(cell);
-        tableBody.appendChild(row);
+        tableBody.innerHTML = `<tr><td colspan="2" style="text-align: center; padding: 20px;">
+            ${currentLanguage === 'ru' ? 'Предметы не найдены' : 'No items found'}
+        </td></tr>`;
         return;
     }
+
+    const fragment = document.createDocumentFragment();
+
     data.forEach(item => {
         const row = document.createElement('tr');
 
@@ -249,6 +255,7 @@ function renderTable(data) {
         img.src = `${IMAGE_PATH}${item.image}`;
         img.alt = item.displayName;
         img.className = 'item-image';
+        img.loading = 'lazy';
         img.onerror = function() {
             this.src = 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><rect width="24" height="24" fill="%232d3748"/><text x="12" y="16" font-family="Arial" font-size="12" fill="%2394a3b8" text-anchor="middle">?</text></svg>';
         };
@@ -267,9 +274,11 @@ function renderTable(data) {
 
         row.appendChild(itemCell);
         row.appendChild(categoryCell);
-
-        tableBody.appendChild(row);
+        fragment.appendChild(row);
     });
+
+    tableBody.innerHTML = '';
+    tableBody.appendChild(fragment);
 }
 
 function sortItems(sortBy) {
@@ -284,13 +293,11 @@ function sortItems(sortBy) {
         let valA, valB;
 
         if (sortBy === 'name') {
-            // Сортируем по displayName (уже переведенному названию)
             valA = a.displayName.toLowerCase();
             valB = b.displayName.toLowerCase();
         } else {
-            // Сортируем по переведенной категории
-            valA = a.translatedCategory.toLowerCase();
-            valB = b.translatedCategory.toLowerCase();
+            valA = a[sortBy].toLowerCase();
+            valB = b[sortBy].toLowerCase();
         }
 
         if (valA < valB) return -1 * sortDirection;
@@ -316,18 +323,40 @@ function updateSortIndicator(sortBy) {
     }
 }
 
+// Добавляем небольшую задержку чтобы потом серверу не было больно
+function debounce(func, wait) {
+    let timeout;
+    return function executedFunction(...args) {
+        const later = () => {
+            clearTimeout(timeout);
+            func(...args);
+        };
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+    };
+}
+
+// Поиск предметов
 function searchItems(query) {
-    const lowerQuery = query.toLowerCase();
+    const lowerQuery = query.toLowerCase().trim();
+
+    if (lowerQuery.length < 2) {
+        renderTable(items);
+        return;
+    }
+
     const filtered = items.filter(item => {
+        const translatedCategory = categoryTranslations[currentLanguage][item.category] || item.category;
         return (
             item.displayName.toLowerCase().includes(lowerQuery) ||
-            item.originalName.toLowerCase().includes(lowerQuery) ||
-            item.translatedCategory.toLowerCase().includes(lowerQuery)
+            item.originalName.toLowerCase().includes(lowerQuery)
         );
     });
+
     renderTable(filtered);
 }
 
+// Подгрузка файлов локализаций
 function updateUITexts() {
     const texts = uiTranslations[currentLanguage];
 
@@ -391,6 +420,7 @@ function updateLanguageButton() {
     }
 }
 
+// Алгоритм смены языка
 async function switchLanguage(lang = null) {
     if (lang) {
         currentLanguage = lang;
@@ -402,7 +432,6 @@ async function switchLanguage(lang = null) {
 
     await loadTranslation(currentLanguage);
 
-    // Обновляем переводы предметов и категорий
     items = items.map(item => ({
         ...item,
         displayName: translationMap[item.name] || item.name,
@@ -410,21 +439,8 @@ async function switchLanguage(lang = null) {
     }));
 
     updateUITexts();
-    updateLanguageSelector();
+    updateLanguageSelector(); // Обновляем отображение выбранного языка
 
-    // Пересортируем таблицу с учетом нового языка
-    if (currentSort) {
-        // Сохраняем текущее направление сортировки и заново применяем сортировку
-        const savedSortDirection = sortDirection;
-        sortItems(currentSort);
-        // Восстанавливаем направление, если оно изменилось
-        if (sortDirection !== savedSortDirection) {
-            sortDirection = savedSortDirection;
-            sortItems(currentSort); // Снова сортируем чтобы получить правильное направление
-        }
-    }
-
-    // Перерисовываем таблицу с текущими данными
     const currentSearch = document.getElementById('search').value;
     if (currentSearch) {
         searchItems(currentSearch);
@@ -433,18 +449,16 @@ async function switchLanguage(lang = null) {
     }
 }
 
-
+// Окно выбора языка
 function setupLanguageSelector() {
     const languageToggle = document.getElementById('language-toggle');
     const languageDropdown = document.getElementById('language-dropdown');
     const languageOptions = document.querySelectorAll('.language-option');
 
-    // Создаем оверлей
     const overlay = document.createElement('div');
     overlay.className = 'language-overlay';
     document.body.appendChild(overlay);
 
-    // Функция для показа/скрытия выпадающего списка
     function toggleDropdown() {
         const isShowing = languageDropdown.classList.contains('show');
 
@@ -460,7 +474,6 @@ function setupLanguageSelector() {
         languageToggle.classList.add('active');
         overlay.classList.add('active');
 
-        // Добавляем обработчик клика вне области после небольшой задержки
         setTimeout(() => {
             document.addEventListener('click', handleClickOutside);
         }, 10);
@@ -479,13 +492,11 @@ function setupLanguageSelector() {
         }
     }
 
-    // Обработчик для кнопки переключения
     languageToggle.addEventListener('click', function(event) {
         event.stopPropagation();
         toggleDropdown();
     });
 
-    // Обработчики для вариантов языка
     languageOptions.forEach(option => {
         option.addEventListener('click', function(event) {
             event.stopPropagation();
@@ -497,24 +508,21 @@ function setupLanguageSelector() {
         });
     });
 
-    // Обработчик для оверлея
     overlay.addEventListener('click', hideDropdown);
 
-    // Закрытие по ESC
     document.addEventListener('keydown', function(event) {
         if (event.key === 'Escape') {
             hideDropdown();
         }
     });
 
-    // Убедимся, что dropdown изначально скрыт
     hideDropdown();
 }
 
 function setupEventListeners() {
-    document.getElementById('search').addEventListener('input', (e) => {
+    document.getElementById('search').addEventListener('input', debounce((e) => {
         searchItems(e.target.value);
-    });
+    }, 300));
 
     document.querySelectorAll('th[data-sort]').forEach(th => {
         th.addEventListener('click', () => {
