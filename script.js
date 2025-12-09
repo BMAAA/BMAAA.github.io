@@ -387,8 +387,6 @@ function updateUITexts() {
     document.querySelectorAll('.subcategory-header')[8].textContent = texts.west_gallery;
     document.querySelectorAll('.subcategory-header')[9].textContent = texts.east_gallery;
 
-    document.querySelector('.zone-card h4').textContent = texts.gallery_note;
-
     const footerParagraphs = document.querySelectorAll('footer p');
     footerParagraphs[0].innerHTML = `${texts.footer_line1} <img src="https://cdn.7tv.app/emote/01G2JWCB9G0004JR3T5PESP5V7/4x.avif" height="25px;" style="transform: translate(0px, 5px);"> by ItzKITb`;
     footerParagraphs[1].innerHTML = `${texts.footer_line2} <br> ${texts.footer_line3}`;
