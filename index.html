@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Реестр ТЗ PPL9</title>
+    <title>Реестр ТЗ PPL10</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="preload" href="loc/ru_ru.json" as="fetch" crossorigin="anonymous">
@@ -11,232 +11,279 @@
 </head>
 <body>
     <div class="container">
-        <header>
-            <div class="header-top">
-                <div class="language-selector">
-                    <button id="language-toggle" class="language-toggle" aria-label="Select language">
-                        <span class="earth-icon">🌐</span>
-                    </button>
-                    <div id="language-dropdown" class="language-dropdown">
-                        <div class="language-option" data-lang="ru">
-                            <span class="flag">🇷🇺</span>
-                            <span class="language-name">Русский</span>
+        <!-- Header -->
+        <div class="header-wrapper">
+            <div class="left-column">
+                <aside class="header-panel left-panel">
+                    <div class="panel-content">
+                        <div class="panel-language">
+                            <span class="panel-label">🌐 Язык</span>
+                            <div class="lang-buttons">
+                                <button class="lang-btn" data-lang="ru">Русский</button>
+                                <button class="lang-btn" data-lang="en">English</button>
+                            </div>
                         </div>
-                        <div class="language-option" data-lang="en">
-                            <span class="flag">🇺🇸</span>
-                            <span class="language-name">English</span>
-                        </div>
+                        <span class="panel-label exspan">🔗 Связанные с мной проекты</span>
+                        <ul class="panel-links">
+                            <li><a href="https://www.youtube.com/@tvppl24" class="external-link ext">PEPELAND 24</a></li>
+                            <li><a href="https://discord.com/channels/447699225078136832/1483753248405065818" class="external-link ext">ЛЕЙБЛ ППЛ 24</a></li>
+                            <li><a href="#" class="external-link ext">ТИЗКА (COMING SOON)</a></li>
+                        </ul>
+                        <br>
+                        <span class="panel-label inspan">📁 Инструменты на сайте</span>
+                        <ul class="panel-links int">
+                            <li><a href="#" class="internal-link">Реестр ППЛ</a></li>
+                            <li><a href="#" class="internal-link">(COMING SOON)</a></li>
+                            <li><a href="#" class="internal-link">(COMING SOON)</a></li>
+                        </ul>
                     </div>
-                </div>
-                <h1>Реестр торговой зоны Pepeland 10</h1>
-            </div>
-            <p>Таблица большинства предметов и соответствующей им категории в ТЗ</p>
-            <p>Разные варианты одних и тех же блоков продаются в одной категории!</p>
-            <div class="zones">
-                <div class="zone-card">
-                    <h3>Северный сегмент</h3>
-                    <div class="subcategories-table">
-                        <div class="subcategories-container">
-                            <ul class="subcategories">
-                                <li class="subcategory-item">
-                                    <div class="subcategory-header">Разное</div>
-                                    <div class="coordinates-container">
-                                        <div class="coordinate-row">
-                                            <span class="coordinate-label">X:</span>
-                                            <span class="coordinate-value">-20</span>
-                                        </div>
-                                        <div class="coordinate-row">
-                                            <span class="coordinate-label">Z:</span>
-                                            <span class="coordinate-value">-40</span>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="subcategories-container">
-                            <ul class="subcategories">
-                                <li class="subcategory-item">
-                                    <div class="subcategory-header">Блоки</div>
-                                    <div class="coordinates-container">
-                                        <div class="coordinate-row">
-                                            <span class="coordinate-label">X:</span>
-                                            <span class="coordinate-value">20</span>
-                                        </div>
-                                        <div class="coordinate-row">
-                                            <span class="coordinate-label">Z:</span>
-                                            <span class="coordinate-value">-40</span>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="zone-card">
-                    <h3>Восточный сегмент</h3>
-                    <div class="subcategories-table">
-                        <div class="subcategories-container">
-                            <ul class="subcategories">
-                                <li class="subcategory-item">
-                                    <div class="subcategory-header">Ценности</div>
-                                    <div class="coordinates-container">
-                                        <div class="coordinate-row">
-                                            <span class="coordinate-label">X:</span>
-                                            <span class="coordinate-value">40</span>
-                                        </div>
-                                        <div class="coordinate-row">
-                                            <span class="coordinate-label">Z:</span>
-                                            <span class="coordinate-value">-20</span>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="subcategories-container">
-                            <ul class="subcategories">
-                                <li class="subcategory-item">
-                                    <div class="subcategory-header">Краски и растения</div>
-                                    <div class="coordinates-container">
-                                        <div class="coordinate-row">
-                                            <span class="coordinate-label">X:</span>
-                                            <span class="coordinate-value">-40</span>
-                                        </div>
-                                        <div class="coordinate-row">
-                                            <span class="coordinate-label">Z:</span>
-                                            <span class="coordinate-value">-20</span>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="zone-card">
-                    <h3>Южный сегмент</h3>
-                    <div class="subcategories-table">
-                        <div class="subcategories-container">
-                            <ul class="subcategories">
-                                <li class="subcategory-item">
-                                    <div class="subcategory-header">Еда и зелья</div>
-                                    <div class="coordinates-container">
-                                        <div class="coordinate-row">
-                                            <span class="coordinate-label">X:</span>
-                                            <span class="coordinate-value">20</span>
-                                        </div>
-                                        <div class="coordinate-row">
-                                            <span class="coordinate-label">Z:</span>
-                                            <span class="coordinate-value">40</span>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="subcategories-container">
-                            <ul class="subcategories">
-                                <li class="subcategory-item">
-                                    <div class="subcategory-header">Лут с мобов</div>
-                                    <div class="coordinates-container">
-                                        <div class="coordinate-row">
-                                            <span class="coordinate-label">X:</span>
-                                            <span class="coordinate-value">-20</span>
-                                        </div>
-                                        <div class="coordinate-row">
-                                            <span class="coordinate-label">Z:</span>
-                                            <span class="coordinate-value">40</span>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="zone-card">
-                    <h3>Западный сегмент</h3>
-                    <div class="subcategories-table">
-                        <div class="subcategories-container">
-                            <ul class="subcategories">
-                                <li class="subcategory-item">
-                                    <div class="subcategory-header">Броня и инструменты</div>
-                                    <div class="coordinates-container">
-                                        <div class="coordinate-row">
-                                            <span class="coordinate-label">X:</span>
-                                            <span class="coordinate-value">-40</span>
-                                        </div>
-                                        <div class="coordinate-row">
-                                            <span class="coordinate-label">Z:</span>
-                                            <span class="coordinate-value">20</span>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="subcategories-container">
-                            <ul class="subcategories">
-                                <li class="subcategory-item">
-                                    <div class="subcategory-header">Книжки</div>
-                                    <div class="coordinates-container">
-                                        <div class="coordinate-row">
-                                            <span class="coordinate-label">X:</span>
-                                            <span class="coordinate-value">-40</span>
-                                        </div>
-                                        <div class="coordinate-row">
-                                            <span class="coordinate-label">Z:</span>
-                                            <span class="coordinate-value">-20</span>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="zone-card">
-                    <h3>Галерея мапартов</h3>
-                    <div class="subcategories-table">
-                        <div class="subcategories-container">
-                            <ul class="subcategories">
-                                <li class="subcategory-item">
-                                    <div class="subcategory-header">Западная галерея</div>
-                                    <div class="coordinates-container">
-                                        <div class="coordinate-row">
-                                            <span class="coordinate-label">X:</span>
-                                            <span class="coordinate-value">-200</span>
-                                        </div>
-                                        <div class="coordinate-row">
-                                            <span class="coordinate-label">Z:</span>
-                                            <span class="coordinate-value">0</span>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="subcategories-container">
-                            <ul class="subcategories">
-                                <li class="subcategory-item">
-                                    <div class="subcategory-header">Восточная галерея</div>
-                                    <div class="coordinates-container">
-                                        <div class="coordinate-row">
-                                            <span class="coordinate-label">X:</span>
-                                            <span class="coordinate-value">200</span>
-                                        </div>
-                                        <div class="coordinate-row">
-                                            <span class="coordinate-label">Z:</span>
-                                            <span class="coordinate-value">0</span>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                </aside>
+                <div class="search-wrapper">
+                    <input type="text" id="search" placeholder="Поиск предметов...">
+                    <span class="search-icon">🔍</span>
                 </div>
             </div>
 
-            <p>Совет: Установив мод <b><a href="https://pplh.ru/">PPLHelper</a></b>, вы можете узнать категорию предмета, введя команду в чат <b>/pplh registry minecraft:id</b></p>
-        </header>
-
-        <div class="controls">
-            <input type="text" id="search" placeholder="Поиск предметов...">
+            <header>
+                <div class="header-top">
+                    <h1>Реестр торговой зоны Pepeland 10</h1>
+                </div>
+                <p class="header-subtitle">Таблица большинства предметов и соответствующей им категории в ТЗ</p>
+                <p class="header-note">Разные варианты одних и тех же блоков продаются в одной категории!</p>
+                <div class="zones">
+                    <!-- Зоны (без изменений) -->
+                    <div class="zone-card">
+                        <h3>Северный сегмент</h3>
+                        <div class="subcategories-table">
+                            <div class="subcategories-container">
+                                <ul class="subcategories">
+                                    <li class="subcategory-item">
+                                        <div class="subcategory-header">Разное</div>
+                                        <div class="coordinates-container">
+                                            <div class="coordinate-row">
+                                                <span class="coordinate-label">X:</span>
+                                                <span class="coordinate-value">-20</span>
+                                            </div>
+                                            <div class="coordinate-row">
+                                                <span class="coordinate-label">Z:</span>
+                                                <span class="coordinate-value">-40</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="subcategories-container">
+                                <ul class="subcategories">
+                                    <li class="subcategory-item">
+                                        <div class="subcategory-header">Блоки</div>
+                                        <div class="coordinates-container">
+                                            <div class="coordinate-row">
+                                                <span class="coordinate-label">X:</span>
+                                                <span class="coordinate-value">20</span>
+                                            </div>
+                                            <div class="coordinate-row">
+                                                <span class="coordinate-label">Z:</span>
+                                                <span class="coordinate-value">-40</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="zone-card">
+                        <h3>Восточный сегмент</h3>
+                        <div class="subcategories-table">
+                            <div class="subcategories-container">
+                                <ul class="subcategories">
+                                    <li class="subcategory-item">
+                                        <div class="subcategory-header">Ценности</div>
+                                        <div class="coordinates-container">
+                                            <div class="coordinate-row">
+                                                <span class="coordinate-label">X:</span>
+                                                <span class="coordinate-value">40</span>
+                                            </div>
+                                            <div class="coordinate-row">
+                                                <span class="coordinate-label">Z:</span>
+                                                <span class="coordinate-value">-20</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="subcategories-container">
+                                <ul class="subcategories">
+                                    <li class="subcategory-item">
+                                        <div class="subcategory-header">Краски и растения</div>
+                                        <div class="coordinates-container">
+                                            <div class="coordinate-row">
+                                                <span class="coordinate-label">X:</span>
+                                                <span class="coordinate-value">-40</span>
+                                            </div>
+                                            <div class="coordinate-row">
+                                                <span class="coordinate-label">Z:</span>
+                                                <span class="coordinate-value">-20</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="zone-card">
+                        <h3>Южный сегмент</h3>
+                        <div class="subcategories-table">
+                            <div class="subcategories-container">
+                                <ul class="subcategories">
+                                    <li class="subcategory-item">
+                                        <div class="subcategory-header">Еда и зелья</div>
+                                        <div class="coordinates-container">
+                                            <div class="coordinate-row">
+                                                <span class="coordinate-label">X:</span>
+                                                <span class="coordinate-value">20</span>
+                                            </div>
+                                            <div class="coordinate-row">
+                                                <span class="coordinate-label">Z:</span>
+                                                <span class="coordinate-value">40</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="subcategories-container">
+                                <ul class="subcategories">
+                                    <li class="subcategory-item">
+                                        <div class="subcategory-header">Лут с мобов</div>
+                                        <div class="coordinates-container">
+                                            <div class="coordinate-row">
+                                                <span class="coordinate-label">X:</span>
+                                                <span class="coordinate-value">-20</span>
+                                            </div>
+                                            <div class="coordinate-row">
+                                                <span class="coordinate-label">Z:</span>
+                                                <span class="coordinate-value">40</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="zone-card">
+                        <h3>Западный сегмент</h3>
+                        <div class="subcategories-table">
+                            <div class="subcategories-container">
+                                <ul class="subcategories">
+                                    <li class="subcategory-item">
+                                        <div class="subcategory-header">Броня и инструменты</div>
+                                        <div class="coordinates-container">
+                                            <div class="coordinate-row">
+                                                <span class="coordinate-label">X:</span>
+                                                <span class="coordinate-value">-40</span>
+                                            </div>
+                                            <div class="coordinate-row">
+                                                <span class="coordinate-label">Z:</span>
+                                                <span class="coordinate-value">20</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="subcategories-container">
+                                <ul class="subcategories">
+                                    <li class="subcategory-item">
+                                        <div class="subcategory-header">Книжки</div>
+                                        <div class="coordinates-container">
+                                            <div class="coordinate-row">
+                                                <span class="coordinate-label">X:</span>
+                                                <span class="coordinate-value">-40</span>
+                                            </div>
+                                            <div class="coordinate-row">
+                                                <span class="coordinate-label">Z:</span>
+                                                <span class="coordinate-value">-20</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="zone-card">
+                        <h3>Галерея мапартов</h3>
+                        <div class="subcategories-table">
+                            <div class="subcategories-container">
+                                <ul class="subcategories">
+                                    <li class="subcategory-item">
+                                        <div class="subcategory-header">Западная галерея</div>
+                                        <div class="coordinates-container">
+                                            <div class="coordinate-row">
+                                                <span class="coordinate-label">X:</span>
+                                                <span class="coordinate-value">-200</span>
+                                            </div>
+                                            <div class="coordinate-row">
+                                                <span class="coordinate-label">Z:</span>
+                                                <span class="coordinate-value">0</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="subcategories-container">
+                                <ul class="subcategories">
+                                    <li class="subcategory-item">
+                                        <div class="subcategory-header">Восточная галерея</div>
+                                        <div class="coordinates-container">
+                                            <div class="coordinate-row">
+                                                <span class="coordinate-label">X:</span>
+                                                <span class="coordinate-value">200</span>
+                                            </div>
+                                            <div class="coordinate-row">
+                                                <span class="coordinate-label">Z:</span>
+                                                <span class="coordinate-value">0</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
         </div>
 
+        <!-- Модальное окно -->
+        <div id="menu-modal" class="menu-modal">
+            <div class="modal-overlay"></div>
+            <div class="modal-content">
+                <button class="modal-close">&times;</button>
+                <div class="modal-section">
+                    <h3>Язык</h3>
+                    <button class="modal-lang-btn" data-lang="ru">Русский</button>
+                    <button class="modal-lang-btn" data-lang="en">English</button>
+                </div>
+                <div class="modal-links">
+                    <div class="modal-section">
+                        <h3>Сторонние проекты</h3>
+                        <a href="https://www.youtube.com/@tvppl24" class="external-link">PEPELAND 24</a>
+                        <a href="https://discord.com/channels/447699225078136832/1483753248405065818" class="external-link">ЛЕЙБЛ ППЛ 24</a>
+                        <a href="#" class="external-link">ТИЗКА (COMING SOON)</a>
+                        <h3>Внутренние проекты</h3>
+                        <a href="#" class="internal-link">Реестр ППЛ</a>
+                        <a href="#" class="internal-link">(COMING SOON)</a>
+                        <a href="#" class="internal-link">(COMING SOON)</a>
+                    </div>
+                </div>
+                <div class="modal-search-wrapper">
+                    <input type="text" id="modal-search" placeholder="Поиск предметов..." />
+                    <span class="modal-search-icon">🔍</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Плавающая кнопка -->
+        <button id="float-menu-btn" class="float-menu-btn" aria-label="Меню">☰</button>
+
+        <!-- Таблица -->
         <div class="table-container">
             <table id="items-table">
                 <thead>
