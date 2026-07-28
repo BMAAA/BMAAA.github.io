@@ -8,7 +8,7 @@
             content="width=device-width, initial-scale=1.0"
     >
 
-    <title>bmaaa.github.io</title>
+    <title>Item Catalogue</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -172,43 +172,6 @@
 
         </div>
 
-
-        <!-- Поиск -->
-        <div class="search-container">
-
-            <svg
-                    class="search-icon"
-                    viewBox="0 0 24 24"
-                    aria-hidden="true"
-            >
-                <path
-                        d="M10.8 4a6.8 6.8 0 1 0 0 13.6
-                        6.8 6.8 0 0 0 0-13.6Zm0-2
-                        a8.8 8.8 0 1 1 0 17.6
-                        A8.8 8.8 0 0 1 10.8 2Zm7.3
-                        15.1 4.3 4.3-1.4 1.4-4.3-4.3
-                        1.4-1.4Z"
-                />
-            </svg>
-
-            <input
-                    type="search"
-                    id="searchInput"
-                    class="srch"
-                    placeholder="Поиск предмета..."
-                    autocomplete="off"
-            >
-
-            <button
-                    class="clear-search"
-                    id="clearSearch"
-                    aria-label="Очистить поиск"
-            >
-                ×
-            </button>
-
-        </div>
-
     </header>
 
 
@@ -222,144 +185,30 @@
     >
 
         <div class="catalogue-header">
-
-            <div>
-
-                    <span class="section-label">
-                        PPL10
-                    </span>
-
-                <h2>
-                    Реестр торговой зоны
-                </h2>
-
-            </div>
-
-
-            <div
-                    class="item-counter"
-                    id="itemCounter"
-            >
-                Загрузка...
-            </div>
-
+                <h1>
+                    О сайте
+                </h1>
         </div>
 
-        <div
-                class="categories-container"
-                id="categoriesContainer"
-        >
+        <p>
+            Этот сайт - мой небольшой личный проект, направленный на создание удобных мне инструментов. В данный момент здесь реализован Реестр ППЛ, но в будущем планируется появление других инструментов, которые мне лень гуглить, в частности <i>нормальный</i> генератор градиентов и калькулятор кожанной брони.
+        </p>
 
-            <div class="loading">
+        <h2>
+            Благодарности
+        </h2>
+        <ul>
+            <li>TheEvilM - за моральную поддержку и слова "все херня давай по новой"</li>
+            <li>ChipZik - за проверку реестра и нахождение некоторых моих затупов</li>
+        </ul>
 
-                <div class="loader"></div>
 
-                <p>
-                    Загрузка предметов...
-                </p>
-
-            </div>
-
-        </div>
 
     </section>
 
 </main>
 
-
-<!-- =====================================================
-     МОДАЛЬНОЕ ОКНО ПРЕДМЕТА
-====================================================== -->
-
-<div
-        class="modal"
-        id="itemModal"
-        aria-hidden="true"
->
-
-    <div class="modal-background"></div>
-
-
-    <article class="modal-content">
-
-        <button
-                class="modal-close"
-                id="modalClose"
-                aria-label="Закрыть"
-        >
-            ×
-        </button>
-
-
-        <div class="modal-image-container">
-
-            <img
-                    id="modalImage"
-                    src=""
-                    alt=""
-            >
-
-        </div>
-
-
-        <div class="modal-information">
-            <h2 id="modalName">
-                Название предмета
-            </h2>
-
-
-            <div class="information-row">
-
-                    <span>
-                        ID
-                    </span>
-
-                <code id="modalId">
-                    {ITEM_ID}
-                </code>
-
-            </div>
-
-
-            <div class="information-row">
-
-                    <span>
-                        Категория
-                    </span>
-
-                <strong id="modalCategoryFull">
-                    Категория
-                </strong>
-
-            </div>
-
-
-            <a
-                    id="modalWiki"
-                    class="wiki-link"
-                    href="#"
-                    target="_blank"
-                    rel="noopener"
-            >
-
-                Открыть вики
-
-                <span>
-                        ↗
-                    </span>
-
-            </a>
-
-        </div>
-
-    </article>
-
-</div>
-
-
 <script src="scripts/script.js"></script>
-<script src="scripts/indexes.js"></script>
-<script src="scripts/script_registry.js"></script>
 
 </body>
 </html>
