@@ -56,6 +56,18 @@ const ATLAS_DIRECTORY =
     "assets/atlases/";
 
 
+const SHADOW_ATLAS_DIRECTORY =
+    "assets/atlases/shadows/";
+
+
+const SHADOW_ATLAS_CELL_SIZE =
+    52;
+
+
+const SHADOW_DISPLAY_SIZE =
+    104;
+
+
 let atlasData =
     null;
 
@@ -142,7 +154,7 @@ function sortItemsByIndex(
         ];
     sortedItems.forEach(
 
-    item => {
+        item => {
             const indexName =
                 getIndexItemName(
                     item.name
@@ -288,6 +300,12 @@ const categoriesContainer =
     );
 
 
+const catalogue =
+    document.getElementById(
+        "catalogue"
+    );
+
+
 const searchInput =
     document.getElementById(
         "searchInput"
@@ -310,6 +328,10 @@ const itemModal =
     document.getElementById(
         "itemModal"
     );
+
+
+const itemLookup =
+    new Map();
 
 
 /* =========================================================
@@ -500,7 +522,7 @@ async function loadLanguage(
     const response =
         await fetch(
             LANGUAGE_FILES[
-                language
+            language
             ]
         );
 
@@ -520,9 +542,6 @@ async function loadLanguage(
 
     currentLanguage =
         language;
-
-
-    renderCatalogue();
 
 }
 
@@ -564,7 +583,7 @@ function groupItems() {
 
             if (
                 !categories[
-                    category
+                category
                 ]
             ) {
 
@@ -623,7 +642,7 @@ function renderCatalogue() {
 
                 return (
                     groupedItems[
-                        category
+                    category
                     ]
                     !==
                     undefined
@@ -671,12 +690,12 @@ function renderCatalogue() {
                 translate(
                     firstCategory
                 )
-                .localeCompare(
-                    translate(
-                        secondCategory
-                    ),
-                    currentLanguage
-                )
+                    .localeCompare(
+                        translate(
+                            secondCategory
+                        ),
+                        currentLanguage
+                    )
             );
 
         }
@@ -717,7 +736,7 @@ function renderCatalogue() {
 
             const categoryItems =
                 groupedItems[
-                    categoryKey
+                categoryKey
                 ];
 
 
@@ -913,7 +932,7 @@ function createItemCard(
 
         atlasData
             ?.items
-            ?.[item.name];
+        ?.[item.name];
 
 
     /*
@@ -969,7 +988,11 @@ function createItemCard(
     */
 
     const displaySize =
-        71.5;
+        72;
+
+
+    const spriteBleedGuard =
+        0.5;
 
 
     /*
@@ -982,7 +1005,13 @@ function createItemCard(
 
     const scale =
 
-        displaySize
+        (
+            displaySize
+            +
+            spriteBleedGuard
+            *
+            2
+        )
         /
         cellSize;
 
@@ -996,9 +1025,9 @@ function createItemCard(
 
         atlasData
             .categories
-            ?.[
-                item.category
-            ];
+        ?.[
+        item.category
+        ];
 
 
     if (
@@ -1019,6 +1048,10 @@ function createItemCard(
     }
 
 
+    card.dataset.itemKey =
+        item.name;
+
+
     /*
        Путь к атласу.
     */
@@ -1030,6 +1063,76 @@ function createItemCard(
         +
 
         spriteData.atlas;
+
+
+    const shadowAtlasURL =
+
+        SHADOW_ATLAS_DIRECTORY
+
+        +
+
+        spriteData.atlas;
+
+
+    const shadowScale =
+
+        SHADOW_DISPLAY_SIZE
+
+        /
+
+        SHADOW_ATLAS_CELL_SIZE;
+
+
+    const shadowAtlasWidth =
+
+        categoryAtlas.width
+
+        /
+
+        cellSize
+
+        *
+
+        SHADOW_ATLAS_CELL_SIZE;
+
+
+    const shadowAtlasHeight =
+
+        categoryAtlas.height
+
+        /
+
+        cellSize
+
+        *
+
+        SHADOW_ATLAS_CELL_SIZE;
+
+
+    const shadowX =
+
+        spriteData.x
+
+        /
+
+        cellSize
+
+        *
+
+        SHADOW_ATLAS_CELL_SIZE;
+
+
+    const shadowY =
+
+        spriteData.y
+
+        /
+
+        cellSize
+
+        *
+
+        SHADOW_ATLAS_CELL_SIZE;
 
 
     /*
@@ -1068,10 +1171,10 @@ function createItemCard(
        Общий атлас.
     */
 
-    imageContainer.style
-        .backgroundImage =
-
-        `url("${atlasURL}")`;
+    imageContainer.style.setProperty(
+        "--item-atlas-image",
+        `url("${atlasURL}")`
+    );
 
 
     /*
@@ -1079,87 +1182,86 @@ function createItemCard(
        вместе с координатами.
     */
 
-    imageContainer.style
-        .backgroundSize =
+    imageContainer.style.setProperty(
+        "--item-atlas-size",
+        `${categoryAtlas.width
+        *
+        scale
 
-        `${
+        }px ${categoryAtlas.height
+        *
+        scale
 
-            categoryAtlas.width
-            *
-            scale
-
-        }px ${
-
-            categoryAtlas.height
-            *
-            scale
-
-        }px`;
+        }px`
+    );
 
 
     /*
        Позиция нужной ячейки.
     */
 
-    imageContainer.style
-        .backgroundPosition =
+    imageContainer.style.setProperty(
+        "--item-atlas-position",
+        `-${spriteData.x
+        *
+        scale
+        +
+        spriteBleedGuard
 
-        `-${
+        }px -${spriteData.y
+        *
+        scale
+        +
+        spriteBleedGuard
 
-            spriteData.x
-            *
-            scale
-
-        }px -${
-
-            spriteData.y
-            *
-            scale
-
-        }px`;
+        }px`
+    );
 
 
     /*
        Не повторять атлас.
     */
 
-    imageContainer.style
-        .backgroundRepeat =
-
-        "no-repeat";
+    imageContainer.style.setProperty(
+        "--shadow-atlas-image",
+        `url("${shadowAtlasURL}")`
+    );
 
 
     /*
        Сохраняем пиксельный вид.
     */
 
-    imageContainer.style
-        .imageRendering =
+    imageContainer.style.setProperty(
+        "--shadow-atlas-size",
+        `${shadowAtlasWidth
+        *
+        shadowScale
 
-        "pixelated";
+        }px ${shadowAtlasHeight
+        *
+        shadowScale
+
+        }px`
+    );
+
+
+    imageContainer.style.setProperty(
+        "--shadow-atlas-position",
+        `-${shadowX
+        *
+        shadowScale
+
+        }px -${shadowY
+        *
+        shadowScale
+
+        }px`
+    );
 
 
     card.appendChild(
         imageContainer
-    );
-
-
-    /*
-       Открытие информации.
-    */
-
-    card.addEventListener(
-
-        "click",
-
-        () => {
-
-            openItemModal(
-                item
-            );
-
-        }
-
     );
 
 
@@ -1254,14 +1356,14 @@ function updateCounter() {
                 translate(
                     item.name
                 )
-                .toLowerCase();
+                    .toLowerCase();
 
 
             const category =
                 translate(
                     item.category
                 )
-                .toLowerCase();
+                    .toLowerCase();
 
 
             if (
@@ -1404,6 +1506,85 @@ searchInput.addEventListener(
 );
 
 
+let scrollIdleTimeout;
+
+
+catalogue.addEventListener(
+    "scroll",
+    () => {
+
+        catalogue.classList.add(
+            "is-scrolling"
+        );
+
+
+        window.clearTimeout(
+            scrollIdleTimeout
+        );
+
+
+        scrollIdleTimeout =
+            window.setTimeout(
+                () => {
+
+                    catalogue.classList.remove(
+                        "is-scrolling"
+                    );
+
+                },
+                120
+            );
+
+    },
+    {
+        passive: true
+    }
+);
+
+
+categoriesContainer.addEventListener(
+    "click",
+    event => {
+
+        const card =
+            event.target.closest(
+                ".item-card[data-item-key]"
+            );
+
+
+        if (
+            !card
+            ||
+            !categoriesContainer.contains(
+                card
+            )
+        ) {
+
+            return;
+
+        }
+
+
+        const item =
+            itemLookup.get(
+                card.dataset.itemKey
+            );
+
+
+        if (
+            item
+        ) {
+
+            openItemModal(
+                item
+            );
+
+        }
+
+    }
+);
+
+
 clearSearch.addEventListener(
     "click",
     () => {
@@ -1441,19 +1622,38 @@ async function initialize() {
         const results =
             await Promise.all([
                 loadCSV(),
-                loadAtlasData()
+                loadAtlasData(),
+                loadLanguage(
+                    currentLanguage
+                )
             ]);
 
 
         items =
             results[0];
-        loadLanguage(currentLanguage);
+
+
+        itemLookup.clear();
+
+
+        items.forEach(
+            item => {
+
+                itemLookup.set(
+                    item.name,
+                    item
+                );
+
+            }
+        );
+
+
         renderCatalogue();
 
 
     }
     catch (
-        error
+    error
     ) {
         console.error(
             error

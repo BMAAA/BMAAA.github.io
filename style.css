@@ -792,7 +792,7 @@ button {
 
 .items-grid {
     display: grid;
-    grid-template-columns: repeat( auto-fill, minmax(71.5px, 71.5px) );
+    grid-template-columns: repeat( auto-fill, minmax(72px, 72px) );
     gap: 13px;
     align-items: center;
 }
@@ -804,8 +804,8 @@ button {
 
 .item-card {
     position: relative;
-    width: 71.5px;
-    height: 71.5px;
+    width: 72px;
+    height: 72px;
     place-items: center;
     padding: 0;
     background: transparent;
@@ -821,17 +821,20 @@ button {
     justify-content: center;
 
     box-sizing: border-box;
+    contain: layout style;
 }
 
 .item-card::before {
     content: "";
     position: absolute;
     z-index: 0;
-    width: 36px;
-    height: 36px;
-    background: rgba( 20, 184, 166, 0.22 );
+    width: 104px;
+    height: 104px;
+    background:
+        url("assets/item-glow.svg")
+        center / contain
+        no-repeat;
     border-radius: 50%;
-    filter: blur(10px);
     opacity: 0.75;
     transition: opacity 160ms ease, transform 160ms ease;
 }
@@ -852,40 +855,75 @@ button {
 
 .item-image {
     width:
-        71.5px;
+        72px;
 
     height:
-        71.5px;
+        72px;
 
     flex:
-        0 0 71.5px;
+        0 0 72px;
 
     display:
         block;
 
-    background-repeat:
-        no-repeat;
+    position:
+        relative;
+}
 
-    image-rendering:
-        pixelated;
 
-    /*
-       Свечение и тень
-       остаются на контейнере.
-    */
-    filter:
-        drop-shadow(
-            0 2px 3px
-            rgba(0, 0, 0, 0.5)
-        );
+.item-image::before,
+.item-image::after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+    background-repeat: no-repeat;
+}
 
+
+.item-image::before {
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    width: 104px;
+    height: 104px;
+    background-image:
+        var(--shadow-atlas-image);
+    background-size:
+        var(--shadow-atlas-size);
+    background-position:
+        var(--shadow-atlas-position);
+    image-rendering: auto;
+    opacity: 1;
+    transform:
+        translate(-50%, -50%);
+    transition:
+        opacity 160ms ease;
+}
+
+
+.item-image::after {
+    z-index: 1;
+    inset: 0;
+    background-image:
+        var(--item-atlas-image);
+    background-size:
+        var(--item-atlas-size);
+    background-position:
+        var(--item-atlas-position);
+    image-rendering: pixelated;
     transition:
         filter 160ms ease;
 }
 
 
 .item-card:hover
-.item-image {
+.item-image::before {
+    opacity: 0;
+}
+
+
+.item-card:hover
+.item-image::after {
 
     filter:
         drop-shadow(
@@ -898,6 +936,49 @@ button {
             )
         );
 
+}
+
+
+.catalogue.is-scrolling
+.item-card:hover {
+    z-index: auto;
+    transform: none;
+}
+
+
+.catalogue.is-scrolling
+.item-card:hover::before {
+    opacity: 0.75;
+    transform: none;
+}
+
+
+.catalogue.is-scrolling
+.item-card:hover
+.item-image::before {
+    opacity: 1;
+    transition: none;
+}
+
+
+.catalogue.is-scrolling
+.item-card:hover
+.item-image::after {
+    filter: none;
+    transition: none;
+}
+
+
+.catalogue.is-scrolling
+.item-card.match:hover {
+    z-index: 3;
+    transform: scale(1.1);
+}
+
+
+.catalogue.is-scrolling
+.item-card.match:hover::before {
+    opacity: 1;
 }
 
 
@@ -941,33 +1022,30 @@ button {
 
 
 .item-image {
-    position: relative;
     z-index: 1;
-    width: 71.5px;
-    height: 71.5px;
+    width: 72px;
+    height: 72px;
     display: grid;
     place-items: center;
     padding: 0;
-    background: transparent;
     border-radius: 6px;
 }
 
 .item-card.match::before {
-    width: 69.5px;
-    height: 69.5px;
+    width: 144px;
+    height: 144px;
     opacity: 1;
-    background: rgba( 20, 184, 166, 0.35 );
-    filter: blur(11px);
+    background-image:
+        url("assets/item-glow-match.svg");
 }
 
 .item-image img {
     display: block;
-    width: 71.5px;
-    height: 71.5px;
+    width: 72px;
+    height: 72px;
     object-fit: contain;
     image-rendering: pixelated;
-    filter: drop-shadow( 0 2px 3px rgba(0, 0, 0, 0.5) );
-    transition: transform 160ms ease, filter 160ms ease;
+    transition: transform 160ms ease;
 }
 
 .item-name {
