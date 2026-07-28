@@ -806,7 +806,6 @@ button {
     position: relative;
     width: 71.5px;
     height: 71.5px;
-    display: grid;
     place-items: center;
     padding: 0;
     background: transparent;
@@ -815,6 +814,13 @@ button {
     cursor: pointer;
     overflow: visible;
     transition: transform 160ms ease, opacity 180ms ease, filter 180ms ease;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    box-sizing: border-box;
 }
 
 .item-card::before {
@@ -1487,7 +1493,10 @@ button {
 
     .items-grid {
         grid-template-columns:
-            repeat(2, 1fr);
+            repeat(3, 1fr);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
 
 

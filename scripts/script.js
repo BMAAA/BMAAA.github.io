@@ -8,3 +8,70 @@ function init() {
     console.log(year)
 }
 init();
+
+
+/* =========================================================
+   ЭЛЕМЕНТЫ СТРАНИЦЫ
+========================================================= */
+
+const sidebar =
+    document.getElementById(
+        "sidebar"
+    );
+
+
+const menuButton =
+    document.getElementById(
+        "menuButton"
+    );
+
+
+const mobileOverlay =
+    document.getElementById(
+        "mobileOverlay"
+    );
+
+
+/* =========================================================
+   МОБИЛЬНОЕ МЕНЮ
+========================================================= */
+
+function openMobileMenu() {
+
+    sidebar.classList.add(
+        "open"
+    );
+
+
+    mobileOverlay.classList.add(
+        "visible"
+    );
+
+}
+
+
+function closeMobileMenu() {
+
+    sidebar.classList.remove(
+        "open"
+    );
+
+
+    mobileOverlay.classList.remove(
+        "visible"
+    );
+
+}
+
+
+menuButton.addEventListener(
+    "click",
+    openMobileMenu
+);
+
+
+mobileOverlay.addEventListener(
+    "click",
+    closeMobileMenu
+);
+

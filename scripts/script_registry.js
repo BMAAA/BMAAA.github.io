@@ -306,24 +306,6 @@ const itemCounter =
     );
 
 
-const sidebar =
-    document.getElementById(
-        "sidebar"
-    );
-
-
-const menuButton =
-    document.getElementById(
-        "menuButton"
-    );
-
-
-const mobileOverlay =
-    document.getElementById(
-        "mobileOverlay"
-    );
-
-
 const itemModal =
     document.getElementById(
         "itemModal"
@@ -1413,50 +1395,6 @@ document.querySelector(
 
 
 /* =========================================================
-   МОБИЛЬНОЕ МЕНЮ
-========================================================= */
-
-function openMobileMenu() {
-
-    sidebar.classList.add(
-        "open"
-    );
-
-
-    mobileOverlay.classList.add(
-        "visible"
-    );
-
-}
-
-
-function closeMobileMenu() {
-
-    sidebar.classList.remove(
-        "open"
-    );
-
-
-    mobileOverlay.classList.remove(
-        "visible"
-    );
-
-}
-
-
-menuButton.addEventListener(
-    "click",
-    openMobileMenu
-);
-
-
-mobileOverlay.addEventListener(
-    "click",
-    closeMobileMenu
-);
-
-
-/* =========================================================
    СОБЫТИЯ
 ========================================================= */
 
@@ -1469,14 +1407,9 @@ searchInput.addEventListener(
 clearSearch.addEventListener(
     "click",
     () => {
-
         searchInput.value =
             "";
-
-
         searchItems();
-
-
         searchInput.focus();
 
     }
@@ -1487,13 +1420,10 @@ clearSearch.addEventListener(
 document.addEventListener(
     "keydown",
     event => {
-
         if (
             event.key === "Escape"
         ) {
-
             closeItemModal();
-
             closeMobileMenu();
 
         }
@@ -1508,34 +1438,16 @@ document.addEventListener(
 async function initialize() {
 
     try {
-
-        /*
-           CSV и JSON атласов
-           загружаются параллельно.
-        */
-
         const results =
             await Promise.all([
-
                 loadCSV(),
-
                 loadAtlasData()
-
             ]);
 
 
         items =
             results[0];
-
         loadLanguage(currentLanguage);
-
-
-        /*
-           Каталог использует
-           текущий язык из
-           script.js.
-        */
-
         renderCatalogue();
 
 
@@ -1543,28 +1455,21 @@ async function initialize() {
     catch (
         error
     ) {
-
         console.error(
             error
         );
 
-
         categoriesContainer
             .innerHTML = `
-
                 <div class="loading">
-
                     <p>
                         Не удалось
                         загрузить каталог.
                     </p>
-
                     <small>
                         ${error.message}
                     </small>
-
                 </div>
-
             `;
 
     }
