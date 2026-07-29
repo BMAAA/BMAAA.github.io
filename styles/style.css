@@ -541,7 +541,7 @@ button {
   width: 144px;
   height: 144px;
   opacity: 1;
-  background-image: url("assets/item-glow-match.svg");
+  background-image: url("../assets/item-glow-match.svg");
 }
 .item-image img {
   display: block;

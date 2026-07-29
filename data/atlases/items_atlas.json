@@ -3282,2431 +3282,2431 @@
             "x": 1152,
             "y": 896
         },
-        "jungle_door": {
+        "iron_trapdoor": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 10,
             "row": 7,
             "x": 1280,
+            "y": 896
+        },
+        "jungle_door": {
+            "category": "blo",
+            "atlas": "blo.png",
+            "column": 11,
+            "row": 7,
+            "x": 1408,
             "y": 896
         },
         "jungle_fence": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 11,
+            "column": 12,
             "row": 7,
-            "x": 1408,
+            "x": 1536,
             "y": 896
         },
         "jungle_fence_gate": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 12,
+            "column": 13,
             "row": 7,
-            "x": 1536,
+            "x": 1664,
             "y": 896
         },
         "jungle_hanging_sign": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 13,
+            "column": 14,
             "row": 7,
-            "x": 1664,
+            "x": 1792,
             "y": 896
         },
         "jungle_log": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 14,
+            "column": 15,
             "row": 7,
-            "x": 1792,
+            "x": 1920,
             "y": 896
         },
         "jungle_planks": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 15,
+            "column": 16,
             "row": 7,
-            "x": 1920,
+            "x": 2048,
             "y": 896
         },
         "jungle_sign": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 16,
+            "column": 17,
             "row": 7,
-            "x": 2048,
+            "x": 2176,
             "y": 896
         },
         "jungle_slab": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 17,
+            "column": 18,
             "row": 7,
-            "x": 2176,
+            "x": 2304,
             "y": 896
         },
         "jungle_stairs": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 18,
+            "column": 19,
             "row": 7,
-            "x": 2304,
+            "x": 2432,
             "y": 896
         },
         "jungle_trapdoor": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 19,
+            "column": 20,
             "row": 7,
-            "x": 2432,
+            "x": 2560,
             "y": 896
         },
         "jungle_wood": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 20,
+            "column": 21,
             "row": 7,
-            "x": 2560,
+            "x": 2688,
             "y": 896
         },
         "ladder": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 21,
+            "column": 22,
             "row": 7,
-            "x": 2688,
+            "x": 2816,
             "y": 896
         },
         "light_blue_banner": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 22,
+            "column": 23,
             "row": 7,
-            "x": 2816,
+            "x": 2944,
             "y": 896
         },
         "light_blue_bed": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 23,
+            "column": 24,
             "row": 7,
-            "x": 2944,
+            "x": 3072,
             "y": 896
         },
         "light_blue_carpet": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 24,
+            "column": 25,
             "row": 7,
-            "x": 3072,
+            "x": 3200,
             "y": 896
         },
         "light_blue_concrete": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 25,
+            "column": 26,
             "row": 7,
-            "x": 3200,
+            "x": 3328,
             "y": 896
         },
         "light_blue_concrete_powder": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 26,
+            "column": 27,
             "row": 7,
-            "x": 3328,
+            "x": 3456,
             "y": 896
         },
         "light_blue_glazed_terracotta": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 27,
+            "column": 28,
             "row": 7,
-            "x": 3456,
+            "x": 3584,
             "y": 896
         },
         "light_blue_stained_glass": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 28,
+            "column": 29,
             "row": 7,
-            "x": 3584,
+            "x": 3712,
             "y": 896
         },
         "light_blue_stained_glass_pane": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 29,
+            "column": 30,
             "row": 7,
-            "x": 3712,
+            "x": 3840,
             "y": 896
         },
         "light_blue_terracotta": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 30,
+            "column": 31,
             "row": 7,
-            "x": 3840,
+            "x": 3968,
             "y": 896
         },
         "light_blue_wool": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 31,
-            "row": 7,
-            "x": 3968,
-            "y": 896
+            "column": 0,
+            "row": 8,
+            "x": 0,
+            "y": 1024
         },
         "light_gray_banner": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 0,
+            "column": 1,
             "row": 8,
-            "x": 0,
+            "x": 128,
             "y": 1024
         },
         "light_gray_bed": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 1,
+            "column": 2,
             "row": 8,
-            "x": 128,
+            "x": 256,
             "y": 1024
         },
         "light_gray_carpet": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 2,
+            "column": 3,
             "row": 8,
-            "x": 256,
+            "x": 384,
             "y": 1024
         },
         "light_gray_concrete": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 3,
+            "column": 4,
             "row": 8,
-            "x": 384,
+            "x": 512,
             "y": 1024
         },
         "light_gray_concrete_powder": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 4,
+            "column": 5,
             "row": 8,
-            "x": 512,
+            "x": 640,
             "y": 1024
         },
         "light_gray_glazed_terracotta": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 5,
+            "column": 6,
             "row": 8,
-            "x": 640,
+            "x": 768,
             "y": 1024
         },
         "light_gray_stained_glass": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 6,
+            "column": 7,
             "row": 8,
-            "x": 768,
+            "x": 896,
             "y": 1024
         },
         "light_gray_stained_glass_pane": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 7,
+            "column": 8,
             "row": 8,
-            "x": 896,
+            "x": 1024,
             "y": 1024
         },
         "light_gray_terracotta": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 8,
+            "column": 9,
             "row": 8,
-            "x": 1024,
+            "x": 1152,
             "y": 1024
         },
         "light_gray_wool": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 9,
+            "column": 10,
             "row": 8,
-            "x": 1152,
+            "x": 1280,
             "y": 1024
         },
         "lime_banner": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 10,
+            "column": 11,
             "row": 8,
-            "x": 1280,
+            "x": 1408,
             "y": 1024
         },
         "lime_bed": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 11,
+            "column": 12,
             "row": 8,
-            "x": 1408,
+            "x": 1536,
             "y": 1024
         },
         "lime_carpet": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 12,
+            "column": 13,
             "row": 8,
-            "x": 1536,
+            "x": 1664,
             "y": 1024
         },
         "lime_concrete": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 13,
+            "column": 14,
             "row": 8,
-            "x": 1664,
+            "x": 1792,
             "y": 1024
         },
         "lime_concrete_powder": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 14,
+            "column": 15,
             "row": 8,
-            "x": 1792,
+            "x": 1920,
             "y": 1024
         },
         "lime_glazed_terracotta": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 15,
+            "column": 16,
             "row": 8,
-            "x": 1920,
+            "x": 2048,
             "y": 1024
         },
         "lime_stained_glass": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 16,
+            "column": 17,
             "row": 8,
-            "x": 2048,
+            "x": 2176,
             "y": 1024
         },
         "lime_stained_glass_pane": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 17,
+            "column": 18,
             "row": 8,
-            "x": 2176,
+            "x": 2304,
             "y": 1024
         },
         "lime_terracotta": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 18,
+            "column": 19,
             "row": 8,
-            "x": 2304,
+            "x": 2432,
             "y": 1024
         },
         "lime_wool": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 19,
+            "column": 20,
             "row": 8,
-            "x": 2432,
+            "x": 2560,
             "y": 1024
         },
         "magenta_banner": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 20,
+            "column": 21,
             "row": 8,
-            "x": 2560,
+            "x": 2688,
             "y": 1024
         },
         "magenta_bed": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 21,
+            "column": 22,
             "row": 8,
-            "x": 2688,
+            "x": 2816,
             "y": 1024
         },
         "magenta_carpet": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 22,
+            "column": 23,
             "row": 8,
-            "x": 2816,
+            "x": 2944,
             "y": 1024
         },
         "magenta_concrete": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 23,
+            "column": 24,
             "row": 8,
-            "x": 2944,
+            "x": 3072,
             "y": 1024
         },
         "magenta_concrete_powder": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 24,
+            "column": 25,
             "row": 8,
-            "x": 3072,
+            "x": 3200,
             "y": 1024
         },
         "magenta_glazed_terracotta": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 25,
+            "column": 26,
             "row": 8,
-            "x": 3200,
+            "x": 3328,
             "y": 1024
         },
         "magenta_stained_glass": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 26,
+            "column": 27,
             "row": 8,
-            "x": 3328,
+            "x": 3456,
             "y": 1024
         },
         "magenta_stained_glass_pane": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 27,
+            "column": 28,
             "row": 8,
-            "x": 3456,
+            "x": 3584,
             "y": 1024
         },
         "magenta_terracotta": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 28,
+            "column": 29,
             "row": 8,
-            "x": 3584,
+            "x": 3712,
             "y": 1024
         },
         "magenta_wool": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 29,
+            "column": 30,
             "row": 8,
-            "x": 3712,
+            "x": 3840,
             "y": 1024
         },
         "magma_block": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 30,
+            "column": 31,
             "row": 8,
-            "x": 3840,
+            "x": 3968,
             "y": 1024
         },
         "mangrove_door": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 31,
-            "row": 8,
-            "x": 3968,
-            "y": 1024
+            "column": 0,
+            "row": 9,
+            "x": 0,
+            "y": 1152
         },
         "mangrove_fence": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 0,
+            "column": 1,
             "row": 9,
-            "x": 0,
+            "x": 128,
             "y": 1152
         },
         "mangrove_fence_gate": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 1,
+            "column": 2,
             "row": 9,
-            "x": 128,
+            "x": 256,
             "y": 1152
         },
         "mangrove_hanging_sign": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 2,
+            "column": 3,
             "row": 9,
-            "x": 256,
+            "x": 384,
             "y": 1152
         },
         "mangrove_log": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 3,
+            "column": 4,
             "row": 9,
-            "x": 384,
+            "x": 512,
             "y": 1152
         },
         "mangrove_planks": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 4,
+            "column": 5,
             "row": 9,
-            "x": 512,
+            "x": 640,
             "y": 1152
         },
         "mangrove_roots": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 5,
+            "column": 6,
             "row": 9,
-            "x": 640,
+            "x": 768,
             "y": 1152
         },
         "mangrove_sign": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 6,
+            "column": 7,
             "row": 9,
-            "x": 768,
+            "x": 896,
             "y": 1152
         },
         "mangrove_slab": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 7,
+            "column": 8,
             "row": 9,
-            "x": 896,
+            "x": 1024,
             "y": 1152
         },
         "mangrove_stairs": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 8,
+            "column": 9,
             "row": 9,
-            "x": 1024,
+            "x": 1152,
             "y": 1152
         },
         "mangrove_trapdoor": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 9,
+            "column": 10,
             "row": 9,
-            "x": 1152,
+            "x": 1280,
             "y": 1152
         },
         "mangrove_wood": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 10,
+            "column": 11,
             "row": 9,
-            "x": 1280,
+            "x": 1408,
             "y": 1152
         },
         "moss_block": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 11,
+            "column": 12,
             "row": 9,
-            "x": 1408,
+            "x": 1536,
             "y": 1152
         },
         "moss_carpet": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 12,
+            "column": 13,
             "row": 9,
-            "x": 1536,
+            "x": 1664,
             "y": 1152
         },
         "mossy_cobblestone": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 13,
+            "column": 14,
             "row": 9,
-            "x": 1664,
+            "x": 1792,
             "y": 1152
         },
         "mossy_cobblestone_slab": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 14,
+            "column": 15,
             "row": 9,
-            "x": 1792,
+            "x": 1920,
             "y": 1152
         },
         "mossy_cobblestone_stairs": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 15,
+            "column": 16,
             "row": 9,
-            "x": 1920,
+            "x": 2048,
             "y": 1152
         },
         "mossy_cobblestone_wall": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 16,
+            "column": 17,
             "row": 9,
-            "x": 2048,
+            "x": 2176,
             "y": 1152
         },
         "mossy_stone_brick_slab": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 17,
+            "column": 18,
             "row": 9,
-            "x": 2176,
+            "x": 2304,
             "y": 1152
         },
         "mossy_stone_brick_stairs": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 18,
+            "column": 19,
             "row": 9,
-            "x": 2304,
+            "x": 2432,
             "y": 1152
         },
         "mossy_stone_brick_wall": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 19,
+            "column": 20,
             "row": 9,
-            "x": 2432,
+            "x": 2560,
             "y": 1152
         },
         "mossy_stone_bricks": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 20,
+            "column": 21,
             "row": 9,
-            "x": 2560,
+            "x": 2688,
             "y": 1152
         },
         "mud": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 21,
+            "column": 22,
             "row": 9,
-            "x": 2688,
+            "x": 2816,
             "y": 1152
         },
         "mud_brick_slab": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 22,
+            "column": 23,
             "row": 9,
-            "x": 2816,
+            "x": 2944,
             "y": 1152
         },
         "mud_brick_stairs": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 23,
+            "column": 24,
             "row": 9,
-            "x": 2944,
+            "x": 3072,
             "y": 1152
         },
         "mud_brick_wall": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 24,
+            "column": 25,
             "row": 9,
-            "x": 3072,
+            "x": 3200,
             "y": 1152
         },
         "mud_bricks": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 25,
+            "column": 26,
             "row": 9,
-            "x": 3200,
+            "x": 3328,
             "y": 1152
         },
         "muddy_mangrove_roots": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 26,
+            "column": 27,
             "row": 9,
-            "x": 3328,
+            "x": 3456,
             "y": 1152
         },
         "mycelium": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 27,
+            "column": 28,
             "row": 9,
-            "x": 3456,
+            "x": 3584,
             "y": 1152
         },
         "nether_brick": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 28,
+            "column": 29,
             "row": 9,
-            "x": 3584,
+            "x": 3712,
             "y": 1152
         },
         "nether_brick_fence": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 29,
+            "column": 30,
             "row": 9,
-            "x": 3712,
+            "x": 3840,
             "y": 1152
         },
         "nether_brick_slab": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 30,
+            "column": 31,
             "row": 9,
-            "x": 3840,
+            "x": 3968,
             "y": 1152
         },
         "nether_brick_stairs": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 31,
-            "row": 9,
-            "x": 3968,
-            "y": 1152
+            "column": 0,
+            "row": 10,
+            "x": 0,
+            "y": 1280
         },
         "nether_brick_wall": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 0,
+            "column": 1,
             "row": 10,
-            "x": 0,
+            "x": 128,
             "y": 1280
         },
         "nether_bricks": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 1,
+            "column": 2,
             "row": 10,
-            "x": 128,
+            "x": 256,
             "y": 1280
         },
         "nether_gold_ore": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 2,
+            "column": 3,
             "row": 10,
-            "x": 256,
+            "x": 384,
             "y": 1280
         },
         "nether_wart_block": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 3,
+            "column": 4,
             "row": 10,
-            "x": 384,
+            "x": 512,
             "y": 1280
         },
         "netherrack": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 4,
+            "column": 5,
             "row": 10,
-            "x": 512,
+            "x": 640,
             "y": 1280
         },
         "oak_door": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 5,
+            "column": 6,
             "row": 10,
-            "x": 640,
+            "x": 768,
             "y": 1280
         },
         "oak_fence": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 6,
+            "column": 7,
             "row": 10,
-            "x": 768,
+            "x": 896,
             "y": 1280
         },
         "oak_fence_gate": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 7,
+            "column": 8,
             "row": 10,
-            "x": 896,
+            "x": 1024,
             "y": 1280
         },
         "oak_hanging_sign": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 8,
+            "column": 9,
             "row": 10,
-            "x": 1024,
+            "x": 1152,
             "y": 1280
         },
         "oak_log": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 9,
+            "column": 10,
             "row": 10,
-            "x": 1152,
+            "x": 1280,
             "y": 1280
         },
         "oak_planks": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 10,
+            "column": 11,
             "row": 10,
-            "x": 1280,
+            "x": 1408,
             "y": 1280
         },
         "oak_sign": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 11,
+            "column": 12,
             "row": 10,
-            "x": 1408,
+            "x": 1536,
             "y": 1280
         },
         "oak_slab": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 12,
+            "column": 13,
             "row": 10,
-            "x": 1536,
+            "x": 1664,
             "y": 1280
         },
         "oak_stairs": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 13,
+            "column": 14,
             "row": 10,
-            "x": 1664,
+            "x": 1792,
             "y": 1280
         },
         "oak_trapdoor": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 14,
+            "column": 15,
             "row": 10,
-            "x": 1792,
+            "x": 1920,
             "y": 1280
         },
         "oak_wood": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 15,
+            "column": 16,
             "row": 10,
-            "x": 1920,
+            "x": 2048,
             "y": 1280
         },
         "obsidian": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 16,
+            "column": 17,
             "row": 10,
-            "x": 2048,
+            "x": 2176,
             "y": 1280
         },
         "ochre_froglight": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 17,
+            "column": 18,
             "row": 10,
-            "x": 2176,
+            "x": 2304,
             "y": 1280
         },
         "orange_banner": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 18,
+            "column": 19,
             "row": 10,
-            "x": 2304,
+            "x": 2432,
             "y": 1280
         },
         "orange_bed": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 19,
+            "column": 20,
             "row": 10,
-            "x": 2432,
+            "x": 2560,
             "y": 1280
         },
         "orange_carpet": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 20,
+            "column": 21,
             "row": 10,
-            "x": 2560,
+            "x": 2688,
             "y": 1280
         },
         "orange_concrete": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 21,
+            "column": 22,
             "row": 10,
-            "x": 2688,
+            "x": 2816,
             "y": 1280
         },
         "orange_concrete_powder": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 22,
+            "column": 23,
             "row": 10,
-            "x": 2816,
+            "x": 2944,
             "y": 1280
         },
         "orange_glazed_terracotta": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 23,
+            "column": 24,
             "row": 10,
-            "x": 2944,
+            "x": 3072,
             "y": 1280
         },
         "orange_stained_glass": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 24,
+            "column": 25,
             "row": 10,
-            "x": 3072,
+            "x": 3200,
             "y": 1280
         },
         "orange_stained_glass_pane": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 25,
+            "column": 26,
             "row": 10,
-            "x": 3200,
+            "x": 3328,
             "y": 1280
         },
         "orange_terracotta": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 26,
+            "column": 27,
             "row": 10,
-            "x": 3328,
+            "x": 3456,
             "y": 1280
         },
         "orange_wool": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 27,
+            "column": 28,
             "row": 10,
-            "x": 3456,
+            "x": 3584,
             "y": 1280
         },
         "oxidized_chiseled_copper": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 28,
+            "column": 29,
             "row": 10,
-            "x": 3584,
+            "x": 3712,
             "y": 1280
         },
         "oxidized_copper": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 29,
+            "column": 30,
             "row": 10,
-            "x": 3712,
+            "x": 3840,
             "y": 1280
         },
         "oxidized_copper_bulb": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 30,
+            "column": 31,
             "row": 10,
-            "x": 3840,
+            "x": 3968,
             "y": 1280
         },
         "oxidized_copper_door": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 31,
-            "row": 10,
-            "x": 3968,
-            "y": 1280
+            "column": 0,
+            "row": 11,
+            "x": 0,
+            "y": 1408
         },
         "oxidized_copper_grate": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 0,
+            "column": 1,
             "row": 11,
-            "x": 0,
+            "x": 128,
             "y": 1408
         },
         "oxidized_copper_trapdoor": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 1,
+            "column": 2,
             "row": 11,
-            "x": 128,
+            "x": 256,
             "y": 1408
         },
         "oxidized_cut_copper": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 2,
+            "column": 3,
             "row": 11,
-            "x": 256,
+            "x": 384,
             "y": 1408
         },
         "oxidized_cut_copper_slab": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 3,
+            "column": 4,
             "row": 11,
-            "x": 384,
+            "x": 512,
             "y": 1408
         },
         "oxidized_cut_copper_stairs": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 4,
+            "column": 5,
             "row": 11,
-            "x": 512,
+            "x": 640,
             "y": 1408
         },
         "packed_ice": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 5,
+            "column": 6,
             "row": 11,
-            "x": 640,
+            "x": 768,
             "y": 1408
         },
         "packed_mud": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 6,
+            "column": 7,
             "row": 11,
-            "x": 768,
+            "x": 896,
             "y": 1408
         },
         "pearlescent_froglight": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 7,
+            "column": 8,
             "row": 11,
-            "x": 896,
+            "x": 1024,
             "y": 1408
         },
         "pink_banner": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 8,
+            "column": 9,
             "row": 11,
-            "x": 1024,
+            "x": 1152,
             "y": 1408
         },
         "pink_bed": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 9,
+            "column": 10,
             "row": 11,
-            "x": 1152,
+            "x": 1280,
             "y": 1408
         },
         "pink_carpet": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 10,
+            "column": 11,
             "row": 11,
-            "x": 1280,
+            "x": 1408,
             "y": 1408
         },
         "pink_concrete": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 11,
+            "column": 12,
             "row": 11,
-            "x": 1408,
+            "x": 1536,
             "y": 1408
         },
         "pink_concrete_powder": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 12,
+            "column": 13,
             "row": 11,
-            "x": 1536,
+            "x": 1664,
             "y": 1408
         },
         "pink_glazed_terracotta": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 13,
+            "column": 14,
             "row": 11,
-            "x": 1664,
+            "x": 1792,
             "y": 1408
         },
         "pink_stained_glass": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 14,
+            "column": 15,
             "row": 11,
-            "x": 1792,
+            "x": 1920,
             "y": 1408
         },
         "pink_stained_glass_pane": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 15,
+            "column": 16,
             "row": 11,
-            "x": 1920,
+            "x": 2048,
             "y": 1408
         },
         "pink_terracotta": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 16,
+            "column": 17,
             "row": 11,
-            "x": 2048,
+            "x": 2176,
             "y": 1408
         },
         "pink_wool": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 17,
+            "column": 18,
             "row": 11,
-            "x": 2176,
+            "x": 2304,
             "y": 1408
         },
         "podzol": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 18,
+            "column": 19,
             "row": 11,
-            "x": 2304,
+            "x": 2432,
             "y": 1408
         },
         "polished_andesite": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 19,
+            "column": 20,
             "row": 11,
-            "x": 2432,
+            "x": 2560,
             "y": 1408
         },
         "polished_andesite_slab": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 20,
+            "column": 21,
             "row": 11,
-            "x": 2560,
+            "x": 2688,
             "y": 1408
         },
         "polished_andesite_stairs": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 21,
+            "column": 22,
             "row": 11,
-            "x": 2688,
+            "x": 2816,
             "y": 1408
         },
         "polished_basalt": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 22,
+            "column": 23,
             "row": 11,
-            "x": 2816,
+            "x": 2944,
             "y": 1408
         },
         "polished_blackstone": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 23,
+            "column": 24,
             "row": 11,
-            "x": 2944,
+            "x": 3072,
             "y": 1408
         },
         "polished_blackstone_brick_slab": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 24,
+            "column": 25,
             "row": 11,
-            "x": 3072,
+            "x": 3200,
             "y": 1408
         },
         "polished_blackstone_brick_stairs": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 25,
+            "column": 26,
             "row": 11,
-            "x": 3200,
+            "x": 3328,
             "y": 1408
         },
         "polished_blackstone_brick_wall": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 26,
+            "column": 27,
             "row": 11,
-            "x": 3328,
+            "x": 3456,
             "y": 1408
         },
         "polished_blackstone_bricks": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 27,
+            "column": 28,
             "row": 11,
-            "x": 3456,
+            "x": 3584,
             "y": 1408
         },
         "polished_blackstone_slab": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 28,
+            "column": 29,
             "row": 11,
-            "x": 3584,
+            "x": 3712,
             "y": 1408
         },
         "polished_blackstone_stairs": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 29,
+            "column": 30,
             "row": 11,
-            "x": 3712,
+            "x": 3840,
             "y": 1408
         },
         "polished_blackstone_wall": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 30,
+            "column": 31,
             "row": 11,
-            "x": 3840,
+            "x": 3968,
             "y": 1408
         },
         "polished_deepslate": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 31,
-            "row": 11,
-            "x": 3968,
-            "y": 1408
+            "column": 0,
+            "row": 12,
+            "x": 0,
+            "y": 1536
         },
         "polished_deepslate_slab": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 0,
+            "column": 1,
             "row": 12,
-            "x": 0,
+            "x": 128,
             "y": 1536
         },
         "polished_deepslate_stairs": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 1,
+            "column": 2,
             "row": 12,
-            "x": 128,
+            "x": 256,
             "y": 1536
         },
         "polished_deepslate_wall": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 2,
+            "column": 3,
             "row": 12,
-            "x": 256,
+            "x": 384,
             "y": 1536
         },
         "polished_diorite": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 3,
+            "column": 4,
             "row": 12,
-            "x": 384,
+            "x": 512,
             "y": 1536
         },
         "polished_diorite_slab": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 4,
+            "column": 5,
             "row": 12,
-            "x": 512,
+            "x": 640,
             "y": 1536
         },
         "polished_diorite_stairs": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 5,
+            "column": 6,
             "row": 12,
-            "x": 640,
+            "x": 768,
             "y": 1536
         },
         "polished_granite": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 6,
+            "column": 7,
             "row": 12,
-            "x": 768,
+            "x": 896,
             "y": 1536
         },
         "polished_granite_slab": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 7,
+            "column": 8,
             "row": 12,
-            "x": 896,
+            "x": 1024,
             "y": 1536
         },
         "polished_granite_stairs": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 8,
+            "column": 9,
             "row": 12,
-            "x": 1024,
+            "x": 1152,
             "y": 1536
         },
         "polished_tuff": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 9,
+            "column": 10,
             "row": 12,
-            "x": 1152,
+            "x": 1280,
             "y": 1536
         },
         "polished_tuff_slab": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 10,
+            "column": 11,
             "row": 12,
-            "x": 1280,
+            "x": 1408,
             "y": 1536
         },
         "polished_tuff_stairs": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 11,
+            "column": 12,
             "row": 12,
-            "x": 1408,
+            "x": 1536,
             "y": 1536
         },
         "polished_tuff_wall": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 12,
+            "column": 13,
             "row": 12,
-            "x": 1536,
+            "x": 1664,
             "y": 1536
         },
         "prismarine": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 13,
+            "column": 14,
             "row": 12,
-            "x": 1664,
+            "x": 1792,
             "y": 1536
         },
         "prismarine_brick_slab": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 14,
+            "column": 15,
             "row": 12,
-            "x": 1792,
+            "x": 1920,
             "y": 1536
         },
         "prismarine_brick_stairs": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 15,
+            "column": 16,
             "row": 12,
-            "x": 1920,
+            "x": 2048,
             "y": 1536
         },
         "prismarine_bricks": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 16,
+            "column": 17,
             "row": 12,
-            "x": 2048,
+            "x": 2176,
             "y": 1536
         },
         "prismarine_slab": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 17,
+            "column": 18,
             "row": 12,
-            "x": 2176,
+            "x": 2304,
             "y": 1536
         },
         "prismarine_stairs": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 18,
+            "column": 19,
             "row": 12,
-            "x": 2304,
+            "x": 2432,
             "y": 1536
         },
         "prismarine_wall": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 19,
+            "column": 20,
             "row": 12,
-            "x": 2432,
+            "x": 2560,
             "y": 1536
         },
         "purple_banner": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 20,
+            "column": 21,
             "row": 12,
-            "x": 2560,
+            "x": 2688,
             "y": 1536
         },
         "purple_bed": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 21,
+            "column": 22,
             "row": 12,
-            "x": 2688,
+            "x": 2816,
             "y": 1536
         },
         "purple_carpet": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 22,
+            "column": 23,
             "row": 12,
-            "x": 2816,
+            "x": 2944,
             "y": 1536
         },
         "purple_concrete": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 23,
+            "column": 24,
             "row": 12,
-            "x": 2944,
+            "x": 3072,
             "y": 1536
         },
         "purple_concrete_powder": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 24,
+            "column": 25,
             "row": 12,
-            "x": 3072,
+            "x": 3200,
             "y": 1536
         },
         "purple_glazed_terracotta": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 25,
+            "column": 26,
             "row": 12,
-            "x": 3200,
+            "x": 3328,
             "y": 1536
         },
         "purple_stained_glass": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 26,
+            "column": 27,
             "row": 12,
-            "x": 3328,
+            "x": 3456,
             "y": 1536
         },
         "purple_stained_glass_pane": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 27,
+            "column": 28,
             "row": 12,
-            "x": 3456,
+            "x": 3584,
             "y": 1536
         },
         "purple_terracotta": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 28,
+            "column": 29,
             "row": 12,
-            "x": 3584,
+            "x": 3712,
             "y": 1536
         },
         "purple_wool": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 29,
+            "column": 30,
             "row": 12,
-            "x": 3712,
+            "x": 3840,
             "y": 1536
         },
         "purpur_block": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 30,
+            "column": 31,
             "row": 12,
-            "x": 3840,
+            "x": 3968,
             "y": 1536
         },
         "purpur_pillar": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 31,
-            "row": 12,
-            "x": 3968,
-            "y": 1536
+            "column": 0,
+            "row": 13,
+            "x": 0,
+            "y": 1664
         },
         "purpur_slab": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 0,
+            "column": 1,
             "row": 13,
-            "x": 0,
+            "x": 128,
             "y": 1664
         },
         "purpur_stairs": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 1,
+            "column": 2,
             "row": 13,
-            "x": 128,
+            "x": 256,
             "y": 1664
         },
         "quartz_bricks": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 2,
+            "column": 3,
             "row": 13,
-            "x": 256,
+            "x": 384,
             "y": 1664
         },
         "quartz_pillar": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 3,
+            "column": 4,
             "row": 13,
-            "x": 384,
+            "x": 512,
             "y": 1664
         },
         "quartz_slab": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 4,
+            "column": 5,
             "row": 13,
-            "x": 512,
+            "x": 640,
             "y": 1664
         },
         "quartz_stairs": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 5,
+            "column": 6,
             "row": 13,
-            "x": 640,
+            "x": 768,
             "y": 1664
         },
         "red_banner": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 6,
+            "column": 7,
             "row": 13,
-            "x": 768,
+            "x": 896,
             "y": 1664
         },
         "red_bed": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 7,
+            "column": 8,
             "row": 13,
-            "x": 896,
+            "x": 1024,
             "y": 1664
         },
         "red_carpet": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 8,
+            "column": 9,
             "row": 13,
-            "x": 1024,
+            "x": 1152,
             "y": 1664
         },
         "red_concrete": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 9,
+            "column": 10,
             "row": 13,
-            "x": 1152,
+            "x": 1280,
             "y": 1664
         },
         "red_concrete_powder": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 10,
+            "column": 11,
             "row": 13,
-            "x": 1280,
+            "x": 1408,
             "y": 1664
         },
         "red_glazed_terracotta": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 11,
+            "column": 12,
             "row": 13,
-            "x": 1408,
+            "x": 1536,
             "y": 1664
         },
         "red_mushroom_block": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 12,
+            "column": 13,
             "row": 13,
-            "x": 1536,
+            "x": 1664,
             "y": 1664
         },
         "red_nether_brick_slab": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 13,
+            "column": 14,
             "row": 13,
-            "x": 1664,
+            "x": 1792,
             "y": 1664
         },
         "red_nether_brick_stairs": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 14,
+            "column": 15,
             "row": 13,
-            "x": 1792,
+            "x": 1920,
             "y": 1664
         },
         "red_nether_brick_wall": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 15,
+            "column": 16,
             "row": 13,
-            "x": 1920,
+            "x": 2048,
             "y": 1664
         },
         "red_nether_bricks": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 16,
+            "column": 17,
             "row": 13,
-            "x": 2048,
+            "x": 2176,
             "y": 1664
         },
         "red_sand": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 17,
+            "column": 18,
             "row": 13,
-            "x": 2176,
+            "x": 2304,
             "y": 1664
         },
         "red_sandstone": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 18,
+            "column": 19,
             "row": 13,
-            "x": 2304,
+            "x": 2432,
             "y": 1664
         },
         "red_sandstone_slab": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 19,
+            "column": 20,
             "row": 13,
-            "x": 2432,
+            "x": 2560,
             "y": 1664
         },
         "red_sandstone_stairs": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 20,
+            "column": 21,
             "row": 13,
-            "x": 2560,
+            "x": 2688,
             "y": 1664
         },
         "red_sandstone_wall": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 21,
+            "column": 22,
             "row": 13,
-            "x": 2688,
+            "x": 2816,
             "y": 1664
         },
         "red_stained_glass": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 22,
+            "column": 23,
             "row": 13,
-            "x": 2816,
+            "x": 2944,
             "y": 1664
         },
         "red_stained_glass_pane": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 23,
+            "column": 24,
             "row": 13,
-            "x": 2944,
+            "x": 3072,
             "y": 1664
         },
         "red_terracotta": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 24,
+            "column": 25,
             "row": 13,
-            "x": 3072,
+            "x": 3200,
             "y": 1664
         },
         "red_wool": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 25,
+            "column": 26,
             "row": 13,
-            "x": 3200,
+            "x": 3328,
             "y": 1664
         },
         "rooted_dirt": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 26,
+            "column": 27,
             "row": 13,
-            "x": 3328,
+            "x": 3456,
             "y": 1664
         },
         "sand": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 27,
+            "column": 28,
             "row": 13,
-            "x": 3456,
+            "x": 3584,
             "y": 1664
         },
         "sandstone": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 28,
+            "column": 29,
             "row": 13,
-            "x": 3584,
+            "x": 3712,
             "y": 1664
         },
         "sandstone_slab": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 29,
+            "column": 30,
             "row": 13,
-            "x": 3712,
+            "x": 3840,
             "y": 1664
         },
         "sandstone_stairs": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 30,
+            "column": 31,
             "row": 13,
-            "x": 3840,
+            "x": 3968,
             "y": 1664
         },
         "sandstone_wall": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 31,
-            "row": 13,
-            "x": 3968,
-            "y": 1664
+            "column": 0,
+            "row": 14,
+            "x": 0,
+            "y": 1792
         },
         "scaffolding": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 0,
+            "column": 1,
             "row": 14,
-            "x": 0,
+            "x": 128,
             "y": 1792
         },
         "sea_lantern": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 1,
+            "column": 2,
             "row": 14,
-            "x": 128,
+            "x": 256,
             "y": 1792
         },
         "shroomlight": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 2,
+            "column": 3,
             "row": 14,
-            "x": 256,
+            "x": 384,
             "y": 1792
         },
         "smooth_basalt": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 3,
+            "column": 4,
             "row": 14,
-            "x": 384,
+            "x": 512,
             "y": 1792
         },
         "smooth_quartz": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 4,
+            "column": 5,
             "row": 14,
-            "x": 512,
+            "x": 640,
             "y": 1792
         },
         "smooth_quartz_slab": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 5,
+            "column": 6,
             "row": 14,
-            "x": 640,
+            "x": 768,
             "y": 1792
         },
         "smooth_quartz_stairs": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 6,
+            "column": 7,
             "row": 14,
-            "x": 768,
+            "x": 896,
             "y": 1792
         },
         "smooth_red_sandstone": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 7,
+            "column": 8,
             "row": 14,
-            "x": 896,
+            "x": 1024,
             "y": 1792
         },
         "smooth_red_sandstone_slab": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 8,
+            "column": 9,
             "row": 14,
-            "x": 1024,
+            "x": 1152,
             "y": 1792
         },
         "smooth_red_sandstone_stairs": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 9,
+            "column": 10,
             "row": 14,
-            "x": 1152,
+            "x": 1280,
             "y": 1792
         },
         "smooth_sandstone": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 10,
+            "column": 11,
             "row": 14,
-            "x": 1280,
+            "x": 1408,
             "y": 1792
         },
         "smooth_sandstone_slab": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 11,
+            "column": 12,
             "row": 14,
-            "x": 1408,
+            "x": 1536,
             "y": 1792
         },
         "smooth_sandstone_stairs": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 12,
+            "column": 13,
             "row": 14,
-            "x": 1536,
+            "x": 1664,
             "y": 1792
         },
         "smooth_stone": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 13,
+            "column": 14,
             "row": 14,
-            "x": 1664,
+            "x": 1792,
             "y": 1792
         },
         "smooth_stone_slab": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 14,
+            "column": 15,
             "row": 14,
-            "x": 1792,
+            "x": 1920,
             "y": 1792
         },
         "snow": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 15,
+            "column": 16,
             "row": 14,
-            "x": 1920,
+            "x": 2048,
             "y": 1792
         },
         "snow_block": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 16,
+            "column": 17,
             "row": 14,
-            "x": 2048,
+            "x": 2176,
             "y": 1792
         },
         "soul_sand": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 17,
+            "column": 18,
             "row": 14,
-            "x": 2176,
+            "x": 2304,
             "y": 1792
         },
         "soul_soil": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 18,
+            "column": 19,
             "row": 14,
-            "x": 2304,
+            "x": 2432,
             "y": 1792
         },
         "spruce_door": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 19,
+            "column": 20,
             "row": 14,
-            "x": 2432,
+            "x": 2560,
             "y": 1792
         },
         "spruce_fence": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 20,
+            "column": 21,
             "row": 14,
-            "x": 2560,
+            "x": 2688,
             "y": 1792
         },
         "spruce_fence_gate": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 21,
+            "column": 22,
             "row": 14,
-            "x": 2688,
+            "x": 2816,
             "y": 1792
         },
         "spruce_hanging_sign": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 22,
+            "column": 23,
             "row": 14,
-            "x": 2816,
+            "x": 2944,
             "y": 1792
         },
         "spruce_log": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 23,
+            "column": 24,
             "row": 14,
-            "x": 2944,
+            "x": 3072,
             "y": 1792
         },
         "spruce_planks": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 24,
+            "column": 25,
             "row": 14,
-            "x": 3072,
+            "x": 3200,
             "y": 1792
         },
         "spruce_sign": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 25,
+            "column": 26,
             "row": 14,
-            "x": 3200,
+            "x": 3328,
             "y": 1792
         },
         "spruce_slab": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 26,
+            "column": 27,
             "row": 14,
-            "x": 3328,
+            "x": 3456,
             "y": 1792
         },
         "spruce_stairs": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 27,
+            "column": 28,
             "row": 14,
-            "x": 3456,
+            "x": 3584,
             "y": 1792
         },
         "spruce_trapdoor": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 28,
+            "column": 29,
             "row": 14,
-            "x": 3584,
+            "x": 3712,
             "y": 1792
         },
         "spruce_wood": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 29,
+            "column": 30,
             "row": 14,
-            "x": 3712,
+            "x": 3840,
             "y": 1792
         },
         "stone": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 30,
+            "column": 31,
             "row": 14,
-            "x": 3840,
+            "x": 3968,
             "y": 1792
         },
         "stone_brick_slab": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 31,
-            "row": 14,
-            "x": 3968,
-            "y": 1792
+            "column": 0,
+            "row": 15,
+            "x": 0,
+            "y": 1920
         },
         "stone_brick_stairs": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 0,
+            "column": 1,
             "row": 15,
-            "x": 0,
+            "x": 128,
             "y": 1920
         },
         "stone_brick_wall": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 1,
+            "column": 2,
             "row": 15,
-            "x": 128,
+            "x": 256,
             "y": 1920
         },
         "stone_bricks": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 2,
+            "column": 3,
             "row": 15,
-            "x": 256,
+            "x": 384,
             "y": 1920
         },
         "stone_slab": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 3,
+            "column": 4,
             "row": 15,
-            "x": 384,
+            "x": 512,
             "y": 1920
         },
         "stone_stairs": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 4,
+            "column": 5,
             "row": 15,
-            "x": 512,
+            "x": 640,
             "y": 1920
         },
         "stripped_acacia_log": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 5,
+            "column": 6,
             "row": 15,
-            "x": 640,
+            "x": 768,
             "y": 1920
         },
         "stripped_acacia_wood": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 6,
+            "column": 7,
             "row": 15,
-            "x": 768,
+            "x": 896,
             "y": 1920
         },
         "stripped_birch_log": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 7,
+            "column": 8,
             "row": 15,
-            "x": 896,
+            "x": 1024,
             "y": 1920
         },
         "stripped_birch_wood": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 8,
+            "column": 9,
             "row": 15,
-            "x": 1024,
+            "x": 1152,
             "y": 1920
         },
         "stripped_cherry_log": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 9,
+            "column": 10,
             "row": 15,
-            "x": 1152,
+            "x": 1280,
             "y": 1920
         },
         "stripped_cherry_wood": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 10,
+            "column": 11,
             "row": 15,
-            "x": 1280,
+            "x": 1408,
             "y": 1920
         },
         "stripped_crimson_hyphae": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 11,
+            "column": 12,
             "row": 15,
-            "x": 1408,
+            "x": 1536,
             "y": 1920
         },
         "stripped_crimson_stem": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 12,
+            "column": 13,
             "row": 15,
-            "x": 1536,
+            "x": 1664,
             "y": 1920
         },
         "stripped_dark_oak_log": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 13,
+            "column": 14,
             "row": 15,
-            "x": 1664,
+            "x": 1792,
             "y": 1920
         },
         "stripped_dark_oak_wood": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 14,
+            "column": 15,
             "row": 15,
-            "x": 1792,
+            "x": 1920,
             "y": 1920
         },
         "stripped_jungle_log": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 15,
+            "column": 16,
             "row": 15,
-            "x": 1920,
+            "x": 2048,
             "y": 1920
         },
         "stripped_jungle_wood": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 16,
+            "column": 17,
             "row": 15,
-            "x": 2048,
+            "x": 2176,
             "y": 1920
         },
         "stripped_mangrove_log": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 17,
+            "column": 18,
             "row": 15,
-            "x": 2176,
+            "x": 2304,
             "y": 1920
         },
         "stripped_mangrove_wood": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 18,
+            "column": 19,
             "row": 15,
-            "x": 2304,
+            "x": 2432,
             "y": 1920
         },
         "stripped_oak_log": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 19,
+            "column": 20,
             "row": 15,
-            "x": 2432,
+            "x": 2560,
             "y": 1920
         },
         "stripped_oak_wood": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 20,
+            "column": 21,
             "row": 15,
-            "x": 2560,
+            "x": 2688,
             "y": 1920
         },
         "stripped_pale_oak_log": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 24,
+            "column": 25,
             "row": 18,
-            "x": 3072,
+            "x": 3200,
             "y": 2304
         },
         "stripped_pale_oak_wood": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 22,
+            "column": 23,
             "row": 18,
-            "x": 2816,
+            "x": 2944,
             "y": 2304
         },
         "stripped_spruce_log": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 23,
+            "column": 24,
             "row": 15,
-            "x": 2944,
+            "x": 3072,
             "y": 1920
         },
         "stripped_spruce_wood": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 24,
+            "column": 25,
             "row": 15,
-            "x": 3072,
+            "x": 3200,
             "y": 1920
         },
         "stripped_warped_hyphae": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 25,
+            "column": 26,
             "row": 15,
-            "x": 3200,
+            "x": 3328,
             "y": 1920
         },
         "stripped_warped_stem": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 26,
+            "column": 27,
             "row": 15,
-            "x": 3328,
+            "x": 3456,
             "y": 1920
         },
         "terracotta": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 27,
+            "column": 28,
             "row": 15,
-            "x": 3456,
+            "x": 3584,
             "y": 1920
         },
         "tinted_glass": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 28,
+            "column": 29,
             "row": 15,
-            "x": 3584,
+            "x": 3712,
             "y": 1920
         },
         "tuff": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 29,
+            "column": 30,
             "row": 15,
-            "x": 3712,
+            "x": 3840,
             "y": 1920
         },
         "tuff_brick_slab": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 30,
+            "column": 31,
             "row": 15,
-            "x": 3840,
+            "x": 3968,
             "y": 1920
         },
         "tuff_brick_stairs": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 31,
-            "row": 15,
-            "x": 3968,
-            "y": 1920
+            "column": 0,
+            "row": 16,
+            "x": 0,
+            "y": 2048
         },
         "tuff_brick_wall": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 0,
+            "column": 1,
             "row": 16,
-            "x": 0,
+            "x": 128,
             "y": 2048
         },
         "tuff_bricks": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 1,
+            "column": 2,
             "row": 16,
-            "x": 128,
+            "x": 256,
             "y": 2048
         },
         "tuff_slab": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 2,
+            "column": 3,
             "row": 16,
-            "x": 256,
+            "x": 384,
             "y": 2048
         },
         "tuff_stairs": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 3,
+            "column": 4,
             "row": 16,
-            "x": 384,
+            "x": 512,
             "y": 2048
         },
         "tuff_wall": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 4,
+            "column": 5,
             "row": 16,
-            "x": 512,
+            "x": 640,
             "y": 2048
         },
         "verdant_froglight": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 5,
+            "column": 6,
             "row": 16,
-            "x": 640,
+            "x": 768,
             "y": 2048
         },
         "warped_door": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 6,
+            "column": 7,
             "row": 16,
-            "x": 768,
+            "x": 896,
             "y": 2048
         },
         "warped_fence": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 7,
+            "column": 8,
             "row": 16,
-            "x": 896,
+            "x": 1024,
             "y": 2048
         },
         "warped_fence_gate": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 8,
+            "column": 9,
             "row": 16,
-            "x": 1024,
+            "x": 1152,
             "y": 2048
         },
         "warped_hanging_sign": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 9,
+            "column": 10,
             "row": 16,
-            "x": 1152,
+            "x": 1280,
             "y": 2048
         },
         "warped_hyphae": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 10,
+            "column": 11,
             "row": 16,
-            "x": 1280,
+            "x": 1408,
             "y": 2048
         },
         "warped_nylium": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 11,
+            "column": 12,
             "row": 16,
-            "x": 1408,
+            "x": 1536,
             "y": 2048
         },
         "warped_planks": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 12,
+            "column": 13,
             "row": 16,
-            "x": 1536,
+            "x": 1664,
             "y": 2048
         },
         "warped_sign": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 13,
+            "column": 14,
             "row": 16,
-            "x": 1664,
+            "x": 1792,
             "y": 2048
         },
         "warped_slab": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 14,
+            "column": 15,
             "row": 16,
-            "x": 1792,
+            "x": 1920,
             "y": 2048
         },
         "warped_stairs": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 15,
+            "column": 16,
             "row": 16,
-            "x": 1920,
+            "x": 2048,
             "y": 2048
         },
         "warped_stem": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 16,
+            "column": 17,
             "row": 16,
-            "x": 2048,
+            "x": 2176,
             "y": 2048
         },
         "warped_trapdoor": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 17,
+            "column": 18,
             "row": 16,
-            "x": 2176,
+            "x": 2304,
             "y": 2048
         },
         "warped_wart_block": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 18,
+            "column": 19,
             "row": 16,
-            "x": 2304,
+            "x": 2432,
             "y": 2048
         },
         "waxed_copper_block": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 19,
+            "column": 20,
             "row": 16,
-            "x": 2432,
+            "x": 2560,
             "y": 2048
         },
         "waxed_chiseled_copper": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 20,
+            "column": 21,
             "row": 16,
-            "x": 2560,
+            "x": 2688,
             "y": 2048
         },
         "waxed_copper_bulb": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 21,
+            "column": 22,
             "row": 16,
-            "x": 2688,
+            "x": 2816,
             "y": 2048
         },
         "waxed_copper_door": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 22,
+            "column": 23,
             "row": 16,
-            "x": 2816,
+            "x": 2944,
             "y": 2048
         },
         "waxed_copper_grate": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 23,
-            "row": 16,
-            "x": 2944,
-            "y": 2048
-        },
-        "waxed_copper_trapdoor": {
-            "category": "blo",
-            "atlas": "blo.png",
             "column": 24,
             "row": 16,
             "x": 3072,
             "y": 2048
         },
-        "waxed_cut_copper": {
+        "waxed_copper_trapdoor": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 25,
@@ -5714,7 +5714,7 @@
             "x": 3200,
             "y": 2048
         },
-        "waxed_cut_copper_slab": {
+        "waxed_cut_copper": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 26,
@@ -5722,7 +5722,7 @@
             "x": 3328,
             "y": 2048
         },
-        "waxed_cut_copper_stairs": {
+        "waxed_cut_copper_slab": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 27,
@@ -5730,7 +5730,7 @@
             "x": 3456,
             "y": 2048
         },
-        "waxed_exposed_chiseled_copper": {
+        "waxed_cut_copper_stairs": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 28,
@@ -5738,7 +5738,7 @@
             "x": 3584,
             "y": 2048
         },
-        "waxed_exposed_copper": {
+        "waxed_exposed_chiseled_copper": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 29,
@@ -5746,7 +5746,7 @@
             "x": 3712,
             "y": 2048
         },
-        "waxed_exposed_copper_bulb": {
+        "waxed_exposed_copper": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 30,
@@ -5754,7 +5754,7 @@
             "x": 3840,
             "y": 2048
         },
-        "waxed_exposed_copper_door": {
+        "waxed_exposed_copper_bulb": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 31,
@@ -5762,7 +5762,7 @@
             "x": 3968,
             "y": 2048
         },
-        "waxed_exposed_copper_grate": {
+        "waxed_exposed_copper_door": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 0,
@@ -5770,7 +5770,7 @@
             "x": 0,
             "y": 2176
         },
-        "waxed_exposed_copper_trapdoor": {
+        "waxed_exposed_copper_grate": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 1,
@@ -5778,7 +5778,7 @@
             "x": 128,
             "y": 2176
         },
-        "waxed_exposed_cut_copper": {
+        "waxed_exposed_copper_trapdoor": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 2,
@@ -5786,7 +5786,7 @@
             "x": 256,
             "y": 2176
         },
-        "waxed_exposed_cut_copper_slab": {
+        "waxed_exposed_cut_copper": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 3,
@@ -5794,7 +5794,7 @@
             "x": 384,
             "y": 2176
         },
-        "waxed_exposed_cut_copper_stairs": {
+        "waxed_exposed_cut_copper_slab": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 4,
@@ -5802,7 +5802,7 @@
             "x": 512,
             "y": 2176
         },
-        "waxed_oxidized_chiseled_copper": {
+        "waxed_exposed_cut_copper_stairs": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 5,
@@ -5810,7 +5810,7 @@
             "x": 640,
             "y": 2176
         },
-        "waxed_oxidized_copper": {
+        "waxed_oxidized_chiseled_copper": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 6,
@@ -5818,7 +5818,7 @@
             "x": 768,
             "y": 2176
         },
-        "waxed_oxidized_copper_bulb": {
+        "waxed_oxidized_copper": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 7,
@@ -5826,7 +5826,7 @@
             "x": 896,
             "y": 2176
         },
-        "waxed_oxidized_copper_door": {
+        "waxed_oxidized_copper_bulb": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 8,
@@ -5834,7 +5834,7 @@
             "x": 1024,
             "y": 2176
         },
-        "waxed_oxidized_copper_grate": {
+        "waxed_oxidized_copper_door": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 9,
@@ -5842,7 +5842,7 @@
             "x": 1152,
             "y": 2176
         },
-        "waxed_oxidized_copper_trapdoor": {
+        "waxed_oxidized_copper_grate": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 10,
@@ -5850,7 +5850,7 @@
             "x": 1280,
             "y": 2176
         },
-        "waxed_oxidized_cut_copper": {
+        "waxed_oxidized_copper_trapdoor": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 11,
@@ -5858,7 +5858,7 @@
             "x": 1408,
             "y": 2176
         },
-        "waxed_oxidized_cut_copper_slab": {
+        "waxed_oxidized_cut_copper": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 12,
@@ -5866,7 +5866,7 @@
             "x": 1536,
             "y": 2176
         },
-        "waxed_oxidized_cut_copper_stairs": {
+        "waxed_oxidized_cut_copper_slab": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 13,
@@ -5874,7 +5874,7 @@
             "x": 1664,
             "y": 2176
         },
-        "waxed_weathered_chiseled_copper": {
+        "waxed_oxidized_cut_copper_stairs": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 14,
@@ -5882,7 +5882,7 @@
             "x": 1792,
             "y": 2176
         },
-        "waxed_weathered_copper": {
+        "waxed_weathered_chiseled_copper": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 15,
@@ -5890,7 +5890,7 @@
             "x": 1920,
             "y": 2176
         },
-        "waxed_weathered_copper_bulb": {
+        "waxed_weathered_copper": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 16,
@@ -5898,7 +5898,7 @@
             "x": 2048,
             "y": 2176
         },
-        "waxed_weathered_copper_door": {
+        "waxed_weathered_copper_bulb": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 17,
@@ -5906,7 +5906,7 @@
             "x": 2176,
             "y": 2176
         },
-        "waxed_weathered_copper_grate": {
+        "waxed_weathered_copper_door": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 18,
@@ -5914,7 +5914,7 @@
             "x": 2304,
             "y": 2176
         },
-        "waxed_weathered_copper_trapdoor": {
+        "waxed_weathered_copper_grate": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 19,
@@ -5922,7 +5922,7 @@
             "x": 2432,
             "y": 2176
         },
-        "waxed_weathered_cut_copper": {
+        "waxed_weathered_copper_trapdoor": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 20,
@@ -5930,7 +5930,7 @@
             "x": 2560,
             "y": 2176
         },
-        "waxed_weathered_cut_copper_slab": {
+        "waxed_weathered_cut_copper": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 21,
@@ -5938,7 +5938,7 @@
             "x": 2688,
             "y": 2176
         },
-        "waxed_weathered_cut_copper_stairs": {
+        "waxed_weathered_cut_copper_slab": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 22,
@@ -5946,7 +5946,7 @@
             "x": 2816,
             "y": 2176
         },
-        "weathered_chiseled_copper": {
+        "waxed_weathered_cut_copper_stairs": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 23,
@@ -5954,7 +5954,7 @@
             "x": 2944,
             "y": 2176
         },
-        "weathered_copper": {
+        "weathered_chiseled_copper": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 24,
@@ -5962,7 +5962,7 @@
             "x": 3072,
             "y": 2176
         },
-        "weathered_copper_bulb": {
+        "weathered_copper": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 25,
@@ -5970,7 +5970,7 @@
             "x": 3200,
             "y": 2176
         },
-        "weathered_copper_door": {
+        "weathered_copper_bulb": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 26,
@@ -5978,7 +5978,7 @@
             "x": 3328,
             "y": 2176
         },
-        "weathered_copper_grate": {
+        "weathered_copper_door": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 27,
@@ -5986,7 +5986,7 @@
             "x": 3456,
             "y": 2176
         },
-        "weathered_copper_trapdoor": {
+        "weathered_copper_grate": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 28,
@@ -5994,7 +5994,7 @@
             "x": 3584,
             "y": 2176
         },
-        "weathered_cut_copper": {
+        "weathered_copper_trapdoor": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 29,
@@ -6002,7 +6002,7 @@
             "x": 3712,
             "y": 2176
         },
-        "weathered_cut_copper_slab": {
+        "weathered_cut_copper": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 30,
@@ -6010,7 +6010,7 @@
             "x": 3840,
             "y": 2176
         },
-        "weathered_cut_copper_stairs": {
+        "weathered_cut_copper_slab": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 31,
@@ -6018,7 +6018,7 @@
             "x": 3968,
             "y": 2176
         },
-        "white_banner": {
+        "weathered_cut_copper_stairs": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 0,
@@ -6026,7 +6026,7 @@
             "x": 0,
             "y": 2304
         },
-        "white_bed": {
+        "white_banner": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 1,
@@ -6034,7 +6034,7 @@
             "x": 128,
             "y": 2304
         },
-        "white_carpet": {
+        "white_bed": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 2,
@@ -6042,7 +6042,7 @@
             "x": 256,
             "y": 2304
         },
-        "white_concrete": {
+        "white_carpet": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 3,
@@ -6050,7 +6050,7 @@
             "x": 384,
             "y": 2304
         },
-        "white_concrete_powder": {
+        "white_concrete": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 4,
@@ -6058,7 +6058,7 @@
             "x": 512,
             "y": 2304
         },
-        "white_glazed_terracotta": {
+        "white_concrete_powder": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 5,
@@ -6066,7 +6066,7 @@
             "x": 640,
             "y": 2304
         },
-        "white_stained_glass": {
+        "white_glazed_terracotta": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 6,
@@ -6074,7 +6074,7 @@
             "x": 768,
             "y": 2304
         },
-        "white_stained_glass_pane": {
+        "white_stained_glass": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 7,
@@ -6082,7 +6082,7 @@
             "x": 896,
             "y": 2304
         },
-        "white_terracotta": {
+        "white_stained_glass_pane": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 8,
@@ -6090,7 +6090,7 @@
             "x": 1024,
             "y": 2304
         },
-        "white_wool": {
+        "white_terracotta": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 9,
@@ -6098,7 +6098,7 @@
             "x": 1152,
             "y": 2304
         },
-        "yellow_banner": {
+        "white_wool": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 10,
@@ -6106,7 +6106,7 @@
             "x": 1280,
             "y": 2304
         },
-        "yellow_bed": {
+        "yellow_banner": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 11,
@@ -6114,7 +6114,7 @@
             "x": 1408,
             "y": 2304
         },
-        "yellow_carpet": {
+        "yellow_bed": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 12,
@@ -6122,7 +6122,7 @@
             "x": 1536,
             "y": 2304
         },
-        "yellow_concrete": {
+        "yellow_carpet": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 13,
@@ -6130,7 +6130,7 @@
             "x": 1664,
             "y": 2304
         },
-        "yellow_concrete_powder": {
+        "yellow_concrete": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 14,
@@ -6138,7 +6138,7 @@
             "x": 1792,
             "y": 2304
         },
-        "yellow_glazed_terracotta": {
+        "yellow_concrete_powder": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 15,
@@ -6146,7 +6146,7 @@
             "x": 1920,
             "y": 2304
         },
-        "yellow_stained_glass": {
+        "yellow_glazed_terracotta": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 16,
@@ -6154,7 +6154,7 @@
             "x": 2048,
             "y": 2304
         },
-        "yellow_stained_glass_pane": {
+        "yellow_stained_glass": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 17,
@@ -6162,7 +6162,7 @@
             "x": 2176,
             "y": 2304
         },
-        "yellow_terracotta": {
+        "yellow_stained_glass_pane": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 18,
@@ -6170,7 +6170,7 @@
             "x": 2304,
             "y": 2304
         },
-        "yellow_wool": {
+        "yellow_terracotta": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 19,
@@ -6178,7 +6178,7 @@
             "x": 2432,
             "y": 2304
         },
-        "creaking_heart": {
+        "yellow_wool": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 20,
@@ -6186,7 +6186,7 @@
             "x": 2560,
             "y": 2304
         },
-        "pale_oak_wood": {
+        "creaking_heart": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 21,
@@ -6194,23 +6194,23 @@
             "x": 2688,
             "y": 2304
         },
+        "pale_oak_wood": {
+            "category": "blo",
+            "atlas": "blo.png",
+            "column": 22,
+            "row": 18,
+            "x": 2816,
+            "y": 2304
+        },
         "pale_oak_log": {
             "category": "blo",
             "atlas": "blo.png",
-            "column": 23,
+            "column": 24,
             "row": 18,
-            "x": 2944,
+            "x": 3072,
             "y": 2304
         },
         "pale_oak_planks": {
-            "category": "blo",
-            "atlas": "blo.png",
-            "column": 25,
-            "row": 18,
-            "x": 3200,
-            "y": 2304
-        },
-        "pale_oak_stairs": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 26,
@@ -6218,7 +6218,7 @@
             "x": 3328,
             "y": 2304
         },
-        "pale_oak_slab": {
+        "pale_oak_stairs": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 27,
@@ -6226,7 +6226,7 @@
             "x": 3456,
             "y": 2304
         },
-        "pale_oak_sign": {
+        "pale_oak_slab": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 28,
@@ -6234,7 +6234,7 @@
             "x": 3584,
             "y": 2304
         },
-        "pale_oak_hanging_sign": {
+        "pale_oak_sign": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 29,
@@ -6242,7 +6242,7 @@
             "x": 3712,
             "y": 2304
         },
-        "pale_oak_door": {
+        "pale_oak_hanging_sign": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 30,
@@ -6250,7 +6250,7 @@
             "x": 3840,
             "y": 2304
         },
-        "pale_oak_fence": {
+        "pale_oak_door": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 31,
@@ -6258,7 +6258,7 @@
             "x": 3968,
             "y": 2304
         },
-        "pale_oak_fence_gate": {
+        "pale_oak_fence": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 0,
@@ -6266,7 +6266,7 @@
             "x": 0,
             "y": 2432
         },
-        "pale_oak_trapdoor": {
+        "pale_oak_fence_gate": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 1,
@@ -6274,7 +6274,7 @@
             "x": 128,
             "y": 2432
         },
-        "pale_moss_block": {
+        "pale_oak_trapdoor": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 2,
@@ -6282,7 +6282,7 @@
             "x": 256,
             "y": 2432
         },
-        "pale_moss_carpet": {
+        "pale_moss_block": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 3,
@@ -6290,7 +6290,7 @@
             "x": 384,
             "y": 2432
         },
-        "resin_block": {
+        "pale_moss_carpet": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 4,
@@ -6298,7 +6298,7 @@
             "x": 512,
             "y": 2432
         },
-        "resin_bricks": {
+        "resin_block": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 5,
@@ -6306,7 +6306,7 @@
             "x": 640,
             "y": 2432
         },
-        "chiseled_resin_bricks": {
+        "resin_bricks": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 6,
@@ -6314,7 +6314,7 @@
             "x": 768,
             "y": 2432
         },
-        "resin_brick_slab": {
+        "chiseled_resin_bricks": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 7,
@@ -6322,7 +6322,7 @@
             "x": 896,
             "y": 2432
         },
-        "resin_brick_stairs": {
+        "resin_brick_slab": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 8,
@@ -6330,12 +6330,20 @@
             "x": 1024,
             "y": 2432
         },
-        "resin_brick_wall": {
+        "resin_brick_stairs": {
             "category": "blo",
             "atlas": "blo.png",
             "column": 9,
             "row": 19,
             "x": 1152,
+            "y": 2432
+        },
+        "resin_brick_wall": {
+            "category": "blo",
+            "atlas": "blo.png",
+            "column": 10,
+            "row": 19,
+            "x": 1280,
             "y": 2432
         },
         "acacia_leaves": {
@@ -7138,7 +7146,7 @@
             "x": 384,
             "y": 384
         },
-        "red_tulip": {
+        "red_mushroom": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 4,
@@ -7146,7 +7154,7 @@
             "x": 512,
             "y": 384
         },
-        "rose_bush": {
+        "red_tulip": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 5,
@@ -7154,7 +7162,7 @@
             "x": 640,
             "y": 384
         },
-        "sculk": {
+        "rose_bush": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 6,
@@ -7162,7 +7170,7 @@
             "x": 768,
             "y": 384
         },
-        "sculk_catalyst": {
+        "sculk": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 7,
@@ -7170,7 +7178,7 @@
             "x": 896,
             "y": 384
         },
-        "sculk_shrieker": {
+        "sculk_catalyst": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 8,
@@ -7178,7 +7186,7 @@
             "x": 1024,
             "y": 384
         },
-        "sculk_vein": {
+        "sculk_shrieker": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 9,
@@ -7186,7 +7194,7 @@
             "x": 1152,
             "y": 384
         },
-        "sea_pickle": {
+        "sculk_vein": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 10,
@@ -7194,7 +7202,7 @@
             "x": 1280,
             "y": 384
         },
-        "seagrass": {
+        "sea_pickle": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 11,
@@ -7202,7 +7210,7 @@
             "x": 1408,
             "y": 384
         },
-        "small_dripleaf": {
+        "seagrass": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 12,
@@ -7210,7 +7218,7 @@
             "x": 1536,
             "y": 384
         },
-        "spore_blossom": {
+        "small_dripleaf": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 13,
@@ -7218,7 +7226,7 @@
             "x": 1664,
             "y": 384
         },
-        "spruce_leaves": {
+        "spore_blossom": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 14,
@@ -7226,7 +7234,7 @@
             "x": 1792,
             "y": 384
         },
-        "spruce_sapling": {
+        "spruce_leaves": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 15,
@@ -7234,7 +7242,7 @@
             "x": 1920,
             "y": 384
         },
-        "sugar_cane": {
+        "spruce_sapling": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 16,
@@ -7242,7 +7250,7 @@
             "x": 2048,
             "y": 384
         },
-        "sunflower": {
+        "sugar_cane": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 17,
@@ -7250,7 +7258,7 @@
             "x": 2176,
             "y": 384
         },
-        "tall_grass": {
+        "sunflower": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 18,
@@ -7258,7 +7266,7 @@
             "x": 2304,
             "y": 384
         },
-        "torchflower": {
+        "tall_grass": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 19,
@@ -7266,7 +7274,7 @@
             "x": 2432,
             "y": 384
         },
-        "torchflower_seeds": {
+        "torchflower": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 20,
@@ -7274,7 +7282,7 @@
             "x": 2560,
             "y": 384
         },
-        "tube_coral": {
+        "torchflower_seeds": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 21,
@@ -7282,7 +7290,7 @@
             "x": 2688,
             "y": 384
         },
-        "tube_coral_block": {
+        "tube_coral": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 22,
@@ -7290,7 +7298,7 @@
             "x": 2816,
             "y": 384
         },
-        "tube_coral_fan": {
+        "tube_coral_block": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 23,
@@ -7298,7 +7306,7 @@
             "x": 2944,
             "y": 384
         },
-        "twisting_vines": {
+        "tube_coral_fan": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 24,
@@ -7306,7 +7314,7 @@
             "x": 3072,
             "y": 384
         },
-        "vine": {
+        "twisting_vines": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 25,
@@ -7314,7 +7322,7 @@
             "x": 3200,
             "y": 384
         },
-        "warped_fungus": {
+        "vine": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 26,
@@ -7322,7 +7330,7 @@
             "x": 3328,
             "y": 384
         },
-        "warped_roots": {
+        "warped_fungus": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 27,
@@ -7330,7 +7338,7 @@
             "x": 3456,
             "y": 384
         },
-        "weeping_vines": {
+        "warped_roots": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 28,
@@ -7338,7 +7346,7 @@
             "x": 3584,
             "y": 384
         },
-        "wheat": {
+        "weeping_vines": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 29,
@@ -7346,7 +7354,7 @@
             "x": 3712,
             "y": 384
         },
-        "wheat_seeds": {
+        "wheat": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 30,
@@ -7354,7 +7362,7 @@
             "x": 3840,
             "y": 384
         },
-        "white_dye": {
+        "wheat_seeds": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 31,
@@ -7362,7 +7370,7 @@
             "x": 3968,
             "y": 384
         },
-        "white_tulip": {
+        "white_dye": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 0,
@@ -7370,7 +7378,7 @@
             "x": 0,
             "y": 512
         },
-        "wither_rose": {
+        "white_tulip": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 1,
@@ -7378,7 +7386,7 @@
             "x": 128,
             "y": 512
         },
-        "yellow_dye": {
+        "wither_rose": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 2,
@@ -7386,7 +7394,7 @@
             "x": 256,
             "y": 512
         },
-        "pale_hanging_moss": {
+        "yellow_dye": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 3,
@@ -7394,7 +7402,7 @@
             "x": 384,
             "y": 512
         },
-        "pale_oak_leaves": {
+        "pale_hanging_moss": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 4,
@@ -7402,7 +7410,7 @@
             "x": 512,
             "y": 512
         },
-        "pale_oak_sapling": {
+        "pale_oak_leaves": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 5,
@@ -7410,7 +7418,7 @@
             "x": 640,
             "y": 512
         },
-        "closed_eyeblossom": {
+        "pale_oak_sapling": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 6,
@@ -7418,7 +7426,7 @@
             "x": 768,
             "y": 512
         },
-        "open_eyeblossom": {
+        "closed_eyeblossom": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 7,
@@ -7426,7 +7434,7 @@
             "x": 896,
             "y": 512
         },
-        "leaf_litter": {
+        "open_eyeblossom": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 8,
@@ -7434,7 +7442,7 @@
             "x": 1024,
             "y": 512
         },
-        "wildflowers": {
+        "leaf_litter": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 9,
@@ -7442,7 +7450,7 @@
             "x": 1152,
             "y": 512
         },
-        "bush": {
+        "wildflowers": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 10,
@@ -7450,7 +7458,7 @@
             "x": 1280,
             "y": 512
         },
-        "firefly_bush": {
+        "bush": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 11,
@@ -7458,7 +7466,7 @@
             "x": 1408,
             "y": 512
         },
-        "cactus_flower": {
+        "firefly_bush": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 12,
@@ -7466,7 +7474,7 @@
             "x": 1536,
             "y": 512
         },
-        "short_dry_grass": {
+        "cactus_flower": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 13,
@@ -7474,12 +7482,20 @@
             "x": 1664,
             "y": 512
         },
-        "tall_dry_grass": {
+        "short_dry_grass": {
             "category": "dyp",
             "atlas": "dyp.png",
             "column": 14,
             "row": 4,
             "x": 1792,
+            "y": 512
+        },
+        "tall_dry_grass": {
+            "category": "dyp",
+            "atlas": "dyp.png",
+            "column": 15,
+            "row": 4,
+            "x": 1920,
             "y": 512
         },
         "amethyst_cluster": {
@@ -7946,15 +7962,15 @@
             "x": 3200,
             "y": 128
         },
-        "red_mushroom": {
-            "category": "dyp",
+        "skeleton_skull": {
+            "category": "val",
             "atlas": "val.png",
             "column": 26,
             "row": 1,
             "x": 3328,
             "y": 128
         },
-        "skeleton_skull": {
+        "small_amethyst_bud": {
             "category": "val",
             "atlas": "val.png",
             "column": 27,
@@ -7962,7 +7978,7 @@
             "x": 3456,
             "y": 128
         },
-        "small_amethyst_bud": {
+        "sponge": {
             "category": "val",
             "atlas": "val.png",
             "column": 28,
@@ -7970,7 +7986,7 @@
             "x": 3584,
             "y": 128
         },
-        "sponge": {
+        "wet_sponge": {
             "category": "val",
             "atlas": "val.png",
             "column": 29,
@@ -7978,7 +7994,7 @@
             "x": 3712,
             "y": 128
         },
-        "wet_sponge": {
+        "wither_skeleton_skull": {
             "category": "val",
             "atlas": "val.png",
             "column": 30,
@@ -7986,7 +8002,7 @@
             "x": 3840,
             "y": 128
         },
-        "wither_skeleton_skull": {
+        "zombie_head": {
             "category": "val",
             "atlas": "val.png",
             "column": 31,
@@ -7994,7 +8010,7 @@
             "x": 3968,
             "y": 128
         },
-        "zombie_head": {
+        "light": {
             "category": "val",
             "atlas": "val.png",
             "column": 0,
@@ -8002,7 +8018,7 @@
             "x": 0,
             "y": 256
         },
-        "light": {
+        "structure_void": {
             "category": "val",
             "atlas": "val.png",
             "column": 1,
@@ -8010,20 +8026,12 @@
             "x": 128,
             "y": 256
         },
-        "structure_void": {
+        "silence_armor_trim_smithing_template": {
             "category": "val",
             "atlas": "val.png",
             "column": 2,
             "row": 2,
             "x": 256,
-            "y": 256
-        },
-        "silence_armor_trim_smithing_template": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 3,
-            "row": 2,
-            "x": 384,
             "y": 256
         },
         "apple": {
@@ -9114,47 +9122,47 @@
             "x": 2688,
             "y": 128
         },
-        "iron_trapdoor": {
-            "category": "blo",
+        "lava_bucket": {
+            "category": "arm",
             "atlas": "arm.png",
             "column": 22,
             "row": 1,
             "x": 2816,
-            "y": 128
-        },
-        "lava_bucket": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 23,
-            "row": 1,
-            "x": 2944,
             "y": 128
         },
         "lead": {
             "category": "arm",
             "atlas": "arm.png",
-            "column": 24,
+            "column": 23,
             "row": 1,
-            "x": 3072,
+            "x": 2944,
             "y": 128
         },
         "leather_boots": {
             "category": "arm",
             "atlas": "arm.png",
-            "column": 25,
+            "column": 24,
             "row": 1,
-            "x": 3200,
+            "x": 3072,
             "y": 128
         },
         "leather_helmet": {
             "category": "arm",
             "atlas": "arm.png",
+            "column": 25,
+            "row": 1,
+            "x": 3200,
+            "y": 128
+        },
+        "leather_horse_armor": {
+            "category": "arm",
+            "atlas": "arm.png",
             "column": 26,
             "row": 1,
             "x": 3328,
             "y": 128
         },
-        "leather_horse_armor": {
+        "leather_leggings": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 27,
@@ -9162,7 +9170,7 @@
             "x": 3456,
             "y": 128
         },
-        "leather_leggings": {
+        "leather_chestplate": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 28,
@@ -9170,7 +9178,7 @@
             "x": 3584,
             "y": 128
         },
-        "leather_chestplate": {
+        "light_blue_bundle": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 29,
@@ -9178,7 +9186,7 @@
             "x": 3712,
             "y": 128
         },
-        "light_blue_bundle": {
+        "light_gray_bundle": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 30,
@@ -9186,7 +9194,7 @@
             "x": 3840,
             "y": 128
         },
-        "light_gray_bundle": {
+        "lime_bundle": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 31,
@@ -9194,7 +9202,7 @@
             "x": 3968,
             "y": 128
         },
-        "lime_bundle": {
+        "mace": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 0,
@@ -9202,7 +9210,7 @@
             "x": 0,
             "y": 256
         },
-        "mace": {
+        "magenta_bundle": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 1,
@@ -9210,7 +9218,7 @@
             "x": 128,
             "y": 256
         },
-        "magenta_bundle": {
+        "name_tag": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 2,
@@ -9218,7 +9226,7 @@
             "x": 256,
             "y": 256
         },
-        "name_tag": {
+        "netherite_axe": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 3,
@@ -9226,7 +9234,7 @@
             "x": 384,
             "y": 256
         },
-        "netherite_axe": {
+        "netherite_boots": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 4,
@@ -9234,7 +9242,7 @@
             "x": 512,
             "y": 256
         },
-        "netherite_boots": {
+        "netherite_chestplate": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 5,
@@ -9242,7 +9250,7 @@
             "x": 640,
             "y": 256
         },
-        "netherite_chestplate": {
+        "netherite_helmet": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 6,
@@ -9250,7 +9258,7 @@
             "x": 768,
             "y": 256
         },
-        "netherite_helmet": {
+        "netherite_hoe": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 7,
@@ -9258,7 +9266,7 @@
             "x": 896,
             "y": 256
         },
-        "netherite_hoe": {
+        "netherite_leggings": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 8,
@@ -9266,7 +9274,7 @@
             "x": 1024,
             "y": 256
         },
-        "netherite_leggings": {
+        "netherite_pickaxe": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 9,
@@ -9274,7 +9282,7 @@
             "x": 1152,
             "y": 256
         },
-        "netherite_pickaxe": {
+        "netherite_shovel": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 10,
@@ -9282,7 +9290,7 @@
             "x": 1280,
             "y": 256
         },
-        "netherite_shovel": {
+        "netherite_sword": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 11,
@@ -9290,7 +9298,7 @@
             "x": 1408,
             "y": 256
         },
-        "netherite_sword": {
+        "ominous_trial_key": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 12,
@@ -9298,7 +9306,7 @@
             "x": 1536,
             "y": 256
         },
-        "ominous_trial_key": {
+        "orange_bundle": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 13,
@@ -9306,7 +9314,7 @@
             "x": 1664,
             "y": 256
         },
-        "orange_bundle": {
+        "pink_bundle": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 14,
@@ -9314,7 +9322,7 @@
             "x": 1792,
             "y": 256
         },
-        "pink_bundle": {
+        "purple_bundle": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 15,
@@ -9322,7 +9330,7 @@
             "x": 1920,
             "y": 256
         },
-        "purple_bundle": {
+        "recovery_compass": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 16,
@@ -9330,7 +9338,7 @@
             "x": 2048,
             "y": 256
         },
-        "recovery_compass": {
+        "red_bundle": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 17,
@@ -9338,7 +9346,7 @@
             "x": 2176,
             "y": 256
         },
-        "red_bundle": {
+        "saddle": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 18,
@@ -9346,7 +9354,7 @@
             "x": 2304,
             "y": 256
         },
-        "saddle": {
+        "shears": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 19,
@@ -9354,7 +9362,7 @@
             "x": 2432,
             "y": 256
         },
-        "shears": {
+        "shield": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 20,
@@ -9362,7 +9370,7 @@
             "x": 2560,
             "y": 256
         },
-        "shield": {
+        "spectral_arrow": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 21,
@@ -9370,7 +9378,7 @@
             "x": 2688,
             "y": 256
         },
-        "spectral_arrow": {
+        "spyglass": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 22,
@@ -9378,7 +9386,7 @@
             "x": 2816,
             "y": 256
         },
-        "spyglass": {
+        "stone_axe": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 23,
@@ -9386,7 +9394,7 @@
             "x": 2944,
             "y": 256
         },
-        "stone_axe": {
+        "stone_hoe": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 24,
@@ -9394,7 +9402,7 @@
             "x": 3072,
             "y": 256
         },
-        "stone_hoe": {
+        "stone_pickaxe": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 25,
@@ -9402,7 +9410,7 @@
             "x": 3200,
             "y": 256
         },
-        "stone_pickaxe": {
+        "stone_shovel": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 26,
@@ -9410,7 +9418,7 @@
             "x": 3328,
             "y": 256
         },
-        "stone_shovel": {
+        "stone_sword": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 27,
@@ -9418,7 +9426,7 @@
             "x": 3456,
             "y": 256
         },
-        "stone_sword": {
+        "totem_of_undying": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 28,
@@ -9426,7 +9434,7 @@
             "x": 3584,
             "y": 256
         },
-        "totem_of_undying": {
+        "trial_key": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 29,
@@ -9434,7 +9442,7 @@
             "x": 3712,
             "y": 256
         },
-        "trial_key": {
+        "trident": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 30,
@@ -9442,7 +9450,7 @@
             "x": 3840,
             "y": 256
         },
-        "trident": {
+        "turtle_helmet": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 31,
@@ -9450,7 +9458,7 @@
             "x": 3968,
             "y": 256
         },
-        "turtle_helmet": {
+        "warped_fungus_on_a_stick": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 0,
@@ -9458,7 +9466,7 @@
             "x": 0,
             "y": 384
         },
-        "warped_fungus_on_a_stick": {
+        "water_bucket": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 1,
@@ -9466,7 +9474,7 @@
             "x": 128,
             "y": 384
         },
-        "water_bucket": {
+        "white_bundle": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 2,
@@ -9474,7 +9482,7 @@
             "x": 256,
             "y": 384
         },
-        "white_bundle": {
+        "wolf_armor": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 3,
@@ -9482,7 +9490,7 @@
             "x": 384,
             "y": 384
         },
-        "wolf_armor": {
+        "wooden_axe": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 4,
@@ -9490,7 +9498,7 @@
             "x": 512,
             "y": 384
         },
-        "wooden_axe": {
+        "wooden_hoe": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 5,
@@ -9498,7 +9506,7 @@
             "x": 640,
             "y": 384
         },
-        "wooden_hoe": {
+        "wooden_pickaxe": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 6,
@@ -9506,7 +9514,7 @@
             "x": 768,
             "y": 384
         },
-        "wooden_pickaxe": {
+        "wooden_shovel": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 7,
@@ -9514,7 +9522,7 @@
             "x": 896,
             "y": 384
         },
-        "wooden_shovel": {
+        "wooden_sword": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 8,
@@ -9522,7 +9530,7 @@
             "x": 1024,
             "y": 384
         },
-        "wooden_sword": {
+        "yellow_bundle": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 9,
@@ -9530,7 +9538,7 @@
             "x": 1152,
             "y": 384
         },
-        "yellow_bundle": {
+        "white_harness": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 10,
@@ -9538,7 +9546,7 @@
             "x": 1280,
             "y": 384
         },
-        "white_harness": {
+        "light_gray_harness": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 11,
@@ -9546,7 +9554,7 @@
             "x": 1408,
             "y": 384
         },
-        "light_gray_harness": {
+        "gray_harness": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 12,
@@ -9554,7 +9562,7 @@
             "x": 1536,
             "y": 384
         },
-        "gray_harness": {
+        "black_harness": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 13,
@@ -9562,7 +9570,7 @@
             "x": 1664,
             "y": 384
         },
-        "black_harness": {
+        "orange_harness": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 14,
@@ -9570,7 +9578,7 @@
             "x": 1792,
             "y": 384
         },
-        "orange_harness": {
+        "brown_harness": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 15,
@@ -9578,7 +9586,7 @@
             "x": 1920,
             "y": 384
         },
-        "brown_harness": {
+        "green_harness": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 16,
@@ -9586,7 +9594,7 @@
             "x": 2048,
             "y": 384
         },
-        "green_harness": {
+        "lime_harness": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 17,
@@ -9594,7 +9602,7 @@
             "x": 2176,
             "y": 384
         },
-        "lime_harness": {
+        "cyan_harness": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 18,
@@ -9602,7 +9610,7 @@
             "x": 2304,
             "y": 384
         },
-        "cyan_harness": {
+        "light_blue_harness": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 19,
@@ -9610,7 +9618,7 @@
             "x": 2432,
             "y": 384
         },
-        "light_blue_harness": {
+        "blue_harness": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 20,
@@ -9618,7 +9626,7 @@
             "x": 2560,
             "y": 384
         },
-        "blue_harness": {
+        "magenta_harness": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 21,
@@ -9626,7 +9634,7 @@
             "x": 2688,
             "y": 384
         },
-        "magenta_harness": {
+        "purple_harness": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 22,
@@ -9634,20 +9642,12 @@
             "x": 2816,
             "y": 384
         },
-        "purple_harness": {
+        "pink_harness": {
             "category": "arm",
             "atlas": "arm.png",
             "column": 23,
             "row": 3,
             "x": 2944,
-            "y": 384
-        },
-        "pink_harness": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 24,
-            "row": 3,
-            "x": 3072,
             "y": 384
         },
         "black_shulker_box": {

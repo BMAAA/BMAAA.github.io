@@ -24,14 +24,14 @@ const CATEGORY_ORDER = [
   "cur",
   "forb",
   "gal",
-  "var",
-  "blo",
-  "val",
-  "dyp",
+  "books",
   "food",
   "loot",
+  "val",
   "arm",
-  "books",
+  "var",
+  "dyp",
+  "blo",
 ];
 
 /* =========================================================
@@ -243,85 +243,35 @@ function groupItems() {
 
 function renderCatalogue() {
   const groupedItems = groupItems();
-  /*
-       Получаем все категории,
-       которые реально присутствуют
-       в CSV.
-    */
   const existingCategories = Object.keys(groupedItems);
-  /*
-       Сначала добавляем категории
-       из CATEGORY_ORDER.
-    */
   const orderedCategories = CATEGORY_ORDER.filter((category) => {
     return groupedItems[category] !== undefined;
   });
-  /*
-       Ищем категории, которых
-       нет в CATEGORY_ORDER.
-    */
   const unspecifiedCategories = existingCategories.filter((category) => {
     return !CATEGORY_ORDER.includes(category);
   });
-  /*
-       Неуказанные категории
-       сортируются по алфавиту.
-       Можно удалить .sort(),
-       если нужно сохранить
-       порядок из CSV.
-    */
   unspecifiedCategories.sort((firstCategory, secondCategory) => {
     return translate(firstCategory).localeCompare(translate(secondCategory), currentLanguage);
   });
-  /*
-       Объединяем:
-       1. Категории из CATEGORY_ORDER.
-       2. Остальные категории.
-    */
   const finalCategoryOrder = [...orderedCategories, ...unspecifiedCategories];
-  /*
-       Очищаем старый каталог.
-    */
   categoriesContainer.innerHTML = "";
-  /*
-       Создаём категории
-       в заданном порядке.
-    */
-  finalCategoryOrder.forEach((categoryKey) => {
+  finalCategoryOrder.forEach((categoryKey, order) => {
     const categoryItems = groupedItems[categoryKey];
     const section = document.createElement("section");
     section.className = "category-section";
+    section.dataset.order = order;
     section.id = `category-${categoryKey}`;
-    /*
-               Заголовок категории.
-            */
     const title = document.createElement("h3");
     title.className = "category-title";
     title.textContent = translate(categoryKey);
-    /*
-               Сетка предметов.
-            */
     const grid = document.createElement("div");
     grid.className = "items-grid";
-    /*
-               Добавляем предметы.
-            */
-    /*
-               Сортируем предметы
-               внутри категории.
-            */
+
     const sortedCategoryItems = sortItemsByIndex(categoryItems);
-    /*
-               Создаём иконки
-               в новом порядке.
-            */
     sortedCategoryItems.forEach((item) => {
       grid.appendChild(createItemCard(item));
     });
-    /*
-               Добавляем всё
-               на страницу.
-            */
+
     section.append(title, grid);
     categoriesContainer.appendChild(section);
   });
@@ -336,72 +286,30 @@ function createItemCard(item) {
   const card = document.createElement("button");
   card.className = "item-card";
   card.type = "button";
-  /*
-       Переводы.
-    */
   const translatedName = translate(item.name);
   const translatedCategory = translate(item.category);
-  /*
-       Данные для поиска.
-    */
   card.dataset.name = translatedName.toLowerCase();
   card.dataset.category = translatedCategory.toLowerCase();
-  /*
-       Подсказка.
-    */
   card.title = translatedName;
-  /*
-       Доступность.
-    */
   card.setAttribute("aria-label", translatedName);
-  /*
-       Получаем данные
-       конкретного предмета.
-    */
   const spriteData = atlasData?.items?.[item.name];
-  /*
-       Если предмета нет
-       в JSON, создаём
-       пустую иконку.
-    */
   if (!spriteData) {
     console.warn("Предмет отсутствует в атласе:", item.name);
     card.classList.add("atlas-missing");
     return card;
   }
-  /*
-       Размер ячейки.
-    */
   const cellSize = atlasData.cell_size;
-  /*
-       Количество ячеек
-       в одной строке.
-    */
   const columns = atlasData.columns;
-  /*
-       Размер отображения.
-    */
   const displaySize = 72;
   const spriteBleedGuard = 0.5;
-  /*
-       Масштаб атласа.
-       Например:
-       44 / 16 = 2.75
-    */
   const scale = (displaySize + spriteBleedGuard * 2) / cellSize;
-  /*
-       Получаем размеры
-       конкретного атласа.
-    */
   const categoryAtlas = atlasData.categories?.[item.category];
   if (!categoryAtlas) {
     console.warn("Категория отсутствует в данных атласа:", item.category);
     return card;
   }
   card.dataset.itemKey = item.name;
-  /*
-       Путь к атласу.
-    */
+  card.dataset.index = ITEM_INDEX_MAP.get(item.name.toUpperCase()) ?? 999999;
   const atlasURL = ATLAS_DIRECTORY + spriteData.atlas;
   const shadowAtlasURL = SHADOW_ATLAS_DIRECTORY + spriteData.atlas;
   const shadowScale = SHADOW_DISPLAY_SIZE / SHADOW_ATLAS_CELL_SIZE;
@@ -409,44 +317,20 @@ function createItemCard(item) {
   const shadowAtlasHeight = (categoryAtlas.height / cellSize) * SHADOW_ATLAS_CELL_SIZE;
   const shadowX = (spriteData.x / cellSize) * SHADOW_ATLAS_CELL_SIZE;
   const shadowY = (spriteData.y / cellSize) * SHADOW_ATLAS_CELL_SIZE;
-  /*
-       Создаём элемент,
-       показывающий участок
-       общего изображения.
-    */
   const imageContainer = document.createElement("div");
   imageContainer.className = "item-image";
-  /*
-       Размер элемента.
-    */
   imageContainer.style.width = `${displaySize}px`;
   imageContainer.style.height = `${displaySize}px`;
-  /*
-       Общий атлас.
-    */
   imageContainer.style.setProperty("--item-atlas-image", `url("${atlasURL}")`);
-  /*
-       Атлас масштабируется
-       вместе с координатами.
-    */
   imageContainer.style.setProperty(
     "--item-atlas-size",
     `${categoryAtlas.width * scale}px ${categoryAtlas.height * scale}px`,
   );
-  /*
-       Позиция нужной ячейки.
-    */
   imageContainer.style.setProperty(
     "--item-atlas-position",
     `-${spriteData.x * scale + spriteBleedGuard}px -${spriteData.y * scale + spriteBleedGuard}px`,
   );
-  /*
-       Не повторять атлас.
-    */
   imageContainer.style.setProperty("--shadow-atlas-image", `url("${shadowAtlasURL}")`);
-  /*
-       Сохраняем пиксельный вид.
-    */
   imageContainer.style.setProperty(
     "--shadow-atlas-size",
     `${shadowAtlasWidth * shadowScale}px ${shadowAtlasHeight * shadowScale}px`,
@@ -476,6 +360,85 @@ function searchItems() {
   });
   clearSearch.classList.toggle("visible", query !== "");
   updateCounter();
+
+  reorderRegistry(query === "");
+}
+
+/* =========================================================
+   СОРТИРОВКА
+   Сортируем категории и предметы.
+========================================================= */
+function reorderRegistry(reset = false) {
+
+    const sections = [...categoriesContainer.querySelectorAll(".category-section")];
+
+    sections.forEach(section => {
+
+        const grid = section.querySelector(".items-grid");
+        const cards = [...grid.children];
+
+        cards.sort((a, b) => {
+            if (reset) {
+                return Number(a.dataset.order) - Number(b.dataset.order);
+            }
+
+            const aMatch = a.classList.contains("match");
+            const bMatch = b.classList.contains("match");
+
+            if (aMatch !== bMatch)
+                return bMatch - aMatch;
+
+            return Number(a.dataset.order) - Number(b.dataset.order);
+        });
+
+        cards.forEach(card => grid.appendChild(card));
+    });
+
+    sections.sort((a, b) => {
+        if (reset)
+            return Number(a.dataset.order) - Number(b.dataset.order);
+
+        const aHas = a.querySelector(".item-card.match") !== null;
+        const bHas = b.querySelector(".item-card.match") !== null;
+
+        if (aHas !== bHas)
+            return bHas - aHas;
+
+        return Number(a.dataset.order) - Number(b.dataset.order);
+    });
+
+    sections.forEach(section => categoriesContainer.appendChild(section));
+}
+
+function animateReorder(elements, reorder) {
+    const first = new Map();
+
+    elements.forEach(el => {
+        first.set(el, el.getBoundingClientRect());
+    });
+
+    reorder();
+    elements.forEach(el => {
+        const last = el.getBoundingClientRect();
+
+        const dx = first.get(el).left - last.left;
+        const dy = first.get(el).top - last.top;
+
+        if (!dx && !dy)
+            return;
+
+        el.animate([
+            {
+                transform: `translate(${dx}px, ${dy}px)`
+            },
+            {
+                transform: "translate(0,0)"
+            }
+        ], {
+            duration: 250,
+            easing: "ease"
+        });
+    });
 }
 
 /* =========================================================
