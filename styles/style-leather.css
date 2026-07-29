@@ -1,0 +1,436 @@
+
+.search-color{
+    display:flex;
+    align-items:center;
+    gap:18px;
+    max-width:900px;
+    margin: 10px 10px 35px 10px;
+    padding:18px 22px;
+    background:var(--card-bg);
+    border:1px solid var(--border-color);
+    border-radius:14px;
+    backdrop-filter:blur(18px);
+}
+
+.color-preview{
+    width:54px;
+    height:54px;
+    flex:0 0 54px;
+    border-radius:10px;
+    background:#ff0000;
+    border:2px solid rgba(255,255,255,.08);
+    box-shadow:
+        inset 0 0 10px rgba(255,255,255,.1),
+        0 4px 12px rgba(0,0,0,.35);
+}
+
+#color{
+    width:54px;
+    height:54px;
+    padding:0;
+    background:none;
+    border:none;
+    cursor:pointer;
+}
+
+#color::-webkit-color-swatch{
+    border:none;
+    border-radius:10px;
+}
+
+#color::-webkit-color-swatch-wrapper{
+    padding:0;
+}
+
+#colorHex{
+    width:120px;
+    padding:10px 14px;
+    background:var(--input-bg);
+    color:var(--accent-color);
+    border:1px solid var(--border-color);
+    border-radius:8px;
+    font-family:Consolas, monospace;
+    text-transform:uppercase;
+    transition:.18s;
+}
+
+#colorHex:focus{
+    outline:none;
+    border-color:var(--category-border);
+    box-shadow:0 0 0 3px rgba(20,184,166,.12);
+}
+
+.color-values{
+    display:flex;
+    gap:16px;
+    font-size:14px;
+    color:rgba(195,201,200,.7);
+}
+
+.color-values span{
+    color:var(--accent-color);
+    font-weight:700;
+    font-family:Consolas, monospace;
+}
+
+#run{
+    margin-left:auto;
+    padding:12px 28px;
+    background:var(--category-border);
+    color:#071211;
+    border:none;
+    border-radius:9px;
+    font-weight:700;
+    transition:.18s;
+}
+
+#run:hover{
+    transform:translateY(-2px);
+    box-shadow:0 10px 25px rgba(20,184,166,.25);
+}
+
+#run:active{
+    transform:translateY(0);
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+    max-width: 900px;
+    margin: 10px;
+}
+
+.result {
+
+    display: flex;
+    align-items: center;
+    gap: 22px;
+
+    padding: 18px 22px;
+
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 14px;
+
+    backdrop-filter: blur(12px);
+
+    transition:
+        transform .18s,
+        border-color .18s,
+        box-shadow .18s;
+}
+
+.result:hover{
+
+    transform: translateY(-2px);
+
+    border-color: var(--category-border);
+
+    box-shadow:
+        0 0 0 1px rgba(20,184,166,.2),
+        0 12px 35px rgba(0,0,0,.35);
+
+}
+
+.result-color{
+
+    display:table-column;
+    align-items:center;
+    gap:12px;
+
+    min-width:60px;
+
+}
+
+.result-preview{
+
+    width:56px;
+    height:56px;
+
+    border-radius:10px;
+
+    border:2px solid rgba(255,255,255,.08);
+
+    box-shadow:
+        inset 0 0 12px rgba(255,255,255,.08),
+        0 0 10px rgba(0,0,0,.25);
+
+}
+
+.result-hex{
+
+    color:var(--accent-color);
+
+    font-weight:700;
+
+    font-family:Consolas, monospace;
+
+}
+
+.result-info{
+
+    display:flex;
+    flex-direction:column;
+    gap:6px;
+
+    min-width:120px;
+
+}
+
+.result-title{
+
+    color:rgba(195,201,200,.55);
+
+    font-size:12px;
+
+    text-transform:uppercase;
+
+    letter-spacing:1px;
+
+}
+
+.result-value{
+
+    color:var(--accent-color);
+
+    font-size:17px;
+
+    font-weight:700;
+
+}
+
+.result-recipes{
+
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+
+    margin-left:auto;
+
+}
+
+.result-recipes img{
+
+    width:42px;
+    height:42px;
+
+    image-rendering:pixelated;
+
+    transition:
+        transform .15s,
+        filter .15s;
+
+}
+
+.result-recipes img:hover{
+
+    transform:scale(1.25);
+
+    filter:drop-shadow(0 0 6px rgba(20,184,166,.8));
+}
+
+
+/* =========================================================
+   МОБИЛЬНАЯ ВЕРСИЯ
+========================================================= */
+
+@media (max-width: 768px) {
+
+    /* Общие отступы */
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .main-content,
+    .content,
+    .container {
+        width: 100%;
+        padding: 12px;
+        box-sizing: border-box;
+    }
+
+    /* Прячем боковое меню */
+
+    .sidebar {
+        display: none !important;
+    }
+
+    /* ---------- Панель выбора цвета ---------- */
+
+    .search-color {
+
+        flex-direction: column;
+
+        align-items: stretch;
+
+        gap: 14px;
+
+        padding: 16px;
+
+    }
+
+    .color-preview {
+
+        width: 100%;
+        height: 70px;
+
+        flex: none;
+
+    }
+
+    #color {
+
+        width: 100%;
+        height: 55px;
+
+    }
+
+    #colorHex {
+
+        width: 100%;
+
+        font-size: 18px;
+
+        text-align: center;
+
+    }
+
+    .color-values {
+
+        justify-content: space-around;
+
+        flex-wrap: wrap;
+
+        gap: 10px;
+
+    }
+
+    #run {
+
+        width: 100%;
+
+        margin-left: 0;
+
+        padding: 14px;
+
+        font-size: 16px;
+
+    }
+
+    /* ---------- Карточки результатов ---------- */
+
+    .results {
+
+        margin: 20px 0;
+
+        gap: 14px;
+
+    }
+
+    .result {
+
+        flex-direction: column;
+
+        align-items: stretch;
+
+        gap: 16px;
+
+        padding: 16px;
+
+    }
+
+    .result-color {
+
+        justify-content: center;
+        display: grid;
+        min-width: auto;
+
+    }
+
+    .result-info {
+
+        align-items: center;
+
+        min-width: auto;
+
+    }
+
+    .result-recipes {
+
+        justify-content: center;
+
+        margin-left: 0;
+
+    }
+
+    .result-recipes img {
+
+        width: 36px;
+        height: 36px;
+
+    }
+
+    /* ---------- Кнопки ---------- */
+
+    button {
+
+        width: 100%;
+
+        box-sizing: border-box;
+
+    }
+
+    /* ---------- Таблицы ---------- */
+
+    table {
+
+        display: block;
+
+        overflow-x: auto;
+
+    }
+
+    /* ---------- Поля ввода ---------- */
+
+    input,
+    select {
+
+        max-width: 100%;
+
+        box-sizing: border-box;
+
+    }
+
+    /* ---------- Заголовки ---------- */
+
+    h1 {
+
+        font-size: 1.8rem;
+
+        text-align: center;
+
+    }
+
+    h2 {
+
+        font-size: 1.4rem;
+
+    }
+
+    h3 {
+
+        font-size: 1.15rem;
+
+    }
+}
+
+
+
+
+
+
+
+

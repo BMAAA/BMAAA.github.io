@@ -2,10 +2,10 @@
    НАСТРОЙКИ ФАЙЛОВ
 ========================================================= */
 
-const CSV_FILE = "data/items.csv";
+const CSV_FILE = "../data/items.csv";
 const LANGUAGE_FILES = {
-  ru_ru: "loc/ru_ru.json",
-  en_us: "loc/en_us.json",
+  ru_ru: "../loc/ru_ru.json",
+  en_us: "../loc/en_us.json",
 };
 
 /* =========================================================
@@ -38,9 +38,9 @@ const CATEGORY_ORDER = [
    АТЛАСЫ
 ========================================================= */
 
-const ATLAS_DATA_FILE = "data/atlases/items_atlas.json";
-const ATLAS_DIRECTORY = "assets/atlases/";
-const SHADOW_ATLAS_DIRECTORY = "assets/atlases/shadows/";
+const ATLAS_DATA_FILE = "../data/atlases/items_atlas.json";
+const ATLAS_DIRECTORY = "../assets/atlases/";
+const SHADOW_ATLAS_DIRECTORY = "../assets/atlases/shadows/";
 const SHADOW_ATLAS_CELL_SIZE = 52;
 const SHADOW_DISPLAY_SIZE = 104;
 let atlasData = null;
@@ -500,7 +500,7 @@ function updateCounter() {
 ========================================================= */
 
 function openItemModal(item) {
-  document.getElementById("modalImage").src = "/assets/textures/" + item.image;
+  document.getElementById("modalImage").src = "../assets/textures/" + item.image;
   document.getElementById("modalImage").alt = translate(item.name);
   document.getElementById("modalName").textContent = translate(item.name);
   document.getElementById("modalCategoryFull").textContent = translate(item.category);

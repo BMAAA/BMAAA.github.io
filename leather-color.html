@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bmaaa.github.io</title>
+    <link rel="stylesheet" href="styles/style-leather.css"/>
+    <link rel="stylesheet" href="styles/style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<!-- Затемнение при открытом мобильном меню -->
+<div class="mobile-overlay" id="mobileOverlay"></div>
+<!-- =====================================================
+ НАВИГАЦИОННАЯ ПАНЕЛЬ + ФУТЕР
+====================================================== -->
+
+<aside class="sidebar" id="sidebar">
+    <div class="sidebar-content">
+        <nav class="navigation">
+            <!-- Переключение языка
+              <span class="navigation-title">
+                  Настройки языка
+              </span>
+              <div class="language-switcher">
+                  <button
+                      class="language-button active"
+                      data-language="ru_ru"
+                  >
+                      Русский
+                  </button>
+                  <button
+                      class="language-button"
+                      data-language="en_us"
+                  >
+                      English
+                  </button>
+              </div>
+              -->
+            <span class="navigation-title"><b> Навигация </b></span>
+            <ul>
+                <li>
+                    <a href="/">
+                        <b>Реестр ТЗ ППЛ10</b>
+                    </a>
+                </li>
+                <li>
+                    <a href="/leather-color">
+                        <b>Калькулятор окрашивания брони</b>
+                    </a>
+                </li>
+                <li>
+                    <a href="/about">
+                        <b>О сайте</b>
+                    </a>
+                </li>
+            </ul>
+            <span class="navigation-title"
+            ><b>
+              <b>Другие интересные проекты</b>
+            </b></span
+            >
+            <ul>
+                <li>
+                    <a href="https://youtube.com/@tvppl24">
+                        <b>PEPELAND 24</b>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://discord.com/channels/447699225078136832/1483753248405065818">
+                        <b>ЛЕЙБЛ ППЛ</b>
+                    </a>
+                </li>
+                <li>
+                    <a
+                            href="https://i.pinimg.com/originals/d6/54/20/d65420cd1a68f5320280380fcde43d97.jpg"
+                    >
+                        <b>ТИЗКА (COMING SOON)</b>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Футер -->
+    <footer class="sidebar-footer">
+        <p>bmaaa was here</p>
+        <br/>
+        <p>
+            Not an official Minecraft product. We are in no way affiliated with or endorsed by Mojang
+            Synergies AB, Microsoft Corporation or other rightsholders.
+        </p>
+        <br/>
+        <p class="ppl">Not an official product of the PepeLand server network</p>
+    </footer>
+</aside>
+<!-- =====================================================
+ ХЕДЕР
+====================================================== -->
+
+<main class="application">
+    <!-- ХЕДЕР -->
+    <header class="header">
+        <div class="header-brand">
+            <button class="menu-button" id="menuButton" aria-label="Открыть меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <a href="/">
+                <img src="favicon.ico" class="logo" alt="Логотип"/>
+            </a>
+            <div>
+                <h1>bmaaa.github.io</h1>
+                <p id="title">123</p>
+            </div>
+        </div>
+    </header>
+    <!-- =================================================
+       ЦЕНТРАЛЬНАЯ ОБЛАСТЬ
+  ================================================== -->
+
+    <section class="catalogue" id="catalogue">
+        <h1>Калькулятор окрашивания брони</h1>
+        <p>Небольшой инструмент, который позволяет получить необходимые красители для окраски брони.</p>
+        <ul>
+            <li>Все красители нужно положить в сетку крафта <b>одновременно</b>.</li>
+            <li><b>ΔE</b> показывает, насколько цвет в игре схож с искомым. Чем меньше результат - тем больше схожесть.</li>
+            <li>Инструмент работает с небольшой задержкой. Подождите несколько секунд.</li>
+        </ul>
+
+        <div class="search-color">
+            <input type="color" id="color" value="#ff0000">
+            <input id="colorHex" type="text" maxlength="7" value="#FF0000">
+            <div class="color-values">
+                <div>
+                    R:
+                    <span id="colorR">255</span>
+                </div>
+                <div>
+                    G:
+                    <span id="colorG">0</span>
+                </div>
+                <div>
+                    B:
+                    <span id="colorB">0</span>
+                </div>
+            </div>
+
+            <button id="run">
+                Найти
+            </button>
+        </div>
+        <div id="results" class="results">
+        </div>
+        <div class="loading hidden" id="loading">
+            <div class="loader"></div>
+            <p id="loading-text">Поиск комбинаций ...</p>
+        </div>
+    </section>
+</main>
+<script src="scripts/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chroma-js/chroma.min.js"></script>
+<script src="scripts/script_leather.js"></script>
+</body>
+</html>
+</title>
+</head>
+<body>
+
+</body>
+</html>
