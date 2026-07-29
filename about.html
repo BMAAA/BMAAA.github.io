@@ -1,214 +1,139 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-
-    <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0"
-    >
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Item Catalogue</title>
-
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-<!-- Затемнение при открытом мобильном меню -->
-<div class="mobile-overlay" id="mobileOverlay"></div>
-
-
-<!-- =====================================================
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Затемнение при открытом мобильном меню -->
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+    <!-- =====================================================
      НАВИГАЦИОННАЯ ПАНЕЛЬ + ФУТЕР
 ====================================================== -->
 
-<aside class="sidebar" id="sidebar">
-
-    <div class="sidebar-content">
-
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-content">
         <nav class="navigation">
-            <!-- Переключение языка
+          <!-- Переключение языка
             <span class="navigation-title">
                 Настройки языка
             </span>
-
-
             <div class="language-switcher">
-
                 <button
                     class="language-button active"
                     data-language="ru_ru"
                 >
                     Русский
                 </button>
-
                 <button
                     class="language-button"
                     data-language="en_us"
                 >
                     English
                 </button>
-
             </div>
             -->
-            <span class="navigation-title"><b>
-                    Навигация
-                </b></span>
-
-            <ul>
-                <li>
-                    <a href="/">
-                        <b>Реестр ТЗ ППЛ10</b>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#categories">
-                        <b>Coming soon...</b>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="/about">
-                        <b>О сайте</b>
-                    </a>
-                </li>
-            </ul>
-
-            <span class="navigation-title"><b>
-                    <b>Другие интересные проекты</b>
-                </b></span>
-
-            <ul>
-                <li>
-                    <a href="https://youtube.com/@tvppl24">
-                        <b>PEPELAND 24</b>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="https://discord.com/channels/447699225078136832/1483753248405065818">
-                        <b>ЛЕЙБЛ ППЛ</b>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://i.pinimg.com/originals/d6/54/20/d65420cd1a68f5320280380fcde43d97.jpg">
-                        <b>ТИЗКА (COMING SOON)</b>
-                    </a>
-                </li>
-            </ul>
-
-
+          <span class="navigation-title"><b> Навигация </b></span>
+          <ul>
+            <li>
+              <a href="/">
+                <b>Реестр ТЗ ППЛ10</b>
+              </a>
+            </li>
+            <li>
+              <a href="#categories">
+                <b>Coming soon...</b>
+              </a>
+            </li>
+            <li>
+              <a href="/about">
+                <b>О сайте</b>
+              </a>
+            </li>
+          </ul>
+          <span class="navigation-title"
+            ><b>
+              <b>Другие интересные проекты</b>
+            </b></span
+          >
+          <ul>
+            <li>
+              <a href="https://youtube.com/@tvppl24">
+                <b>PEPELAND 24</b>
+              </a>
+            </li>
+            <li>
+              <a href="https://discord.com/channels/447699225078136832/1483753248405065818">
+                <b>ЛЕЙБЛ ППЛ</b>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://i.pinimg.com/originals/d6/54/20/d65420cd1a68f5320280380fcde43d97.jpg"
+              >
+                <b>ТИЗКА (COMING SOON)</b>
+              </a>
+            </li>
+          </ul>
         </nav>
-
-    </div>
-
-
-    <!-- Футер -->
-    <footer class="sidebar-footer">
-
+      </div>
+      <!-- Футер -->
+      <footer class="sidebar-footer">
+        <p>bmaaa was here</p>
+        <br />
         <p>
-            bmaaa was here
+          Not an official Minecraft product. We are in no way affiliated with or endorsed by Mojang
+          Synergies AB, Microsoft Corporation or other rightsholders.
         </p>
-        <br>
-        <p>
-            Not an official Minecraft product. We are in no way affiliated with or endorsed by Mojang Synergies AB,
-            Microsoft Corporation or other rightsholders.
-        </p>
-        <br>
-        <p class="ppl">
-            Not an official product of the PepeLand server network
-        </p>
-
-    </footer>
-
-</aside>
-
-
-<!-- =====================================================
+        <br />
+        <p class="ppl">Not an official product of the PepeLand server network</p>
+      </footer>
+    </aside>
+    <!-- =====================================================
      ХЕДЕР
 ====================================================== -->
 
-<main class="application">
-
-
-    <!-- ХЕДЕР -->
-    <header class="header">
-
+    <main class="application">
+      <!-- ХЕДЕР -->
+      <header class="header">
         <div class="header-brand">
-
-            <button
-                    class="menu-button"
-                    id="menuButton"
-                    aria-label="Открыть меню"
-            >
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-
-
-            <a href="/">
-                <img
-                        src="favicon.ico"
-                        class="logo"
-                        alt="Логотип"
-                >
-            </a>
-
-
-            <div>
-
-                <h1>
-                    bmaaa.github.io
-                </h1>
-
-                <p id="title">
-                    123
-                </p>
-
-            </div>
-
+          <button class="menu-button" id="menuButton" aria-label="Открыть меню">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <a href="/">
+            <img src="favicon.ico" class="logo" alt="Логотип" />
+          </a>
+          <div>
+            <h1>bmaaa.github.io</h1>
+            <p id="title">123</p>
+          </div>
         </div>
-
-    </header>
-
-
-    <!-- =================================================
+      </header>
+      <!-- =================================================
          ЦЕНТРАЛЬНАЯ ОБЛАСТЬ
     ================================================== -->
 
-    <section
-            class="catalogue"
-            id="catalogue"
-    >
-
+      <section class="catalogue" id="catalogue">
         <div class="catalogue-header">
-                <h1>
-                    О сайте
-                </h1>
+          <h1>О сайте</h1>
         </div>
-
         <p>
-            Этот сайт - мой небольшой личный проект, направленный на создание удобных мне инструментов. В данный момент здесь реализован Реестр ППЛ, но в будущем планируется появление других инструментов, которые мне лень гуглить, в частности <i>нормальный</i> генератор градиентов и калькулятор кожанной брони.
+          Этот сайт - мой небольшой личный проект, направленный на создание удобных мне
+          инструментов. В данный момент здесь реализован Реестр ППЛ, но в будущем планируется
+          появление других инструментов, которые мне лень гуглить, в частности
+          <i>нормальный</i> генератор градиентов и калькулятор кожанной брони.
         </p>
-
-        <h2>
-            Благодарности
-        </h2>
+        <h2>Благодарности</h2>
         <ul>
-            <li>TheEvilM - за моральную поддержку и слова "все херня давай по новой"</li>
-            <li>ChipZik - за проверку реестра и нахождение некоторых моих затупов</li>
+          <li>TheEvilM - за моральную поддержку и слова "все херня давай по новой"</li>
+          <li>ChipZik - за проверку реестра и нахождение некоторых моих затупов</li>
         </ul>
-
-
-
-    </section>
-
-</main>
-
-<script src="scripts/script.js"></script>
-
-</body>
+      </section>
+    </main>
+    <script src="scripts/script.js"></script>
+  </body>
 </html>
