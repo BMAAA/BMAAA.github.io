@@ -1,0 +1,6117 @@
+[
+  {
+    "name": "acacia_boat",
+    "image": "acacia_boat.webp",
+    "category": "var"
+  },
+  {
+    "name": "acacia_chest_boat",
+    "image": "acacia_chest_boat.webp",
+    "category": "var"
+  },
+  {
+    "name": "acacia_button",
+    "image": "acacia_button.webp",
+    "category": "var"
+  },
+  {
+    "name": "acacia_door",
+    "image": "acacia_door.webp",
+    "category": "blo"
+  },
+  {
+    "name": "acacia_fence",
+    "image": "acacia_fence.webp",
+    "category": "blo"
+  },
+  {
+    "name": "acacia_fence_gate",
+    "image": "acacia_fence_gate.webp",
+    "category": "blo"
+  },
+  {
+    "name": "acacia_hanging_sign",
+    "image": "acacia_hanging_sign.webp",
+    "category": "blo"
+  },
+  {
+    "name": "acacia_leaves",
+    "image": "acacia_leaves.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "acacia_log",
+    "image": "acacia_log.webp",
+    "category": "blo"
+  },
+  {
+    "name": "acacia_planks",
+    "image": "acacia_planks.webp",
+    "category": "blo"
+  },
+  {
+    "name": "acacia_pressure_plate",
+    "image": "acacia_pressure_plate.webp",
+    "category": "var"
+  },
+  {
+    "name": "acacia_sapling",
+    "image": "acacia_sapling.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "acacia_sign",
+    "image": "acacia_sign.webp",
+    "category": "blo"
+  },
+  {
+    "name": "acacia_slab",
+    "image": "acacia_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "acacia_stairs",
+    "image": "acacia_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "acacia_trapdoor",
+    "image": "acacia_trapdoor.webp",
+    "category": "blo"
+  },
+  {
+    "name": "acacia_wood",
+    "image": "acacia_wood.webp",
+    "category": "blo"
+  },
+  {
+    "name": "activator_rail",
+    "image": "activator_rail.webp",
+    "category": "var"
+  },
+  {
+    "name": "allium",
+    "image": "allium.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "amethyst_cluster",
+    "image": "amethyst_cluster.webp",
+    "category": "val"
+  },
+  {
+    "name": "amethyst_shard",
+    "image": "amethyst_shard.webp",
+    "category": "val"
+  },
+  {
+    "name": "ancient_debris",
+    "image": "ancient_debris.webp",
+    "category": "val"
+  },
+  {
+    "name": "andesite",
+    "image": "andesite.webp",
+    "category": "blo"
+  },
+  {
+    "name": "andesite_slab",
+    "image": "andesite_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "andesite_stairs",
+    "image": "andesite_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "andesite_wall",
+    "image": "andesite_wall.webp",
+    "category": "blo"
+  },
+  {
+    "name": "anvil",
+    "image": "anvil.webp",
+    "category": "var"
+  },
+  {
+    "name": "apple",
+    "image": "apple.webp",
+    "category": "food"
+  },
+  {
+    "name": "armadillo_scute",
+    "image": "armadillo_scute.webp",
+    "category": "loot"
+  },
+  {
+    "name": "armor_stand",
+    "image": "armor_stand.webp",
+    "category": "var"
+  },
+  {
+    "name": "arrow",
+    "image": "arrow.webp",
+    "category": "arm"
+  },
+  {
+    "name": "tipped_arrow",
+    "image": "tipped_arrow.webp",
+    "category": "arm"
+  },
+  {
+    "name": "azalea",
+    "image": "azalea.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "azalea_leaves",
+    "image": "azalea_leaves.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "azure_bluet",
+    "image": "azure_bluet.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "baked_potato",
+    "image": "baked_potato.webp",
+    "category": "food"
+  },
+  {
+    "name": "bamboo",
+    "image": "bamboo.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "bamboo_button",
+    "image": "bamboo_button.webp",
+    "category": "var"
+  },
+  {
+    "name": "bamboo_door",
+    "image": "bamboo_door.webp",
+    "category": "blo"
+  },
+  {
+    "name": "bamboo_fence",
+    "image": "bamboo_fence.webp",
+    "category": "blo"
+  },
+  {
+    "name": "bamboo_fence_gate",
+    "image": "bamboo_fence_gate.webp",
+    "category": "blo"
+  },
+  {
+    "name": "bamboo_hanging_sign",
+    "image": "bamboo_hanging_sign.webp",
+    "category": "blo"
+  },
+  {
+    "name": "bamboo_mosaic",
+    "image": "bamboo_mosaic.webp",
+    "category": "blo"
+  },
+  {
+    "name": "bamboo_mosaic_slab",
+    "image": "bamboo_mosaic_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "bamboo_mosaic_stairs",
+    "image": "bamboo_mosaic_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "bamboo_planks",
+    "image": "bamboo_planks.webp",
+    "category": "blo"
+  },
+  {
+    "name": "bamboo_pressure_plate",
+    "image": "bamboo_pressure_plate.webp",
+    "category": "var"
+  },
+  {
+    "name": "bamboo_raft",
+    "image": "bamboo_raft.webp",
+    "category": "var"
+  },
+  {
+    "name": "bamboo_chest_raft",
+    "image": "bamboo_chest_raft.webp",
+    "category": "var"
+  },
+  {
+    "name": "bamboo_sign",
+    "image": "bamboo_sign.webp",
+    "category": "blo"
+  },
+  {
+    "name": "bamboo_slab",
+    "image": "bamboo_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "bamboo_stairs",
+    "image": "bamboo_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "bamboo_trapdoor",
+    "image": "bamboo_trapdoor.webp",
+    "category": "blo"
+  },
+  {
+    "name": "creeper_banner_pattern",
+    "image": "creeper_banner_pattern.webp",
+    "category": "var"
+  },
+  {
+    "name": "barrel",
+    "image": "barrel.webp",
+    "category": "var"
+  },
+  {
+    "name": "basalt",
+    "image": "basalt.webp",
+    "category": "blo"
+  },
+  {
+    "name": "beacon",
+    "image": "beacon.webp",
+    "category": "val"
+  },
+  {
+    "name": "bee_nest",
+    "image": "bee_nest.webp",
+    "category": "var"
+  },
+  {
+    "name": "beehive",
+    "image": "beehive.webp",
+    "category": "var"
+  },
+  {
+    "name": "beetroot",
+    "image": "beetroot.webp",
+    "category": "food"
+  },
+  {
+    "name": "beetroot_seeds",
+    "image": "beetroot_seeds.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "beetroot_soup",
+    "image": "beetroot_soup.webp",
+    "category": "food"
+  },
+  {
+    "name": "bell",
+    "image": "bell.webp",
+    "category": "var"
+  },
+  {
+    "name": "big_dripleaf",
+    "image": "big_dripleaf.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "birch_boat",
+    "image": "birch_boat.webp",
+    "category": "var"
+  },
+  {
+    "name": "birch_chest_boat",
+    "image": "birch_chest_boat.webp",
+    "category": "var"
+  },
+  {
+    "name": "birch_button",
+    "image": "birch_button.webp",
+    "category": "var"
+  },
+  {
+    "name": "birch_door",
+    "image": "birch_door.webp",
+    "category": "blo"
+  },
+  {
+    "name": "birch_fence",
+    "image": "birch_fence.webp",
+    "category": "blo"
+  },
+  {
+    "name": "birch_fence_gate",
+    "image": "birch_fence_gate.webp",
+    "category": "blo"
+  },
+  {
+    "name": "birch_hanging_sign",
+    "image": "birch_hanging_sign.webp",
+    "category": "blo"
+  },
+  {
+    "name": "birch_leaves",
+    "image": "birch_leaves.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "birch_log",
+    "image": "birch_log.webp",
+    "category": "blo"
+  },
+  {
+    "name": "birch_planks",
+    "image": "birch_planks.webp",
+    "category": "blo"
+  },
+  {
+    "name": "birch_pressure_plate",
+    "image": "birch_pressure_plate.webp",
+    "category": "var"
+  },
+  {
+    "name": "birch_sapling",
+    "image": "birch_sapling.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "birch_sign",
+    "image": "birch_sign.webp",
+    "category": "blo"
+  },
+  {
+    "name": "birch_slab",
+    "image": "birch_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "birch_stairs",
+    "image": "birch_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "birch_trapdoor",
+    "image": "birch_trapdoor.webp",
+    "category": "blo"
+  },
+  {
+    "name": "birch_wood",
+    "image": "birch_wood.webp",
+    "category": "blo"
+  },
+  {
+    "name": "black_banner",
+    "image": "black_banner.webp",
+    "category": "blo"
+  },
+  {
+    "name": "black_bed",
+    "image": "black_bed.webp",
+    "category": "blo"
+  },
+  {
+    "name": "black_bundle",
+    "image": "black_bundle.webp",
+    "category": "arm"
+  },
+  {
+    "name": "black_candle",
+    "image": "black_candle.webp",
+    "category": "var"
+  },
+  {
+    "name": "black_carpet",
+    "image": "black_carpet.webp",
+    "category": "blo"
+  },
+  {
+    "name": "black_concrete",
+    "image": "black_concrete.webp",
+    "category": "blo"
+  },
+  {
+    "name": "black_concrete_powder",
+    "image": "black_concrete_powder.webp",
+    "category": "blo"
+  },
+  {
+    "name": "black_dye",
+    "image": "black_dye.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "black_glazed_terracotta",
+    "image": "black_glazed_terracotta.webp",
+    "category": "blo"
+  },
+  {
+    "name": "black_shulker_box",
+    "image": "black_shulker_box.webp",
+    "category": "forb"
+  },
+  {
+    "name": "black_stained_glass",
+    "image": "black_stained_glass.webp",
+    "category": "blo"
+  },
+  {
+    "name": "black_stained_glass_pane",
+    "image": "black_stained_glass_pane.webp",
+    "category": "blo"
+  },
+  {
+    "name": "black_terracotta",
+    "image": "black_terracotta.webp",
+    "category": "blo"
+  },
+  {
+    "name": "black_wool",
+    "image": "black_wool.webp",
+    "category": "blo"
+  },
+  {
+    "name": "blackstone",
+    "image": "blackstone.webp",
+    "category": "blo"
+  },
+  {
+    "name": "blackstone_slab",
+    "image": "blackstone_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "blackstone_stairs",
+    "image": "blackstone_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "blackstone_wall",
+    "image": "blackstone_wall.webp",
+    "category": "blo"
+  },
+  {
+    "name": "blast_furnace",
+    "image": "blast_furnace.webp",
+    "category": "var"
+  },
+  {
+    "name": "blaze_powder",
+    "image": "blaze_powder.webp",
+    "category": "loot"
+  },
+  {
+    "name": "blaze_rod",
+    "image": "blaze_rod.webp",
+    "category": "loot"
+  },
+  {
+    "name": "amethyst_block",
+    "image": "amethyst_block.webp",
+    "category": "blo"
+  },
+  {
+    "name": "bamboo_block",
+    "image": "bamboo_block.webp",
+    "category": "blo"
+  },
+  {
+    "name": "coal_block",
+    "image": "coal_block.webp",
+    "category": "val"
+  },
+  {
+    "name": "copper_block",
+    "image": "copper_block.webp",
+    "category": "blo"
+  },
+  {
+    "name": "diamond_block",
+    "image": "diamond_block.webp",
+    "category": "cur"
+  },
+  {
+    "name": "emerald_block",
+    "image": "emerald_block.webp",
+    "category": "val"
+  },
+  {
+    "name": "gold_block",
+    "image": "gold_block.webp",
+    "category": "val"
+  },
+  {
+    "name": "iron_block",
+    "image": "iron_block.webp",
+    "category": "val"
+  },
+  {
+    "name": "lapis_block",
+    "image": "lapis_block.webp",
+    "category": "val"
+  },
+  {
+    "name": "netherite_block",
+    "image": "netherite_block.webp",
+    "category": "val"
+  },
+  {
+    "name": "quartz_block",
+    "image": "chiseled_quartz_block.webp",
+    "category": "val"
+  },
+  {
+    "name": "raw_copper_block",
+    "image": "raw_copper_block.webp",
+    "category": "val"
+  },
+  {
+    "name": "raw_gold_block",
+    "image": "raw_gold_block.webp",
+    "category": "val"
+  },
+  {
+    "name": "raw_iron_block",
+    "image": "raw_iron_block.webp",
+    "category": "val"
+  },
+  {
+    "name": "redstone_block",
+    "image": "redstone_block.webp",
+    "category": "var"
+  },
+  {
+    "name": "stripped_bamboo_block",
+    "image": "stripped_bamboo_block.webp",
+    "category": "blo"
+  },
+  {
+    "name": "blue_banner",
+    "image": "blue_banner.webp",
+    "category": "blo"
+  },
+  {
+    "name": "blue_bed",
+    "image": "blue_bed.webp",
+    "category": "blo"
+  },
+  {
+    "name": "blue_bundle",
+    "image": "blue_bundle.webp",
+    "category": "arm"
+  },
+  {
+    "name": "blue_candle",
+    "image": "blue_candle.webp",
+    "category": "var"
+  },
+  {
+    "name": "blue_carpet",
+    "image": "blue_carpet.webp",
+    "category": "blo"
+  },
+  {
+    "name": "blue_concrete",
+    "image": "blue_concrete.webp",
+    "category": "blo"
+  },
+  {
+    "name": "blue_concrete_powder",
+    "image": "blue_concrete_powder.webp",
+    "category": "blo"
+  },
+  {
+    "name": "blue_dye",
+    "image": "blue_dye.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "blue_glazed_terracotta",
+    "image": "blue_glazed_terracotta.webp",
+    "category": "blo"
+  },
+  {
+    "name": "blue_ice",
+    "image": "blue_ice.webp",
+    "category": "blo"
+  },
+  {
+    "name": "blue_orchid",
+    "image": "blue_orchid.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "blue_shulker_box",
+    "image": "blue_shulker_box.webp",
+    "category": "forb"
+  },
+  {
+    "name": "blue_stained_glass",
+    "image": "blue_stained_glass.webp",
+    "category": "blo"
+  },
+  {
+    "name": "blue_stained_glass_pane",
+    "image": "blue_stained_glass_pane.webp",
+    "category": "blo"
+  },
+  {
+    "name": "blue_terracotta",
+    "image": "blue_terracotta.webp",
+    "category": "blo"
+  },
+  {
+    "name": "blue_wool",
+    "image": "blue_wool.webp",
+    "category": "blo"
+  },
+  {
+    "name": "bone",
+    "image": "bone.webp",
+    "category": "loot"
+  },
+  {
+    "name": "bone_block",
+    "image": "bone_block.webp",
+    "category": "blo"
+  },
+  {
+    "name": "bone_meal",
+    "image": "bone_meal.webp",
+    "category": "var"
+  },
+  {
+    "name": "book",
+    "image": "book.webp",
+    "category": "boo"
+  },
+  {
+    "name": "writable_book",
+    "image": "writable_book.webp",
+    "category": "boo"
+  },
+  {
+    "name": "bookshelf",
+    "image": "bookshelf.webp",
+    "category": "blo"
+  },
+  {
+    "name": "experience_bottle",
+    "image": "experience_bottle.webp",
+    "category": "food"
+  },
+  {
+    "name": "bow",
+    "image": "bow.webp",
+    "category": "arm"
+  },
+  {
+    "name": "bowl",
+    "image": "bowl.webp",
+    "category": "var"
+  },
+  {
+    "name": "brain_coral",
+    "image": "brain_coral.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "brain_coral_block",
+    "image": "brain_coral_block.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "brain_coral_fan",
+    "image": "brain_coral_fan.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "bread",
+    "image": "bread.webp",
+    "category": "food"
+  },
+  {
+    "name": "breeze_rod",
+    "image": "breeze_rod.webp",
+    "category": "loot"
+  },
+  {
+    "name": "brewing_stand",
+    "image": "brewing_stand.webp",
+    "category": "var"
+  },
+  {
+    "name": "brick",
+    "image": "brick.webp",
+    "category": "var"
+  },
+  {
+    "name": "brick_slab",
+    "image": "brick_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "brick_stairs",
+    "image": "brick_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "brick_wall",
+    "image": "brick_wall.webp",
+    "category": "blo"
+  },
+  {
+    "name": "bricks",
+    "image": "bricks.webp",
+    "category": "blo"
+  },
+  {
+    "name": "brown_banner",
+    "image": "brown_banner.webp",
+    "category": "blo"
+  },
+  {
+    "name": "brown_bed",
+    "image": "brown_bed.webp",
+    "category": "blo"
+  },
+  {
+    "name": "brown_bundle",
+    "image": "brown_bundle.webp",
+    "category": "arm"
+  },
+  {
+    "name": "brown_candle",
+    "image": "brown_candle.webp",
+    "category": "var"
+  },
+  {
+    "name": "brown_carpet",
+    "image": "brown_carpet.webp",
+    "category": "blo"
+  },
+  {
+    "name": "brown_concrete",
+    "image": "brown_concrete.webp",
+    "category": "blo"
+  },
+  {
+    "name": "brown_concrete_powder",
+    "image": "brown_concrete_powder.webp",
+    "category": "blo"
+  },
+  {
+    "name": "brown_dye",
+    "image": "brown_dye.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "brown_glazed_terracotta",
+    "image": "brown_glazed_terracotta.webp",
+    "category": "blo"
+  },
+  {
+    "name": "brown_mushroom",
+    "image": "brown_mushroom.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "brown_mushroom_block",
+    "image": "brown_mushroom_block.webp",
+    "category": "blo"
+  },
+  {
+    "name": "brown_shulker_box",
+    "image": "brown_shulker_box.webp",
+    "category": "forb"
+  },
+  {
+    "name": "brown_stained_glass",
+    "image": "brown_stained_glass.webp",
+    "category": "blo"
+  },
+  {
+    "name": "brown_stained_glass_pane",
+    "image": "brown_stained_glass_pane.webp",
+    "category": "blo"
+  },
+  {
+    "name": "brown_terracotta",
+    "image": "brown_terracotta.webp",
+    "category": "blo"
+  },
+  {
+    "name": "brown_wool",
+    "image": "brown_wool.webp",
+    "category": "blo"
+  },
+  {
+    "name": "brush",
+    "image": "brush.webp",
+    "category": "arm"
+  },
+  {
+    "name": "bubble_coral",
+    "image": "bubble_coral.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "bubble_coral_block",
+    "image": "bubble_coral_block.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "bubble_coral_fan",
+    "image": "bubble_coral_fan.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "bucket",
+    "image": "bucket.webp",
+    "category": "arm"
+  },
+  {
+    "name": "axolotl_bucket",
+    "image": "axolotl_bucket.webp",
+    "category": "loot"
+  },
+  {
+    "name": "cod_bucket",
+    "image": "cod_bucket.webp",
+    "category": "loot"
+  },
+  {
+    "name": "pufferfish_bucket",
+    "image": "pufferfish_bucket.webp",
+    "category": "loot"
+  },
+  {
+    "name": "salmon_bucket",
+    "image": "salmon_bucket.webp",
+    "category": "loot"
+  },
+  {
+    "name": "tadpole_bucket",
+    "image": "tadpole_bucket.webp",
+    "category": "loot"
+  },
+  {
+    "name": "tropical_fish_bucket",
+    "image": "tropical_fish_bucket.webp",
+    "category": "loot"
+  },
+  {
+    "name": "bundle",
+    "image": "bundle.webp",
+    "category": "arm"
+  },
+  {
+    "name": "cactus",
+    "image": "cactus.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "cake",
+    "image": "cake.webp",
+    "category": "food"
+  },
+  {
+    "name": "calcite",
+    "image": "calcite.webp",
+    "category": "blo"
+  },
+  {
+    "name": "calibrated_sculk_sensor",
+    "image": "calibrated_sculk_sensor.webp",
+    "category": "var"
+  },
+  {
+    "name": "campfire",
+    "image": "campfire.webp",
+    "category": "var"
+  },
+  {
+    "name": "candle",
+    "image": "candle.webp",
+    "category": "var"
+  },
+  {
+    "name": "carrot",
+    "image": "carrot.webp",
+    "category": "food"
+  },
+  {
+    "name": "carrot_on_a_stick",
+    "image": "carrot_on_a_stick.webp",
+    "category": "arm"
+  },
+  {
+    "name": "cartography_table",
+    "image": "cartography_table.webp",
+    "category": "var"
+  },
+  {
+    "name": "carved_pumpkin",
+    "image": "carved_pumpkin.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "cauldron",
+    "image": "cauldron.webp",
+    "category": "var"
+  },
+  {
+    "name": "chain",
+    "image": "chain.webp",
+    "category": "var"
+  },
+  {
+    "name": "chainmail_boots",
+    "image": "chainmail_boots.webp",
+    "category": "arm"
+  },
+  {
+    "name": "chainmail_chestplate",
+    "image": "chainmail_chestplate.webp",
+    "category": "arm"
+  },
+  {
+    "name": "chainmail_helmet",
+    "image": "chainmail_helmet.webp",
+    "category": "arm"
+  },
+  {
+    "name": "chainmail_leggings",
+    "image": "chainmail_leggings.webp",
+    "category": "arm"
+  },
+  {
+    "name": "charcoal",
+    "image": "charcoal.webp",
+    "category": "val"
+  },
+  {
+    "name": "cherry_boat",
+    "image": "cherry_boat.webp",
+    "category": "var"
+  },
+  {
+    "name": "cherry_chest_boat",
+    "image": "cherry_chest_boat.webp",
+    "category": "var"
+  },
+  {
+    "name": "cherry_button",
+    "image": "cherry_button.webp",
+    "category": "var"
+  },
+  {
+    "name": "cherry_door",
+    "image": "cherry_door.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cherry_fence",
+    "image": "cherry_fence.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cherry_fence_gate",
+    "image": "cherry_fence_gate.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cherry_hanging_sign",
+    "image": "cherry_hanging_sign.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cherry_leaves",
+    "image": "cherry_leaves.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "cherry_log",
+    "image": "cherry_log.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cherry_planks",
+    "image": "cherry_planks.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cherry_pressure_plate",
+    "image": "cherry_pressure_plate.webp",
+    "category": "var"
+  },
+  {
+    "name": "cherry_sapling",
+    "image": "cherry_sapling.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "cherry_sign",
+    "image": "cherry_sign.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cherry_slab",
+    "image": "cherry_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cherry_stairs",
+    "image": "cherry_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cherry_trapdoor",
+    "image": "cherry_trapdoor.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cherry_wood",
+    "image": "cherry_wood.webp",
+    "category": "blo"
+  },
+  {
+    "name": "chest",
+    "image": "chest.webp",
+    "category": "var"
+  },
+  {
+    "name": "chipped_anvil",
+    "image": "chipped_anvil.webp",
+    "category": "var"
+  },
+  {
+    "name": "chiseled_bookshelf",
+    "image": "chiseled_bookshelf.webp",
+    "category": "blo"
+  },
+  {
+    "name": "chiseled_copper",
+    "image": "chiseled_copper.webp",
+    "category": "blo"
+  },
+  {
+    "name": "chiseled_deepslate",
+    "image": "chiseled_deepslate.webp",
+    "category": "blo"
+  },
+  {
+    "name": "chiseled_nether_bricks",
+    "image": "chiseled_nether_bricks.webp",
+    "category": "blo"
+  },
+  {
+    "name": "chiseled_polished_blackstone",
+    "image": "chiseled_polished_blackstone.webp",
+    "category": "blo"
+  },
+  {
+    "name": "chiseled_quartz_block",
+    "image": "chiseled_quartz_block.webp",
+    "category": "blo"
+  },
+  {
+    "name": "chiseled_red_sandstone",
+    "image": "chiseled_red_sandstone.webp",
+    "category": "blo"
+  },
+  {
+    "name": "chiseled_sandstone",
+    "image": "chiseled_sandstone.webp",
+    "category": "blo"
+  },
+  {
+    "name": "chiseled_stone_bricks",
+    "image": "chiseled_stone_bricks.webp",
+    "category": "blo"
+  },
+  {
+    "name": "chiseled_tuff",
+    "image": "chiseled_tuff.webp",
+    "category": "blo"
+  },
+  {
+    "name": "chiseled_tuff_bricks",
+    "image": "chiseled_tuff_bricks.webp",
+    "category": "blo"
+  },
+  {
+    "name": "chorus_flower",
+    "image": "chorus_flower.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "chorus_fruit",
+    "image": "chorus_fruit.webp",
+    "category": "food"
+  },
+  {
+    "name": "clay",
+    "image": "clay.webp",
+    "category": "blo"
+  },
+  {
+    "name": "clay_ball",
+    "image": "clay_ball.webp",
+    "category": "var"
+  },
+  {
+    "name": "clock",
+    "image": "clock.webp",
+    "category": "arm"
+  },
+  {
+    "name": "coal",
+    "image": "coal.webp",
+    "category": "val"
+  },
+  {
+    "name": "coal_ore",
+    "image": "coal_ore.webp",
+    "category": "val"
+  },
+  {
+    "name": "coarse_dirt",
+    "image": "coarse_dirt.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cobbled_deepslate",
+    "image": "cobbled_deepslate.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cobbled_deepslate_slab",
+    "image": "cobbled_deepslate_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cobbled_deepslate_stairs",
+    "image": "cobbled_deepslate_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cobbled_deepslate_wall",
+    "image": "cobbled_deepslate_wall.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cobblestone",
+    "image": "cobblestone.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cobblestone_slab",
+    "image": "cobblestone_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cobblestone_stairs",
+    "image": "cobblestone_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cobblestone_wall",
+    "image": "cobblestone_wall.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cobweb",
+    "image": "cobweb.webp",
+    "category": "loot"
+  },
+  {
+    "name": "cocoa_beans",
+    "image": "cocoa_beans.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "compass",
+    "image": "compass.webp",
+    "category": "arm"
+  },
+  {
+    "name": "composter",
+    "image": "composter.webp",
+    "category": "var"
+  },
+  {
+    "name": "conduit",
+    "image": "conduit.webp",
+    "category": "val"
+  },
+  {
+    "name": "cooked_chicken",
+    "image": "cooked_chicken.webp",
+    "category": "food"
+  },
+  {
+    "name": "cooked_cod",
+    "image": "cooked_cod.webp",
+    "category": "food"
+  },
+  {
+    "name": "cooked_mutton",
+    "image": "cooked_mutton.webp",
+    "category": "food"
+  },
+  {
+    "name": "cooked_porkchop",
+    "image": "cooked_porkchop.webp",
+    "category": "food"
+  },
+  {
+    "name": "cooked_rabbit",
+    "image": "cooked_rabbit.webp",
+    "category": "food"
+  },
+  {
+    "name": "cooked_salmon",
+    "image": "cooked_salmon.webp",
+    "category": "food"
+  },
+  {
+    "name": "cookie",
+    "image": "cookie.webp",
+    "category": "food"
+  },
+  {
+    "name": "copper_bulb",
+    "image": "copper_bulb.webp",
+    "category": "blo"
+  },
+  {
+    "name": "copper_door",
+    "image": "copper_door.webp",
+    "category": "blo"
+  },
+  {
+    "name": "copper_grate",
+    "image": "copper_grate.webp",
+    "category": "blo"
+  },
+  {
+    "name": "copper_ingot",
+    "image": "copper_ingot.webp",
+    "category": "blo"
+  },
+  {
+    "name": "copper_ore",
+    "image": "copper_ore.webp",
+    "category": "val"
+  },
+  {
+    "name": "copper_trapdoor",
+    "image": "copper_trapdoor.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cornflower",
+    "image": "cornflower.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "cracked_deepslate_bricks",
+    "image": "cracked_deepslate_bricks.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cracked_deepslate_tiles",
+    "image": "cracked_deepslate_tiles.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cracked_nether_bricks",
+    "image": "cracked_nether_bricks.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cracked_polished_blackstone_bricks",
+    "image": "cracked_polished_blackstone_bricks.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cracked_stone_bricks",
+    "image": "cracked_stone_bricks.webp",
+    "category": "blo"
+  },
+  {
+    "name": "crafter",
+    "image": "crafter.webp",
+    "category": "var"
+  },
+  {
+    "name": "crafting_table",
+    "image": "crafting_table.webp",
+    "category": "var"
+  },
+  {
+    "name": "creeper_head",
+    "image": "creeper_head.webp",
+    "category": "val"
+  },
+  {
+    "name": "crimson_button",
+    "image": "crimson_button.webp",
+    "category": "var"
+  },
+  {
+    "name": "crimson_door",
+    "image": "crimson_door.webp",
+    "category": "blo"
+  },
+  {
+    "name": "crimson_fence",
+    "image": "crimson_fence.webp",
+    "category": "blo"
+  },
+  {
+    "name": "crimson_fence_gate",
+    "image": "crimson_fence_gate.webp",
+    "category": "blo"
+  },
+  {
+    "name": "crimson_fungus",
+    "image": "crimson_fungus.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "crimson_hanging_sign",
+    "image": "crimson_hanging_sign.webp",
+    "category": "blo"
+  },
+  {
+    "name": "crimson_hyphae",
+    "image": "crimson_hyphae.webp",
+    "category": "blo"
+  },
+  {
+    "name": "crimson_nylium",
+    "image": "crimson_nylium.webp",
+    "category": "blo"
+  },
+  {
+    "name": "crimson_planks",
+    "image": "crimson_planks.webp",
+    "category": "blo"
+  },
+  {
+    "name": "crimson_pressure_plate",
+    "image": "crimson_pressure_plate.webp",
+    "category": "var"
+  },
+  {
+    "name": "crimson_roots",
+    "image": "crimson_roots.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "crimson_sign",
+    "image": "crimson_sign.webp",
+    "category": "blo"
+  },
+  {
+    "name": "crimson_slab",
+    "image": "crimson_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "crimson_stairs",
+    "image": "crimson_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "crimson_stem",
+    "image": "crimson_stem.webp",
+    "category": "blo"
+  },
+  {
+    "name": "crimson_trapdoor",
+    "image": "crimson_trapdoor.webp",
+    "category": "blo"
+  },
+  {
+    "name": "crossbow",
+    "image": "crossbow.webp",
+    "category": "arm"
+  },
+  {
+    "name": "crying_obsidian",
+    "image": "crying_obsidian.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cut_copper",
+    "image": "cut_copper.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cut_copper_slab",
+    "image": "cut_copper_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cut_copper_stairs",
+    "image": "cut_copper_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cut_red_sandstone",
+    "image": "cut_red_sandstone.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cut_red_sandstone_slab",
+    "image": "cut_red_sandstone_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cut_sandstone",
+    "image": "cut_sandstone.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cut_sandstone_slab",
+    "image": "cut_sandstone_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cyan_banner",
+    "image": "cyan_banner.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cyan_bed",
+    "image": "cyan_bed.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cyan_bundle",
+    "image": "cyan_bundle.webp",
+    "category": "arm"
+  },
+  {
+    "name": "cyan_candle",
+    "image": "cyan_candle.webp",
+    "category": "var"
+  },
+  {
+    "name": "cyan_carpet",
+    "image": "cyan_carpet.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cyan_concrete",
+    "image": "cyan_concrete.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cyan_concrete_powder",
+    "image": "cyan_concrete_powder.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cyan_dye",
+    "image": "cyan_dye.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "cyan_glazed_terracotta",
+    "image": "cyan_glazed_terracotta.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cyan_shulker_box",
+    "image": "cyan_shulker_box.webp",
+    "category": "forb"
+  },
+  {
+    "name": "cyan_stained_glass",
+    "image": "cyan_stained_glass.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cyan_stained_glass_pane",
+    "image": "cyan_stained_glass_pane.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cyan_terracotta",
+    "image": "cyan_terracotta.webp",
+    "category": "blo"
+  },
+  {
+    "name": "cyan_wool",
+    "image": "cyan_wool.webp",
+    "category": "blo"
+  },
+  {
+    "name": "damaged_anvil",
+    "image": "damaged_anvil.webp",
+    "category": "var"
+  },
+  {
+    "name": "dandelion",
+    "image": "dandelion.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "dark_oak_boat",
+    "image": "dark_oak_boat.webp",
+    "category": "var"
+  },
+  {
+    "name": "dark_oak_chest_boat",
+    "image": "dark_oak_chest_boat.webp",
+    "category": "var"
+  },
+  {
+    "name": "dark_oak_button",
+    "image": "dark_oak_button.webp",
+    "category": "var"
+  },
+  {
+    "name": "dark_oak_door",
+    "image": "dark_oak_door.webp",
+    "category": "blo"
+  },
+  {
+    "name": "dark_oak_fence",
+    "image": "dark_oak_fence.webp",
+    "category": "blo"
+  },
+  {
+    "name": "dark_oak_fence_gate",
+    "image": "dark_oak_fence_gate.webp",
+    "category": "blo"
+  },
+  {
+    "name": "dark_oak_hanging_sign",
+    "image": "dark_oak_hanging_sign.webp",
+    "category": "blo"
+  },
+  {
+    "name": "dark_oak_leaves",
+    "image": "dark_oak_leaves.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "dark_oak_log",
+    "image": "dark_oak_log.webp",
+    "category": "blo"
+  },
+  {
+    "name": "dark_oak_planks",
+    "image": "dark_oak_planks.webp",
+    "category": "blo"
+  },
+  {
+    "name": "dark_oak_pressure_plate",
+    "image": "dark_oak_pressure_plate.webp",
+    "category": "var"
+  },
+  {
+    "name": "dark_oak_sapling",
+    "image": "dark_oak_sapling.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "dark_oak_sign",
+    "image": "dark_oak_sign.webp",
+    "category": "blo"
+  },
+  {
+    "name": "dark_oak_slab",
+    "image": "dark_oak_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "dark_oak_stairs",
+    "image": "dark_oak_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "dark_oak_trapdoor",
+    "image": "dark_oak_trapdoor.webp",
+    "category": "blo"
+  },
+  {
+    "name": "dark_oak_wood",
+    "image": "dark_oak_wood.webp",
+    "category": "blo"
+  },
+  {
+    "name": "dark_prismarine",
+    "image": "dark_prismarine.webp",
+    "category": "blo"
+  },
+  {
+    "name": "dark_prismarine_slab",
+    "image": "dark_prismarine_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "dark_prismarine_stairs",
+    "image": "dark_prismarine_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "daylight_detector",
+    "image": "daylight_detector.webp",
+    "category": "var"
+  },
+  {
+    "name": "dead_brain_coral",
+    "image": "dead_brain_coral.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "dead_brain_coral_block",
+    "image": "dead_brain_coral_block.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "dead_brain_coral_fan",
+    "image": "dead_brain_coral_fan.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "dead_bubble_coral",
+    "image": "dead_bubble_coral.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "dead_bubble_coral_block",
+    "image": "dead_bubble_coral_block.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "dead_bubble_coral_fan",
+    "image": "dead_bubble_coral_fan.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "dead_bush",
+    "image": "dead_bush.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "dead_fire_coral",
+    "image": "dead_fire_coral.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "dead_fire_coral_block",
+    "image": "dead_fire_coral_block.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "dead_fire_coral_fan",
+    "image": "dead_fire_coral_fan.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "dead_horn_coral",
+    "image": "dead_horn_coral.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "dead_horn_coral_block",
+    "image": "dead_horn_coral_block.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "dead_horn_coral_fan",
+    "image": "dead_horn_coral_fan.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "dead_tube_coral",
+    "image": "dead_tube_coral.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "dead_tube_coral_block",
+    "image": "dead_tube_coral_block.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "dead_tube_coral_fan",
+    "image": "dead_tube_coral_fan.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "deepslate",
+    "image": "deepslate.webp",
+    "category": "blo"
+  },
+  {
+    "name": "deepslate_brick_slab",
+    "image": "deepslate_brick_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "deepslate_brick_stairs",
+    "image": "deepslate_brick_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "deepslate_brick_wall",
+    "image": "deepslate_brick_wall.webp",
+    "category": "blo"
+  },
+  {
+    "name": "deepslate_bricks",
+    "image": "deepslate_bricks.webp",
+    "category": "blo"
+  },
+  {
+    "name": "deepslate_coal_ore",
+    "image": "deepslate_coal_ore.webp",
+    "category": "val"
+  },
+  {
+    "name": "deepslate_copper_ore",
+    "image": "deepslate_copper_ore.webp",
+    "category": "val"
+  },
+  {
+    "name": "deepslate_diamond_ore",
+    "image": "deepslate_diamond_ore.webp",
+    "category": "val"
+  },
+  {
+    "name": "deepslate_emerald_ore",
+    "image": "deepslate_emerald_ore.webp",
+    "category": "val"
+  },
+  {
+    "name": "deepslate_gold_ore",
+    "image": "deepslate_gold_ore.webp",
+    "category": "val"
+  },
+  {
+    "name": "deepslate_iron_ore",
+    "image": "deepslate_iron_ore.webp",
+    "category": "val"
+  },
+  {
+    "name": "deepslate_lapis_ore",
+    "image": "deepslate_lapis_ore.webp",
+    "category": "val"
+  },
+  {
+    "name": "deepslate_redstone_ore",
+    "image": "deepslate_redstone_ore.webp",
+    "category": "val"
+  },
+  {
+    "name": "deepslate_tile_slab",
+    "image": "deepslate_tile_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "deepslate_tile_stairs",
+    "image": "deepslate_tile_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "deepslate_tile_wall",
+    "image": "deepslate_tile_wall.webp",
+    "category": "blo"
+  },
+  {
+    "name": "deepslate_tiles",
+    "image": "deepslate_tiles.webp",
+    "category": "blo"
+  },
+  {
+    "name": "detector_rail",
+    "image": "detector_rail.webp",
+    "category": "var"
+  },
+  {
+    "name": "diamond",
+    "image": "diamond.webp",
+    "category": "cur"
+  },
+  {
+    "name": "diamond_axe",
+    "image": "diamond_axe.webp",
+    "category": "arm"
+  },
+  {
+    "name": "diamond_boots",
+    "image": "diamond_boots.webp",
+    "category": "arm"
+  },
+  {
+    "name": "diamond_chestplate",
+    "image": "diamond_chestplate.webp",
+    "category": "arm"
+  },
+  {
+    "name": "diamond_helmet",
+    "image": "diamond_helmet.webp",
+    "category": "arm"
+  },
+  {
+    "name": "diamond_hoe",
+    "image": "diamond_hoe.webp",
+    "category": "arm"
+  },
+  {
+    "name": "diamond_horse_armor",
+    "image": "diamond_horse_armor.webp",
+    "category": "arm"
+  },
+  {
+    "name": "diamond_leggings",
+    "image": "diamond_leggings.webp",
+    "category": "arm"
+  },
+  {
+    "name": "diamond_ore",
+    "image": "diamond_ore.webp",
+    "category": "val"
+  },
+  {
+    "name": "diamond_pickaxe",
+    "image": "diamond_pickaxe.webp",
+    "category": "arm"
+  },
+  {
+    "name": "diamond_shovel",
+    "image": "diamond_shovel.webp",
+    "category": "arm"
+  },
+  {
+    "name": "diamond_sword",
+    "image": "diamond_sword.webp",
+    "category": "arm"
+  },
+  {
+    "name": "diorite",
+    "image": "diorite.webp",
+    "category": "blo"
+  },
+  {
+    "name": "diorite_slab",
+    "image": "diorite_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "diorite_stairs",
+    "image": "diorite_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "diorite_wall",
+    "image": "diorite_wall.webp",
+    "category": "blo"
+  },
+  {
+    "name": "dirt",
+    "image": "dirt.webp",
+    "category": "blo"
+  },
+  {
+    "name": "disc_fragment_5",
+    "image": "disc_fragment_5.webp",
+    "category": "val"
+  },
+  {
+    "name": "dispenser",
+    "image": "dispenser.webp",
+    "category": "var"
+  },
+  {
+    "name": "dragon_egg",
+    "image": "dragon_egg.webp",
+    "category": "forb"
+  },
+  {
+    "name": "dragon_head",
+    "image": "dragon_head.webp",
+    "category": "val"
+  },
+  {
+    "name": "dragon_breath",
+    "image": "dragon_breath.webp",
+    "category": "food"
+  },
+  {
+    "name": "dried_kelp",
+    "image": "dried_kelp.webp",
+    "category": "food"
+  },
+  {
+    "name": "dried_kelp_block",
+    "image": "dried_kelp_block.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "dripstone_block",
+    "image": "dripstone_block.webp",
+    "category": "blo"
+  },
+  {
+    "name": "dropper",
+    "image": "dropper.webp",
+    "category": "var"
+  },
+  {
+    "name": "echo_shard",
+    "image": "echo_shard.webp",
+    "category": "val"
+  },
+  {
+    "name": "egg",
+    "image": "egg.webp",
+    "category": "loot"
+  },
+  {
+    "name": "elytra",
+    "image": "elytra.webp",
+    "category": "arm"
+  },
+  {
+    "name": "emerald",
+    "image": "emerald.webp",
+    "category": "val"
+  },
+  {
+    "name": "emerald_ore",
+    "image": "emerald_ore.webp",
+    "category": "val"
+  },
+  {
+    "name": "map",
+    "image": "map.webp",
+    "category": "arm"
+  },
+  {
+    "name": "enchanted_golden_apple",
+    "image": "enchanted_golden_apple.webp",
+    "category": "val"
+  },
+  {
+    "name": "enchanting_table",
+    "image": "enchanting_table.webp",
+    "category": "var"
+  },
+  {
+    "name": "end_crystal",
+    "image": "end_crystal.webp",
+    "category": "var"
+  },
+  {
+    "name": "end_rod",
+    "image": "end_rod.webp",
+    "category": "var"
+  },
+  {
+    "name": "end_stone",
+    "image": "end_stone.webp",
+    "category": "blo"
+  },
+  {
+    "name": "end_stone_brick_slab",
+    "image": "end_stone_brick_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "end_stone_brick_stairs",
+    "image": "end_stone_brick_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "end_stone_brick_wall",
+    "image": "end_stone_brick_wall.webp",
+    "category": "blo"
+  },
+  {
+    "name": "end_stone_bricks",
+    "image": "end_stone_bricks.webp",
+    "category": "blo"
+  },
+  {
+    "name": "ender_chest",
+    "image": "ender_chest.webp",
+    "category": "var"
+  },
+  {
+    "name": "ender_pearl",
+    "image": "ender_pearl.webp",
+    "category": "loot"
+  },
+  {
+    "name": "exposed_chiseled_copper",
+    "image": "exposed_chiseled_copper.webp",
+    "category": "blo"
+  },
+  {
+    "name": "exposed_copper",
+    "image": "exposed_copper.webp",
+    "category": "blo"
+  },
+  {
+    "name": "exposed_copper_bulb",
+    "image": "exposed_copper_bulb.webp",
+    "category": "blo"
+  },
+  {
+    "name": "exposed_copper_door",
+    "image": "exposed_copper_door.webp",
+    "category": "blo"
+  },
+  {
+    "name": "exposed_copper_grate",
+    "image": "exposed_copper_grate.webp",
+    "category": "blo"
+  },
+  {
+    "name": "exposed_copper_trapdoor",
+    "image": "exposed_copper_trapdoor.webp",
+    "category": "blo"
+  },
+  {
+    "name": "exposed_cut_copper",
+    "image": "exposed_cut_copper.webp",
+    "category": "blo"
+  },
+  {
+    "name": "exposed_cut_copper_slab",
+    "image": "exposed_cut_copper_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "exposed_cut_copper_stairs",
+    "image": "exposed_cut_copper_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "ender_eye",
+    "image": "ender_eye.webp",
+    "category": "loot"
+  },
+  {
+    "name": "feather",
+    "image": "feather.webp",
+    "category": "loot"
+  },
+  {
+    "name": "fermented_spider_eye",
+    "image": "fermented_spider_eye.webp",
+    "category": "food"
+  },
+  {
+    "name": "fern",
+    "image": "fern.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "fire_charge",
+    "image": "fire_charge.webp",
+    "category": "var"
+  },
+  {
+    "name": "fire_coral",
+    "image": "fire_coral.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "fire_coral_block",
+    "image": "fire_coral_block.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "fire_coral_fan",
+    "image": "fire_coral_fan.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "firework_rocket",
+    "image": "firework_rocket.webp",
+    "category": "var"
+  },
+  {
+    "name": "fishing_rod",
+    "image": "fishing_rod.webp",
+    "category": "arm"
+  },
+  {
+    "name": "fletching_table",
+    "image": "fletching_table.webp",
+    "category": "var"
+  },
+  {
+    "name": "flint",
+    "image": "flint.webp",
+    "category": "var"
+  },
+  {
+    "name": "flint_and_steel",
+    "image": "flint_and_steel.webp",
+    "category": "arm"
+  },
+  {
+    "name": "flower_pot",
+    "image": "flower_pot.webp",
+    "category": "var"
+  },
+  {
+    "name": "flowering_azalea",
+    "image": "flowering_azalea.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "flowering_azalea_leaves",
+    "image": "flowering_azalea_leaves.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "furnace",
+    "image": "furnace.webp",
+    "category": "var"
+  },
+  {
+    "name": "ghast_tear",
+    "image": "ghast_tear.webp",
+    "category": "loot"
+  },
+  {
+    "name": "gilded_blackstone",
+    "image": "gilded_blackstone.webp",
+    "category": "val"
+  },
+  {
+    "name": "glass",
+    "image": "glass.webp",
+    "category": "blo"
+  },
+  {
+    "name": "glass_bottle",
+    "image": "glass_bottle.webp",
+    "category": "var"
+  },
+  {
+    "name": "glass_pane",
+    "image": "glass_pane.webp",
+    "category": "blo"
+  },
+  {
+    "name": "glistering_melon_slice",
+    "image": "glistering_melon_slice.webp",
+    "category": "food"
+  },
+  {
+    "name": "glow_berries",
+    "image": "glow_berries.webp",
+    "category": "food"
+  },
+  {
+    "name": "glow_ink_sac",
+    "image": "glow_ink_sac.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "glow_item_frame",
+    "image": "glow_item_frame.webp",
+    "category": "var"
+  },
+  {
+    "name": "glow_lichen",
+    "image": "glow_lichen.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "glowstone",
+    "image": "glowstone.webp",
+    "category": "blo"
+  },
+  {
+    "name": "glowstone_dust",
+    "image": "glowstone_dust.webp",
+    "category": "var"
+  },
+  {
+    "name": "goat_horn",
+    "image": "goat_horn.webp",
+    "category": "val"
+  },
+  {
+    "name": "gold_ingot",
+    "image": "gold_ingot.webp",
+    "category": "val"
+  },
+  {
+    "name": "gold_nugget",
+    "image": "gold_nugget.webp",
+    "category": "forb"
+  },
+  {
+    "name": "gold_ore",
+    "image": "gold_ore.webp",
+    "category": "val"
+  },
+  {
+    "name": "golden_apple",
+    "image": "golden_apple.webp",
+    "category": "food"
+  },
+  {
+    "name": "golden_axe",
+    "image": "golden_axe.webp",
+    "category": "arm"
+  },
+  {
+    "name": "golden_boots",
+    "image": "golden_boots.webp",
+    "category": "arm"
+  },
+  {
+    "name": "golden_carrot",
+    "image": "golden_carrot.webp",
+    "category": "food"
+  },
+  {
+    "name": "golden_chestplate",
+    "image": "golden_chestplate.webp",
+    "category": "arm"
+  },
+  {
+    "name": "golden_helmet",
+    "image": "golden_helmet.webp",
+    "category": "arm"
+  },
+  {
+    "name": "golden_hoe",
+    "image": "golden_hoe.webp",
+    "category": "arm"
+  },
+  {
+    "name": "golden_horse_armor",
+    "image": "golden_horse_armor.webp",
+    "category": "arm"
+  },
+  {
+    "name": "golden_leggings",
+    "image": "golden_leggings.webp",
+    "category": "arm"
+  },
+  {
+    "name": "golden_pickaxe",
+    "image": "golden_pickaxe.webp",
+    "category": "arm"
+  },
+  {
+    "name": "golden_shovel",
+    "image": "golden_shovel.webp",
+    "category": "arm"
+  },
+  {
+    "name": "golden_sword",
+    "image": "golden_sword.webp",
+    "category": "arm"
+  },
+  {
+    "name": "granite",
+    "image": "granite.webp",
+    "category": "blo"
+  },
+  {
+    "name": "granite_slab",
+    "image": "granite_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "granite_stairs",
+    "image": "granite_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "granite_wall",
+    "image": "granite_wall.webp",
+    "category": "blo"
+  },
+  {
+    "name": "grass_block",
+    "image": "grass_block.webp",
+    "category": "blo"
+  },
+  {
+    "name": "gravel",
+    "image": "gravel.webp",
+    "category": "blo"
+  },
+  {
+    "name": "gray_banner",
+    "image": "gray_banner.webp",
+    "category": "blo"
+  },
+  {
+    "name": "gray_bed",
+    "image": "gray_bed.webp",
+    "category": "blo"
+  },
+  {
+    "name": "gray_bundle",
+    "image": "gray_bundle.webp",
+    "category": "arm"
+  },
+  {
+    "name": "gray_candle",
+    "image": "gray_candle.webp",
+    "category": "var"
+  },
+  {
+    "name": "gray_carpet",
+    "image": "gray_carpet.webp",
+    "category": "blo"
+  },
+  {
+    "name": "gray_concrete",
+    "image": "gray_concrete.webp",
+    "category": "blo"
+  },
+  {
+    "name": "gray_concrete_powder",
+    "image": "gray_concrete_powder.webp",
+    "category": "blo"
+  },
+  {
+    "name": "gray_dye",
+    "image": "gray_dye.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "gray_glazed_terracotta",
+    "image": "gray_glazed_terracotta.webp",
+    "category": "blo"
+  },
+  {
+    "name": "gray_shulker_box",
+    "image": "gray_shulker_box.webp",
+    "category": "forb"
+  },
+  {
+    "name": "gray_stained_glass",
+    "image": "gray_stained_glass.webp",
+    "category": "blo"
+  },
+  {
+    "name": "gray_stained_glass_pane",
+    "image": "gray_stained_glass_pane.webp",
+    "category": "blo"
+  },
+  {
+    "name": "gray_terracotta",
+    "image": "gray_terracotta.webp",
+    "category": "blo"
+  },
+  {
+    "name": "gray_wool",
+    "image": "gray_wool.webp",
+    "category": "blo"
+  },
+  {
+    "name": "green_banner",
+    "image": "green_banner.webp",
+    "category": "blo"
+  },
+  {
+    "name": "green_bed",
+    "image": "green_bed.webp",
+    "category": "blo"
+  },
+  {
+    "name": "green_bundle",
+    "image": "green_bundle.webp",
+    "category": "arm"
+  },
+  {
+    "name": "green_candle",
+    "image": "green_candle.webp",
+    "category": "var"
+  },
+  {
+    "name": "green_carpet",
+    "image": "green_carpet.webp",
+    "category": "blo"
+  },
+  {
+    "name": "green_concrete",
+    "image": "green_concrete.webp",
+    "category": "blo"
+  },
+  {
+    "name": "green_concrete_powder",
+    "image": "green_concrete_powder.webp",
+    "category": "blo"
+  },
+  {
+    "name": "green_dye",
+    "image": "green_dye.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "green_glazed_terracotta",
+    "image": "green_glazed_terracotta.webp",
+    "category": "blo"
+  },
+  {
+    "name": "green_shulker_box",
+    "image": "green_shulker_box.webp",
+    "category": "forb"
+  },
+  {
+    "name": "green_stained_glass",
+    "image": "green_stained_glass.webp",
+    "category": "blo"
+  },
+  {
+    "name": "green_stained_glass_pane",
+    "image": "green_stained_glass_pane.webp",
+    "category": "blo"
+  },
+  {
+    "name": "green_terracotta",
+    "image": "green_terracotta.webp",
+    "category": "blo"
+  },
+  {
+    "name": "green_wool",
+    "image": "green_wool.webp",
+    "category": "blo"
+  },
+  {
+    "name": "grindstone",
+    "image": "grindstone.webp",
+    "category": "var"
+  },
+  {
+    "name": "gunpowder",
+    "image": "gunpowder.webp",
+    "category": "loot"
+  },
+  {
+    "name": "hanging_roots",
+    "image": "hanging_roots.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "hay_block",
+    "image": "hay_block.webp",
+    "category": "blo"
+  },
+  {
+    "name": "heart_of_the_sea",
+    "image": "heart_of_the_sea.webp",
+    "category": "val"
+  },
+  {
+    "name": "heavy_core",
+    "image": "heavy_core.webp",
+    "category": "val"
+  },
+  {
+    "name": "heavy_weighted_pressure_plate",
+    "image": "heavy_weighted_pressure_plate.webp",
+    "category": "var"
+  },
+  {
+    "name": "honey_block",
+    "image": "honey_block.webp",
+    "category": "var"
+  },
+  {
+    "name": "honey_bottle",
+    "image": "honey_bottle.webp",
+    "category": "food"
+  },
+  {
+    "name": "honeycomb",
+    "image": "honeycomb.webp",
+    "category": "var"
+  },
+  {
+    "name": "honeycomb_block",
+    "image": "honeycomb_block.webp",
+    "category": "var"
+  },
+  {
+    "name": "hopper",
+    "image": "hopper.webp",
+    "category": "var"
+  },
+  {
+    "name": "horn_coral",
+    "image": "horn_coral.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "horn_coral_block",
+    "image": "horn_coral_block.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "horn_coral_fan",
+    "image": "horn_coral_fan.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "ice",
+    "image": "ice.webp",
+    "category": "blo"
+  },
+  {
+    "name": "ink_sac",
+    "image": "ink_sac.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "iron_axe",
+    "image": "iron_axe.webp",
+    "category": "arm"
+  },
+  {
+    "name": "iron_bars",
+    "image": "iron_bars.webp",
+    "category": "blo"
+  },
+  {
+    "name": "iron_boots",
+    "image": "iron_boots.webp",
+    "category": "arm"
+  },
+  {
+    "name": "iron_chestplate",
+    "image": "iron_chestplate.webp",
+    "category": "arm"
+  },
+  {
+    "name": "iron_door",
+    "image": "iron_door.webp",
+    "category": "blo"
+  },
+  {
+    "name": "iron_helmet",
+    "image": "iron_helmet.webp",
+    "category": "arm"
+  },
+  {
+    "name": "iron_hoe",
+    "image": "iron_hoe.webp",
+    "category": "arm"
+  },
+  {
+    "name": "iron_horse_armor",
+    "image": "iron_horse_armor.webp",
+    "category": "arm"
+  },
+  {
+    "name": "iron_ingot",
+    "image": "iron_ingot.webp",
+    "category": "val"
+  },
+  {
+    "name": "iron_leggings",
+    "image": "iron_leggings.webp",
+    "category": "arm"
+  },
+  {
+    "name": "iron_nugget",
+    "image": "iron_nugget.webp",
+    "category": "forb"
+  },
+  {
+    "name": "iron_ore",
+    "image": "iron_ore.webp",
+    "category": "val"
+  },
+  {
+    "name": "iron_pickaxe",
+    "image": "iron_pickaxe.webp",
+    "category": "arm"
+  },
+  {
+    "name": "iron_shovel",
+    "image": "iron_shovel.webp",
+    "category": "arm"
+  },
+  {
+    "name": "iron_sword",
+    "image": "iron_sword.webp",
+    "category": "arm"
+  },
+  {
+    "name": "iron_trapdoor",
+    "image": "iron_trapdoor.webp",
+    "category": "blo"
+  },
+  {
+    "name": "item_frame",
+    "image": "item_frame.webp",
+    "category": "var"
+  },
+  {
+    "name": "jack_o_lantern",
+    "image": "jack_o_lantern.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "jukebox",
+    "image": "jukebox.webp",
+    "category": "var"
+  },
+  {
+    "name": "jungle_boat",
+    "image": "jungle_boat.webp",
+    "category": "var"
+  },
+  {
+    "name": "jungle_chest_boat",
+    "image": "jungle_chest_boat.webp",
+    "category": "var"
+  },
+  {
+    "name": "jungle_button",
+    "image": "jungle_button.webp",
+    "category": "var"
+  },
+  {
+    "name": "jungle_door",
+    "image": "jungle_door.webp",
+    "category": "blo"
+  },
+  {
+    "name": "jungle_fence",
+    "image": "jungle_fence.webp",
+    "category": "blo"
+  },
+  {
+    "name": "jungle_fence_gate",
+    "image": "jungle_fence_gate.webp",
+    "category": "blo"
+  },
+  {
+    "name": "jungle_hanging_sign",
+    "image": "jungle_hanging_sign.webp",
+    "category": "blo"
+  },
+  {
+    "name": "jungle_leaves",
+    "image": "jungle_leaves.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "jungle_log",
+    "image": "jungle_log.webp",
+    "category": "blo"
+  },
+  {
+    "name": "jungle_planks",
+    "image": "jungle_planks.webp",
+    "category": "blo"
+  },
+  {
+    "name": "jungle_pressure_plate",
+    "image": "jungle_pressure_plate.webp",
+    "category": "var"
+  },
+  {
+    "name": "jungle_sapling",
+    "image": "jungle_sapling.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "jungle_sign",
+    "image": "jungle_sign.webp",
+    "category": "blo"
+  },
+  {
+    "name": "jungle_slab",
+    "image": "jungle_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "jungle_stairs",
+    "image": "jungle_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "jungle_trapdoor",
+    "image": "jungle_trapdoor.webp",
+    "category": "blo"
+  },
+  {
+    "name": "jungle_wood",
+    "image": "jungle_wood.webp",
+    "category": "blo"
+  },
+  {
+    "name": "kelp",
+    "image": "kelp.webp",
+    "category": "food"
+  },
+  {
+    "name": "ladder",
+    "image": "ladder.webp",
+    "category": "blo"
+  },
+  {
+    "name": "lantern",
+    "image": "lantern.webp",
+    "category": "var"
+  },
+  {
+    "name": "lapis_lazuli",
+    "image": "lapis_lazuli.webp",
+    "category": "val"
+  },
+  {
+    "name": "lapis_ore",
+    "image": "lapis_ore.webp",
+    "category": "val"
+  },
+  {
+    "name": "large_amethyst_bud",
+    "image": "large_amethyst_bud.webp",
+    "category": "val"
+  },
+  {
+    "name": "large_fern",
+    "image": "large_fern.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "lava_bucket",
+    "image": "lava_bucket.webp",
+    "category": "arm"
+  },
+  {
+    "name": "lead",
+    "image": "lead.webp",
+    "category": "arm"
+  },
+  {
+    "name": "leather",
+    "image": "leather.webp",
+    "category": "loot"
+  },
+  {
+    "name": "leather_boots",
+    "image": "leather_boots.webp",
+    "category": "arm"
+  },
+  {
+    "name": "leather_helmet",
+    "image": "leather_helmet.webp",
+    "category": "arm"
+  },
+  {
+    "name": "leather_horse_armor",
+    "image": "leather_horse_armor.webp",
+    "category": "arm"
+  },
+  {
+    "name": "leather_leggings",
+    "image": "leather_leggings.webp",
+    "category": "arm"
+  },
+  {
+    "name": "leather_chestplate",
+    "image": "leather_chestplate.webp",
+    "category": "arm"
+  },
+  {
+    "name": "lectern",
+    "image": "lectern.webp",
+    "category": "var"
+  },
+  {
+    "name": "lever",
+    "image": "lever.webp",
+    "category": "var"
+  },
+  {
+    "name": "light_blue_banner",
+    "image": "light_blue_banner.webp",
+    "category": "blo"
+  },
+  {
+    "name": "light_blue_bed",
+    "image": "light_blue_bed.webp",
+    "category": "blo"
+  },
+  {
+    "name": "light_blue_bundle",
+    "image": "light_blue_bundle.webp",
+    "category": "arm"
+  },
+  {
+    "name": "light_blue_candle",
+    "image": "light_blue_candle.webp",
+    "category": "var"
+  },
+  {
+    "name": "light_blue_carpet",
+    "image": "light_blue_carpet.webp",
+    "category": "blo"
+  },
+  {
+    "name": "light_blue_concrete",
+    "image": "light_blue_concrete.webp",
+    "category": "blo"
+  },
+  {
+    "name": "light_blue_concrete_powder",
+    "image": "light_blue_concrete_powder.webp",
+    "category": "blo"
+  },
+  {
+    "name": "light_blue_dye",
+    "image": "light_blue_dye.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "light_blue_glazed_terracotta",
+    "image": "light_blue_glazed_terracotta.webp",
+    "category": "blo"
+  },
+  {
+    "name": "light_blue_shulker_box",
+    "image": "light_blue_shulker_box.webp",
+    "category": "forb"
+  },
+  {
+    "name": "light_blue_stained_glass",
+    "image": "light_blue_stained_glass.webp",
+    "category": "blo"
+  },
+  {
+    "name": "light_blue_stained_glass_pane",
+    "image": "light_blue_stained_glass_pane.webp",
+    "category": "blo"
+  },
+  {
+    "name": "light_blue_terracotta",
+    "image": "light_blue_terracotta.webp",
+    "category": "blo"
+  },
+  {
+    "name": "light_blue_wool",
+    "image": "light_blue_wool.webp",
+    "category": "blo"
+  },
+  {
+    "name": "light_gray_banner",
+    "image": "light_gray_banner.webp",
+    "category": "blo"
+  },
+  {
+    "name": "light_gray_bed",
+    "image": "light_gray_bed.webp",
+    "category": "blo"
+  },
+  {
+    "name": "light_gray_bundle",
+    "image": "light_gray_bundle.webp",
+    "category": "arm"
+  },
+  {
+    "name": "light_gray_candle",
+    "image": "light_gray_candle.webp",
+    "category": "var"
+  },
+  {
+    "name": "light_gray_carpet",
+    "image": "light_gray_carpet.webp",
+    "category": "blo"
+  },
+  {
+    "name": "light_gray_concrete",
+    "image": "light_gray_concrete.webp",
+    "category": "blo"
+  },
+  {
+    "name": "light_gray_concrete_powder",
+    "image": "light_gray_concrete_powder.webp",
+    "category": "blo"
+  },
+  {
+    "name": "light_gray_dye",
+    "image": "light_gray_dye.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "light_gray_glazed_terracotta",
+    "image": "light_gray_glazed_terracotta.webp",
+    "category": "blo"
+  },
+  {
+    "name": "light_gray_shulker_box",
+    "image": "light_gray_shulker_box.webp",
+    "category": "forb"
+  },
+  {
+    "name": "light_gray_stained_glass",
+    "image": "light_gray_stained_glass.webp",
+    "category": "blo"
+  },
+  {
+    "name": "light_gray_stained_glass_pane",
+    "image": "light_gray_stained_glass_pane.webp",
+    "category": "blo"
+  },
+  {
+    "name": "light_gray_terracotta",
+    "image": "light_gray_terracotta.webp",
+    "category": "blo"
+  },
+  {
+    "name": "light_gray_wool",
+    "image": "light_gray_wool.webp",
+    "category": "blo"
+  },
+  {
+    "name": "light_weighted_pressure_plate",
+    "image": "light_weighted_pressure_plate.webp",
+    "category": "var"
+  },
+  {
+    "name": "lightning_rod",
+    "image": "lightning_rod.webp",
+    "category": "var"
+  },
+  {
+    "name": "lilac",
+    "image": "lilac.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "lily_pad",
+    "image": "lily_pad.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "lime_banner",
+    "image": "lime_banner.webp",
+    "category": "blo"
+  },
+  {
+    "name": "lime_bed",
+    "image": "lime_bed.webp",
+    "category": "blo"
+  },
+  {
+    "name": "lime_bundle",
+    "image": "lime_bundle.webp",
+    "category": "arm"
+  },
+  {
+    "name": "lime_candle",
+    "image": "lime_candle.webp",
+    "category": "var"
+  },
+  {
+    "name": "lime_carpet",
+    "image": "lime_carpet.webp",
+    "category": "blo"
+  },
+  {
+    "name": "lime_concrete",
+    "image": "lime_concrete.webp",
+    "category": "blo"
+  },
+  {
+    "name": "lime_concrete_powder",
+    "image": "lime_concrete_powder.webp",
+    "category": "blo"
+  },
+  {
+    "name": "lime_dye",
+    "image": "lime_dye.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "lime_glazed_terracotta",
+    "image": "lime_glazed_terracotta.webp",
+    "category": "blo"
+  },
+  {
+    "name": "lime_shulker_box",
+    "image": "lime_shulker_box.webp",
+    "category": "forb"
+  },
+  {
+    "name": "lime_stained_glass",
+    "image": "lime_stained_glass.webp",
+    "category": "blo"
+  },
+  {
+    "name": "lime_stained_glass_pane",
+    "image": "lime_stained_glass_pane.webp",
+    "category": "blo"
+  },
+  {
+    "name": "lime_terracotta",
+    "image": "lime_terracotta.webp",
+    "category": "blo"
+  },
+  {
+    "name": "lime_wool",
+    "image": "lime_wool.webp",
+    "category": "blo"
+  },
+  {
+    "name": "lodestone",
+    "image": "lodestone.webp",
+    "category": "var"
+  },
+  {
+    "name": "loom",
+    "image": "loom.webp",
+    "category": "var"
+  },
+  {
+    "name": "mace",
+    "image": "mace.webp",
+    "category": "arm"
+  },
+  {
+    "name": "magenta_banner",
+    "image": "magenta_banner.webp",
+    "category": "blo"
+  },
+  {
+    "name": "magenta_bed",
+    "image": "magenta_bed.webp",
+    "category": "blo"
+  },
+  {
+    "name": "magenta_bundle",
+    "image": "magenta_bundle.webp",
+    "category": "arm"
+  },
+  {
+    "name": "magenta_candle",
+    "image": "magenta_candle.webp",
+    "category": "var"
+  },
+  {
+    "name": "magenta_carpet",
+    "image": "magenta_carpet.webp",
+    "category": "blo"
+  },
+  {
+    "name": "magenta_concrete",
+    "image": "magenta_concrete.webp",
+    "category": "blo"
+  },
+  {
+    "name": "magenta_concrete_powder",
+    "image": "magenta_concrete_powder.webp",
+    "category": "blo"
+  },
+  {
+    "name": "magenta_dye",
+    "image": "magenta_dye.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "magenta_glazed_terracotta",
+    "image": "magenta_glazed_terracotta.webp",
+    "category": "blo"
+  },
+  {
+    "name": "magenta_shulker_box",
+    "image": "magenta_shulker_box.webp",
+    "category": "forb"
+  },
+  {
+    "name": "magenta_stained_glass",
+    "image": "magenta_stained_glass.webp",
+    "category": "blo"
+  },
+  {
+    "name": "magenta_stained_glass_pane",
+    "image": "magenta_stained_glass_pane.webp",
+    "category": "blo"
+  },
+  {
+    "name": "magenta_terracotta",
+    "image": "magenta_terracotta.webp",
+    "category": "blo"
+  },
+  {
+    "name": "magenta_wool",
+    "image": "magenta_wool.webp",
+    "category": "blo"
+  },
+  {
+    "name": "magma_block",
+    "image": "magma_block.webp",
+    "category": "blo"
+  },
+  {
+    "name": "magma_cream",
+    "image": "magma_cream.webp",
+    "category": "loot"
+  },
+  {
+    "name": "mangrove_boat",
+    "image": "mangrove_boat.webp",
+    "category": "var"
+  },
+  {
+    "name": "mangrove_chest_boat",
+    "image": "mangrove_chest_boat.webp",
+    "category": "var"
+  },
+  {
+    "name": "mangrove_button",
+    "image": "mangrove_button.webp",
+    "category": "var"
+  },
+  {
+    "name": "mangrove_door",
+    "image": "mangrove_door.webp",
+    "category": "blo"
+  },
+  {
+    "name": "mangrove_fence",
+    "image": "mangrove_fence.webp",
+    "category": "blo"
+  },
+  {
+    "name": "mangrove_fence_gate",
+    "image": "mangrove_fence_gate.webp",
+    "category": "blo"
+  },
+  {
+    "name": "mangrove_hanging_sign",
+    "image": "mangrove_hanging_sign.webp",
+    "category": "blo"
+  },
+  {
+    "name": "mangrove_leaves",
+    "image": "mangrove_leaves.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "mangrove_log",
+    "image": "mangrove_log.webp",
+    "category": "blo"
+  },
+  {
+    "name": "mangrove_planks",
+    "image": "mangrove_planks.webp",
+    "category": "blo"
+  },
+  {
+    "name": "mangrove_pressure_plate",
+    "image": "mangrove_pressure_plate.webp",
+    "category": "var"
+  },
+  {
+    "name": "mangrove_propagule",
+    "image": "mangrove_propagule.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "mangrove_roots",
+    "image": "mangrove_roots.webp",
+    "category": "blo"
+  },
+  {
+    "name": "mangrove_sign",
+    "image": "mangrove_sign.webp",
+    "category": "blo"
+  },
+  {
+    "name": "mangrove_slab",
+    "image": "mangrove_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "mangrove_stairs",
+    "image": "mangrove_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "mangrove_trapdoor",
+    "image": "mangrove_trapdoor.webp",
+    "category": "blo"
+  },
+  {
+    "name": "mangrove_wood",
+    "image": "mangrove_wood.webp",
+    "category": "blo"
+  },
+  {
+    "name": "filled_map",
+    "image": "filled_map.webp",
+    "category": "gal"
+  },
+  {
+    "name": "medium_amethyst_bud",
+    "image": "medium_amethyst_bud.webp",
+    "category": "val"
+  },
+  {
+    "name": "melon",
+    "image": "melon.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "melon_seeds",
+    "image": "melon_seeds.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "melon_slice",
+    "image": "melon_slice.webp",
+    "category": "food"
+  },
+  {
+    "name": "milk_bucket",
+    "image": "milk_bucket.webp",
+    "category": "food"
+  },
+  {
+    "name": "minecart",
+    "image": "minecart.webp",
+    "category": "var"
+  },
+  {
+    "name": "chest_minecart",
+    "image": "chest_minecart.webp",
+    "category": "var"
+  },
+  {
+    "name": "furnace_minecart",
+    "image": "furnace_minecart.webp",
+    "category": "var"
+  },
+  {
+    "name": "hopper_minecart",
+    "image": "hopper_minecart.webp",
+    "category": "var"
+  },
+  {
+    "name": "tnt_minecart",
+    "image": "tnt_minecart.webp",
+    "category": "var"
+  },
+  {
+    "name": "moss_block",
+    "image": "moss_block.webp",
+    "category": "blo"
+  },
+  {
+    "name": "moss_carpet",
+    "image": "moss_carpet.webp",
+    "category": "blo"
+  },
+  {
+    "name": "mossy_cobblestone",
+    "image": "mossy_cobblestone.webp",
+    "category": "blo"
+  },
+  {
+    "name": "mossy_cobblestone_slab",
+    "image": "mossy_cobblestone_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "mossy_cobblestone_stairs",
+    "image": "mossy_cobblestone_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "mossy_cobblestone_wall",
+    "image": "mossy_cobblestone_wall.webp",
+    "category": "blo"
+  },
+  {
+    "name": "mossy_stone_brick_slab",
+    "image": "mossy_stone_brick_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "mossy_stone_brick_stairs",
+    "image": "mossy_stone_brick_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "mossy_stone_brick_wall",
+    "image": "mossy_stone_brick_wall.webp",
+    "category": "blo"
+  },
+  {
+    "name": "mossy_stone_bricks",
+    "image": "mossy_stone_bricks.webp",
+    "category": "blo"
+  },
+  {
+    "name": "mud",
+    "image": "mud.webp",
+    "category": "blo"
+  },
+  {
+    "name": "mud_brick_slab",
+    "image": "mud_brick_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "mud_brick_stairs",
+    "image": "mud_brick_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "mud_brick_wall",
+    "image": "mud_brick_wall.webp",
+    "category": "blo"
+  },
+  {
+    "name": "mud_bricks",
+    "image": "mud_bricks.webp",
+    "category": "blo"
+  },
+  {
+    "name": "muddy_mangrove_roots",
+    "image": "muddy_mangrove_roots.webp",
+    "category": "blo"
+  },
+  {
+    "name": "mushroom_stem",
+    "image": "mushroom_stem.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "mushroom_stew",
+    "image": "mushroom_stew.webp",
+    "category": "food"
+  },
+  {
+    "name": "music_disc_pigstep",
+    "image": "music_disc_pigstep.webp",
+    "category": "val"
+  },
+  {
+    "name": "mycelium",
+    "image": "mycelium.webp",
+    "category": "blo"
+  },
+  {
+    "name": "name_tag",
+    "image": "name_tag.webp",
+    "category": "arm"
+  },
+  {
+    "name": "nautilus_shell",
+    "image": "nautilus_shell.webp",
+    "category": "val"
+  },
+  {
+    "name": "nether_brick",
+    "image": "nether_brick.webp",
+    "category": "blo"
+  },
+  {
+    "name": "nether_brick_fence",
+    "image": "nether_brick_fence.webp",
+    "category": "blo"
+  },
+  {
+    "name": "nether_brick_slab",
+    "image": "nether_brick_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "nether_brick_stairs",
+    "image": "nether_brick_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "nether_brick_wall",
+    "image": "nether_brick_wall.webp",
+    "category": "blo"
+  },
+  {
+    "name": "nether_bricks",
+    "image": "nether_bricks.webp",
+    "category": "blo"
+  },
+  {
+    "name": "nether_gold_ore",
+    "image": "nether_gold_ore.webp",
+    "category": "blo"
+  },
+  {
+    "name": "quartz",
+    "image": "quartz.webp",
+    "category": "val"
+  },
+  {
+    "name": "nether_quartz_ore",
+    "image": "nether_quartz_ore.webp",
+    "category": "val"
+  },
+  {
+    "name": "nether_sprouts",
+    "image": "nether_sprouts.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "nether_star",
+    "image": "nether_star.webp",
+    "category": "val"
+  },
+  {
+    "name": "nether_wart",
+    "image": "nether_wart.webp",
+    "category": "food"
+  },
+  {
+    "name": "nether_wart_block",
+    "image": "nether_wart_block.webp",
+    "category": "blo"
+  },
+  {
+    "name": "netherite_axe",
+    "image": "netherite_axe.webp",
+    "category": "arm"
+  },
+  {
+    "name": "netherite_boots",
+    "image": "netherite_boots.webp",
+    "category": "arm"
+  },
+  {
+    "name": "netherite_chestplate",
+    "image": "netherite_chestplate.webp",
+    "category": "arm"
+  },
+  {
+    "name": "netherite_helmet",
+    "image": "netherite_helmet.webp",
+    "category": "arm"
+  },
+  {
+    "name": "netherite_hoe",
+    "image": "netherite_hoe.webp",
+    "category": "arm"
+  },
+  {
+    "name": "netherite_ingot",
+    "image": "netherite_ingot.webp",
+    "category": "val"
+  },
+  {
+    "name": "netherite_leggings",
+    "image": "netherite_leggings.webp",
+    "category": "arm"
+  },
+  {
+    "name": "netherite_pickaxe",
+    "image": "netherite_pickaxe.webp",
+    "category": "arm"
+  },
+  {
+    "name": "netherite_scrap",
+    "image": "netherite_scrap.webp",
+    "category": "val"
+  },
+  {
+    "name": "netherite_shovel",
+    "image": "netherite_shovel.webp",
+    "category": "arm"
+  },
+  {
+    "name": "netherite_sword",
+    "image": "netherite_sword.webp",
+    "category": "arm"
+  },
+  {
+    "name": "netherrack",
+    "image": "netherrack.webp",
+    "category": "blo"
+  },
+  {
+    "name": "note_block",
+    "image": "note_block.webp",
+    "category": "var"
+  },
+  {
+    "name": "oak_boat",
+    "image": "oak_boat.webp",
+    "category": "var"
+  },
+  {
+    "name": "oak_chest_boat",
+    "image": "oak_chest_boat.webp",
+    "category": "var"
+  },
+  {
+    "name": "oak_button",
+    "image": "oak_button.webp",
+    "category": "var"
+  },
+  {
+    "name": "oak_door",
+    "image": "oak_door.webp",
+    "category": "blo"
+  },
+  {
+    "name": "oak_fence",
+    "image": "oak_fence.webp",
+    "category": "blo"
+  },
+  {
+    "name": "oak_fence_gate",
+    "image": "oak_fence_gate.webp",
+    "category": "blo"
+  },
+  {
+    "name": "oak_hanging_sign",
+    "image": "oak_hanging_sign.webp",
+    "category": "blo"
+  },
+  {
+    "name": "oak_leaves",
+    "image": "oak_leaves.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "oak_log",
+    "image": "oak_log.webp",
+    "category": "blo"
+  },
+  {
+    "name": "oak_planks",
+    "image": "oak_planks.webp",
+    "category": "blo"
+  },
+  {
+    "name": "oak_pressure_plate",
+    "image": "oak_pressure_plate.webp",
+    "category": "var"
+  },
+  {
+    "name": "oak_sapling",
+    "image": "oak_sapling.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "oak_sign",
+    "image": "oak_sign.webp",
+    "category": "blo"
+  },
+  {
+    "name": "oak_slab",
+    "image": "oak_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "oak_stairs",
+    "image": "oak_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "oak_trapdoor",
+    "image": "oak_trapdoor.webp",
+    "category": "blo"
+  },
+  {
+    "name": "oak_wood",
+    "image": "oak_wood.webp",
+    "category": "blo"
+  },
+  {
+    "name": "observer",
+    "image": "observer.webp",
+    "category": "var"
+  },
+  {
+    "name": "obsidian",
+    "image": "obsidian.webp",
+    "category": "blo"
+  },
+  {
+    "name": "ochre_froglight",
+    "image": "ochre_froglight.webp",
+    "category": "blo"
+  },
+  {
+    "name": "ominous_trial_key",
+    "image": "ominous_trial_key.webp",
+    "category": "arm"
+  },
+  {
+    "name": "orange_banner",
+    "image": "orange_banner.webp",
+    "category": "blo"
+  },
+  {
+    "name": "orange_bed",
+    "image": "orange_bed.webp",
+    "category": "blo"
+  },
+  {
+    "name": "orange_bundle",
+    "image": "orange_bundle.webp",
+    "category": "arm"
+  },
+  {
+    "name": "orange_candle",
+    "image": "orange_candle.webp",
+    "category": "var"
+  },
+  {
+    "name": "orange_carpet",
+    "image": "orange_carpet.webp",
+    "category": "blo"
+  },
+  {
+    "name": "orange_concrete",
+    "image": "orange_concrete.webp",
+    "category": "blo"
+  },
+  {
+    "name": "orange_concrete_powder",
+    "image": "orange_concrete_powder.webp",
+    "category": "blo"
+  },
+  {
+    "name": "orange_dye",
+    "image": "orange_dye.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "orange_glazed_terracotta",
+    "image": "orange_glazed_terracotta.webp",
+    "category": "blo"
+  },
+  {
+    "name": "orange_shulker_box",
+    "image": "orange_shulker_box.webp",
+    "category": "forb"
+  },
+  {
+    "name": "orange_stained_glass",
+    "image": "orange_stained_glass.webp",
+    "category": "blo"
+  },
+  {
+    "name": "orange_stained_glass_pane",
+    "image": "orange_stained_glass_pane.webp",
+    "category": "blo"
+  },
+  {
+    "name": "orange_terracotta",
+    "image": "orange_terracotta.webp",
+    "category": "blo"
+  },
+  {
+    "name": "orange_tulip",
+    "image": "orange_tulip.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "orange_wool",
+    "image": "orange_wool.webp",
+    "category": "blo"
+  },
+  {
+    "name": "oxeye_daisy",
+    "image": "oxeye_daisy.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "oxidized_chiseled_copper",
+    "image": "oxidized_chiseled_copper.webp",
+    "category": "blo"
+  },
+  {
+    "name": "oxidized_copper",
+    "image": "oxidized_copper.webp",
+    "category": "blo"
+  },
+  {
+    "name": "oxidized_copper_bulb",
+    "image": "oxidized_copper_bulb.webp",
+    "category": "blo"
+  },
+  {
+    "name": "oxidized_copper_door",
+    "image": "oxidized_copper_door.webp",
+    "category": "blo"
+  },
+  {
+    "name": "oxidized_copper_grate",
+    "image": "oxidized_copper_grate.webp",
+    "category": "blo"
+  },
+  {
+    "name": "oxidized_copper_trapdoor",
+    "image": "oxidized_copper_trapdoor.webp",
+    "category": "blo"
+  },
+  {
+    "name": "oxidized_cut_copper",
+    "image": "oxidized_cut_copper.webp",
+    "category": "blo"
+  },
+  {
+    "name": "oxidized_cut_copper_slab",
+    "image": "oxidized_cut_copper_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "oxidized_cut_copper_stairs",
+    "image": "oxidized_cut_copper_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "packed_ice",
+    "image": "packed_ice.webp",
+    "category": "blo"
+  },
+  {
+    "name": "packed_mud",
+    "image": "packed_mud.webp",
+    "category": "blo"
+  },
+  {
+    "name": "painting",
+    "image": "painting.webp",
+    "category": "var"
+  },
+  {
+    "name": "paper",
+    "image": "paper.webp",
+    "category": "var"
+  },
+  {
+    "name": "pearlescent_froglight",
+    "image": "pearlescent_froglight.webp",
+    "category": "blo"
+  },
+  {
+    "name": "peony",
+    "image": "peony.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "phantom_membrane",
+    "image": "phantom_membrane.webp",
+    "category": "loot"
+  },
+  {
+    "name": "piglin_head",
+    "image": "piglin_head.webp",
+    "category": "val"
+  },
+  {
+    "name": "pink_banner",
+    "image": "pink_banner.webp",
+    "category": "blo"
+  },
+  {
+    "name": "pink_bed",
+    "image": "pink_bed.webp",
+    "category": "blo"
+  },
+  {
+    "name": "pink_bundle",
+    "image": "pink_bundle.webp",
+    "category": "arm"
+  },
+  {
+    "name": "pink_candle",
+    "image": "pink_candle.webp",
+    "category": "var"
+  },
+  {
+    "name": "pink_carpet",
+    "image": "pink_carpet.webp",
+    "category": "blo"
+  },
+  {
+    "name": "pink_concrete",
+    "image": "pink_concrete.webp",
+    "category": "blo"
+  },
+  {
+    "name": "pink_concrete_powder",
+    "image": "pink_concrete_powder.webp",
+    "category": "blo"
+  },
+  {
+    "name": "pink_dye",
+    "image": "pink_dye.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "pink_glazed_terracotta",
+    "image": "pink_glazed_terracotta.webp",
+    "category": "blo"
+  },
+  {
+    "name": "pink_petals",
+    "image": "pink_petals.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "pink_shulker_box",
+    "image": "pink_shulker_box.webp",
+    "category": "forb"
+  },
+  {
+    "name": "pink_stained_glass",
+    "image": "pink_stained_glass.webp",
+    "category": "blo"
+  },
+  {
+    "name": "pink_stained_glass_pane",
+    "image": "pink_stained_glass_pane.webp",
+    "category": "blo"
+  },
+  {
+    "name": "pink_terracotta",
+    "image": "pink_terracotta.webp",
+    "category": "blo"
+  },
+  {
+    "name": "pink_tulip",
+    "image": "pink_tulip.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "pink_wool",
+    "image": "pink_wool.webp",
+    "category": "blo"
+  },
+  {
+    "name": "piston",
+    "image": "piston.webp",
+    "category": "var"
+  },
+  {
+    "name": "pitcher_plant",
+    "image": "pitcher_plant.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "pitcher_pod",
+    "image": "pitcher_pod.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "podzol",
+    "image": "podzol.webp",
+    "category": "blo"
+  },
+  {
+    "name": "pointed_dripstone",
+    "image": "pointed_dripstone.webp",
+    "category": "var"
+  },
+  {
+    "name": "poisonous_potato",
+    "image": "poisonous_potato.webp",
+    "category": "food"
+  },
+  {
+    "name": "polished_andesite",
+    "image": "polished_andesite.webp",
+    "category": "blo"
+  },
+  {
+    "name": "polished_andesite_slab",
+    "image": "polished_andesite_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "polished_andesite_stairs",
+    "image": "polished_andesite_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "polished_basalt",
+    "image": "polished_basalt.webp",
+    "category": "blo"
+  },
+  {
+    "name": "polished_blackstone",
+    "image": "polished_blackstone.webp",
+    "category": "blo"
+  },
+  {
+    "name": "polished_blackstone_brick_slab",
+    "image": "polished_blackstone_brick_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "polished_blackstone_brick_stairs",
+    "image": "polished_blackstone_brick_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "polished_blackstone_brick_wall",
+    "image": "polished_blackstone_brick_wall.webp",
+    "category": "blo"
+  },
+  {
+    "name": "polished_blackstone_bricks",
+    "image": "polished_blackstone_bricks.webp",
+    "category": "blo"
+  },
+  {
+    "name": "polished_blackstone_button",
+    "image": "polished_blackstone_button.webp",
+    "category": "var"
+  },
+  {
+    "name": "polished_blackstone_pressure_plate",
+    "image": "polished_blackstone_pressure_plate.webp",
+    "category": "var"
+  },
+  {
+    "name": "polished_blackstone_slab",
+    "image": "polished_blackstone_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "polished_blackstone_stairs",
+    "image": "polished_blackstone_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "polished_blackstone_wall",
+    "image": "polished_blackstone_wall.webp",
+    "category": "blo"
+  },
+  {
+    "name": "polished_deepslate",
+    "image": "polished_deepslate.webp",
+    "category": "blo"
+  },
+  {
+    "name": "polished_deepslate_slab",
+    "image": "polished_deepslate_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "polished_deepslate_stairs",
+    "image": "polished_deepslate_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "polished_deepslate_wall",
+    "image": "polished_deepslate_wall.webp",
+    "category": "blo"
+  },
+  {
+    "name": "polished_diorite",
+    "image": "polished_diorite.webp",
+    "category": "blo"
+  },
+  {
+    "name": "polished_diorite_slab",
+    "image": "polished_diorite_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "polished_diorite_stairs",
+    "image": "polished_diorite_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "polished_granite",
+    "image": "polished_granite.webp",
+    "category": "blo"
+  },
+  {
+    "name": "polished_granite_slab",
+    "image": "polished_granite_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "polished_granite_stairs",
+    "image": "polished_granite_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "polished_tuff",
+    "image": "polished_tuff.webp",
+    "category": "blo"
+  },
+  {
+    "name": "polished_tuff_slab",
+    "image": "polished_tuff_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "polished_tuff_stairs",
+    "image": "polished_tuff_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "polished_tuff_wall",
+    "image": "polished_tuff_wall.webp",
+    "category": "blo"
+  },
+  {
+    "name": "popped_chorus_fruit",
+    "image": "popped_chorus_fruit.webp",
+    "category": "var"
+  },
+  {
+    "name": "poppy",
+    "image": "poppy.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "potato",
+    "image": "potato.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "powder_snow_bucket",
+    "image": "powder_snow_bucket.webp",
+    "category": "var"
+  },
+  {
+    "name": "powered_rail",
+    "image": "powered_rail.webp",
+    "category": "var"
+  },
+  {
+    "name": "prismarine",
+    "image": "prismarine.webp",
+    "category": "blo"
+  },
+  {
+    "name": "prismarine_brick_slab",
+    "image": "prismarine_brick_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "prismarine_brick_stairs",
+    "image": "prismarine_brick_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "prismarine_bricks",
+    "image": "prismarine_bricks.webp",
+    "category": "blo"
+  },
+  {
+    "name": "prismarine_crystals",
+    "image": "prismarine_crystals.webp",
+    "category": "loot"
+  },
+  {
+    "name": "prismarine_shard",
+    "image": "prismarine_shard.webp",
+    "category": "loot"
+  },
+  {
+    "name": "prismarine_slab",
+    "image": "prismarine_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "prismarine_stairs",
+    "image": "prismarine_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "prismarine_wall",
+    "image": "prismarine_wall.webp",
+    "category": "blo"
+  },
+  {
+    "name": "pufferfish",
+    "image": "pufferfish.webp",
+    "category": "food"
+  },
+  {
+    "name": "pumpkin",
+    "image": "pumpkin.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "pumpkin_pie",
+    "image": "pumpkin_pie.webp",
+    "category": "food"
+  },
+  {
+    "name": "pumpkin_seeds",
+    "image": "pumpkin_seeds.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "purple_banner",
+    "image": "purple_banner.webp",
+    "category": "blo"
+  },
+  {
+    "name": "purple_bed",
+    "image": "purple_bed.webp",
+    "category": "blo"
+  },
+  {
+    "name": "purple_bundle",
+    "image": "purple_bundle.webp",
+    "category": "arm"
+  },
+  {
+    "name": "purple_candle",
+    "image": "purple_candle.webp",
+    "category": "var"
+  },
+  {
+    "name": "purple_carpet",
+    "image": "purple_carpet.webp",
+    "category": "blo"
+  },
+  {
+    "name": "purple_concrete",
+    "image": "purple_concrete.webp",
+    "category": "blo"
+  },
+  {
+    "name": "purple_concrete_powder",
+    "image": "purple_concrete_powder.webp",
+    "category": "blo"
+  },
+  {
+    "name": "purple_dye",
+    "image": "purple_dye.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "purple_glazed_terracotta",
+    "image": "purple_glazed_terracotta.webp",
+    "category": "blo"
+  },
+  {
+    "name": "purple_shulker_box",
+    "image": "purple_shulker_box.webp",
+    "category": "forb"
+  },
+  {
+    "name": "purple_stained_glass",
+    "image": "purple_stained_glass.webp",
+    "category": "blo"
+  },
+  {
+    "name": "purple_stained_glass_pane",
+    "image": "purple_stained_glass_pane.webp",
+    "category": "blo"
+  },
+  {
+    "name": "purple_terracotta",
+    "image": "purple_terracotta.webp",
+    "category": "blo"
+  },
+  {
+    "name": "purple_wool",
+    "image": "purple_wool.webp",
+    "category": "blo"
+  },
+  {
+    "name": "purpur_block",
+    "image": "purpur_block.webp",
+    "category": "blo"
+  },
+  {
+    "name": "purpur_pillar",
+    "image": "purpur_pillar.webp",
+    "category": "blo"
+  },
+  {
+    "name": "purpur_slab",
+    "image": "purpur_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "purpur_stairs",
+    "image": "purpur_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "quartz_bricks",
+    "image": "quartz_bricks.webp",
+    "category": "blo"
+  },
+  {
+    "name": "quartz_pillar",
+    "image": "quartz_pillar.webp",
+    "category": "blo"
+  },
+  {
+    "name": "quartz_slab",
+    "image": "quartz_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "quartz_stairs",
+    "image": "quartz_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "rabbit_hide",
+    "image": "rabbit_hide.webp",
+    "category": "loot"
+  },
+  {
+    "name": "rabbit_stew",
+    "image": "rabbit_stew.webp",
+    "category": "food"
+  },
+  {
+    "name": "rabbit_foot",
+    "image": "rabbit_foot.webp",
+    "category": "loot"
+  },
+  {
+    "name": "rail",
+    "image": "rail.webp",
+    "category": "var"
+  },
+  {
+    "name": "beef",
+    "image": "beef.webp",
+    "category": "food"
+  },
+  {
+    "name": "chicken",
+    "image": "chicken.webp",
+    "category": "food"
+  },
+  {
+    "name": "cod",
+    "image": "cod.webp",
+    "category": "food"
+  },
+  {
+    "name": "raw_copper",
+    "image": "raw_copper.webp",
+    "category": "val"
+  },
+  {
+    "name": "raw_gold",
+    "image": "raw_gold.webp",
+    "category": "val"
+  },
+  {
+    "name": "raw_iron",
+    "image": "raw_iron.webp",
+    "category": "val"
+  },
+  {
+    "name": "mutton",
+    "image": "mutton.webp",
+    "category": "food"
+  },
+  {
+    "name": "porkchop",
+    "image": "porkchop.webp",
+    "category": "food"
+  },
+  {
+    "name": "rabbit",
+    "image": "rabbit.webp",
+    "category": "food"
+  },
+  {
+    "name": "salmon",
+    "image": "salmon.webp",
+    "category": "food"
+  },
+  {
+    "name": "recovery_compass",
+    "image": "recovery_compass.webp",
+    "category": "arm"
+  },
+  {
+    "name": "red_banner",
+    "image": "red_banner.webp",
+    "category": "blo"
+  },
+  {
+    "name": "red_bed",
+    "image": "red_bed.webp",
+    "category": "blo"
+  },
+  {
+    "name": "red_bundle",
+    "image": "red_bundle.webp",
+    "category": "arm"
+  },
+  {
+    "name": "red_candle",
+    "image": "red_candle.webp",
+    "category": "var"
+  },
+  {
+    "name": "red_carpet",
+    "image": "red_carpet.webp",
+    "category": "blo"
+  },
+  {
+    "name": "red_concrete",
+    "image": "red_concrete.webp",
+    "category": "blo"
+  },
+  {
+    "name": "red_concrete_powder",
+    "image": "red_concrete_powder.webp",
+    "category": "blo"
+  },
+  {
+    "name": "red_dye",
+    "image": "red_dye.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "red_glazed_terracotta",
+    "image": "red_glazed_terracotta.webp",
+    "category": "blo"
+  },
+  {
+    "name": "red_mushroom",
+    "image": "red_mushroom.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "red_mushroom_block",
+    "image": "red_mushroom_block.webp",
+    "category": "blo"
+  },
+  {
+    "name": "red_nether_brick_slab",
+    "image": "red_nether_brick_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "red_nether_brick_stairs",
+    "image": "red_nether_brick_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "red_nether_brick_wall",
+    "image": "red_nether_brick_wall.webp",
+    "category": "blo"
+  },
+  {
+    "name": "red_nether_bricks",
+    "image": "red_nether_bricks.webp",
+    "category": "blo"
+  },
+  {
+    "name": "red_sand",
+    "image": "red_sand.webp",
+    "category": "blo"
+  },
+  {
+    "name": "red_sandstone",
+    "image": "red_sandstone.webp",
+    "category": "blo"
+  },
+  {
+    "name": "red_sandstone_slab",
+    "image": "red_sandstone_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "red_sandstone_stairs",
+    "image": "red_sandstone_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "red_sandstone_wall",
+    "image": "red_sandstone_wall.webp",
+    "category": "blo"
+  },
+  {
+    "name": "red_shulker_box",
+    "image": "red_shulker_box.webp",
+    "category": "forb"
+  },
+  {
+    "name": "red_stained_glass",
+    "image": "red_stained_glass.webp",
+    "category": "blo"
+  },
+  {
+    "name": "red_stained_glass_pane",
+    "image": "red_stained_glass_pane.webp",
+    "category": "blo"
+  },
+  {
+    "name": "red_terracotta",
+    "image": "red_terracotta.webp",
+    "category": "blo"
+  },
+  {
+    "name": "red_tulip",
+    "image": "red_tulip.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "red_wool",
+    "image": "red_wool.webp",
+    "category": "blo"
+  },
+  {
+    "name": "comparator",
+    "image": "comparator.webp",
+    "category": "var"
+  },
+  {
+    "name": "redstone",
+    "image": "redstone.webp",
+    "category": "var"
+  },
+  {
+    "name": "redstone_lamp",
+    "image": "redstone_lamp.webp",
+    "category": "var"
+  },
+  {
+    "name": "redstone_ore",
+    "image": "redstone_ore.webp",
+    "category": "var"
+  },
+  {
+    "name": "repeater",
+    "image": "repeater.webp",
+    "category": "var"
+  },
+  {
+    "name": "redstone_torch",
+    "image": "redstone_torch.webp",
+    "category": "var"
+  },
+  {
+    "name": "respawn_anchor",
+    "image": "respawn_anchor.webp",
+    "category": "var"
+  },
+  {
+    "name": "rooted_dirt",
+    "image": "rooted_dirt.webp",
+    "category": "blo"
+  },
+  {
+    "name": "rose_bush",
+    "image": "rose_bush.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "rotten_flesh",
+    "image": "rotten_flesh.webp",
+    "category": "loot"
+  },
+  {
+    "name": "saddle",
+    "image": "saddle.webp",
+    "category": "arm"
+  },
+  {
+    "name": "sand",
+    "image": "sand.webp",
+    "category": "blo"
+  },
+  {
+    "name": "sandstone",
+    "image": "sandstone.webp",
+    "category": "blo"
+  },
+  {
+    "name": "sandstone_slab",
+    "image": "sandstone_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "sandstone_stairs",
+    "image": "sandstone_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "sandstone_wall",
+    "image": "sandstone_wall.webp",
+    "category": "blo"
+  },
+  {
+    "name": "scaffolding",
+    "image": "scaffolding.webp",
+    "category": "blo"
+  },
+  {
+    "name": "sculk",
+    "image": "sculk.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "sculk_catalyst",
+    "image": "sculk_catalyst.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "sculk_sensor",
+    "image": "sculk_sensor.webp",
+    "category": "var"
+  },
+  {
+    "name": "sculk_shrieker",
+    "image": "sculk_shrieker.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "sculk_vein",
+    "image": "sculk_vein.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "sea_lantern",
+    "image": "sea_lantern.webp",
+    "category": "blo"
+  },
+  {
+    "name": "sea_pickle",
+    "image": "sea_pickle.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "seagrass",
+    "image": "seagrass.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "shears",
+    "image": "shears.webp",
+    "category": "arm"
+  },
+  {
+    "name": "shield",
+    "image": "shield.webp",
+    "category": "arm"
+  },
+  {
+    "name": "shroomlight",
+    "image": "shroomlight.webp",
+    "category": "blo"
+  },
+  {
+    "name": "shulker_box",
+    "image": "shulker_box.webp",
+    "category": "forb"
+  },
+  {
+    "name": "shulker_shell",
+    "image": "shulker_shell.webp",
+    "category": "forb"
+  },
+  {
+    "name": "skeleton_skull",
+    "image": "skeleton_skull.webp",
+    "category": "val"
+  },
+  {
+    "name": "slime_block",
+    "image": "slime_block.webp",
+    "category": "var"
+  },
+  {
+    "name": "slime_ball",
+    "image": "slime_ball.webp",
+    "category": "loot"
+  },
+  {
+    "name": "small_amethyst_bud",
+    "image": "small_amethyst_bud.webp",
+    "category": "val"
+  },
+  {
+    "name": "small_dripleaf",
+    "image": "small_dripleaf.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "smithing_table",
+    "image": "smithing_table.webp",
+    "category": "var"
+  },
+  {
+    "name": "smoker",
+    "image": "smoker.webp",
+    "category": "var"
+  },
+  {
+    "name": "smooth_basalt",
+    "image": "smooth_basalt.webp",
+    "category": "blo"
+  },
+  {
+    "name": "smooth_quartz",
+    "image": "smooth_quartz.webp",
+    "category": "blo"
+  },
+  {
+    "name": "smooth_quartz_slab",
+    "image": "smooth_quartz_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "smooth_quartz_stairs",
+    "image": "smooth_quartz_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "smooth_red_sandstone",
+    "image": "smooth_red_sandstone.webp",
+    "category": "blo"
+  },
+  {
+    "name": "smooth_red_sandstone_slab",
+    "image": "smooth_red_sandstone_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "smooth_red_sandstone_stairs",
+    "image": "smooth_red_sandstone_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "smooth_sandstone",
+    "image": "smooth_sandstone.webp",
+    "category": "blo"
+  },
+  {
+    "name": "smooth_sandstone_slab",
+    "image": "smooth_sandstone_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "smooth_sandstone_stairs",
+    "image": "smooth_sandstone_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "smooth_stone",
+    "image": "smooth_stone.webp",
+    "category": "blo"
+  },
+  {
+    "name": "smooth_stone_slab",
+    "image": "smooth_stone_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "sniffer_egg",
+    "image": "sniffer_egg.webp",
+    "category": "loot"
+  },
+  {
+    "name": "snow",
+    "image": "snow.webp",
+    "category": "blo"
+  },
+  {
+    "name": "snow_block",
+    "image": "snow_block.webp",
+    "category": "blo"
+  },
+  {
+    "name": "snowball",
+    "image": "snowball.webp",
+    "category": "var"
+  },
+  {
+    "name": "soul_campfire",
+    "image": "soul_campfire.webp",
+    "category": "var"
+  },
+  {
+    "name": "soul_lantern",
+    "image": "soul_lantern.webp",
+    "category": "var"
+  },
+  {
+    "name": "soul_sand",
+    "image": "soul_sand.webp",
+    "category": "blo"
+  },
+  {
+    "name": "soul_soil",
+    "image": "soul_soil.webp",
+    "category": "blo"
+  },
+  {
+    "name": "soul_torch",
+    "image": "soul_torch.webp",
+    "category": "var"
+  },
+  {
+    "name": "spectral_arrow",
+    "image": "spectral_arrow.webp",
+    "category": "arm"
+  },
+  {
+    "name": "spider_eye",
+    "image": "spider_eye.webp",
+    "category": "loot"
+  },
+  {
+    "name": "sponge",
+    "image": "sponge.webp",
+    "category": "val"
+  },
+  {
+    "name": "spore_blossom",
+    "image": "spore_blossom.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "spruce_boat",
+    "image": "spruce_boat.webp",
+    "category": "var"
+  },
+  {
+    "name": "spruce_chest_boat",
+    "image": "spruce_chest_boat.webp",
+    "category": "var"
+  },
+  {
+    "name": "spruce_button",
+    "image": "spruce_button.webp",
+    "category": "var"
+  },
+  {
+    "name": "spruce_door",
+    "image": "spruce_door.webp",
+    "category": "blo"
+  },
+  {
+    "name": "spruce_fence",
+    "image": "spruce_fence.webp",
+    "category": "blo"
+  },
+  {
+    "name": "spruce_fence_gate",
+    "image": "spruce_fence_gate.webp",
+    "category": "blo"
+  },
+  {
+    "name": "spruce_hanging_sign",
+    "image": "spruce_hanging_sign.webp",
+    "category": "blo"
+  },
+  {
+    "name": "spruce_leaves",
+    "image": "spruce_leaves.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "spruce_log",
+    "image": "spruce_log.webp",
+    "category": "blo"
+  },
+  {
+    "name": "spruce_planks",
+    "image": "spruce_planks.webp",
+    "category": "blo"
+  },
+  {
+    "name": "spruce_pressure_plate",
+    "image": "spruce_pressure_plate.webp",
+    "category": "var"
+  },
+  {
+    "name": "spruce_sapling",
+    "image": "spruce_sapling.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "spruce_sign",
+    "image": "spruce_sign.webp",
+    "category": "blo"
+  },
+  {
+    "name": "spruce_slab",
+    "image": "spruce_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "spruce_stairs",
+    "image": "spruce_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "spruce_trapdoor",
+    "image": "spruce_trapdoor.webp",
+    "category": "blo"
+  },
+  {
+    "name": "spruce_wood",
+    "image": "spruce_wood.webp",
+    "category": "blo"
+  },
+  {
+    "name": "spyglass",
+    "image": "spyglass.webp",
+    "category": "arm"
+  },
+  {
+    "name": "cooked_beef",
+    "image": "cooked_beef.webp",
+    "category": "food"
+  },
+  {
+    "name": "stick",
+    "image": "stick.webp",
+    "category": "var"
+  },
+  {
+    "name": "sticky_piston",
+    "image": "sticky_piston.webp",
+    "category": "var"
+  },
+  {
+    "name": "stone",
+    "image": "stone.webp",
+    "category": "blo"
+  },
+  {
+    "name": "stone_axe",
+    "image": "stone_axe.webp",
+    "category": "arm"
+  },
+  {
+    "name": "stone_brick_slab",
+    "image": "stone_brick_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "stone_brick_stairs",
+    "image": "stone_brick_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "stone_brick_wall",
+    "image": "stone_brick_wall.webp",
+    "category": "blo"
+  },
+  {
+    "name": "stone_bricks",
+    "image": "stone_bricks.webp",
+    "category": "blo"
+  },
+  {
+    "name": "stone_button",
+    "image": "stone_button.webp",
+    "category": "var"
+  },
+  {
+    "name": "stone_hoe",
+    "image": "stone_hoe.webp",
+    "category": "arm"
+  },
+  {
+    "name": "stone_pickaxe",
+    "image": "stone_pickaxe.webp",
+    "category": "arm"
+  },
+  {
+    "name": "stone_pressure_plate",
+    "image": "stone_pressure_plate.webp",
+    "category": "var"
+  },
+  {
+    "name": "stone_shovel",
+    "image": "stone_shovel.webp",
+    "category": "arm"
+  },
+  {
+    "name": "stone_slab",
+    "image": "stone_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "stone_stairs",
+    "image": "stone_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "stone_sword",
+    "image": "stone_sword.webp",
+    "category": "arm"
+  },
+  {
+    "name": "stonecutter",
+    "image": "stonecutter.webp",
+    "category": "var"
+  },
+  {
+    "name": "string",
+    "image": "string.webp",
+    "category": "loot"
+  },
+  {
+    "name": "stripped_acacia_log",
+    "image": "stripped_acacia_log.webp",
+    "category": "blo"
+  },
+  {
+    "name": "stripped_acacia_wood",
+    "image": "stripped_acacia_wood.webp",
+    "category": "blo"
+  },
+  {
+    "name": "stripped_birch_log",
+    "image": "stripped_birch_log.webp",
+    "category": "blo"
+  },
+  {
+    "name": "stripped_birch_wood",
+    "image": "stripped_birch_wood.webp",
+    "category": "blo"
+  },
+  {
+    "name": "stripped_cherry_log",
+    "image": "stripped_cherry_log.webp",
+    "category": "blo"
+  },
+  {
+    "name": "stripped_cherry_wood",
+    "image": "stripped_cherry_wood.webp",
+    "category": "blo"
+  },
+  {
+    "name": "stripped_crimson_hyphae",
+    "image": "stripped_crimson_hyphae.webp",
+    "category": "blo"
+  },
+  {
+    "name": "stripped_crimson_stem",
+    "image": "stripped_crimson_stem.webp",
+    "category": "blo"
+  },
+  {
+    "name": "stripped_dark_oak_log",
+    "image": "stripped_dark_oak_log.webp",
+    "category": "blo"
+  },
+  {
+    "name": "stripped_dark_oak_wood",
+    "image": "stripped_dark_oak_wood.webp",
+    "category": "blo"
+  },
+  {
+    "name": "stripped_jungle_log",
+    "image": "stripped_jungle_log.webp",
+    "category": "blo"
+  },
+  {
+    "name": "stripped_jungle_wood",
+    "image": "stripped_jungle_wood.webp",
+    "category": "blo"
+  },
+  {
+    "name": "stripped_mangrove_log",
+    "image": "stripped_mangrove_log.webp",
+    "category": "blo"
+  },
+  {
+    "name": "stripped_mangrove_wood",
+    "image": "stripped_mangrove_wood.webp",
+    "category": "blo"
+  },
+  {
+    "name": "stripped_oak_log",
+    "image": "stripped_oak_log.webp",
+    "category": "blo"
+  },
+  {
+    "name": "stripped_oak_wood",
+    "image": "stripped_oak_wood.webp",
+    "category": "blo"
+  },
+  {
+    "name": "stripped_pale_oak_log",
+    "image": "stripped_pale_oak_log.webp",
+    "category": "blo"
+  },
+  {
+    "name": "stripped_pale_oak_wood",
+    "image": "stripped_pale_oak_wood.webp",
+    "category": "blo"
+  },
+  {
+    "name": "stripped_spruce_log",
+    "image": "stripped_spruce_log.webp",
+    "category": "blo"
+  },
+  {
+    "name": "stripped_spruce_wood",
+    "image": "stripped_spruce_wood.webp",
+    "category": "blo"
+  },
+  {
+    "name": "stripped_warped_hyphae",
+    "image": "stripped_warped_hyphae.webp",
+    "category": "blo"
+  },
+  {
+    "name": "stripped_warped_stem",
+    "image": "stripped_warped_stem.webp",
+    "category": "blo"
+  },
+  {
+    "name": "sugar",
+    "image": "sugar.webp",
+    "category": "food"
+  },
+  {
+    "name": "sugar_cane",
+    "image": "sugar_cane.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "sunflower",
+    "image": "sunflower.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "suspicious_stew",
+    "image": "suspicious_stew.webp",
+    "category": "food"
+  },
+  {
+    "name": "sweet_berries",
+    "image": "sweet_berries.webp",
+    "category": "food"
+  },
+  {
+    "name": "tall_grass",
+    "image": "tall_grass.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "target",
+    "image": "target.webp",
+    "category": "var"
+  },
+  {
+    "name": "terracotta",
+    "image": "terracotta.webp",
+    "category": "blo"
+  },
+  {
+    "name": "tinted_glass",
+    "image": "tinted_glass.webp",
+    "category": "blo"
+  },
+  {
+    "name": "tnt",
+    "image": "tnt.webp",
+    "category": "var"
+  },
+  {
+    "name": "torch",
+    "image": "torch.webp",
+    "category": "var"
+  },
+  {
+    "name": "torchflower",
+    "image": "torchflower.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "torchflower_seeds",
+    "image": "torchflower_seeds.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "totem_of_undying",
+    "image": "totem_of_undying.webp",
+    "category": "arm"
+  },
+  {
+    "name": "trapped_chest",
+    "image": "trapped_chest.webp",
+    "category": "var"
+  },
+  {
+    "name": "trial_key",
+    "image": "trial_key.webp",
+    "category": "arm"
+  },
+  {
+    "name": "trident",
+    "image": "trident.webp",
+    "category": "arm"
+  },
+  {
+    "name": "tripwire_hook",
+    "image": "tripwire_hook.webp",
+    "category": "var"
+  },
+  {
+    "name": "tropical_fish",
+    "image": "tropical_fish.webp",
+    "category": "food"
+  },
+  {
+    "name": "tube_coral",
+    "image": "tube_coral.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "tube_coral_block",
+    "image": "tube_coral_block.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "tube_coral_fan",
+    "image": "tube_coral_fan.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "tuff",
+    "image": "tuff.webp",
+    "category": "blo"
+  },
+  {
+    "name": "tuff_brick_slab",
+    "image": "tuff_brick_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "tuff_brick_stairs",
+    "image": "tuff_brick_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "tuff_brick_wall",
+    "image": "tuff_brick_wall.webp",
+    "category": "blo"
+  },
+  {
+    "name": "tuff_bricks",
+    "image": "tuff_bricks.webp",
+    "category": "blo"
+  },
+  {
+    "name": "tuff_slab",
+    "image": "tuff_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "tuff_stairs",
+    "image": "tuff_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "tuff_wall",
+    "image": "tuff_wall.webp",
+    "category": "blo"
+  },
+  {
+    "name": "turtle_egg",
+    "image": "turtle_egg.webp",
+    "category": "loot"
+  },
+  {
+    "name": "turtle_scute",
+    "image": "turtle_scute.webp",
+    "category": "loot"
+  },
+  {
+    "name": "turtle_helmet",
+    "image": "turtle_helmet.webp",
+    "category": "arm"
+  },
+  {
+    "name": "twisting_vines",
+    "image": "twisting_vines.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "verdant_froglight",
+    "image": "verdant_froglight.webp",
+    "category": "blo"
+  },
+  {
+    "name": "vine",
+    "image": "vine.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "warped_button",
+    "image": "warped_button.webp",
+    "category": "var"
+  },
+  {
+    "name": "warped_door",
+    "image": "warped_door.webp",
+    "category": "blo"
+  },
+  {
+    "name": "warped_fence",
+    "image": "warped_fence.webp",
+    "category": "blo"
+  },
+  {
+    "name": "warped_fence_gate",
+    "image": "warped_fence_gate.webp",
+    "category": "blo"
+  },
+  {
+    "name": "warped_fungus",
+    "image": "warped_fungus.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "warped_fungus_on_a_stick",
+    "image": "warped_fungus_on_a_stick.webp",
+    "category": "arm"
+  },
+  {
+    "name": "warped_hanging_sign",
+    "image": "warped_hanging_sign.webp",
+    "category": "blo"
+  },
+  {
+    "name": "warped_hyphae",
+    "image": "warped_hyphae.webp",
+    "category": "blo"
+  },
+  {
+    "name": "warped_nylium",
+    "image": "warped_nylium.webp",
+    "category": "blo"
+  },
+  {
+    "name": "warped_planks",
+    "image": "warped_planks.webp",
+    "category": "blo"
+  },
+  {
+    "name": "warped_pressure_plate",
+    "image": "warped_pressure_plate.webp",
+    "category": "var"
+  },
+  {
+    "name": "warped_roots",
+    "image": "warped_roots.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "warped_sign",
+    "image": "warped_sign.webp",
+    "category": "blo"
+  },
+  {
+    "name": "warped_slab",
+    "image": "warped_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "warped_stairs",
+    "image": "warped_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "warped_stem",
+    "image": "warped_stem.webp",
+    "category": "blo"
+  },
+  {
+    "name": "warped_trapdoor",
+    "image": "warped_trapdoor.webp",
+    "category": "blo"
+  },
+  {
+    "name": "warped_wart_block",
+    "image": "warped_wart_block.webp",
+    "category": "blo"
+  },
+  {
+    "name": "water_bucket",
+    "image": "water_bucket.webp",
+    "category": "arm"
+  },
+  {
+    "name": "waxed_copper_block",
+    "image": "waxed_copper_block.webp",
+    "category": "blo"
+  },
+  {
+    "name": "waxed_chiseled_copper",
+    "image": "waxed_chiseled_copper.webp",
+    "category": "blo"
+  },
+  {
+    "name": "waxed_copper_bulb",
+    "image": "waxed_copper_bulb.webp",
+    "category": "blo"
+  },
+  {
+    "name": "waxed_copper_door",
+    "image": "waxed_copper_door.webp",
+    "category": "blo"
+  },
+  {
+    "name": "waxed_copper_grate",
+    "image": "waxed_copper_grate.webp",
+    "category": "blo"
+  },
+  {
+    "name": "waxed_copper_trapdoor",
+    "image": "waxed_copper_trapdoor.webp",
+    "category": "blo"
+  },
+  {
+    "name": "waxed_cut_copper",
+    "image": "waxed_cut_copper.webp",
+    "category": "blo"
+  },
+  {
+    "name": "waxed_cut_copper_slab",
+    "image": "waxed_cut_copper_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "waxed_cut_copper_stairs",
+    "image": "waxed_cut_copper_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "waxed_exposed_chiseled_copper",
+    "image": "waxed_exposed_chiseled_copper.webp",
+    "category": "blo"
+  },
+  {
+    "name": "waxed_exposed_copper",
+    "image": "waxed_exposed_copper.webp",
+    "category": "blo"
+  },
+  {
+    "name": "waxed_exposed_copper_bulb",
+    "image": "waxed_exposed_copper_bulb.webp",
+    "category": "blo"
+  },
+  {
+    "name": "waxed_exposed_copper_door",
+    "image": "waxed_exposed_copper_door.webp",
+    "category": "blo"
+  },
+  {
+    "name": "waxed_exposed_copper_grate",
+    "image": "waxed_exposed_copper_grate.webp",
+    "category": "blo"
+  },
+  {
+    "name": "waxed_exposed_copper_trapdoor",
+    "image": "waxed_exposed_copper_trapdoor.webp",
+    "category": "blo"
+  },
+  {
+    "name": "waxed_exposed_cut_copper",
+    "image": "waxed_exposed_cut_copper.webp",
+    "category": "blo"
+  },
+  {
+    "name": "waxed_exposed_cut_copper_slab",
+    "image": "waxed_exposed_cut_copper_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "waxed_exposed_cut_copper_stairs",
+    "image": "waxed_exposed_cut_copper_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "waxed_oxidized_chiseled_copper",
+    "image": "waxed_oxidized_chiseled_copper.webp",
+    "category": "blo"
+  },
+  {
+    "name": "waxed_oxidized_copper",
+    "image": "waxed_oxidized_copper.webp",
+    "category": "blo"
+  },
+  {
+    "name": "waxed_oxidized_copper_bulb",
+    "image": "waxed_oxidized_copper_bulb.webp",
+    "category": "blo"
+  },
+  {
+    "name": "waxed_oxidized_copper_door",
+    "image": "waxed_oxidized_copper_door.webp",
+    "category": "blo"
+  },
+  {
+    "name": "waxed_oxidized_copper_grate",
+    "image": "waxed_oxidized_copper_grate.webp",
+    "category": "blo"
+  },
+  {
+    "name": "waxed_oxidized_copper_trapdoor",
+    "image": "waxed_oxidized_copper_trapdoor.webp",
+    "category": "blo"
+  },
+  {
+    "name": "waxed_oxidized_cut_copper",
+    "image": "waxed_oxidized_cut_copper.webp",
+    "category": "blo"
+  },
+  {
+    "name": "waxed_oxidized_cut_copper_slab",
+    "image": "waxed_oxidized_cut_copper_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "waxed_oxidized_cut_copper_stairs",
+    "image": "waxed_oxidized_cut_copper_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "waxed_weathered_chiseled_copper",
+    "image": "waxed_weathered_chiseled_copper.webp",
+    "category": "blo"
+  },
+  {
+    "name": "waxed_weathered_copper",
+    "image": "waxed_weathered_copper.webp",
+    "category": "blo"
+  },
+  {
+    "name": "waxed_weathered_copper_bulb",
+    "image": "waxed_weathered_copper_bulb.webp",
+    "category": "blo"
+  },
+  {
+    "name": "waxed_weathered_copper_door",
+    "image": "waxed_weathered_copper_door.webp",
+    "category": "blo"
+  },
+  {
+    "name": "waxed_weathered_copper_grate",
+    "image": "waxed_weathered_copper_grate.webp",
+    "category": "blo"
+  },
+  {
+    "name": "waxed_weathered_copper_trapdoor",
+    "image": "waxed_weathered_copper_trapdoor.webp",
+    "category": "blo"
+  },
+  {
+    "name": "waxed_weathered_cut_copper",
+    "image": "waxed_weathered_cut_copper.webp",
+    "category": "blo"
+  },
+  {
+    "name": "waxed_weathered_cut_copper_slab",
+    "image": "waxed_weathered_cut_copper_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "waxed_weathered_cut_copper_stairs",
+    "image": "waxed_weathered_cut_copper_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "weathered_chiseled_copper",
+    "image": "weathered_chiseled_copper.webp",
+    "category": "blo"
+  },
+  {
+    "name": "weathered_copper",
+    "image": "weathered_copper.webp",
+    "category": "blo"
+  },
+  {
+    "name": "weathered_copper_bulb",
+    "image": "weathered_copper_bulb.webp",
+    "category": "blo"
+  },
+  {
+    "name": "weathered_copper_door",
+    "image": "weathered_copper_door.webp",
+    "category": "blo"
+  },
+  {
+    "name": "weathered_copper_grate",
+    "image": "weathered_copper_grate.webp",
+    "category": "blo"
+  },
+  {
+    "name": "weathered_copper_trapdoor",
+    "image": "weathered_copper_trapdoor.webp",
+    "category": "blo"
+  },
+  {
+    "name": "weathered_cut_copper",
+    "image": "weathered_cut_copper.webp",
+    "category": "blo"
+  },
+  {
+    "name": "weathered_cut_copper_slab",
+    "image": "weathered_cut_copper_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "weathered_cut_copper_stairs",
+    "image": "weathered_cut_copper_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "weeping_vines",
+    "image": "weeping_vines.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "wet_sponge",
+    "image": "wet_sponge.webp",
+    "category": "val"
+  },
+  {
+    "name": "wheat",
+    "image": "wheat.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "wheat_seeds",
+    "image": "wheat_seeds.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "white_banner",
+    "image": "white_banner.webp",
+    "category": "blo"
+  },
+  {
+    "name": "white_bed",
+    "image": "white_bed.webp",
+    "category": "blo"
+  },
+  {
+    "name": "white_bundle",
+    "image": "white_bundle.webp",
+    "category": "arm"
+  },
+  {
+    "name": "white_candle",
+    "image": "white_candle.webp",
+    "category": "var"
+  },
+  {
+    "name": "white_carpet",
+    "image": "white_carpet.webp",
+    "category": "blo"
+  },
+  {
+    "name": "white_concrete",
+    "image": "white_concrete.webp",
+    "category": "blo"
+  },
+  {
+    "name": "white_concrete_powder",
+    "image": "white_concrete_powder.webp",
+    "category": "blo"
+  },
+  {
+    "name": "white_dye",
+    "image": "white_dye.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "white_glazed_terracotta",
+    "image": "white_glazed_terracotta.webp",
+    "category": "blo"
+  },
+  {
+    "name": "white_shulker_box",
+    "image": "white_shulker_box.webp",
+    "category": "forb"
+  },
+  {
+    "name": "white_stained_glass",
+    "image": "white_stained_glass.webp",
+    "category": "blo"
+  },
+  {
+    "name": "white_stained_glass_pane",
+    "image": "white_stained_glass_pane.webp",
+    "category": "blo"
+  },
+  {
+    "name": "white_terracotta",
+    "image": "white_terracotta.webp",
+    "category": "blo"
+  },
+  {
+    "name": "white_tulip",
+    "image": "white_tulip.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "white_wool",
+    "image": "white_wool.webp",
+    "category": "blo"
+  },
+  {
+    "name": "wind_charge",
+    "image": "wind_charge.webp",
+    "category": "loot"
+  },
+  {
+    "name": "wither_rose",
+    "image": "wither_rose.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "wither_skeleton_skull",
+    "image": "wither_skeleton_skull.webp",
+    "category": "val"
+  },
+  {
+    "name": "wolf_armor",
+    "image": "wolf_armor.webp",
+    "category": "arm"
+  },
+  {
+    "name": "wooden_axe",
+    "image": "wooden_axe.webp",
+    "category": "arm"
+  },
+  {
+    "name": "wooden_hoe",
+    "image": "wooden_hoe.webp",
+    "category": "arm"
+  },
+  {
+    "name": "wooden_pickaxe",
+    "image": "wooden_pickaxe.webp",
+    "category": "arm"
+  },
+  {
+    "name": "wooden_shovel",
+    "image": "wooden_shovel.webp",
+    "category": "arm"
+  },
+  {
+    "name": "wooden_sword",
+    "image": "wooden_sword.webp",
+    "category": "arm"
+  },
+  {
+    "name": "written_book",
+    "image": "written_book.webp",
+    "category": "boo"
+  },
+  {
+    "name": "yellow_banner",
+    "image": "yellow_banner.webp",
+    "category": "blo"
+  },
+  {
+    "name": "yellow_bed",
+    "image": "yellow_bed.webp",
+    "category": "blo"
+  },
+  {
+    "name": "yellow_bundle",
+    "image": "yellow_bundle.webp",
+    "category": "arm"
+  },
+  {
+    "name": "yellow_candle",
+    "image": "yellow_candle.webp",
+    "category": "var"
+  },
+  {
+    "name": "yellow_carpet",
+    "image": "yellow_carpet.webp",
+    "category": "blo"
+  },
+  {
+    "name": "yellow_concrete",
+    "image": "yellow_concrete.webp",
+    "category": "blo"
+  },
+  {
+    "name": "yellow_concrete_powder",
+    "image": "yellow_concrete_powder.webp",
+    "category": "blo"
+  },
+  {
+    "name": "yellow_dye",
+    "image": "yellow_dye.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "yellow_glazed_terracotta",
+    "image": "yellow_glazed_terracotta.webp",
+    "category": "blo"
+  },
+  {
+    "name": "yellow_shulker_box",
+    "image": "yellow_shulker_box.webp",
+    "category": "forb"
+  },
+  {
+    "name": "yellow_stained_glass",
+    "image": "yellow_stained_glass.webp",
+    "category": "blo"
+  },
+  {
+    "name": "yellow_stained_glass_pane",
+    "image": "yellow_stained_glass_pane.webp",
+    "category": "blo"
+  },
+  {
+    "name": "yellow_terracotta",
+    "image": "yellow_terracotta.webp",
+    "category": "blo"
+  },
+  {
+    "name": "yellow_wool",
+    "image": "yellow_wool.webp",
+    "category": "blo"
+  },
+  {
+    "name": "zombie_head",
+    "image": "zombie_head.webp",
+    "category": "val"
+  },
+  {
+    "name": "light",
+    "image": "light.webp",
+    "category": "val"
+  },
+  {
+    "name": "structure_void",
+    "image": "structure_void.webp",
+    "category": "val"
+  },
+  {
+    "name": "enchanted_book",
+    "image": "enchanted_book.webp",
+    "category": "boo"
+  },
+  {
+    "name": "creaking_heart",
+    "image": "creaking_heart.webp",
+    "category": "blo"
+  },
+  {
+    "name": "pale_oak_wood",
+    "image": "pale_oak_wood.webp",
+    "category": "blo"
+  },
+  {
+    "name": "stripped_pale_oak_wood",
+    "image": "stripped_pale_oak_wood.webp",
+    "category": "blo"
+  },
+  {
+    "name": "pale_oak_log",
+    "image": "pale_oak_log.webp",
+    "category": "blo"
+  },
+  {
+    "name": "stripped_pale_oak_log",
+    "image": "stripped_pale_oak_log.webp",
+    "category": "blo"
+  },
+  {
+    "name": "pale_oak_planks",
+    "image": "pale_oak_planks.webp",
+    "category": "blo"
+  },
+  {
+    "name": "pale_oak_stairs",
+    "image": "pale_oak_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "pale_oak_slab",
+    "image": "pale_oak_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "pale_oak_sign",
+    "image": "pale_oak_sign.webp",
+    "category": "blo"
+  },
+  {
+    "name": "pale_oak_hanging_sign",
+    "image": "pale_oak_hanging_sign.webp",
+    "category": "blo"
+  },
+  {
+    "name": "pale_oak_button",
+    "image": "pale_oak_button.webp",
+    "category": "var"
+  },
+  {
+    "name": "pale_oak_pressure_plate",
+    "image": "pale_oak_pressure_plate.webp",
+    "category": "var"
+  },
+  {
+    "name": "pale_oak_door",
+    "image": "pale_oak_door.webp",
+    "category": "blo"
+  },
+  {
+    "name": "pale_oak_fence",
+    "image": "pale_oak_fence.webp",
+    "category": "blo"
+  },
+  {
+    "name": "pale_oak_fence_gate",
+    "image": "pale_oak_fence_gate.webp",
+    "category": "blo"
+  },
+  {
+    "name": "pale_oak_trapdoor",
+    "image": "pale_oak_trapdoor.webp",
+    "category": "blo"
+  },
+  {
+    "name": "pale_oak_boat",
+    "image": "pale_oak_boat.webp",
+    "category": "var"
+  },
+  {
+    "name": "pale_oak_chest_boat",
+    "image": "pale_oak_chest_boat.webp",
+    "category": "var"
+  },
+  {
+    "name": "pale_hanging_moss",
+    "image": "pale_hanging_moss.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "pale_moss_block",
+    "image": "pale_moss_block.webp",
+    "category": "blo"
+  },
+  {
+    "name": "pale_moss_carpet",
+    "image": "pale_moss_carpet.webp",
+    "category": "blo"
+  },
+  {
+    "name": "pale_oak_leaves",
+    "image": "pale_oak_leaves.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "pale_oak_sapling",
+    "image": "pale_oak_sapling.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "closed_eyeblossom",
+    "image": "closed_eyeblossom.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "open_eyeblossom",
+    "image": "open_eyeblossom.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "resin_block",
+    "image": "resin_block.webp",
+    "category": "blo"
+  },
+  {
+    "name": "resin_bricks",
+    "image": "resin_bricks.webp",
+    "category": "blo"
+  },
+  {
+    "name": "chiseled_resin_bricks",
+    "image": "chiseled_resin_bricks.webp",
+    "category": "blo"
+  },
+  {
+    "name": "resin_brick_slab",
+    "image": "resin_brick_slab.webp",
+    "category": "blo"
+  },
+  {
+    "name": "resin_brick_stairs",
+    "image": "resin_brick_stairs.webp",
+    "category": "blo"
+  },
+  {
+    "name": "resin_brick_wall",
+    "image": "resin_brick_wall.webp",
+    "category": "blo"
+  },
+  {
+    "name": "resin_clump",
+    "image": "resin_chump.webp",
+    "category": "loot"
+  },
+  {
+    "name": "resin_brick",
+    "image": "resin_brick.webp",
+    "category": "var"
+  },
+  {
+    "name": "leaf_litter",
+    "image": "leaf_litter.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "wildflowers",
+    "image": "wildflowers.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "bush",
+    "image": "bush.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "firefly_bush",
+    "image": "firefly_bush.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "cactus_flower",
+    "image": "cactus_flower.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "short_dry_grass",
+    "image": "short_dry_grass.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "tall_dry_grass",
+    "image": "tall_dry_grass.webp",
+    "category": "dyp"
+  },
+  {
+    "name": "dried_ghast",
+    "image": "dried_ghast.webp",
+    "category": "var"
+  },
+  {
+    "name": "white_harness",
+    "image": "white_harness.webp",
+    "category": "arm"
+  },
+  {
+    "name": "light_gray_harness",
+    "image": "light_gray_harness.webp",
+    "category": "arm"
+  },
+  {
+    "name": "gray_harness",
+    "image": "gray_harness.webp",
+    "category": "arm"
+  },
+  {
+    "name": "black_harness",
+    "image": "black_harness.webp",
+    "category": "arm"
+  },
+  {
+    "name": "orange_harness",
+    "image": "orange_harness.webp",
+    "category": "arm"
+  },
+  {
+    "name": "brown_harness",
+    "image": "brown_harness.webp",
+    "category": "arm"
+  },
+  {
+    "name": "green_harness",
+    "image": "green_harness.webp",
+    "category": "arm"
+  },
+  {
+    "name": "lime_harness",
+    "image": "lime_harness.webp",
+    "category": "arm"
+  },
+  {
+    "name": "cyan_harness",
+    "image": "cyan_harness.webp",
+    "category": "arm"
+  },
+  {
+    "name": "light_blue_harness",
+    "image": "light_blue_harness.webp",
+    "category": "arm"
+  },
+  {
+    "name": "blue_harness",
+    "image": "blue_harness.webp",
+    "category": "arm"
+  },
+  {
+    "name": "magenta_harness",
+    "image": "magenta_harness.webp",
+    "category": "arm"
+  },
+  {
+    "name": "purple_harness",
+    "image": "purple_harness.webp",
+    "category": "arm"
+  },
+  {
+    "name": "pink_harness",
+    "image": "pink_harness.webp",
+    "category": "arm"
+  },
+  {
+    "name": "blue_egg",
+    "image": "blue_egg.webp",
+    "category": "loot"
+  },
+  {
+    "name": "brown_egg",
+    "image": "brown_egg.webp",
+    "category": "loot"
+  },
+  {
+    "name": "silence_armor_trim_smithing_template",
+    "image": "netherite_upgrade_smithing_template.webp",
+    "category": "val"
+  },
+  {
+    "name": "ominous_bottle",
+    "image": "ominous_bottle.webp",
+    "category": "loot"
+  }
+]

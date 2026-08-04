@@ -1,0 +1,8 @@
+{
+  "name": "ppl-shop",
+  "private": true,
+  "scripts": {
+    "minify": "node utilites/minify.mjs",
+    "build:data": "node utilites/csv-to-json.mjs && node utilites/split-loc.mjs"
+  }
+}

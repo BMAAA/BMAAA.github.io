@@ -1,131 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>bmaaa.github.io</title>
+    <script>
+      (function () {
+        var parts = location.pathname.replace(/\/+$/, "").split("/").filter(Boolean);
+        var root = { "index.html": 1, about: 1, "about.html": 1, "leather-color": 1, "leather-color.html": 1 };
+        var base = "/";
+        if (parts.length && !root[parts[0]]) base = "/" + parts[0] + "/";
+        document.write('<base href="' + location.origin + base + '">');
+      })();
+    </script>
+    <title>bmaaa.github.io — калькулятор брони</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Подбор красителей для кожаной брони по цвету — формула Java Edition." />
+    <meta name="theme-color" content="#14b8a6" />
+    <meta property="og:title" content="bmaaa.github.io — калькулятор брони" />
+    <meta property="og:description" content="Цвет в hex — красители в сетку. Как в крафте, только без угля." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="icons/icon-512.png" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" href="icons/icon-192.png" />
+    <link rel="manifest" href="manifest.json" />
     <link rel="stylesheet" href="styles/style-leather.css"/>
     <link rel="stylesheet" href="styles/style.css"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<!-- Затемнение при открытом мобильном меню -->
 <div class="mobile-overlay" id="mobileOverlay"></div>
-<!-- =====================================================
- НАВИГАЦИОННАЯ ПАНЕЛЬ + ФУТЕР
-====================================================== -->
-
-<aside class="sidebar" id="sidebar">
-    <div class="sidebar-content">
-        <nav class="navigation">
-            <!-- Переключение языка
-              <span class="navigation-title">
-                  Настройки языка
-              </span>
-              <div class="language-switcher">
-                  <button
-                      class="language-button active"
-                      data-language="ru_ru"
-                  >
-                      Русский
-                  </button>
-                  <button
-                      class="language-button"
-                      data-language="en_us"
-                  >
-                      English
-                  </button>
-              </div>
-              -->
-            <span class="navigation-title"><b> Навигация </b></span>
-            <ul>
-                <li>
-                    <a href="/">
-                        <b>Реестр ТЗ ППЛ10</b>
-                    </a>
-                </li>
-                <li>
-                    <a href="/leather-color">
-                        <b>Калькулятор окрашивания брони</b>
-                    </a>
-                </li>
-                <li>
-                    <a href="/about">
-                        <b>О сайте</b>
-                    </a>
-                </li>
-            </ul>
-            <span class="navigation-title"
-            ><b>
-              <b>Другие интересные проекты</b>
-            </b></span
-            >
-            <ul>
-                <li>
-                    <a href="https://youtube.com/@tvppl24">
-                        <b>PEPELAND 24</b>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://discord.com/channels/447699225078136832/1483753248405065818">
-                        <b>ЛЕЙБЛ ППЛ</b>
-                    </a>
-                </li>
-                <li>
-                    <a
-                            href="https://i.pinimg.com/originals/d6/54/20/d65420cd1a68f5320280380fcde43d97.jpg"
-                    >
-                        <b>ТИЗКА (COMING SOON)</b>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </div>
-    <!-- Футер -->
-    <footer class="sidebar-footer">
-        <p>bmaaa was here</p>
-        <br/>
-        <p>
-            Not an official Minecraft product. We are in no way affiliated with or endorsed by Mojang
-            Synergies AB, Microsoft Corporation or other rightsholders.
-        </p>
-        <br/>
-        <p class="ppl">Not an official product of the PepeLand server network</p>
-    </footer>
-</aside>
-<!-- =====================================================
- ХЕДЕР
-====================================================== -->
-
+<aside class="sidebar" id="sidebar"></aside>
 <main class="application">
-    <!-- ХЕДЕР -->
-    <header class="header">
-        <div class="header-brand">
-            <button class="menu-button" id="menuButton" aria-label="Открыть меню">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <a href="/">
-                <img src="favicon.ico" class="logo" alt="Логотип"/>
-            </a>
-            <div>
-                <h1>bmaaa.github.io</h1>
-                <p id="title">123</p>
+    <section class="catalogue" id="catalogue">
+        <h1 data-i18n="leather_title">Калькулятор окрашивания брони</h1>
+        <p data-i18n="leather_intro">Вбиваешь цвет — получаешь красители. Считает по формуле Java Edition, не на глаз.</p>
+        <ul>
+            <li data-i18n="leather_tip_1">Все красители нужно положить в сетку крафта <b>одновременно</b>.</li>
+            <li data-i18n="leather_tip_2"><b>ΔE</b> показывает, насколько цвет в игре схож с искомым. Чем меньше — тем ближе.</li>
+            <li data-i18n="leather_tip_3">Считает пару секунд. Не ты один ждёшь.</li>
+        </ul>
+
+        <div class="armor-preview" id="armorPreview" aria-label="Preview">
+            <div class="armor-piece helmet" id="armorHelmet">
+                <span class="armor-icon">
+                    <img class="armor-base" src="assets/textures/leather_helmet.webp" alt="" width="64" height="64" decoding="async">
+                    <span class="armor-tint" aria-hidden="true"></span>
+                    <img class="armor-overlay" src="assets/textures/leather_helmet_overlay.webp" alt="" width="64" height="64" decoding="async">
+                </span>
+            </div>
+            <div class="armor-piece chestplate" id="armorChest">
+                <span class="armor-icon">
+                    <img class="armor-base" src="assets/textures/leather_chestplate.webp" alt="" width="64" height="64" decoding="async">
+                    <span class="armor-tint" aria-hidden="true"></span>
+                    <img class="armor-overlay" src="assets/textures/leather_chestplate_overlay.webp" alt="" width="64" height="64" decoding="async">
+                </span>
+            </div>
+            <div class="armor-piece leggings" id="armorLegs">
+                <span class="armor-icon">
+                    <img class="armor-base" src="assets/textures/leather_leggings.webp" alt="" width="64" height="64" decoding="async">
+                    <span class="armor-tint" aria-hidden="true"></span>
+                    <img class="armor-overlay" src="assets/textures/leather_leggings_overlay.webp" alt="" width="64" height="64" decoding="async">
+                </span>
+            </div>
+            <div class="armor-piece boots" id="armorBoots">
+                <span class="armor-icon">
+                    <img class="armor-base" src="assets/textures/leather_boots.webp" alt="" width="64" height="64" decoding="async">
+                    <span class="armor-tint" aria-hidden="true"></span>
+                    <img class="armor-overlay" src="assets/textures/leather_boots_overlay.webp" alt="" width="64" height="64" decoding="async">
+                </span>
             </div>
         </div>
-    </header>
-    <!-- =================================================
-       ЦЕНТРАЛЬНАЯ ОБЛАСТЬ
-  ================================================== -->
-
-    <section class="catalogue" id="catalogue">
-        <h1>Калькулятор окрашивания брони</h1>
-        <p>Небольшой инструмент, который позволяет получить необходимые красители для окраски брони.</p>
-        <ul>
-            <li>Все красители нужно положить в сетку крафта <b>одновременно</b>.</li>
-            <li><b>ΔE</b> показывает, насколько цвет в игре схож с искомым. Чем меньше результат - тем больше схожесть.</li>
-            <li>Инструмент работает с небольшой задержкой. Подождите несколько секунд.</li>
-        </ul>
 
         <div class="search-color">
             <input type="color" id="color" value="#ff0000">
@@ -145,7 +87,7 @@
                 </div>
             </div>
 
-            <button id="run">
+            <button id="run" data-i18n="leather_find">
                 Найти
             </button>
         </div>
@@ -153,18 +95,16 @@
         </div>
         <div class="loading hidden" id="loading">
             <div class="loader"></div>
-            <p id="loading-text">Поиск комбинаций ...</p>
+            <p id="loading-text" data-i18n="leather_loading">Перебираю красители…</p>
         </div>
     </section>
 </main>
-<script src="scripts/script.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/chroma-js/chroma.min.js"></script>
-<script src="scripts/script_leather.js"></script>
-</body>
-</html>
-</title>
-</head>
-<body>
-
+<script src="scripts/base.js"></script>
+<script src="scripts/i18n.js" defer></script>
+<script src="scripts/layout.js" defer></script>
+<script src="scripts/placeholders.js" defer></script>
+<script src="scripts/daily_jokes.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/chroma-js/chroma.min.js" defer></script>
+<script src="scripts/script_leather.js" defer></script>
 </body>
 </html>
