@@ -2,154 +2,71 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
+    <script>
+      (function () {
+        var parts = location.pathname.replace(/\/+$/, "").split("/").filter(Boolean);
+        var root = { "index.html": 1, about: 1, "about.html": 1, "leather-color": 1, "leather-color.html": 1 };
+        var base = "/";
+        if (parts.length && !root[parts[0]]) base = "/" + parts[0] + "/";
+        document.write('<base href="' + location.origin + base + '">');
+      })();
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>bmaaa.github.io</title>
+    <title>bmaaa.github.io — реестр ТЗ ППЛ</title>
+    <meta name="description" content="Реестр торговой зоны ППЛ11: категории, id, поиск по предметам." />
+    <meta name="theme-color" content="#14b8a6" />
+    <meta property="og:title" content="bmaaa.github.io — реестр ТЗ" />
+    <meta property="og:description" content="Реестр торговой зоны ППЛ11 без лишней суеты." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="icons/icon-512.png" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" href="icons/icon-192.png" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="preload" href="data/items.json" as="fetch" crossorigin />
+    <link rel="preload" href="data/atlases/items_atlas.json" as="fetch" crossorigin />
+    <link rel="preload" href="assets/atlases/cur.webp" as="image" />
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
     <!-- Затемнение при открытом мобильном меню -->
     <div class="mobile-overlay" id="mobileOverlay"></div>
-    <!-- =====================================================
-     НАВИГАЦИОННАЯ ПАНЕЛЬ + ФУТЕР
-====================================================== -->
-
-    <aside class="sidebar" id="sidebar">
-      <div class="sidebar-content">
-        <nav class="navigation">
-          <!-- Переключение языка
-            <span class="navigation-title">
-                Настройки языка
-            </span>
-            <div class="language-switcher">
-                <button
-                    class="language-button active"
-                    data-language="ru_ru"
-                >
-                    Русский
-                </button>
-                <button
-                    class="language-button"
-                    data-language="en_us"
-                >
-                    English
-                </button>
-            </div>
-            -->
-          <span class="navigation-title"><b> Навигация </b></span>
-          <ul>
-            <li>
-              <a href="/">
-                <b>Реестр ТЗ ППЛ10</b>
-              </a>
-            </li>
-            <li>
-              <a href="/leather-color">
-                <b>Калькулятор окрашивания брони</b>
-              </a>
-            </li>
-            <li>
-              <a href="/about">
-                <b>О сайте</b>
-              </a>
-            </li>
-          </ul>
-          <span class="navigation-title"
-            ><b>
-              <b>Другие интересные проекты</b>
-            </b></span
-          >
-          <ul>
-            <li>
-              <a href="https://youtube.com/@tvppl24">
-                <b>PEPELAND 24</b>
-              </a>
-            </li>
-            <li>
-              <a href="https://discord.com/channels/447699225078136832/1483753248405065818">
-                <b>ЛЕЙБЛ ППЛ</b>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://i.pinimg.com/originals/d6/54/20/d65420cd1a68f5320280380fcde43d97.jpg"
-              >
-                <b>ТИЗКА (COMING SOON)</b>
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <!-- Футер -->
-      <footer class="sidebar-footer">
-        <p>bmaaa was here | <a href="https://github.com/BMAAA/BMAAA.github.io/issues">Нашли ошибку?</a></p>
-        <br />
-        <p>
-          Not an official Minecraft product. We are in no way affiliated with or endorsed by Mojang
-          Synergies AB, Microsoft Corporation or other rightsholders.
-        </p>
-        <br />
-        <p class="ppl">Не является официальной частью сети серверов Pepeland</p>
-      </footer>
-    </aside>
-    <!-- =====================================================
-     ХЕДЕР
-====================================================== -->
-
+    <aside class="sidebar" id="sidebar"></aside>
     <main class="application">
-      <!-- ХЕДЕР -->
-      <header class="header">
-        <div class="header-brand">
-          <button class="menu-button" id="menuButton" aria-label="Открыть меню">
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
-          <a href="/">
-            <img src="favicon.ico" class="logo" alt="Логотип" />
-          </a>
-          <div>
-            <h1>bmaaa.github.io</h1>
-            <p id="title">123</p>
-          </div>
-        </div>
-        <!-- Поиск -->
-        <div class="search-container">
-          <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true">
-            <path
-              d="M10.8 4a6.8 6.8 0 1 0 0 13.6
-                        6.8 6.8 0 0 0 0-13.6Zm0-2
-                        a8.8 8.8 0 1 1 0 17.6
-                        A8.8 8.8 0 0 1 10.8 2Zm7.3
-                        15.1 4.3 4.3-1.4 1.4-4.3-4.3
-                        1.4-1.4Z"
-            />
-          </svg>
-          <input
-            type="text"
-            id="searchInput"
-            class="srch"
-            placeholder="Поиск предмета..."
-            autocomplete="off"
-          />
-          <button class="clear-search" id="clearSearch" aria-label="Очистить поиск">×</button>
-        </div>
-      </header>
-      <!-- =================================================
-         ЦЕНТРАЛЬНАЯ ОБЛАСТЬ
-    ================================================== -->
-
       <section class="catalogue" id="catalogue">
-        <div class="catalogue-header">
-          <div>
-            <span class="section-label"> PPL10 </span>
-            <h2>Реестр торговой зоны</h2>
+        <div class="registry-toolbar">
+          <div class="registry-toolbar-main">
+            <div class="registry-heading">
+              <h2 data-i18n="section_registry">Реестр торговой зоны</h2>
+              <span class="section-label" data-i18n="section_label">PPL 11</span>
+            </div>
+            <div class="item-counter" id="itemCounter">...</div>
           </div>
-          <div class="item-counter" id="itemCounter">Загрузка...</div>
+          <div class="category-filters-row">
+            <div class="category-filters" id="categoryFilters"></div>
+            <button
+              type="button"
+              class="sales-filter-toggle"
+              id="salesFilterToggle"
+              aria-pressed="false"
+              data-i18n="sales_filter"
+              data-i18n-title="sales_filter_tip"
+              title="Убрать не продаваемые предметы"
+            >
+              Фильтр продаж
+            </button>
+          </div>
+          <div
+            class="sales-filter-warning"
+            id="salesFilterWarning"
+            role="status"
+            aria-live="polite"
+            hidden
+          ></div>
         </div>
         <div class="categories-container" id="categoriesContainer">
           <div class="loading">
             <div class="loader"></div>
-            <p>Загрузка предметов...</p>
+            <p data-i18n="loading_items">Загрузка предметов...</p>
           </div>
         </div>
       </section>
@@ -158,32 +75,81 @@
      МОДАЛЬНОЕ ОКНО ПРЕДМЕТА
 ====================================================== -->
 
-    <div class="modal" id="itemModal" aria-hidden="true">
+    <div class="modal" id="itemModal" aria-hidden="true" role="dialog" aria-modal="true">
       <div class="modal-background"></div>
-      <article class="modal-content">
-        <button class="modal-close" id="modalClose" aria-label="Закрыть">×</button>
-        <div class="modal-image-container">
-          <img id="modalImage" src="" alt="" />
+      <article class="modal-content" tabindex="-1">
+        <button class="modal-close" id="modalClose" type="button" data-i18n-aria="aria_close" aria-label="Закрыть">×</button>
+        <header class="modal-header">
+          <div class="modal-icon-frame">
+            <img id="modalImage" src="" alt="" />
+          </div>
+          <div class="modal-header-text">
+            <h2 id="modalName">Название предмета</h2>
+            <span class="modal-category-badge" id="modalCategoryFull">Категория</span>
+          </div>
+        </header>
+        <div class="modal-fields">
+          <div class="modal-field">
+            <span class="modal-field-key" data-i18n="modal_id">ID</span>
+            <code class="modal-field-value" id="modalId">{ITEM_ID}</code>
+            <button class="copy-button" id="copyIdBtn" type="button" data-i18n="modal_copy_id">Копировать</button>
+          </div>
+          <div class="modal-field">
+            <span class="modal-field-key" data-i18n="modal_name">Название</span>
+            <span class="modal-field-value" id="modalNameValue"></span>
+            <button class="copy-button" id="copyNameBtn" type="button" data-i18n="modal_copy_name">Копировать</button>
+          </div>
+          <div class="modal-field modal-field-action">
+            <span class="modal-field-key" data-i18n="modal_wiki">Вики</span>
+            <a id="modalWiki" class="copy-button modal-wiki-button" href="#" target="_blank" rel="noopener" data-i18n="modal_wiki_open">Открыть</a>
+          </div>
         </div>
-        <div class="modal-information">
-          <h2 id="modalName">Название предмета</h2>
-          <div class="information-row">
-            <span> ID </span>
-            <code id="modalId"> {ITEM_ID} </code>
-          </div>
-          <div class="information-row">
-            <span> Категория </span>
-            <strong id="modalCategoryFull"> Категория </strong>
-          </div>
-          <a id="modalWiki" class="wiki-link" href="#" target="_blank" rel="noopener">
-            Открыть вики
-            <span> ↗ </span>
-          </a>
+        <div class="modal-history" id="modalHistory" hidden>
+          <h3 data-i18n="modal_history">Недавно</h3>
+          <div class="modal-history-list" id="modalHistoryList"></div>
         </div>
       </article>
     </div>
-    <script src="scripts/script.js"></script>
-    <script src="scripts/indexes.js"></script>
-    <script src="scripts/script_registry.js"></script>
+    <div class="floating-search" id="floatingSearch">
+      <div class="floating-search-panel" id="floatingSearchPanel">
+        <input
+          type="text"
+          id="searchInput"
+          class="srch"
+          data-i18n-placeholder="srch"
+          placeholder="Поиск предмета..."
+          autocomplete="off"
+          enterkeyhint="search"
+        />
+        <button class="clear-search" id="clearSearch" type="button" data-i18n-aria="aria_clear_search" aria-label="Clear">×</button>
+      </div>
+      <button
+        class="floating-search-toggle"
+        id="searchToggle"
+        type="button"
+        data-i18n-aria="aria_search"
+        aria-label="Search"
+        aria-expanded="false"
+        aria-controls="searchInput"
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path
+            d="M10.8 4a6.8 6.8 0 1 0 0 13.6
+                      6.8 6.8 0 0 0 0-13.6Zm0-2
+                      a8.8 8.8 0 1 1 0 17.6
+                      A8.8 8.8 0 0 1 10.8 2Zm7.3
+                      15.1 4.3 4.3-1.4 1.4-4.3-4.3
+                      1.4-1.4Z"
+          />
+        </svg>
+      </button>
+    </div>
+    <script src="scripts/base.js"></script>
+    <script src="scripts/i18n.js" defer></script>
+    <script src="scripts/layout.js" defer></script>
+    <script src="scripts/placeholders.js" defer></script>
+    <script src="scripts/daily_jokes.js" defer></script>
+    <script src="scripts/indexes.js" defer></script>
+    <script src="scripts/script_registry.js" defer></script>
   </body>
 </html>
