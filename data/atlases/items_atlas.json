@@ -8,19 +8,19 @@
         "var": {
             "file": "var.png",
             "width": 4096,
-            "height": 768,
+            "height": 1024,
             "cell_size": 128,
             "columns": 32,
-            "rows": 6,
+            "rows": 8,
             "padding": 0
         },
         "blo": {
             "file": "blo.png",
             "width": 4096,
-            "height": 2560,
+            "height": 2688,
             "cell_size": 128,
             "columns": 32,
-            "rows": 20,
+            "rows": 21,
             "padding": 0
         },
         "dyp": {
@@ -62,10 +62,10 @@
         "arm": {
             "file": "arm.png",
             "width": 4096,
-            "height": 512,
+            "height": 640,
             "cell_size": 128,
             "columns": 32,
-            "rows": 4,
+            "rows": 5,
             "padding": 0
         },
         "forb": {
@@ -106,6 +106,2590 @@
         }
     },
     "items": {
+        "amethyst_cluster": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 0,
+            "row": 0,
+            "x": 0,
+            "y": 0
+        },
+        "amethyst_shard": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 1,
+            "row": 0,
+            "x": 128,
+            "y": 0
+        },
+        "ancient_debris": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 2,
+            "row": 0,
+            "x": 256,
+            "y": 0
+        },
+        "beacon": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 3,
+            "row": 0,
+            "x": 384,
+            "y": 0
+        },
+        "coal_block": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 4,
+            "row": 0,
+            "x": 512,
+            "y": 0
+        },
+        "emerald_block": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 5,
+            "row": 0,
+            "x": 640,
+            "y": 0
+        },
+        "gold_block": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 6,
+            "row": 0,
+            "x": 768,
+            "y": 0
+        },
+        "iron_block": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 7,
+            "row": 0,
+            "x": 896,
+            "y": 0
+        },
+        "lapis_block": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 8,
+            "row": 0,
+            "x": 1024,
+            "y": 0
+        },
+        "netherite_block": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 9,
+            "row": 0,
+            "x": 1152,
+            "y": 0
+        },
+        "quartz_block": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 10,
+            "row": 0,
+            "x": 1280,
+            "y": 0
+        },
+        "raw_copper_block": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 11,
+            "row": 0,
+            "x": 1408,
+            "y": 0
+        },
+        "raw_gold_block": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 12,
+            "row": 0,
+            "x": 1536,
+            "y": 0
+        },
+        "raw_iron_block": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 13,
+            "row": 0,
+            "x": 1664,
+            "y": 0
+        },
+        "charcoal": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 14,
+            "row": 0,
+            "x": 1792,
+            "y": 0
+        },
+        "coal": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 15,
+            "row": 0,
+            "x": 1920,
+            "y": 0
+        },
+        "coal_ore": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 16,
+            "row": 0,
+            "x": 2048,
+            "y": 0
+        },
+        "conduit": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 17,
+            "row": 0,
+            "x": 2176,
+            "y": 0
+        },
+        "copper_ore": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 3,
+            "row": 2,
+            "x": 384,
+            "y": 256
+        },
+        "creeper_head": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 19,
+            "row": 0,
+            "x": 2432,
+            "y": 0
+        },
+        "deepslate_coal_ore": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 20,
+            "row": 0,
+            "x": 2560,
+            "y": 0
+        },
+        "deepslate_copper_ore": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 21,
+            "row": 0,
+            "x": 2688,
+            "y": 0
+        },
+        "deepslate_diamond_ore": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 22,
+            "row": 0,
+            "x": 2816,
+            "y": 0
+        },
+        "deepslate_emerald_ore": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 23,
+            "row": 0,
+            "x": 2944,
+            "y": 0
+        },
+        "deepslate_gold_ore": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 24,
+            "row": 0,
+            "x": 3072,
+            "y": 0
+        },
+        "deepslate_iron_ore": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 25,
+            "row": 0,
+            "x": 3200,
+            "y": 0
+        },
+        "deepslate_lapis_ore": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 26,
+            "row": 0,
+            "x": 3328,
+            "y": 0
+        },
+        "deepslate_redstone_ore": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 27,
+            "row": 0,
+            "x": 3456,
+            "y": 0
+        },
+        "diamond_ore": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 28,
+            "row": 0,
+            "x": 3584,
+            "y": 0
+        },
+        "disc_fragment_5": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 29,
+            "row": 0,
+            "x": 3712,
+            "y": 0
+        },
+        "dragon_head": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 30,
+            "row": 0,
+            "x": 3840,
+            "y": 0
+        },
+        "echo_shard": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 31,
+            "row": 0,
+            "x": 3968,
+            "y": 0
+        },
+        "emerald": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 0,
+            "row": 1,
+            "x": 0,
+            "y": 128
+        },
+        "emerald_ore": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 1,
+            "row": 1,
+            "x": 128,
+            "y": 128
+        },
+        "enchanted_golden_apple": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 2,
+            "row": 1,
+            "x": 256,
+            "y": 128
+        },
+        "gilded_blackstone": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 3,
+            "row": 1,
+            "x": 384,
+            "y": 128
+        },
+        "goat_horn": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 4,
+            "row": 1,
+            "x": 512,
+            "y": 128
+        },
+        "gold_ingot": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 5,
+            "row": 1,
+            "x": 640,
+            "y": 128
+        },
+        "gold_ore": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 6,
+            "row": 1,
+            "x": 768,
+            "y": 128
+        },
+        "heart_of_the_sea": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 7,
+            "row": 1,
+            "x": 896,
+            "y": 128
+        },
+        "heavy_core": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 8,
+            "row": 1,
+            "x": 1024,
+            "y": 128
+        },
+        "iron_ingot": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 9,
+            "row": 1,
+            "x": 1152,
+            "y": 128
+        },
+        "iron_ore": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 10,
+            "row": 1,
+            "x": 1280,
+            "y": 128
+        },
+        "lapis_lazuli": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 11,
+            "row": 1,
+            "x": 1408,
+            "y": 128
+        },
+        "lapis_ore": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 12,
+            "row": 1,
+            "x": 1536,
+            "y": 128
+        },
+        "large_amethyst_bud": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 13,
+            "row": 1,
+            "x": 1664,
+            "y": 128
+        },
+        "medium_amethyst_bud": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 14,
+            "row": 1,
+            "x": 1792,
+            "y": 128
+        },
+        "music_disc_pigstep": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 15,
+            "row": 1,
+            "x": 1920,
+            "y": 128
+        },
+        "nautilus_shell": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 16,
+            "row": 1,
+            "x": 2048,
+            "y": 128
+        },
+        "quartz": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 17,
+            "row": 1,
+            "x": 2176,
+            "y": 128
+        },
+        "nether_quartz_ore": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 18,
+            "row": 1,
+            "x": 2304,
+            "y": 128
+        },
+        "nether_star": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 19,
+            "row": 1,
+            "x": 2432,
+            "y": 128
+        },
+        "netherite_ingot": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 20,
+            "row": 1,
+            "x": 2560,
+            "y": 128
+        },
+        "netherite_scrap": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 21,
+            "row": 1,
+            "x": 2688,
+            "y": 128
+        },
+        "piglin_head": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 22,
+            "row": 1,
+            "x": 2816,
+            "y": 128
+        },
+        "raw_copper": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 23,
+            "row": 1,
+            "x": 2944,
+            "y": 128
+        },
+        "raw_gold": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 24,
+            "row": 1,
+            "x": 3072,
+            "y": 128
+        },
+        "raw_iron": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 25,
+            "row": 1,
+            "x": 3200,
+            "y": 128
+        },
+        "skeleton_skull": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 26,
+            "row": 1,
+            "x": 3328,
+            "y": 128
+        },
+        "small_amethyst_bud": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 27,
+            "row": 1,
+            "x": 3456,
+            "y": 128
+        },
+        "sponge": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 28,
+            "row": 1,
+            "x": 3584,
+            "y": 128
+        },
+        "wet_sponge": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 29,
+            "row": 1,
+            "x": 3712,
+            "y": 128
+        },
+        "wither_skeleton_skull": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 30,
+            "row": 1,
+            "x": 3840,
+            "y": 128
+        },
+        "zombie_head": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 31,
+            "row": 1,
+            "x": 3968,
+            "y": 128
+        },
+        "light": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 0,
+            "row": 2,
+            "x": 0,
+            "y": 256
+        },
+        "structure_void": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 1,
+            "row": 2,
+            "x": 128,
+            "y": 256
+        },
+        "silence_armor_trim_smithing_template": {
+            "category": "val",
+            "atlas": "val.png",
+            "column": 2,
+            "row": 2,
+            "x": 256,
+            "y": 256
+        },
+        "apple": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 0,
+            "row": 0,
+            "x": 0,
+            "y": 0
+        },
+        "baked_potato": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 1,
+            "row": 0,
+            "x": 128,
+            "y": 0
+        },
+        "beetroot": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 2,
+            "row": 0,
+            "x": 256,
+            "y": 0
+        },
+        "beetroot_soup": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 3,
+            "row": 0,
+            "x": 384,
+            "y": 0
+        },
+        "experience_bottle": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 4,
+            "row": 0,
+            "x": 512,
+            "y": 0
+        },
+        "bread": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 5,
+            "row": 0,
+            "x": 640,
+            "y": 0
+        },
+        "cake": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 6,
+            "row": 0,
+            "x": 768,
+            "y": 0
+        },
+        "carrot": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 7,
+            "row": 0,
+            "x": 896,
+            "y": 0
+        },
+        "chorus_fruit": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 8,
+            "row": 0,
+            "x": 1024,
+            "y": 0
+        },
+        "cooked_chicken": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 9,
+            "row": 0,
+            "x": 1152,
+            "y": 0
+        },
+        "cooked_cod": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 10,
+            "row": 0,
+            "x": 1280,
+            "y": 0
+        },
+        "cooked_mutton": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 11,
+            "row": 0,
+            "x": 1408,
+            "y": 0
+        },
+        "cooked_porkchop": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 12,
+            "row": 0,
+            "x": 1536,
+            "y": 0
+        },
+        "cooked_rabbit": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 13,
+            "row": 0,
+            "x": 1664,
+            "y": 0
+        },
+        "cooked_salmon": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 14,
+            "row": 0,
+            "x": 1792,
+            "y": 0
+        },
+        "cookie": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 15,
+            "row": 0,
+            "x": 1920,
+            "y": 0
+        },
+        "dragon_breath": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 16,
+            "row": 0,
+            "x": 2048,
+            "y": 0
+        },
+        "dried_kelp": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 17,
+            "row": 0,
+            "x": 2176,
+            "y": 0
+        },
+        "fermented_spider_eye": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 18,
+            "row": 0,
+            "x": 2304,
+            "y": 0
+        },
+        "glistering_melon_slice": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 19,
+            "row": 0,
+            "x": 2432,
+            "y": 0
+        },
+        "glow_berries": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 20,
+            "row": 0,
+            "x": 2560,
+            "y": 0
+        },
+        "golden_apple": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 21,
+            "row": 0,
+            "x": 2688,
+            "y": 0
+        },
+        "golden_carrot": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 22,
+            "row": 0,
+            "x": 2816,
+            "y": 0
+        },
+        "honey_bottle": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 23,
+            "row": 0,
+            "x": 2944,
+            "y": 0
+        },
+        "kelp": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 24,
+            "row": 0,
+            "x": 3072,
+            "y": 0
+        },
+        "melon_slice": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 25,
+            "row": 0,
+            "x": 3200,
+            "y": 0
+        },
+        "milk_bucket": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 26,
+            "row": 0,
+            "x": 3328,
+            "y": 0
+        },
+        "mushroom_stew": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 27,
+            "row": 0,
+            "x": 3456,
+            "y": 0
+        },
+        "nether_wart": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 28,
+            "row": 0,
+            "x": 3584,
+            "y": 0
+        },
+        "poisonous_potato": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 29,
+            "row": 0,
+            "x": 3712,
+            "y": 0
+        },
+        "pufferfish": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 30,
+            "row": 0,
+            "x": 3840,
+            "y": 0
+        },
+        "pumpkin_pie": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 31,
+            "row": 0,
+            "x": 3968,
+            "y": 0
+        },
+        "rabbit_stew": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 0,
+            "row": 1,
+            "x": 0,
+            "y": 128
+        },
+        "beef": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 1,
+            "row": 1,
+            "x": 128,
+            "y": 128
+        },
+        "chicken": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 2,
+            "row": 1,
+            "x": 256,
+            "y": 128
+        },
+        "cod": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 3,
+            "row": 1,
+            "x": 384,
+            "y": 128
+        },
+        "mutton": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 4,
+            "row": 1,
+            "x": 512,
+            "y": 128
+        },
+        "porkchop": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 5,
+            "row": 1,
+            "x": 640,
+            "y": 128
+        },
+        "rabbit": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 6,
+            "row": 1,
+            "x": 768,
+            "y": 128
+        },
+        "salmon": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 7,
+            "row": 1,
+            "x": 896,
+            "y": 128
+        },
+        "cooked_beef": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 8,
+            "row": 1,
+            "x": 1024,
+            "y": 128
+        },
+        "sugar": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 9,
+            "row": 1,
+            "x": 1152,
+            "y": 128
+        },
+        "suspicious_stew": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 10,
+            "row": 1,
+            "x": 1280,
+            "y": 128
+        },
+        "sweet_berries": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 11,
+            "row": 1,
+            "x": 1408,
+            "y": 128
+        },
+        "tropical_fish": {
+            "category": "food",
+            "atlas": "food.png",
+            "column": 12,
+            "row": 1,
+            "x": 1536,
+            "y": 128
+        },
+        "armadillo_scute": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 0,
+            "row": 0,
+            "x": 0,
+            "y": 0
+        },
+        "blaze_powder": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 1,
+            "row": 0,
+            "x": 128,
+            "y": 0
+        },
+        "blaze_rod": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 2,
+            "row": 0,
+            "x": 256,
+            "y": 0
+        },
+        "bone": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 3,
+            "row": 0,
+            "x": 384,
+            "y": 0
+        },
+        "breeze_rod": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 4,
+            "row": 0,
+            "x": 512,
+            "y": 0
+        },
+        "axolotl_bucket": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 5,
+            "row": 0,
+            "x": 640,
+            "y": 0
+        },
+        "cod_bucket": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 6,
+            "row": 0,
+            "x": 768,
+            "y": 0
+        },
+        "pufferfish_bucket": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 7,
+            "row": 0,
+            "x": 896,
+            "y": 0
+        },
+        "salmon_bucket": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 8,
+            "row": 0,
+            "x": 1024,
+            "y": 0
+        },
+        "tadpole_bucket": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 9,
+            "row": 0,
+            "x": 1152,
+            "y": 0
+        },
+        "tropical_fish_bucket": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 10,
+            "row": 0,
+            "x": 1280,
+            "y": 0
+        },
+        "cobweb": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 11,
+            "row": 0,
+            "x": 1408,
+            "y": 0
+        },
+        "egg": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 12,
+            "row": 0,
+            "x": 1536,
+            "y": 0
+        },
+        "ender_pearl": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 13,
+            "row": 0,
+            "x": 1664,
+            "y": 0
+        },
+        "ender_eye": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 14,
+            "row": 0,
+            "x": 1792,
+            "y": 0
+        },
+        "feather": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 15,
+            "row": 0,
+            "x": 1920,
+            "y": 0
+        },
+        "ghast_tear": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 16,
+            "row": 0,
+            "x": 2048,
+            "y": 0
+        },
+        "gunpowder": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 17,
+            "row": 0,
+            "x": 2176,
+            "y": 0
+        },
+        "leather": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 18,
+            "row": 0,
+            "x": 2304,
+            "y": 0
+        },
+        "magma_cream": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 19,
+            "row": 0,
+            "x": 2432,
+            "y": 0
+        },
+        "phantom_membrane": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 20,
+            "row": 0,
+            "x": 2560,
+            "y": 0
+        },
+        "prismarine_crystals": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 21,
+            "row": 0,
+            "x": 2688,
+            "y": 0
+        },
+        "prismarine_shard": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 22,
+            "row": 0,
+            "x": 2816,
+            "y": 0
+        },
+        "rabbit_hide": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 23,
+            "row": 0,
+            "x": 2944,
+            "y": 0
+        },
+        "rabbit_foot": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 24,
+            "row": 0,
+            "x": 3072,
+            "y": 0
+        },
+        "rotten_flesh": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 25,
+            "row": 0,
+            "x": 3200,
+            "y": 0
+        },
+        "slime_ball": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 26,
+            "row": 0,
+            "x": 3328,
+            "y": 0
+        },
+        "sniffer_egg": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 27,
+            "row": 0,
+            "x": 3456,
+            "y": 0
+        },
+        "spider_eye": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 28,
+            "row": 0,
+            "x": 3584,
+            "y": 0
+        },
+        "string": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 29,
+            "row": 0,
+            "x": 3712,
+            "y": 0
+        },
+        "turtle_egg": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 30,
+            "row": 0,
+            "x": 3840,
+            "y": 0
+        },
+        "turtle_scute": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 31,
+            "row": 0,
+            "x": 3968,
+            "y": 0
+        },
+        "wind_charge": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 0,
+            "row": 1,
+            "x": 0,
+            "y": 128
+        },
+        "resin_clump": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 1,
+            "row": 1,
+            "x": 128,
+            "y": 128
+        },
+        "blue_egg": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 2,
+            "row": 1,
+            "x": 256,
+            "y": 128
+        },
+        "brown_egg": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 3,
+            "row": 1,
+            "x": 384,
+            "y": 128
+        },
+        "ominous_bottle": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 4,
+            "row": 1,
+            "x": 512,
+            "y": 128
+        },
+        "sulfur_cube_bucket": {
+            "category": "loot",
+            "atlas": "loot.png",
+            "column": 5,
+            "row": 1,
+            "x": 640,
+            "y": 128
+        },
+        "arrow": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 0,
+            "row": 0,
+            "x": 0,
+            "y": 0
+        },
+        "tipped_arrow": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 1,
+            "row": 0,
+            "x": 128,
+            "y": 0
+        },
+        "black_bundle": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 2,
+            "row": 0,
+            "x": 256,
+            "y": 0
+        },
+        "blue_bundle": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 3,
+            "row": 0,
+            "x": 384,
+            "y": 0
+        },
+        "bow": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 4,
+            "row": 0,
+            "x": 512,
+            "y": 0
+        },
+        "brown_bundle": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 5,
+            "row": 0,
+            "x": 640,
+            "y": 0
+        },
+        "brush": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 6,
+            "row": 0,
+            "x": 768,
+            "y": 0
+        },
+        "bucket": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 7,
+            "row": 0,
+            "x": 896,
+            "y": 0
+        },
+        "bundle": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 8,
+            "row": 0,
+            "x": 1024,
+            "y": 0
+        },
+        "carrot_on_a_stick": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 9,
+            "row": 0,
+            "x": 1152,
+            "y": 0
+        },
+        "chainmail_boots": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 10,
+            "row": 0,
+            "x": 1280,
+            "y": 0
+        },
+        "chainmail_chestplate": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 11,
+            "row": 0,
+            "x": 1408,
+            "y": 0
+        },
+        "chainmail_helmet": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 12,
+            "row": 0,
+            "x": 1536,
+            "y": 0
+        },
+        "chainmail_leggings": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 13,
+            "row": 0,
+            "x": 1664,
+            "y": 0
+        },
+        "clock": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 14,
+            "row": 0,
+            "x": 1792,
+            "y": 0
+        },
+        "compass": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 15,
+            "row": 0,
+            "x": 1920,
+            "y": 0
+        },
+        "crossbow": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 16,
+            "row": 0,
+            "x": 2048,
+            "y": 0
+        },
+        "cyan_bundle": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 17,
+            "row": 0,
+            "x": 2176,
+            "y": 0
+        },
+        "diamond_axe": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 18,
+            "row": 0,
+            "x": 2304,
+            "y": 0
+        },
+        "diamond_boots": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 19,
+            "row": 0,
+            "x": 2432,
+            "y": 0
+        },
+        "diamond_chestplate": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 20,
+            "row": 0,
+            "x": 2560,
+            "y": 0
+        },
+        "diamond_helmet": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 21,
+            "row": 0,
+            "x": 2688,
+            "y": 0
+        },
+        "diamond_hoe": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 22,
+            "row": 0,
+            "x": 2816,
+            "y": 0
+        },
+        "diamond_horse_armor": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 23,
+            "row": 0,
+            "x": 2944,
+            "y": 0
+        },
+        "diamond_leggings": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 24,
+            "row": 0,
+            "x": 3072,
+            "y": 0
+        },
+        "diamond_pickaxe": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 25,
+            "row": 0,
+            "x": 3200,
+            "y": 0
+        },
+        "diamond_shovel": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 26,
+            "row": 0,
+            "x": 3328,
+            "y": 0
+        },
+        "diamond_sword": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 27,
+            "row": 0,
+            "x": 3456,
+            "y": 0
+        },
+        "elytra": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 28,
+            "row": 0,
+            "x": 3584,
+            "y": 0
+        },
+        "map": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 29,
+            "row": 0,
+            "x": 3712,
+            "y": 0
+        },
+        "fishing_rod": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 30,
+            "row": 0,
+            "x": 3840,
+            "y": 0
+        },
+        "flint_and_steel": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 31,
+            "row": 0,
+            "x": 3968,
+            "y": 0
+        },
+        "golden_axe": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 0,
+            "row": 1,
+            "x": 0,
+            "y": 128
+        },
+        "golden_boots": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 1,
+            "row": 1,
+            "x": 128,
+            "y": 128
+        },
+        "golden_chestplate": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 2,
+            "row": 1,
+            "x": 256,
+            "y": 128
+        },
+        "golden_helmet": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 3,
+            "row": 1,
+            "x": 384,
+            "y": 128
+        },
+        "golden_hoe": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 4,
+            "row": 1,
+            "x": 512,
+            "y": 128
+        },
+        "golden_horse_armor": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 5,
+            "row": 1,
+            "x": 640,
+            "y": 128
+        },
+        "golden_leggings": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 6,
+            "row": 1,
+            "x": 768,
+            "y": 128
+        },
+        "golden_pickaxe": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 7,
+            "row": 1,
+            "x": 896,
+            "y": 128
+        },
+        "golden_shovel": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 8,
+            "row": 1,
+            "x": 1024,
+            "y": 128
+        },
+        "golden_sword": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 9,
+            "row": 1,
+            "x": 1152,
+            "y": 128
+        },
+        "gray_bundle": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 10,
+            "row": 1,
+            "x": 1280,
+            "y": 128
+        },
+        "green_bundle": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 11,
+            "row": 1,
+            "x": 1408,
+            "y": 128
+        },
+        "iron_axe": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 12,
+            "row": 1,
+            "x": 1536,
+            "y": 128
+        },
+        "iron_boots": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 13,
+            "row": 1,
+            "x": 1664,
+            "y": 128
+        },
+        "iron_chestplate": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 14,
+            "row": 1,
+            "x": 1792,
+            "y": 128
+        },
+        "iron_helmet": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 15,
+            "row": 1,
+            "x": 1920,
+            "y": 128
+        },
+        "iron_hoe": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 16,
+            "row": 1,
+            "x": 2048,
+            "y": 128
+        },
+        "iron_horse_armor": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 17,
+            "row": 1,
+            "x": 2176,
+            "y": 128
+        },
+        "iron_leggings": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 18,
+            "row": 1,
+            "x": 2304,
+            "y": 128
+        },
+        "iron_pickaxe": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 19,
+            "row": 1,
+            "x": 2432,
+            "y": 128
+        },
+        "iron_shovel": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 20,
+            "row": 1,
+            "x": 2560,
+            "y": 128
+        },
+        "iron_sword": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 21,
+            "row": 1,
+            "x": 2688,
+            "y": 128
+        },
+        "lava_bucket": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 22,
+            "row": 1,
+            "x": 2816,
+            "y": 128
+        },
+        "lead": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 23,
+            "row": 1,
+            "x": 2944,
+            "y": 128
+        },
+        "leather_boots": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 24,
+            "row": 1,
+            "x": 3072,
+            "y": 128
+        },
+        "leather_helmet": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 25,
+            "row": 1,
+            "x": 3200,
+            "y": 128
+        },
+        "leather_horse_armor": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 26,
+            "row": 1,
+            "x": 3328,
+            "y": 128
+        },
+        "leather_leggings": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 27,
+            "row": 1,
+            "x": 3456,
+            "y": 128
+        },
+        "leather_chestplate": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 28,
+            "row": 1,
+            "x": 3584,
+            "y": 128
+        },
+        "light_blue_bundle": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 29,
+            "row": 1,
+            "x": 3712,
+            "y": 128
+        },
+        "light_gray_bundle": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 30,
+            "row": 1,
+            "x": 3840,
+            "y": 128
+        },
+        "lime_bundle": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 31,
+            "row": 1,
+            "x": 3968,
+            "y": 128
+        },
+        "mace": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 0,
+            "row": 2,
+            "x": 0,
+            "y": 256
+        },
+        "magenta_bundle": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 1,
+            "row": 2,
+            "x": 128,
+            "y": 256
+        },
+        "name_tag": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 2,
+            "row": 2,
+            "x": 256,
+            "y": 256
+        },
+        "netherite_axe": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 3,
+            "row": 2,
+            "x": 384,
+            "y": 256
+        },
+        "netherite_boots": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 4,
+            "row": 2,
+            "x": 512,
+            "y": 256
+        },
+        "netherite_chestplate": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 5,
+            "row": 2,
+            "x": 640,
+            "y": 256
+        },
+        "netherite_helmet": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 6,
+            "row": 2,
+            "x": 768,
+            "y": 256
+        },
+        "netherite_hoe": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 7,
+            "row": 2,
+            "x": 896,
+            "y": 256
+        },
+        "netherite_leggings": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 8,
+            "row": 2,
+            "x": 1024,
+            "y": 256
+        },
+        "netherite_pickaxe": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 9,
+            "row": 2,
+            "x": 1152,
+            "y": 256
+        },
+        "netherite_shovel": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 10,
+            "row": 2,
+            "x": 1280,
+            "y": 256
+        },
+        "netherite_sword": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 11,
+            "row": 2,
+            "x": 1408,
+            "y": 256
+        },
+        "ominous_trial_key": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 12,
+            "row": 2,
+            "x": 1536,
+            "y": 256
+        },
+        "orange_bundle": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 13,
+            "row": 2,
+            "x": 1664,
+            "y": 256
+        },
+        "pink_bundle": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 14,
+            "row": 2,
+            "x": 1792,
+            "y": 256
+        },
+        "purple_bundle": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 15,
+            "row": 2,
+            "x": 1920,
+            "y": 256
+        },
+        "recovery_compass": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 16,
+            "row": 2,
+            "x": 2048,
+            "y": 256
+        },
+        "red_bundle": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 17,
+            "row": 2,
+            "x": 2176,
+            "y": 256
+        },
+        "saddle": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 18,
+            "row": 2,
+            "x": 2304,
+            "y": 256
+        },
+        "shears": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 19,
+            "row": 2,
+            "x": 2432,
+            "y": 256
+        },
+        "shield": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 20,
+            "row": 2,
+            "x": 2560,
+            "y": 256
+        },
+        "spectral_arrow": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 21,
+            "row": 2,
+            "x": 2688,
+            "y": 256
+        },
+        "spyglass": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 22,
+            "row": 2,
+            "x": 2816,
+            "y": 256
+        },
+        "stone_axe": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 23,
+            "row": 2,
+            "x": 2944,
+            "y": 256
+        },
+        "stone_hoe": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 24,
+            "row": 2,
+            "x": 3072,
+            "y": 256
+        },
+        "stone_pickaxe": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 25,
+            "row": 2,
+            "x": 3200,
+            "y": 256
+        },
+        "stone_shovel": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 26,
+            "row": 2,
+            "x": 3328,
+            "y": 256
+        },
+        "stone_sword": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 27,
+            "row": 2,
+            "x": 3456,
+            "y": 256
+        },
+        "totem_of_undying": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 28,
+            "row": 2,
+            "x": 3584,
+            "y": 256
+        },
+        "trial_key": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 29,
+            "row": 2,
+            "x": 3712,
+            "y": 256
+        },
+        "trident": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 30,
+            "row": 2,
+            "x": 3840,
+            "y": 256
+        },
+        "turtle_helmet": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 31,
+            "row": 2,
+            "x": 3968,
+            "y": 256
+        },
+        "warped_fungus_on_a_stick": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 0,
+            "row": 3,
+            "x": 0,
+            "y": 384
+        },
+        "water_bucket": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 1,
+            "row": 3,
+            "x": 128,
+            "y": 384
+        },
+        "white_bundle": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 2,
+            "row": 3,
+            "x": 256,
+            "y": 384
+        },
+        "wolf_armor": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 3,
+            "row": 3,
+            "x": 384,
+            "y": 384
+        },
+        "wooden_axe": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 4,
+            "row": 3,
+            "x": 512,
+            "y": 384
+        },
+        "wooden_hoe": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 5,
+            "row": 3,
+            "x": 640,
+            "y": 384
+        },
+        "wooden_pickaxe": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 6,
+            "row": 3,
+            "x": 768,
+            "y": 384
+        },
+        "wooden_shovel": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 7,
+            "row": 3,
+            "x": 896,
+            "y": 384
+        },
+        "wooden_sword": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 8,
+            "row": 3,
+            "x": 1024,
+            "y": 384
+        },
+        "yellow_bundle": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 9,
+            "row": 3,
+            "x": 1152,
+            "y": 384
+        },
+        "white_harness": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 10,
+            "row": 3,
+            "x": 1280,
+            "y": 384
+        },
+        "light_gray_harness": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 11,
+            "row": 3,
+            "x": 1408,
+            "y": 384
+        },
+        "gray_harness": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 12,
+            "row": 3,
+            "x": 1536,
+            "y": 384
+        },
+        "black_harness": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 13,
+            "row": 3,
+            "x": 1664,
+            "y": 384
+        },
+        "orange_harness": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 14,
+            "row": 3,
+            "x": 1792,
+            "y": 384
+        },
+        "brown_harness": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 15,
+            "row": 3,
+            "x": 1920,
+            "y": 384
+        },
+        "green_harness": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 16,
+            "row": 3,
+            "x": 2048,
+            "y": 384
+        },
+        "lime_harness": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 17,
+            "row": 3,
+            "x": 2176,
+            "y": 384
+        },
+        "cyan_harness": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 18,
+            "row": 3,
+            "x": 2304,
+            "y": 384
+        },
+        "light_blue_harness": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 19,
+            "row": 3,
+            "x": 2432,
+            "y": 384
+        },
+        "blue_harness": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 20,
+            "row": 3,
+            "x": 2560,
+            "y": 384
+        },
+        "magenta_harness": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 21,
+            "row": 3,
+            "x": 2688,
+            "y": 384
+        },
+        "purple_harness": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 22,
+            "row": 3,
+            "x": 2816,
+            "y": 384
+        },
+        "pink_harness": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 23,
+            "row": 3,
+            "x": 2944,
+            "y": 384
+        },
+        "netherite_horse_armor": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 24,
+            "row": 3,
+            "x": 3072,
+            "y": 384
+        },
+        "copper_horse_armor": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 11,
+            "row": 4,
+            "x": 1408,
+            "y": 512
+        },
+        "netherite_nautilus_armor": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 26,
+            "row": 3,
+            "x": 3328,
+            "y": 384
+        },
+        "diamond_nautilus_armor": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 27,
+            "row": 3,
+            "x": 3456,
+            "y": 384
+        },
+        "gold_nautilus_armor": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 28,
+            "row": 3,
+            "x": 3584,
+            "y": 384
+        },
+        "iron_nautilus_armor": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 29,
+            "row": 3,
+            "x": 3712,
+            "y": 384
+        },
+        "copper_nautilus_armor": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 30,
+            "row": 3,
+            "x": 3840,
+            "y": 384
+        },
+        "wood_spear": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 31,
+            "row": 3,
+            "x": 3968,
+            "y": 384
+        },
+        "stone_spear": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 0,
+            "row": 4,
+            "x": 0,
+            "y": 512
+        },
+        "copper_spear": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 1,
+            "row": 4,
+            "x": 128,
+            "y": 512
+        },
+        "iron_spear": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 2,
+            "row": 4,
+            "x": 256,
+            "y": 512
+        },
+        "gold_spear": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 3,
+            "row": 4,
+            "x": 384,
+            "y": 512
+        },
+        "diamond_spear": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 4,
+            "row": 4,
+            "x": 512,
+            "y": 512
+        },
+        "netherite_spear": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 5,
+            "row": 4,
+            "x": 640,
+            "y": 512
+        },
+        "copper_axe": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 6,
+            "row": 4,
+            "x": 768,
+            "y": 512
+        },
+        "copper_boots": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 7,
+            "row": 4,
+            "x": 896,
+            "y": 512
+        },
+        "copper_chestplate": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 8,
+            "row": 4,
+            "x": 1024,
+            "y": 512
+        },
+        "copper_helmet": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 9,
+            "row": 4,
+            "x": 1152,
+            "y": 512
+        },
+        "copper_hoe": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 10,
+            "row": 4,
+            "x": 1280,
+            "y": 512
+        },
+        "copper_leggings": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 12,
+            "row": 4,
+            "x": 1536,
+            "y": 512
+        },
+        "copper_pickaxe": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 13,
+            "row": 4,
+            "x": 1664,
+            "y": 512
+        },
+        "copper_shovel": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 14,
+            "row": 4,
+            "x": 1792,
+            "y": 512
+        },
+        "copper_sword": {
+            "category": "arm",
+            "atlas": "arm.png",
+            "column": 15,
+            "row": 4,
+            "x": 1920,
+            "y": 512
+        },
+        "black_shulker_box": {
+            "category": "forb",
+            "atlas": "forb.png",
+            "column": 0,
+            "row": 0,
+            "x": 0,
+            "y": 0
+        },
+        "blue_shulker_box": {
+            "category": "forb",
+            "atlas": "forb.png",
+            "column": 1,
+            "row": 0,
+            "x": 128,
+            "y": 0
+        },
+        "brown_shulker_box": {
+            "category": "forb",
+            "atlas": "forb.png",
+            "column": 2,
+            "row": 0,
+            "x": 256,
+            "y": 0
+        },
+        "cyan_shulker_box": {
+            "category": "forb",
+            "atlas": "forb.png",
+            "column": 3,
+            "row": 0,
+            "x": 384,
+            "y": 0
+        },
+        "dragon_egg": {
+            "category": "forb",
+            "atlas": "forb.png",
+            "column": 4,
+            "row": 0,
+            "x": 512,
+            "y": 0
+        },
+        "gold_nugget": {
+            "category": "forb",
+            "atlas": "forb.png",
+            "column": 5,
+            "row": 0,
+            "x": 640,
+            "y": 0
+        },
+        "gray_shulker_box": {
+            "category": "forb",
+            "atlas": "forb.png",
+            "column": 6,
+            "row": 0,
+            "x": 768,
+            "y": 0
+        },
+        "green_shulker_box": {
+            "category": "forb",
+            "atlas": "forb.png",
+            "column": 7,
+            "row": 0,
+            "x": 896,
+            "y": 0
+        },
+        "iron_nugget": {
+            "category": "forb",
+            "atlas": "forb.png",
+            "column": 8,
+            "row": 0,
+            "x": 1024,
+            "y": 0
+        },
+        "light_blue_shulker_box": {
+            "category": "forb",
+            "atlas": "forb.png",
+            "column": 9,
+            "row": 0,
+            "x": 1152,
+            "y": 0
+        },
+        "light_gray_shulker_box": {
+            "category": "forb",
+            "atlas": "forb.png",
+            "column": 10,
+            "row": 0,
+            "x": 1280,
+            "y": 0
+        },
+        "lime_shulker_box": {
+            "category": "forb",
+            "atlas": "forb.png",
+            "column": 11,
+            "row": 0,
+            "x": 1408,
+            "y": 0
+        },
+        "magenta_shulker_box": {
+            "category": "forb",
+            "atlas": "forb.png",
+            "column": 12,
+            "row": 0,
+            "x": 1536,
+            "y": 0
+        },
+        "orange_shulker_box": {
+            "category": "forb",
+            "atlas": "forb.png",
+            "column": 13,
+            "row": 0,
+            "x": 1664,
+            "y": 0
+        },
+        "pink_shulker_box": {
+            "category": "forb",
+            "atlas": "forb.png",
+            "column": 14,
+            "row": 0,
+            "x": 1792,
+            "y": 0
+        },
+        "purple_shulker_box": {
+            "category": "forb",
+            "atlas": "forb.png",
+            "column": 15,
+            "row": 0,
+            "x": 1920,
+            "y": 0
+        },
+        "red_shulker_box": {
+            "category": "forb",
+            "atlas": "forb.png",
+            "column": 16,
+            "row": 0,
+            "x": 2048,
+            "y": 0
+        },
+        "shulker_box": {
+            "category": "forb",
+            "atlas": "forb.png",
+            "column": 17,
+            "row": 0,
+            "x": 2176,
+            "y": 0
+        },
+        "shulker_shell": {
+            "category": "forb",
+            "atlas": "forb.png",
+            "column": 18,
+            "row": 0,
+            "x": 2304,
+            "y": 0
+        },
+        "white_shulker_box": {
+            "category": "forb",
+            "atlas": "forb.png",
+            "column": 19,
+            "row": 0,
+            "x": 2432,
+            "y": 0
+        },
+        "yellow_shulker_box": {
+            "category": "forb",
+            "atlas": "forb.png",
+            "column": 20,
+            "row": 0,
+            "x": 2560,
+            "y": 0
+        },
+        "abandoned_camp_map": {
+            "category": "forb",
+            "atlas": "forb.png",
+            "column": 21,
+            "row": 0,
+            "x": 2688,
+            "y": 0
+        },
+        "copper_nugget": {
+            "category": "forb",
+            "atlas": "forb.png",
+            "column": 22,
+            "row": 0,
+            "x": 2816,
+            "y": 0
+        },
+        "diamond_block": {
+            "category": "cur",
+            "atlas": "cur.png",
+            "column": 0,
+            "row": 0,
+            "x": 0,
+            "y": 0
+        },
+        "diamond": {
+            "category": "cur",
+            "atlas": "cur.png",
+            "column": 1,
+            "row": 0,
+            "x": 128,
+            "y": 0
+        },
+        "book": {
+            "category": "boo",
+            "atlas": "boo.png",
+            "column": 0,
+            "row": 0,
+            "x": 0,
+            "y": 0
+        },
+        "writable_book": {
+            "category": "boo",
+            "atlas": "boo.png",
+            "column": 1,
+            "row": 0,
+            "x": 128,
+            "y": 0
+        },
+        "written_book": {
+            "category": "boo",
+            "atlas": "boo.png",
+            "column": 2,
+            "row": 0,
+            "x": 256,
+            "y": 0
+        },
+        "enchanted_book": {
+            "category": "boo",
+            "atlas": "boo.png",
+            "column": 3,
+            "row": 0,
+            "x": 384,
+            "y": 0
+        },
+        "filled_map": {
+            "category": "gal",
+            "atlas": "gal.png",
+            "column": 0,
+            "row": 0,
+            "x": 0,
+            "y": 0
+        },
         "acacia_boat": {
             "category": "var",
             "atlas": "var.png",
@@ -826,95 +3410,95 @@
             "x": 3200,
             "y": 256
         },
-        "lightning_rod": {
+        "lime_candle": {
             "category": "var",
             "atlas": "var.png",
             "column": 26,
             "row": 2,
             "x": 3328,
-            "y": 256
-        },
-        "lime_candle": {
-            "category": "var",
-            "atlas": "var.png",
-            "column": 27,
-            "row": 2,
-            "x": 3456,
             "y": 256
         },
         "lodestone": {
             "category": "var",
             "atlas": "var.png",
-            "column": 28,
+            "column": 27,
             "row": 2,
-            "x": 3584,
+            "x": 3456,
             "y": 256
         },
         "loom": {
             "category": "var",
             "atlas": "var.png",
-            "column": 29,
+            "column": 28,
             "row": 2,
-            "x": 3712,
+            "x": 3584,
             "y": 256
         },
         "magenta_candle": {
             "category": "var",
             "atlas": "var.png",
-            "column": 30,
+            "column": 29,
             "row": 2,
-            "x": 3840,
+            "x": 3712,
             "y": 256
         },
         "mangrove_boat": {
             "category": "var",
             "atlas": "var.png",
-            "column": 31,
+            "column": 30,
             "row": 2,
-            "x": 3968,
+            "x": 3840,
             "y": 256
         },
         "mangrove_chest_boat": {
             "category": "var",
             "atlas": "var.png",
-            "column": 0,
-            "row": 3,
-            "x": 0,
-            "y": 384
+            "column": 31,
+            "row": 2,
+            "x": 3968,
+            "y": 256
         },
         "mangrove_button": {
             "category": "var",
             "atlas": "var.png",
-            "column": 1,
+            "column": 0,
             "row": 3,
-            "x": 128,
+            "x": 0,
             "y": 384
         },
         "mangrove_pressure_plate": {
             "category": "var",
             "atlas": "var.png",
-            "column": 2,
+            "column": 1,
             "row": 3,
-            "x": 256,
+            "x": 128,
             "y": 384
         },
         "minecart": {
             "category": "var",
             "atlas": "var.png",
-            "column": 3,
+            "column": 2,
             "row": 3,
-            "x": 384,
+            "x": 256,
             "y": 384
         },
         "chest_minecart": {
             "category": "var",
             "atlas": "var.png",
+            "column": 3,
+            "row": 3,
+            "x": 384,
+            "y": 384
+        },
+        "furnace_minecart": {
+            "category": "var",
+            "atlas": "var.png",
             "column": 4,
             "row": 3,
             "x": 512,
             "y": 384
         },
-        "furnace_minecart": {
+        "hopper_minecart": {
             "category": "var",
             "atlas": "var.png",
             "column": 5,
@@ -922,7 +3506,7 @@
             "x": 640,
             "y": 384
         },
-        "hopper_minecart": {
+        "tnt_minecart": {
             "category": "var",
             "atlas": "var.png",
             "column": 6,
@@ -930,7 +3514,7 @@
             "x": 768,
             "y": 384
         },
-        "tnt_minecart": {
+        "note_block": {
             "category": "var",
             "atlas": "var.png",
             "column": 7,
@@ -938,7 +3522,7 @@
             "x": 896,
             "y": 384
         },
-        "note_block": {
+        "oak_boat": {
             "category": "var",
             "atlas": "var.png",
             "column": 8,
@@ -946,7 +3530,7 @@
             "x": 1024,
             "y": 384
         },
-        "oak_boat": {
+        "oak_chest_boat": {
             "category": "var",
             "atlas": "var.png",
             "column": 9,
@@ -954,7 +3538,7 @@
             "x": 1152,
             "y": 384
         },
-        "oak_chest_boat": {
+        "oak_button": {
             "category": "var",
             "atlas": "var.png",
             "column": 10,
@@ -962,7 +3546,7 @@
             "x": 1280,
             "y": 384
         },
-        "oak_button": {
+        "oak_pressure_plate": {
             "category": "var",
             "atlas": "var.png",
             "column": 11,
@@ -970,7 +3554,7 @@
             "x": 1408,
             "y": 384
         },
-        "oak_pressure_plate": {
+        "observer": {
             "category": "var",
             "atlas": "var.png",
             "column": 12,
@@ -978,7 +3562,7 @@
             "x": 1536,
             "y": 384
         },
-        "observer": {
+        "orange_candle": {
             "category": "var",
             "atlas": "var.png",
             "column": 13,
@@ -986,7 +3570,7 @@
             "x": 1664,
             "y": 384
         },
-        "orange_candle": {
+        "painting": {
             "category": "var",
             "atlas": "var.png",
             "column": 14,
@@ -994,7 +3578,7 @@
             "x": 1792,
             "y": 384
         },
-        "painting": {
+        "paper": {
             "category": "var",
             "atlas": "var.png",
             "column": 15,
@@ -1002,7 +3586,7 @@
             "x": 1920,
             "y": 384
         },
-        "paper": {
+        "pink_candle": {
             "category": "var",
             "atlas": "var.png",
             "column": 16,
@@ -1010,7 +3594,7 @@
             "x": 2048,
             "y": 384
         },
-        "pink_candle": {
+        "piston": {
             "category": "var",
             "atlas": "var.png",
             "column": 17,
@@ -1018,7 +3602,7 @@
             "x": 2176,
             "y": 384
         },
-        "piston": {
+        "pointed_dripstone": {
             "category": "var",
             "atlas": "var.png",
             "column": 18,
@@ -1026,7 +3610,7 @@
             "x": 2304,
             "y": 384
         },
-        "pointed_dripstone": {
+        "polished_blackstone_button": {
             "category": "var",
             "atlas": "var.png",
             "column": 19,
@@ -1034,7 +3618,7 @@
             "x": 2432,
             "y": 384
         },
-        "polished_blackstone_button": {
+        "polished_blackstone_pressure_plate": {
             "category": "var",
             "atlas": "var.png",
             "column": 20,
@@ -1042,7 +3626,7 @@
             "x": 2560,
             "y": 384
         },
-        "polished_blackstone_pressure_plate": {
+        "popped_chorus_fruit": {
             "category": "var",
             "atlas": "var.png",
             "column": 21,
@@ -1050,7 +3634,7 @@
             "x": 2688,
             "y": 384
         },
-        "popped_chorus_fruit": {
+        "powder_snow_bucket": {
             "category": "var",
             "atlas": "var.png",
             "column": 22,
@@ -1058,7 +3642,7 @@
             "x": 2816,
             "y": 384
         },
-        "powder_snow_bucket": {
+        "powered_rail": {
             "category": "var",
             "atlas": "var.png",
             "column": 23,
@@ -1066,7 +3650,7 @@
             "x": 2944,
             "y": 384
         },
-        "powered_rail": {
+        "purple_candle": {
             "category": "var",
             "atlas": "var.png",
             "column": 24,
@@ -1074,7 +3658,7 @@
             "x": 3072,
             "y": 384
         },
-        "purple_candle": {
+        "rail": {
             "category": "var",
             "atlas": "var.png",
             "column": 25,
@@ -1082,7 +3666,7 @@
             "x": 3200,
             "y": 384
         },
-        "rail": {
+        "red_candle": {
             "category": "var",
             "atlas": "var.png",
             "column": 26,
@@ -1090,7 +3674,7 @@
             "x": 3328,
             "y": 384
         },
-        "red_candle": {
+        "comparator": {
             "category": "var",
             "atlas": "var.png",
             "column": 27,
@@ -1098,7 +3682,7 @@
             "x": 3456,
             "y": 384
         },
-        "comparator": {
+        "redstone": {
             "category": "var",
             "atlas": "var.png",
             "column": 28,
@@ -1106,7 +3690,7 @@
             "x": 3584,
             "y": 384
         },
-        "redstone": {
+        "redstone_lamp": {
             "category": "var",
             "atlas": "var.png",
             "column": 29,
@@ -1114,7 +3698,7 @@
             "x": 3712,
             "y": 384
         },
-        "redstone_lamp": {
+        "redstone_ore": {
             "category": "var",
             "atlas": "var.png",
             "column": 30,
@@ -1122,7 +3706,7 @@
             "x": 3840,
             "y": 384
         },
-        "redstone_ore": {
+        "repeater": {
             "category": "var",
             "atlas": "var.png",
             "column": 31,
@@ -1130,7 +3714,7 @@
             "x": 3968,
             "y": 384
         },
-        "repeater": {
+        "redstone_torch": {
             "category": "var",
             "atlas": "var.png",
             "column": 0,
@@ -1138,7 +3722,7 @@
             "x": 0,
             "y": 512
         },
-        "redstone_torch": {
+        "respawn_anchor": {
             "category": "var",
             "atlas": "var.png",
             "column": 1,
@@ -1146,7 +3730,7 @@
             "x": 128,
             "y": 512
         },
-        "respawn_anchor": {
+        "sculk_sensor": {
             "category": "var",
             "atlas": "var.png",
             "column": 2,
@@ -1154,7 +3738,7 @@
             "x": 256,
             "y": 512
         },
-        "sculk_sensor": {
+        "slime_block": {
             "category": "var",
             "atlas": "var.png",
             "column": 3,
@@ -1162,7 +3746,7 @@
             "x": 384,
             "y": 512
         },
-        "slime_block": {
+        "smithing_table": {
             "category": "var",
             "atlas": "var.png",
             "column": 4,
@@ -1170,7 +3754,7 @@
             "x": 512,
             "y": 512
         },
-        "smithing_table": {
+        "smoker": {
             "category": "var",
             "atlas": "var.png",
             "column": 5,
@@ -1178,7 +3762,7 @@
             "x": 640,
             "y": 512
         },
-        "smoker": {
+        "snowball": {
             "category": "var",
             "atlas": "var.png",
             "column": 6,
@@ -1186,7 +3770,7 @@
             "x": 768,
             "y": 512
         },
-        "snowball": {
+        "soul_campfire": {
             "category": "var",
             "atlas": "var.png",
             "column": 7,
@@ -1194,7 +3778,7 @@
             "x": 896,
             "y": 512
         },
-        "soul_campfire": {
+        "soul_lantern": {
             "category": "var",
             "atlas": "var.png",
             "column": 8,
@@ -1202,7 +3786,7 @@
             "x": 1024,
             "y": 512
         },
-        "soul_lantern": {
+        "soul_torch": {
             "category": "var",
             "atlas": "var.png",
             "column": 9,
@@ -1210,7 +3794,7 @@
             "x": 1152,
             "y": 512
         },
-        "soul_torch": {
+        "spruce_boat": {
             "category": "var",
             "atlas": "var.png",
             "column": 10,
@@ -1218,7 +3802,7 @@
             "x": 1280,
             "y": 512
         },
-        "spruce_boat": {
+        "spruce_chest_boat": {
             "category": "var",
             "atlas": "var.png",
             "column": 11,
@@ -1226,7 +3810,7 @@
             "x": 1408,
             "y": 512
         },
-        "spruce_chest_boat": {
+        "spruce_button": {
             "category": "var",
             "atlas": "var.png",
             "column": 12,
@@ -1234,7 +3818,7 @@
             "x": 1536,
             "y": 512
         },
-        "spruce_button": {
+        "spruce_pressure_plate": {
             "category": "var",
             "atlas": "var.png",
             "column": 13,
@@ -1242,7 +3826,7 @@
             "x": 1664,
             "y": 512
         },
-        "spruce_pressure_plate": {
+        "stick": {
             "category": "var",
             "atlas": "var.png",
             "column": 14,
@@ -1250,7 +3834,7 @@
             "x": 1792,
             "y": 512
         },
-        "stick": {
+        "sticky_piston": {
             "category": "var",
             "atlas": "var.png",
             "column": 15,
@@ -1258,7 +3842,7 @@
             "x": 1920,
             "y": 512
         },
-        "sticky_piston": {
+        "stone_button": {
             "category": "var",
             "atlas": "var.png",
             "column": 16,
@@ -1266,7 +3850,7 @@
             "x": 2048,
             "y": 512
         },
-        "stone_button": {
+        "stone_pressure_plate": {
             "category": "var",
             "atlas": "var.png",
             "column": 17,
@@ -1274,7 +3858,7 @@
             "x": 2176,
             "y": 512
         },
-        "stone_pressure_plate": {
+        "stonecutter": {
             "category": "var",
             "atlas": "var.png",
             "column": 18,
@@ -1282,7 +3866,7 @@
             "x": 2304,
             "y": 512
         },
-        "stonecutter": {
+        "target": {
             "category": "var",
             "atlas": "var.png",
             "column": 19,
@@ -1290,7 +3874,7 @@
             "x": 2432,
             "y": 512
         },
-        "target": {
+        "tnt": {
             "category": "var",
             "atlas": "var.png",
             "column": 20,
@@ -1298,7 +3882,7 @@
             "x": 2560,
             "y": 512
         },
-        "tnt": {
+        "torch": {
             "category": "var",
             "atlas": "var.png",
             "column": 21,
@@ -1306,7 +3890,7 @@
             "x": 2688,
             "y": 512
         },
-        "torch": {
+        "trapped_chest": {
             "category": "var",
             "atlas": "var.png",
             "column": 22,
@@ -1314,7 +3898,7 @@
             "x": 2816,
             "y": 512
         },
-        "trapped_chest": {
+        "tripwire_hook": {
             "category": "var",
             "atlas": "var.png",
             "column": 23,
@@ -1322,7 +3906,7 @@
             "x": 2944,
             "y": 512
         },
-        "tripwire_hook": {
+        "warped_button": {
             "category": "var",
             "atlas": "var.png",
             "column": 24,
@@ -1330,7 +3914,7 @@
             "x": 3072,
             "y": 512
         },
-        "warped_button": {
+        "warped_pressure_plate": {
             "category": "var",
             "atlas": "var.png",
             "column": 25,
@@ -1338,7 +3922,7 @@
             "x": 3200,
             "y": 512
         },
-        "warped_pressure_plate": {
+        "white_candle": {
             "category": "var",
             "atlas": "var.png",
             "column": 26,
@@ -1346,7 +3930,7 @@
             "x": 3328,
             "y": 512
         },
-        "white_candle": {
+        "yellow_candle": {
             "category": "var",
             "atlas": "var.png",
             "column": 27,
@@ -1354,7 +3938,7 @@
             "x": 3456,
             "y": 512
         },
-        "yellow_candle": {
+        "pale_oak_button": {
             "category": "var",
             "atlas": "var.png",
             "column": 28,
@@ -1362,7 +3946,7 @@
             "x": 3584,
             "y": 512
         },
-        "pale_oak_button": {
+        "pale_oak_pressure_plate": {
             "category": "var",
             "atlas": "var.png",
             "column": 29,
@@ -1370,7 +3954,7 @@
             "x": 3712,
             "y": 512
         },
-        "pale_oak_pressure_plate": {
+        "pale_oak_boat": {
             "category": "var",
             "atlas": "var.png",
             "column": 30,
@@ -1378,7 +3962,7 @@
             "x": 3840,
             "y": 512
         },
-        "pale_oak_boat": {
+        "pale_oak_chest_boat": {
             "category": "var",
             "atlas": "var.png",
             "column": 31,
@@ -1386,7 +3970,7 @@
             "x": 3968,
             "y": 512
         },
-        "pale_oak_chest_boat": {
+        "resin_brick": {
             "category": "var",
             "atlas": "var.png",
             "column": 0,
@@ -1394,7 +3978,7 @@
             "x": 0,
             "y": 640
         },
-        "resin_brick": {
+        "dried_ghast": {
             "category": "var",
             "atlas": "var.png",
             "column": 1,
@@ -1402,13 +3986,413 @@
             "x": 128,
             "y": 640
         },
-        "dried_ghast": {
+        "poplar_boat": {
             "category": "var",
             "atlas": "var.png",
             "column": 2,
             "row": 5,
             "x": 256,
             "y": 640
+        },
+        "poplar_chest_boat": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 3,
+            "row": 5,
+            "x": 384,
+            "y": 640
+        },
+        "white_cushion": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 6,
+            "row": 5,
+            "x": 768,
+            "y": 640
+        },
+        "straw_bed": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 7,
+            "row": 5,
+            "x": 896,
+            "y": 640
+        },
+        "sulfur_spike": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 8,
+            "row": 5,
+            "x": 1024,
+            "y": 640
+        },
+        "waxed_copper_lightning_rod": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 25,
+            "row": 5,
+            "x": 3200,
+            "y": 640
+        },
+        "waxed_exposed_copper_lightning_rod": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 26,
+            "row": 5,
+            "x": 3328,
+            "y": 640
+        },
+        "waxed_oxidized_copper_lightning_rod": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 27,
+            "row": 5,
+            "x": 3456,
+            "y": 640
+        },
+        "waxed_weathered_copper_lightning_rod": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 28,
+            "row": 5,
+            "x": 3584,
+            "y": 640
+        },
+        "copper_lightning_rod": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 29,
+            "row": 5,
+            "x": 3712,
+            "y": 640
+        },
+        "exposed_copper_lightning_rod": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 30,
+            "row": 5,
+            "x": 3840,
+            "y": 640
+        },
+        "oxidized_copper_lightning_rod": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 31,
+            "row": 5,
+            "x": 3968,
+            "y": 640
+        },
+        "weathered_copper_lightning_rod": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 0,
+            "row": 6,
+            "x": 0,
+            "y": 768
+        },
+        "waxed_copper_lantern": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 1,
+            "row": 6,
+            "x": 128,
+            "y": 768
+        },
+        "waxed_exposed_copper_lantern": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 2,
+            "row": 6,
+            "x": 256,
+            "y": 768
+        },
+        "waxed_oxidized_copper_lantern": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 3,
+            "row": 6,
+            "x": 384,
+            "y": 768
+        },
+        "waxed_weathered_copper_lantern": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 4,
+            "row": 6,
+            "x": 512,
+            "y": 768
+        },
+        "copper_lantern": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 5,
+            "row": 6,
+            "x": 640,
+            "y": 768
+        },
+        "exposed_copper_lantern": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 6,
+            "row": 6,
+            "x": 768,
+            "y": 768
+        },
+        "oxidized_copper_lantern": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 7,
+            "row": 6,
+            "x": 896,
+            "y": 768
+        },
+        "weathered_copper_lantern": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 8,
+            "row": 6,
+            "x": 1024,
+            "y": 768
+        },
+        "waxed_copper_bars": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 9,
+            "row": 6,
+            "x": 1152,
+            "y": 768
+        },
+        "waxed_exposed_copper_bars": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 10,
+            "row": 6,
+            "x": 1280,
+            "y": 768
+        },
+        "waxed_oxidized_copper_bars": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 11,
+            "row": 6,
+            "x": 1408,
+            "y": 768
+        },
+        "waxed_weathered_copper_bars": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 12,
+            "row": 6,
+            "x": 1536,
+            "y": 768
+        },
+        "copper_bars": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 13,
+            "row": 6,
+            "x": 1664,
+            "y": 768
+        },
+        "exposed_copper_bars": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 14,
+            "row": 6,
+            "x": 1792,
+            "y": 768
+        },
+        "oxidized_copper_bars": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 15,
+            "row": 6,
+            "x": 1920,
+            "y": 768
+        },
+        "weathered_copper_bars": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 16,
+            "row": 6,
+            "x": 2048,
+            "y": 768
+        },
+        "waxed_copper_chain": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 17,
+            "row": 6,
+            "x": 2176,
+            "y": 768
+        },
+        "waxed_exposed_copper_chain": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 18,
+            "row": 6,
+            "x": 2304,
+            "y": 768
+        },
+        "waxed_oxidized_copper_chain": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 19,
+            "row": 6,
+            "x": 2432,
+            "y": 768
+        },
+        "waxed_weathered_copper_chain": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 20,
+            "row": 6,
+            "x": 2560,
+            "y": 768
+        },
+        "copper_chain": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 21,
+            "row": 6,
+            "x": 2688,
+            "y": 768
+        },
+        "exposed_copper_chain": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 22,
+            "row": 6,
+            "x": 2816,
+            "y": 768
+        },
+        "oxidized_copper_chain": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 23,
+            "row": 6,
+            "x": 2944,
+            "y": 768
+        },
+        "weathered_copper_chain": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 24,
+            "row": 6,
+            "x": 3072,
+            "y": 768
+        },
+        "copper_torch": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 25,
+            "row": 6,
+            "x": 3200,
+            "y": 768
+        },
+        "acacia_shelf": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 26,
+            "row": 6,
+            "x": 3328,
+            "y": 768
+        },
+        "bamboo_shelf": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 27,
+            "row": 6,
+            "x": 3456,
+            "y": 768
+        },
+        "birch_shelf": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 28,
+            "row": 6,
+            "x": 3584,
+            "y": 768
+        },
+        "cherry_shelf": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 29,
+            "row": 6,
+            "x": 3712,
+            "y": 768
+        },
+        "crimson_shelf": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 30,
+            "row": 6,
+            "x": 3840,
+            "y": 768
+        },
+        "dark_oak_shelf": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 31,
+            "row": 6,
+            "x": 3968,
+            "y": 768
+        },
+        "jungle_shelf": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 0,
+            "row": 7,
+            "x": 0,
+            "y": 896
+        },
+        "mangrove_shelf": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 1,
+            "row": 7,
+            "x": 128,
+            "y": 896
+        },
+        "oak_shelf": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 2,
+            "row": 7,
+            "x": 256,
+            "y": 896
+        },
+        "pale_oak_shelf": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 3,
+            "row": 7,
+            "x": 384,
+            "y": 896
+        },
+        "poplar_shelf": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 4,
+            "row": 7,
+            "x": 512,
+            "y": 896
+        },
+        "spruce_shelf": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 5,
+            "row": 7,
+            "x": 640,
+            "y": 896
+        },
+        "warped_shelf": {
+            "category": "var",
+            "atlas": "var.png",
+            "column": 6,
+            "row": 7,
+            "x": 768,
+            "y": 896
         },
         "acacia_door": {
             "category": "blo",
@@ -6346,6 +9330,118 @@
             "x": 1280,
             "y": 2432
         },
+        "poplar_door": {
+            "category": "blo",
+            "atlas": "blo.png",
+            "column": 11,
+            "row": 19,
+            "x": 1408,
+            "y": 2432
+        },
+        "poplar_hanging_sign": {
+            "category": "blo",
+            "atlas": "blo.png",
+            "column": 14,
+            "row": 19,
+            "x": 1792,
+            "y": 2432
+        },
+        "poplar_log": {
+            "category": "blo",
+            "atlas": "blo.png",
+            "column": 15,
+            "row": 19,
+            "x": 1920,
+            "y": 2432
+        },
+        "poplar_planks": {
+            "category": "blo",
+            "atlas": "blo.png",
+            "column": 16,
+            "row": 19,
+            "x": 2048,
+            "y": 2432
+        },
+        "poplar_sign": {
+            "category": "blo",
+            "atlas": "blo.png",
+            "column": 17,
+            "row": 19,
+            "x": 2176,
+            "y": 2432
+        },
+        "poplar_trapdoor": {
+            "category": "blo",
+            "atlas": "blo.png",
+            "column": 20,
+            "row": 19,
+            "x": 2560,
+            "y": 2432
+        },
+        "cinnabar": {
+            "category": "blo",
+            "atlas": "blo.png",
+            "column": 26,
+            "row": 19,
+            "x": 3328,
+            "y": 2432
+        },
+        "polished_cinnabar": {
+            "category": "blo",
+            "atlas": "blo.png",
+            "column": 30,
+            "row": 19,
+            "x": 3840,
+            "y": 2432
+        },
+        "polished_cinnabar_bricks": {
+            "category": "blo",
+            "atlas": "blo.png",
+            "column": 2,
+            "row": 20,
+            "x": 256,
+            "y": 2560
+        },
+        "sulfur": {
+            "category": "blo",
+            "atlas": "blo.png",
+            "column": 6,
+            "row": 20,
+            "x": 768,
+            "y": 2560
+        },
+        "chiseled_polished_sulfur": {
+            "category": "blo",
+            "atlas": "blo.png",
+            "column": 10,
+            "row": 20,
+            "x": 1280,
+            "y": 2560
+        },
+        "polished_sulfur": {
+            "category": "blo",
+            "atlas": "blo.png",
+            "column": 11,
+            "row": 20,
+            "x": 1408,
+            "y": 2560
+        },
+        "polished_sulfur_bricks": {
+            "category": "blo",
+            "atlas": "blo.png",
+            "column": 15,
+            "row": 20,
+            "x": 1920,
+            "y": 2560
+        },
+        "potent_sulfur": {
+            "category": "blo",
+            "atlas": "blo.png",
+            "column": 19,
+            "row": 20,
+            "x": 2432,
+            "y": 2560
+        },
         "acacia_leaves": {
             "category": "dyp",
             "atlas": "dyp.png",
@@ -7498,2381 +10594,53 @@
             "x": 1920,
             "y": 512
         },
-        "amethyst_cluster": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 0,
-            "row": 0,
-            "x": 0,
-            "y": 0
-        },
-        "amethyst_shard": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 1,
-            "row": 0,
-            "x": 128,
-            "y": 0
-        },
-        "ancient_debris": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 2,
-            "row": 0,
-            "x": 256,
-            "y": 0
-        },
-        "beacon": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 3,
-            "row": 0,
-            "x": 384,
-            "y": 0
-        },
-        "coal_block": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 4,
-            "row": 0,
-            "x": 512,
-            "y": 0
-        },
-        "emerald_block": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 5,
-            "row": 0,
-            "x": 640,
-            "y": 0
-        },
-        "gold_block": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 6,
-            "row": 0,
-            "x": 768,
-            "y": 0
-        },
-        "iron_block": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 7,
-            "row": 0,
-            "x": 896,
-            "y": 0
-        },
-        "lapis_block": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 8,
-            "row": 0,
-            "x": 1024,
-            "y": 0
-        },
-        "netherite_block": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 9,
-            "row": 0,
-            "x": 1152,
-            "y": 0
-        },
-        "quartz_block": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 10,
-            "row": 0,
-            "x": 1280,
-            "y": 0
-        },
-        "raw_copper_block": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 11,
-            "row": 0,
-            "x": 1408,
-            "y": 0
-        },
-        "raw_gold_block": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 12,
-            "row": 0,
-            "x": 1536,
-            "y": 0
-        },
-        "raw_iron_block": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 13,
-            "row": 0,
-            "x": 1664,
-            "y": 0
-        },
-        "charcoal": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 14,
-            "row": 0,
-            "x": 1792,
-            "y": 0
-        },
-        "coal": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 15,
-            "row": 0,
-            "x": 1920,
-            "y": 0
-        },
-        "coal_ore": {
-            "category": "val",
-            "atlas": "val.png",
+        "red_poplar_leaves": {
+            "category": "dyp",
+            "atlas": "dyp.png",
             "column": 16,
-            "row": 0,
+            "row": 4,
             "x": 2048,
-            "y": 0
+            "y": 512
         },
-        "conduit": {
-            "category": "val",
-            "atlas": "val.png",
+        "orange_poplar_leaves": {
+            "category": "dyp",
+            "atlas": "dyp.png",
             "column": 17,
-            "row": 0,
+            "row": 4,
             "x": 2176,
-            "y": 0
+            "y": 512
         },
-        "copper_ore": {
-            "category": "val",
-            "atlas": "val.png",
+        "yellow_poplar_leaves": {
+            "category": "dyp",
+            "atlas": "dyp.png",
             "column": 18,
-            "row": 0,
+            "row": 4,
             "x": 2304,
-            "y": 0
+            "y": 512
         },
-        "creeper_head": {
-            "category": "val",
-            "atlas": "val.png",
+        "poplar_sapling": {
+            "category": "dyp",
+            "atlas": "dyp.png",
             "column": 19,
-            "row": 0,
+            "row": 4,
             "x": 2432,
-            "y": 0
+            "y": 512
         },
-        "deepslate_coal_ore": {
-            "category": "val",
-            "atlas": "val.png",
+        "red_shrub": {
+            "category": "dyp",
+            "atlas": "dyp.png",
             "column": 20,
-            "row": 0,
+            "row": 4,
             "x": 2560,
-            "y": 0
+            "y": 512
         },
-        "deepslate_copper_ore": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 21,
-            "row": 0,
-            "x": 2688,
-            "y": 0
-        },
-        "deepslate_diamond_ore": {
-            "category": "val",
-            "atlas": "val.png",
+        "golden_dandelion": {
+            "category": "dyp",
+            "atlas": "dyp.png",
             "column": 22,
-            "row": 0,
+            "row": 4,
             "x": 2816,
-            "y": 0
-        },
-        "deepslate_emerald_ore": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 23,
-            "row": 0,
-            "x": 2944,
-            "y": 0
-        },
-        "deepslate_gold_ore": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 24,
-            "row": 0,
-            "x": 3072,
-            "y": 0
-        },
-        "deepslate_iron_ore": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 25,
-            "row": 0,
-            "x": 3200,
-            "y": 0
-        },
-        "deepslate_lapis_ore": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 26,
-            "row": 0,
-            "x": 3328,
-            "y": 0
-        },
-        "deepslate_redstone_ore": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 27,
-            "row": 0,
-            "x": 3456,
-            "y": 0
-        },
-        "diamond_ore": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 28,
-            "row": 0,
-            "x": 3584,
-            "y": 0
-        },
-        "disc_fragment_5": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 29,
-            "row": 0,
-            "x": 3712,
-            "y": 0
-        },
-        "dragon_head": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 30,
-            "row": 0,
-            "x": 3840,
-            "y": 0
-        },
-        "echo_shard": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 31,
-            "row": 0,
-            "x": 3968,
-            "y": 0
-        },
-        "emerald": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 0,
-            "row": 1,
-            "x": 0,
-            "y": 128
-        },
-        "emerald_ore": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 1,
-            "row": 1,
-            "x": 128,
-            "y": 128
-        },
-        "enchanted_golden_apple": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 2,
-            "row": 1,
-            "x": 256,
-            "y": 128
-        },
-        "gilded_blackstone": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 3,
-            "row": 1,
-            "x": 384,
-            "y": 128
-        },
-        "goat_horn": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 4,
-            "row": 1,
-            "x": 512,
-            "y": 128
-        },
-        "gold_ingot": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 5,
-            "row": 1,
-            "x": 640,
-            "y": 128
-        },
-        "gold_ore": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 6,
-            "row": 1,
-            "x": 768,
-            "y": 128
-        },
-        "heart_of_the_sea": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 7,
-            "row": 1,
-            "x": 896,
-            "y": 128
-        },
-        "heavy_core": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 8,
-            "row": 1,
-            "x": 1024,
-            "y": 128
-        },
-        "iron_ingot": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 9,
-            "row": 1,
-            "x": 1152,
-            "y": 128
-        },
-        "iron_ore": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 10,
-            "row": 1,
-            "x": 1280,
-            "y": 128
-        },
-        "lapis_lazuli": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 11,
-            "row": 1,
-            "x": 1408,
-            "y": 128
-        },
-        "lapis_ore": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 12,
-            "row": 1,
-            "x": 1536,
-            "y": 128
-        },
-        "large_amethyst_bud": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 13,
-            "row": 1,
-            "x": 1664,
-            "y": 128
-        },
-        "medium_amethyst_bud": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 14,
-            "row": 1,
-            "x": 1792,
-            "y": 128
-        },
-        "music_disc_pigstep": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 15,
-            "row": 1,
-            "x": 1920,
-            "y": 128
-        },
-        "nautilus_shell": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 16,
-            "row": 1,
-            "x": 2048,
-            "y": 128
-        },
-        "quartz": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 17,
-            "row": 1,
-            "x": 2176,
-            "y": 128
-        },
-        "nether_quartz_ore": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 18,
-            "row": 1,
-            "x": 2304,
-            "y": 128
-        },
-        "nether_star": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 19,
-            "row": 1,
-            "x": 2432,
-            "y": 128
-        },
-        "netherite_ingot": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 20,
-            "row": 1,
-            "x": 2560,
-            "y": 128
-        },
-        "netherite_scrap": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 21,
-            "row": 1,
-            "x": 2688,
-            "y": 128
-        },
-        "piglin_head": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 22,
-            "row": 1,
-            "x": 2816,
-            "y": 128
-        },
-        "raw_copper": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 23,
-            "row": 1,
-            "x": 2944,
-            "y": 128
-        },
-        "raw_gold": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 24,
-            "row": 1,
-            "x": 3072,
-            "y": 128
-        },
-        "raw_iron": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 25,
-            "row": 1,
-            "x": 3200,
-            "y": 128
-        },
-        "skeleton_skull": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 26,
-            "row": 1,
-            "x": 3328,
-            "y": 128
-        },
-        "small_amethyst_bud": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 27,
-            "row": 1,
-            "x": 3456,
-            "y": 128
-        },
-        "sponge": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 28,
-            "row": 1,
-            "x": 3584,
-            "y": 128
-        },
-        "wet_sponge": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 29,
-            "row": 1,
-            "x": 3712,
-            "y": 128
-        },
-        "wither_skeleton_skull": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 30,
-            "row": 1,
-            "x": 3840,
-            "y": 128
-        },
-        "zombie_head": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 31,
-            "row": 1,
-            "x": 3968,
-            "y": 128
-        },
-        "light": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 0,
-            "row": 2,
-            "x": 0,
-            "y": 256
-        },
-        "structure_void": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 1,
-            "row": 2,
-            "x": 128,
-            "y": 256
-        },
-        "silence_armor_trim_smithing_template": {
-            "category": "val",
-            "atlas": "val.png",
-            "column": 2,
-            "row": 2,
-            "x": 256,
-            "y": 256
-        },
-        "apple": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 0,
-            "row": 0,
-            "x": 0,
-            "y": 0
-        },
-        "baked_potato": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 1,
-            "row": 0,
-            "x": 128,
-            "y": 0
-        },
-        "beetroot": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 2,
-            "row": 0,
-            "x": 256,
-            "y": 0
-        },
-        "beetroot_soup": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 3,
-            "row": 0,
-            "x": 384,
-            "y": 0
-        },
-        "experience_bottle": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 4,
-            "row": 0,
-            "x": 512,
-            "y": 0
-        },
-        "bread": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 5,
-            "row": 0,
-            "x": 640,
-            "y": 0
-        },
-        "cake": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 6,
-            "row": 0,
-            "x": 768,
-            "y": 0
-        },
-        "carrot": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 7,
-            "row": 0,
-            "x": 896,
-            "y": 0
-        },
-        "chorus_fruit": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 8,
-            "row": 0,
-            "x": 1024,
-            "y": 0
-        },
-        "cooked_chicken": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 9,
-            "row": 0,
-            "x": 1152,
-            "y": 0
-        },
-        "cooked_cod": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 10,
-            "row": 0,
-            "x": 1280,
-            "y": 0
-        },
-        "cooked_mutton": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 11,
-            "row": 0,
-            "x": 1408,
-            "y": 0
-        },
-        "cooked_porkchop": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 12,
-            "row": 0,
-            "x": 1536,
-            "y": 0
-        },
-        "cooked_rabbit": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 13,
-            "row": 0,
-            "x": 1664,
-            "y": 0
-        },
-        "cooked_salmon": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 14,
-            "row": 0,
-            "x": 1792,
-            "y": 0
-        },
-        "cookie": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 15,
-            "row": 0,
-            "x": 1920,
-            "y": 0
-        },
-        "dragon_breath": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 16,
-            "row": 0,
-            "x": 2048,
-            "y": 0
-        },
-        "dried_kelp": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 17,
-            "row": 0,
-            "x": 2176,
-            "y": 0
-        },
-        "fermented_spider_eye": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 18,
-            "row": 0,
-            "x": 2304,
-            "y": 0
-        },
-        "glistering_melon_slice": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 19,
-            "row": 0,
-            "x": 2432,
-            "y": 0
-        },
-        "glow_berries": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 20,
-            "row": 0,
-            "x": 2560,
-            "y": 0
-        },
-        "golden_apple": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 21,
-            "row": 0,
-            "x": 2688,
-            "y": 0
-        },
-        "golden_carrot": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 22,
-            "row": 0,
-            "x": 2816,
-            "y": 0
-        },
-        "honey_bottle": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 23,
-            "row": 0,
-            "x": 2944,
-            "y": 0
-        },
-        "kelp": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 24,
-            "row": 0,
-            "x": 3072,
-            "y": 0
-        },
-        "melon_slice": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 25,
-            "row": 0,
-            "x": 3200,
-            "y": 0
-        },
-        "milk_bucket": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 26,
-            "row": 0,
-            "x": 3328,
-            "y": 0
-        },
-        "mushroom_stew": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 27,
-            "row": 0,
-            "x": 3456,
-            "y": 0
-        },
-        "nether_wart": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 28,
-            "row": 0,
-            "x": 3584,
-            "y": 0
-        },
-        "poisonous_potato": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 29,
-            "row": 0,
-            "x": 3712,
-            "y": 0
-        },
-        "pufferfish": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 30,
-            "row": 0,
-            "x": 3840,
-            "y": 0
-        },
-        "pumpkin_pie": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 31,
-            "row": 0,
-            "x": 3968,
-            "y": 0
-        },
-        "rabbit_stew": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 0,
-            "row": 1,
-            "x": 0,
-            "y": 128
-        },
-        "beef": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 1,
-            "row": 1,
-            "x": 128,
-            "y": 128
-        },
-        "chicken": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 2,
-            "row": 1,
-            "x": 256,
-            "y": 128
-        },
-        "cod": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 3,
-            "row": 1,
-            "x": 384,
-            "y": 128
-        },
-        "mutton": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 4,
-            "row": 1,
-            "x": 512,
-            "y": 128
-        },
-        "porkchop": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 5,
-            "row": 1,
-            "x": 640,
-            "y": 128
-        },
-        "rabbit": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 6,
-            "row": 1,
-            "x": 768,
-            "y": 128
-        },
-        "salmon": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 7,
-            "row": 1,
-            "x": 896,
-            "y": 128
-        },
-        "cooked_beef": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 8,
-            "row": 1,
-            "x": 1024,
-            "y": 128
-        },
-        "sugar": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 9,
-            "row": 1,
-            "x": 1152,
-            "y": 128
-        },
-        "suspicious_stew": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 10,
-            "row": 1,
-            "x": 1280,
-            "y": 128
-        },
-        "sweet_berries": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 11,
-            "row": 1,
-            "x": 1408,
-            "y": 128
-        },
-        "tropical_fish": {
-            "category": "food",
-            "atlas": "food.png",
-            "column": 12,
-            "row": 1,
-            "x": 1536,
-            "y": 128
-        },
-        "armadillo_scute": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 0,
-            "row": 0,
-            "x": 0,
-            "y": 0
-        },
-        "blaze_powder": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 1,
-            "row": 0,
-            "x": 128,
-            "y": 0
-        },
-        "blaze_rod": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 2,
-            "row": 0,
-            "x": 256,
-            "y": 0
-        },
-        "bone": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 3,
-            "row": 0,
-            "x": 384,
-            "y": 0
-        },
-        "breeze_rod": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 4,
-            "row": 0,
-            "x": 512,
-            "y": 0
-        },
-        "axolotl_bucket": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 5,
-            "row": 0,
-            "x": 640,
-            "y": 0
-        },
-        "cod_bucket": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 6,
-            "row": 0,
-            "x": 768,
-            "y": 0
-        },
-        "pufferfish_bucket": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 7,
-            "row": 0,
-            "x": 896,
-            "y": 0
-        },
-        "salmon_bucket": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 8,
-            "row": 0,
-            "x": 1024,
-            "y": 0
-        },
-        "tadpole_bucket": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 9,
-            "row": 0,
-            "x": 1152,
-            "y": 0
-        },
-        "tropical_fish_bucket": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 10,
-            "row": 0,
-            "x": 1280,
-            "y": 0
-        },
-        "cobweb": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 11,
-            "row": 0,
-            "x": 1408,
-            "y": 0
-        },
-        "egg": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 12,
-            "row": 0,
-            "x": 1536,
-            "y": 0
-        },
-        "ender_pearl": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 13,
-            "row": 0,
-            "x": 1664,
-            "y": 0
-        },
-        "ender_eye": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 14,
-            "row": 0,
-            "x": 1792,
-            "y": 0
-        },
-        "feather": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 15,
-            "row": 0,
-            "x": 1920,
-            "y": 0
-        },
-        "ghast_tear": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 16,
-            "row": 0,
-            "x": 2048,
-            "y": 0
-        },
-        "gunpowder": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 17,
-            "row": 0,
-            "x": 2176,
-            "y": 0
-        },
-        "leather": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 18,
-            "row": 0,
-            "x": 2304,
-            "y": 0
-        },
-        "magma_cream": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 19,
-            "row": 0,
-            "x": 2432,
-            "y": 0
-        },
-        "phantom_membrane": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 20,
-            "row": 0,
-            "x": 2560,
-            "y": 0
-        },
-        "prismarine_crystals": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 21,
-            "row": 0,
-            "x": 2688,
-            "y": 0
-        },
-        "prismarine_shard": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 22,
-            "row": 0,
-            "x": 2816,
-            "y": 0
-        },
-        "rabbit_hide": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 23,
-            "row": 0,
-            "x": 2944,
-            "y": 0
-        },
-        "rabbit_foot": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 24,
-            "row": 0,
-            "x": 3072,
-            "y": 0
-        },
-        "rotten_flesh": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 25,
-            "row": 0,
-            "x": 3200,
-            "y": 0
-        },
-        "slime_ball": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 26,
-            "row": 0,
-            "x": 3328,
-            "y": 0
-        },
-        "sniffer_egg": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 27,
-            "row": 0,
-            "x": 3456,
-            "y": 0
-        },
-        "spider_eye": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 28,
-            "row": 0,
-            "x": 3584,
-            "y": 0
-        },
-        "string": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 29,
-            "row": 0,
-            "x": 3712,
-            "y": 0
-        },
-        "turtle_egg": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 30,
-            "row": 0,
-            "x": 3840,
-            "y": 0
-        },
-        "turtle_scute": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 31,
-            "row": 0,
-            "x": 3968,
-            "y": 0
-        },
-        "wind_charge": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 0,
-            "row": 1,
-            "x": 0,
-            "y": 128
-        },
-        "resin_clump": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 1,
-            "row": 1,
-            "x": 128,
-            "y": 128
-        },
-        "blue_egg": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 2,
-            "row": 1,
-            "x": 256,
-            "y": 128
-        },
-        "brown_egg": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 3,
-            "row": 1,
-            "x": 384,
-            "y": 128
-        },
-        "ominous_bottle": {
-            "category": "loot",
-            "atlas": "loot.png",
-            "column": 4,
-            "row": 1,
-            "x": 512,
-            "y": 128
-        },
-        "arrow": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 0,
-            "row": 0,
-            "x": 0,
-            "y": 0
-        },
-        "tipped_arrow": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 1,
-            "row": 0,
-            "x": 128,
-            "y": 0
-        },
-        "black_bundle": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 2,
-            "row": 0,
-            "x": 256,
-            "y": 0
-        },
-        "blue_bundle": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 3,
-            "row": 0,
-            "x": 384,
-            "y": 0
-        },
-        "bow": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 4,
-            "row": 0,
-            "x": 512,
-            "y": 0
-        },
-        "brown_bundle": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 5,
-            "row": 0,
-            "x": 640,
-            "y": 0
-        },
-        "brush": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 6,
-            "row": 0,
-            "x": 768,
-            "y": 0
-        },
-        "bucket": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 7,
-            "row": 0,
-            "x": 896,
-            "y": 0
-        },
-        "bundle": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 8,
-            "row": 0,
-            "x": 1024,
-            "y": 0
-        },
-        "carrot_on_a_stick": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 9,
-            "row": 0,
-            "x": 1152,
-            "y": 0
-        },
-        "chainmail_boots": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 10,
-            "row": 0,
-            "x": 1280,
-            "y": 0
-        },
-        "chainmail_chestplate": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 11,
-            "row": 0,
-            "x": 1408,
-            "y": 0
-        },
-        "chainmail_helmet": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 12,
-            "row": 0,
-            "x": 1536,
-            "y": 0
-        },
-        "chainmail_leggings": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 13,
-            "row": 0,
-            "x": 1664,
-            "y": 0
-        },
-        "clock": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 14,
-            "row": 0,
-            "x": 1792,
-            "y": 0
-        },
-        "compass": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 15,
-            "row": 0,
-            "x": 1920,
-            "y": 0
-        },
-        "crossbow": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 16,
-            "row": 0,
-            "x": 2048,
-            "y": 0
-        },
-        "cyan_bundle": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 17,
-            "row": 0,
-            "x": 2176,
-            "y": 0
-        },
-        "diamond_axe": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 18,
-            "row": 0,
-            "x": 2304,
-            "y": 0
-        },
-        "diamond_boots": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 19,
-            "row": 0,
-            "x": 2432,
-            "y": 0
-        },
-        "diamond_chestplate": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 20,
-            "row": 0,
-            "x": 2560,
-            "y": 0
-        },
-        "diamond_helmet": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 21,
-            "row": 0,
-            "x": 2688,
-            "y": 0
-        },
-        "diamond_hoe": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 22,
-            "row": 0,
-            "x": 2816,
-            "y": 0
-        },
-        "diamond_horse_armor": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 23,
-            "row": 0,
-            "x": 2944,
-            "y": 0
-        },
-        "diamond_leggings": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 24,
-            "row": 0,
-            "x": 3072,
-            "y": 0
-        },
-        "diamond_pickaxe": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 25,
-            "row": 0,
-            "x": 3200,
-            "y": 0
-        },
-        "diamond_shovel": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 26,
-            "row": 0,
-            "x": 3328,
-            "y": 0
-        },
-        "diamond_sword": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 27,
-            "row": 0,
-            "x": 3456,
-            "y": 0
-        },
-        "elytra": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 28,
-            "row": 0,
-            "x": 3584,
-            "y": 0
-        },
-        "map": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 29,
-            "row": 0,
-            "x": 3712,
-            "y": 0
-        },
-        "fishing_rod": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 30,
-            "row": 0,
-            "x": 3840,
-            "y": 0
-        },
-        "flint_and_steel": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 31,
-            "row": 0,
-            "x": 3968,
-            "y": 0
-        },
-        "golden_axe": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 0,
-            "row": 1,
-            "x": 0,
-            "y": 128
-        },
-        "golden_boots": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 1,
-            "row": 1,
-            "x": 128,
-            "y": 128
-        },
-        "golden_chestplate": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 2,
-            "row": 1,
-            "x": 256,
-            "y": 128
-        },
-        "golden_helmet": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 3,
-            "row": 1,
-            "x": 384,
-            "y": 128
-        },
-        "golden_hoe": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 4,
-            "row": 1,
-            "x": 512,
-            "y": 128
-        },
-        "golden_horse_armor": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 5,
-            "row": 1,
-            "x": 640,
-            "y": 128
-        },
-        "golden_leggings": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 6,
-            "row": 1,
-            "x": 768,
-            "y": 128
-        },
-        "golden_pickaxe": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 7,
-            "row": 1,
-            "x": 896,
-            "y": 128
-        },
-        "golden_shovel": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 8,
-            "row": 1,
-            "x": 1024,
-            "y": 128
-        },
-        "golden_sword": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 9,
-            "row": 1,
-            "x": 1152,
-            "y": 128
-        },
-        "gray_bundle": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 10,
-            "row": 1,
-            "x": 1280,
-            "y": 128
-        },
-        "green_bundle": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 11,
-            "row": 1,
-            "x": 1408,
-            "y": 128
-        },
-        "iron_axe": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 12,
-            "row": 1,
-            "x": 1536,
-            "y": 128
-        },
-        "iron_boots": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 13,
-            "row": 1,
-            "x": 1664,
-            "y": 128
-        },
-        "iron_chestplate": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 14,
-            "row": 1,
-            "x": 1792,
-            "y": 128
-        },
-        "iron_helmet": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 15,
-            "row": 1,
-            "x": 1920,
-            "y": 128
-        },
-        "iron_hoe": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 16,
-            "row": 1,
-            "x": 2048,
-            "y": 128
-        },
-        "iron_horse_armor": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 17,
-            "row": 1,
-            "x": 2176,
-            "y": 128
-        },
-        "iron_leggings": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 18,
-            "row": 1,
-            "x": 2304,
-            "y": 128
-        },
-        "iron_pickaxe": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 19,
-            "row": 1,
-            "x": 2432,
-            "y": 128
-        },
-        "iron_shovel": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 20,
-            "row": 1,
-            "x": 2560,
-            "y": 128
-        },
-        "iron_sword": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 21,
-            "row": 1,
-            "x": 2688,
-            "y": 128
-        },
-        "lava_bucket": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 22,
-            "row": 1,
-            "x": 2816,
-            "y": 128
-        },
-        "lead": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 23,
-            "row": 1,
-            "x": 2944,
-            "y": 128
-        },
-        "leather_boots": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 24,
-            "row": 1,
-            "x": 3072,
-            "y": 128
-        },
-        "leather_helmet": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 25,
-            "row": 1,
-            "x": 3200,
-            "y": 128
-        },
-        "leather_horse_armor": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 26,
-            "row": 1,
-            "x": 3328,
-            "y": 128
-        },
-        "leather_leggings": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 27,
-            "row": 1,
-            "x": 3456,
-            "y": 128
-        },
-        "leather_chestplate": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 28,
-            "row": 1,
-            "x": 3584,
-            "y": 128
-        },
-        "light_blue_bundle": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 29,
-            "row": 1,
-            "x": 3712,
-            "y": 128
-        },
-        "light_gray_bundle": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 30,
-            "row": 1,
-            "x": 3840,
-            "y": 128
-        },
-        "lime_bundle": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 31,
-            "row": 1,
-            "x": 3968,
-            "y": 128
-        },
-        "mace": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 0,
-            "row": 2,
-            "x": 0,
-            "y": 256
-        },
-        "magenta_bundle": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 1,
-            "row": 2,
-            "x": 128,
-            "y": 256
-        },
-        "name_tag": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 2,
-            "row": 2,
-            "x": 256,
-            "y": 256
-        },
-        "netherite_axe": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 3,
-            "row": 2,
-            "x": 384,
-            "y": 256
-        },
-        "netherite_boots": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 4,
-            "row": 2,
-            "x": 512,
-            "y": 256
-        },
-        "netherite_chestplate": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 5,
-            "row": 2,
-            "x": 640,
-            "y": 256
-        },
-        "netherite_helmet": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 6,
-            "row": 2,
-            "x": 768,
-            "y": 256
-        },
-        "netherite_hoe": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 7,
-            "row": 2,
-            "x": 896,
-            "y": 256
-        },
-        "netherite_leggings": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 8,
-            "row": 2,
-            "x": 1024,
-            "y": 256
-        },
-        "netherite_pickaxe": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 9,
-            "row": 2,
-            "x": 1152,
-            "y": 256
-        },
-        "netherite_shovel": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 10,
-            "row": 2,
-            "x": 1280,
-            "y": 256
-        },
-        "netherite_sword": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 11,
-            "row": 2,
-            "x": 1408,
-            "y": 256
-        },
-        "ominous_trial_key": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 12,
-            "row": 2,
-            "x": 1536,
-            "y": 256
-        },
-        "orange_bundle": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 13,
-            "row": 2,
-            "x": 1664,
-            "y": 256
-        },
-        "pink_bundle": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 14,
-            "row": 2,
-            "x": 1792,
-            "y": 256
-        },
-        "purple_bundle": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 15,
-            "row": 2,
-            "x": 1920,
-            "y": 256
-        },
-        "recovery_compass": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 16,
-            "row": 2,
-            "x": 2048,
-            "y": 256
-        },
-        "red_bundle": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 17,
-            "row": 2,
-            "x": 2176,
-            "y": 256
-        },
-        "saddle": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 18,
-            "row": 2,
-            "x": 2304,
-            "y": 256
-        },
-        "shears": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 19,
-            "row": 2,
-            "x": 2432,
-            "y": 256
-        },
-        "shield": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 20,
-            "row": 2,
-            "x": 2560,
-            "y": 256
-        },
-        "spectral_arrow": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 21,
-            "row": 2,
-            "x": 2688,
-            "y": 256
-        },
-        "spyglass": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 22,
-            "row": 2,
-            "x": 2816,
-            "y": 256
-        },
-        "stone_axe": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 23,
-            "row": 2,
-            "x": 2944,
-            "y": 256
-        },
-        "stone_hoe": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 24,
-            "row": 2,
-            "x": 3072,
-            "y": 256
-        },
-        "stone_pickaxe": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 25,
-            "row": 2,
-            "x": 3200,
-            "y": 256
-        },
-        "stone_shovel": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 26,
-            "row": 2,
-            "x": 3328,
-            "y": 256
-        },
-        "stone_sword": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 27,
-            "row": 2,
-            "x": 3456,
-            "y": 256
-        },
-        "totem_of_undying": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 28,
-            "row": 2,
-            "x": 3584,
-            "y": 256
-        },
-        "trial_key": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 29,
-            "row": 2,
-            "x": 3712,
-            "y": 256
-        },
-        "trident": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 30,
-            "row": 2,
-            "x": 3840,
-            "y": 256
-        },
-        "turtle_helmet": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 31,
-            "row": 2,
-            "x": 3968,
-            "y": 256
-        },
-        "warped_fungus_on_a_stick": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 0,
-            "row": 3,
-            "x": 0,
-            "y": 384
-        },
-        "water_bucket": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 1,
-            "row": 3,
-            "x": 128,
-            "y": 384
-        },
-        "white_bundle": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 2,
-            "row": 3,
-            "x": 256,
-            "y": 384
-        },
-        "wolf_armor": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 3,
-            "row": 3,
-            "x": 384,
-            "y": 384
-        },
-        "wooden_axe": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 4,
-            "row": 3,
-            "x": 512,
-            "y": 384
-        },
-        "wooden_hoe": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 5,
-            "row": 3,
-            "x": 640,
-            "y": 384
-        },
-        "wooden_pickaxe": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 6,
-            "row": 3,
-            "x": 768,
-            "y": 384
-        },
-        "wooden_shovel": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 7,
-            "row": 3,
-            "x": 896,
-            "y": 384
-        },
-        "wooden_sword": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 8,
-            "row": 3,
-            "x": 1024,
-            "y": 384
-        },
-        "yellow_bundle": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 9,
-            "row": 3,
-            "x": 1152,
-            "y": 384
-        },
-        "white_harness": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 10,
-            "row": 3,
-            "x": 1280,
-            "y": 384
-        },
-        "light_gray_harness": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 11,
-            "row": 3,
-            "x": 1408,
-            "y": 384
-        },
-        "gray_harness": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 12,
-            "row": 3,
-            "x": 1536,
-            "y": 384
-        },
-        "black_harness": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 13,
-            "row": 3,
-            "x": 1664,
-            "y": 384
-        },
-        "orange_harness": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 14,
-            "row": 3,
-            "x": 1792,
-            "y": 384
-        },
-        "brown_harness": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 15,
-            "row": 3,
-            "x": 1920,
-            "y": 384
-        },
-        "green_harness": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 16,
-            "row": 3,
-            "x": 2048,
-            "y": 384
-        },
-        "lime_harness": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 17,
-            "row": 3,
-            "x": 2176,
-            "y": 384
-        },
-        "cyan_harness": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 18,
-            "row": 3,
-            "x": 2304,
-            "y": 384
-        },
-        "light_blue_harness": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 19,
-            "row": 3,
-            "x": 2432,
-            "y": 384
-        },
-        "blue_harness": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 20,
-            "row": 3,
-            "x": 2560,
-            "y": 384
-        },
-        "magenta_harness": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 21,
-            "row": 3,
-            "x": 2688,
-            "y": 384
-        },
-        "purple_harness": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 22,
-            "row": 3,
-            "x": 2816,
-            "y": 384
-        },
-        "pink_harness": {
-            "category": "arm",
-            "atlas": "arm.png",
-            "column": 23,
-            "row": 3,
-            "x": 2944,
-            "y": 384
-        },
-        "black_shulker_box": {
-            "category": "forb",
-            "atlas": "forb.png",
-            "column": 0,
-            "row": 0,
-            "x": 0,
-            "y": 0
-        },
-        "blue_shulker_box": {
-            "category": "forb",
-            "atlas": "forb.png",
-            "column": 1,
-            "row": 0,
-            "x": 128,
-            "y": 0
-        },
-        "brown_shulker_box": {
-            "category": "forb",
-            "atlas": "forb.png",
-            "column": 2,
-            "row": 0,
-            "x": 256,
-            "y": 0
-        },
-        "cyan_shulker_box": {
-            "category": "forb",
-            "atlas": "forb.png",
-            "column": 3,
-            "row": 0,
-            "x": 384,
-            "y": 0
-        },
-        "dragon_egg": {
-            "category": "forb",
-            "atlas": "forb.png",
-            "column": 4,
-            "row": 0,
-            "x": 512,
-            "y": 0
-        },
-        "gold_nugget": {
-            "category": "forb",
-            "atlas": "forb.png",
-            "column": 5,
-            "row": 0,
-            "x": 640,
-            "y": 0
-        },
-        "gray_shulker_box": {
-            "category": "forb",
-            "atlas": "forb.png",
-            "column": 6,
-            "row": 0,
-            "x": 768,
-            "y": 0
-        },
-        "green_shulker_box": {
-            "category": "forb",
-            "atlas": "forb.png",
-            "column": 7,
-            "row": 0,
-            "x": 896,
-            "y": 0
-        },
-        "iron_nugget": {
-            "category": "forb",
-            "atlas": "forb.png",
-            "column": 8,
-            "row": 0,
-            "x": 1024,
-            "y": 0
-        },
-        "light_blue_shulker_box": {
-            "category": "forb",
-            "atlas": "forb.png",
-            "column": 9,
-            "row": 0,
-            "x": 1152,
-            "y": 0
-        },
-        "light_gray_shulker_box": {
-            "category": "forb",
-            "atlas": "forb.png",
-            "column": 10,
-            "row": 0,
-            "x": 1280,
-            "y": 0
-        },
-        "lime_shulker_box": {
-            "category": "forb",
-            "atlas": "forb.png",
-            "column": 11,
-            "row": 0,
-            "x": 1408,
-            "y": 0
-        },
-        "magenta_shulker_box": {
-            "category": "forb",
-            "atlas": "forb.png",
-            "column": 12,
-            "row": 0,
-            "x": 1536,
-            "y": 0
-        },
-        "orange_shulker_box": {
-            "category": "forb",
-            "atlas": "forb.png",
-            "column": 13,
-            "row": 0,
-            "x": 1664,
-            "y": 0
-        },
-        "pink_shulker_box": {
-            "category": "forb",
-            "atlas": "forb.png",
-            "column": 14,
-            "row": 0,
-            "x": 1792,
-            "y": 0
-        },
-        "purple_shulker_box": {
-            "category": "forb",
-            "atlas": "forb.png",
-            "column": 15,
-            "row": 0,
-            "x": 1920,
-            "y": 0
-        },
-        "red_shulker_box": {
-            "category": "forb",
-            "atlas": "forb.png",
-            "column": 16,
-            "row": 0,
-            "x": 2048,
-            "y": 0
-        },
-        "shulker_box": {
-            "category": "forb",
-            "atlas": "forb.png",
-            "column": 17,
-            "row": 0,
-            "x": 2176,
-            "y": 0
-        },
-        "shulker_shell": {
-            "category": "forb",
-            "atlas": "forb.png",
-            "column": 18,
-            "row": 0,
-            "x": 2304,
-            "y": 0
-        },
-        "white_shulker_box": {
-            "category": "forb",
-            "atlas": "forb.png",
-            "column": 19,
-            "row": 0,
-            "x": 2432,
-            "y": 0
-        },
-        "yellow_shulker_box": {
-            "category": "forb",
-            "atlas": "forb.png",
-            "column": 20,
-            "row": 0,
-            "x": 2560,
-            "y": 0
-        },
-        "diamond_block": {
-            "category": "cur",
-            "atlas": "cur.png",
-            "column": 0,
-            "row": 0,
-            "x": 0,
-            "y": 0
-        },
-        "diamond": {
-            "category": "cur",
-            "atlas": "cur.png",
-            "column": 1,
-            "row": 0,
-            "x": 128,
-            "y": 0
-        },
-        "book": {
-            "category": "boo",
-            "atlas": "boo.png",
-            "column": 0,
-            "row": 0,
-            "x": 0,
-            "y": 0
-        },
-        "writable_book": {
-            "category": "boo",
-            "atlas": "boo.png",
-            "column": 1,
-            "row": 0,
-            "x": 128,
-            "y": 0
-        },
-        "written_book": {
-            "category": "boo",
-            "atlas": "boo.png",
-            "column": 2,
-            "row": 0,
-            "x": 256,
-            "y": 0
-        },
-        "enchanted_book": {
-            "category": "boo",
-            "atlas": "boo.png",
-            "column": 3,
-            "row": 0,
-            "x": 384,
-            "y": 0
-        },
-        "filled_map": {
-            "category": "gal",
-            "atlas": "gal.png",
-            "column": 0,
-            "row": 0,
-            "x": 0,
-            "y": 0
+            "y": 512
         }
     }
 }
